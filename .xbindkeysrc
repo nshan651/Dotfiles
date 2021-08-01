@@ -20,13 +20,25 @@
 "xfce4-terminal -x ranger"
   Mod4 + F3
 
-# Spotify
-"env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/spotify_spotify.desktop /var/lib/snapd/snap/bin/spotify %U"
+# vscode
+"/usr/bin/code-oss --unity-launch  /home/nicks/github_repos/Pollution-Autoencoders/"
   Mod4 + F4
 
 # Thunar file manager
 "thunar"  
   Mod4 + F5
+
+# Spotify
+"env BAMF_DESKTOP_FILE_HINT=/var/lib/snapd/desktop/applications/spotify_spotify.desktop /var/lib/snapd/snap/bin/spotify %U"
+  Mod4 + F6
+
+# Research Paper
+"xfce4-terminal -x nvim /home/nicks/Documents/paper-draft/paper.tex"
+  Mod4 + F9
+
+# Bibliography
+"xfce4-terminal -x nvim /home/nicks/Documents/paper-draft/ref.bib"
+  Mod4 + F10
 
 # Terminal
 "xfce4-terminal"
