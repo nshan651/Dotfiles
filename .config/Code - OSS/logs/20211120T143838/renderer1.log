@@ -1,0 +1,44 @@
+[2021-11-20 14:38:39.812] [renderer1] [info] Starting extension host with pid 13297.
+[2021-11-20 14:38:39.813] [renderer1] [info] [LocalProcessExtensionHost]: IExtensionHostStarter.start() took 23 ms.
+[2021-11-20 14:38:40.477] [renderer1] [error] [Extension Host] (node:13297) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `electron --trace-deprecation ...` to show where the warning was created)
+[2021-11-20 14:38:45.259] [renderer1] [error] The request (id: 2, method: 'textDocument/hover') has been cancelled: Error: The request (id: 2, method: 'textDocument/hover') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-20 14:39:13.683] [renderer1] [error] The request (id: 29, method: 'textDocument/hover') has been cancelled: Error: The request (id: 29, method: 'textDocument/hover') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-20 14:39:17.728] [renderer1] [error] The request (id: 47, method: 'textDocument/hover') has been cancelled: Error: The request (id: 47, method: 'textDocument/hover') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-20 14:42:12.715] [renderer1] [error] The request (id: 174, method: 'textDocument/documentSymbol') has been cancelled: Error: The request (id: 174, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-20 14:42:16.891] [renderer1] [error] The request (id: 191, method: 'textDocument/documentSymbol') has been cancelled: Error: The request (id: 191, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-20 14:43:03.930] [renderer1] [error] The request (id: 241, method: 'textDocument/documentSymbol') has been cancelled: Error: The request (id: 241, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-20 14:43:42.400] [renderer1] [error] The request (id: 340, method: 'textDocument/documentSymbol') has been cancelled: Error: The request (id: 340, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-20 14:43:52.530] [renderer1] [error] The request (id: 417, method: 'textDocument/documentSymbol') has been cancelled: Error: The request (id: 417, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)

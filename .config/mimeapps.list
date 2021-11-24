@@ -1,0 +1,9 @@
+[Added Associations]
+application/pdf=org.pwmt.zathura.desktop;org.kde.okular.desktop;
+text/x-tex=nvim.desktop;
+inode/directory=code-oss.desktop;
+text/x-java-source=firefox.desktop;nvim.desktop;
+
+[Default Applications]
+application/pdf=org.pwmt.zathura.desktop
+text/x-tex=nvim.desktop

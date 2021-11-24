@@ -1,0 +1,1788 @@
+{
+  message: '[Error - 6:47:13 PM] Nov 23, 2021, 6:47:13 PM Exception occurred during compilation unit conversion:\n' +
+    '----------------------------------- SOURCE BEGIN -------------------------------------\n' +
+    'package pset9;\n' +
+    '\n' +
+    'import java.util.*;\n' +
+    'import java.io.File;\n' +
+    'import java.io.FileNotFoundException;\n' +
+    '\n' +
+    'public class Main {\n' +
+    '    \n' +
+    '    /*\n' +
+    '    public static void merge(ArrayList<MyLinkedList<Integer>> vertexSet, int[] parent, int v1, int v2) {\n' +
+    '        int p = parent[v1];\n' +
+    '        int q = parent[v2];\n' +
+    '\n' +
+    '        int max =0, min =0;\n' +
+    '\n' +
+    '        if (p != q) {\n' +
+    '            int pSize = vertexSet.get(p).size();\n' +
+    '            int qSize = vertexSet.get(q).size();\n' +
+    '            \n' +
+    '            if (pSize > qSize) {\n' +
+    '                min = q;\n' +
+    '                max = p;\n' +
+    '            }\n' +
+    '            else {\n' +
+    '                min = p;\n' +
+    '                max = q;\n' +
+    '            }\n' +
+    '            //int max = Math.max(pSize, qSize);\n' +
+    '            //int min = Math.min(pSize, qSize);\n' +
+    '\n' +
+    '            // Merge min with max\n' +
+    '            MyLinkedList<Integer> minSet = vertexSet.get(min);\n' +
+    '            vertexSet.get(max).appendList(vertexSet.get(min));\n' +
+    '\n' +
+    '            // Shift components\n' +
+    '            Node<Integer> n = minSet.getFirst();\n' +
+    '            while (n != null) {\n' +
+    '                parent[n.getInfo()] = max;\n' +
+    '                n = n.getNext();\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '    */\n' +
+    '\n' +
+    '    /**\n' +
+    '     * Krushal min spanning tree using union set\n' +
+    '     * @param weights\n' +
+    '     * @param edges\n' +
+    '     * @return ArrayList of edges in MST, as well as double \n' +
+    '     * equal to sum of weights of the edges\n' +
+    '     */\n' +
+    '    public static ArrayList<WeightedEdge> kruskalUnion(PriorityQueue<WeightedEdge> que, int numVertex) {\n' +
+    '        ArrayList<WeightedEdge> mst = new ArrayList<>(numVertex-1);\n' +
+    '        KruskalUnion ku = new KruskalUnion(numVertex);\n' +
+    '        \n' +
+    '        while (mst.size() < numVertex-1) {\n' +
+    '            // Shortest edge not yet considered\n' +
+    '            WeightedEdge curr = que.poll();\n' +
+    '\n' +
+    '            int v1 = ku.parent[curr.v1];\n' +
+    '            int v2 = ku.parent[curr.v2];\n' +
+    '\n' +
+    '            if (v1 != v2) {\n' +
+    '                mst.add(curr);\n' +
+    '                ku.merge(curr.v1, curr.v2);\n' +
+    '            }\n' +
+    '        }\n' +
+    '        return mst;\n' +
+    '    }\n' +
+    '\n' +
+    '    /**\n' +
+    '     * Kruskal min spanning tree using tree compression\n' +
+    '     * @param weights\n' +
+    '     * @param edges\n' +
+    '     * @return ArrayList of edges in MST, as well as double \n' +
+    '     * equal to sum of weights of the edges\n' +
+    '     */\n' +
+    '    public static ArrayList<WeightedEdge> kruskalCompression(PriorityQueue<WeightedEdge> que, int numVertex) {\n' +
+    '        ArrayList<WeightedEdge> mst = new ArrayList<>(numVertex-1);\n' +
+    '        KruskalTreeCompression ktc = new KruskalTreeCompression(numVertex);\n' +
+    '        \n' +
+    '        while (mst.size() < numVertex-1) {\n' +
+    '            // Shortest edge not yet considered\n' +
+    '            WeightedEdge curr = que.poll();\n' +
+    '\n' +
+    '            int v1 = ktc.find(curr.v1);\n' +
+    '            int v2 = ktc.find(curr.v2);\n' +
+    '\n' +
+    '            if (v1 != v2) {\n' +
+    '                mst.add(curr);\n' +
+    '                ktc.merge(v1, v2);\n' +
+    '            }\n' +
+    '        }\n' +
+    '        return mst;\n' +
+    '    }\n' +
+    '\n' +
+    '    /**\n' +
+    '     * Find the correct size to initialize the graph with\n' +
+    '     * @param file The file of the graph to read\n' +
+    '     * @return Max file size\n' +
+    '     * @throws FileNotFoundException\n' +
+    '     */\n' +
+    '    private static int findMax(File file, String delim) throws FileNotFoundException {\n' +
+    '        int max_size = 0;\n' +
+    '        Scanner initsc = new Scanner(file);\n' +
+    '        while (initsc.hasNextLine()) {\n' +
+    '            String[] output = initsc.nextLine().split(delim);\n' +
+    '            int p1 = Integer.parseInt(output[0]);\n' +
+    '            int p2 = Integer.parseInt(output[1]);\n' +
+    '            // Check both points for new max\n' +
+    '            max_size = Math.max(max_size, p1);\n' +
+    '            max_size = Math.max(max_size, p2);\n' +
+    '        }\n' +
+    '        initsc.close();\n' +
+    '        return max_size;\n' +
+    '    }\n' +
+    '\n' +
+    '    /**\n' +
+    '     * Get the minimum weight of the spanning tree\n' +
+    '     * @param mst The min spanning tree\n' +
+    '     * @return Sum of min weights\n' +
+    '     */\n' +
+    '    public static double minWeight(ArrayList<WeightedEdge> mst) {\n' +
+    '        double total =0;\n' +
+    '        for (WeightedEdge edge : mst) \n' +
+    '            total+=edge.getWeight();\n' +
+    '        return total;\n' +
+    '    }\n' +
+    '\n' +
+    '    public static void main(String[] args) throws FileNotFoundException {\n' +
+    '        // Timing variables\n' +
+    '        double start, end;\n' +
+    '        // Read in edges and weights\n' +
+    '        File edge_file= new File("./comp272/pset9/artist_edges.txt");\n' +
+    '        File weight_file= new File("./comp272/pset9/Weights.txt");\n' +
+    '\n' +
+    '        // Get the max vertex size\n' +
+    '        int max_size = findMax(edge_file, "\\t");\n' +
+    '        //List<WeightedEdge> edgeList = new ArrayList<>(max_size+1);\n' +
+    '        List<WeightedEdge> edgeList = new ArrayList<>();\n' +
+    '\n' +
+    '        Scanner edgesc = new Scanner(edge_file);\n' +
+    '        Scanner weightsc = new Scanner(weight_file);\n' +
+    '        \n' +
+    '        while (edgesc.hasNextLine() && weightsc.hasNextDouble()) {\n' +
+    '            String[] output = edgesc.nextLine().split("\\t");\n' +
+    '            int p1 = Integer.parseInt(output[0]);\n' +
+    '            int p2 = Integer.parseInt(output[1]);\n' +
+    '\n' +
+    '            edgeList.add(new WeightedEdge(p1, p2, weightsc.nextDouble()));\n' +
+    '        }\n' +
+    '        edgesc.close();\n' +
+    '        weightsc.close();\n' +
+    '\n' +
+    '        \n' +
+    '        PriorityQueue<WeightedEdge> que = new PriorityQueue<>(edgeList);\n' +
+    '        int edgesConsidered = \n' +
+    '        PriorityQueue<WeightedEdge> que2 = new PriorityQueue<>(edgeList);\n' +
+    '        (edgeList.size()-que.size())\n' +
+    '        // Print general results\n' +
+    '        System.out.println("Max vertex label: " + (max_size+1));\n' +
+    '        System.out.println("numer of edges: " + edgeList.size());\n' +
+    '        System.out.println("edges considered for MST: " + );\n' +
+    '\n' +
+    '        // Kruskal Union\n' +
+    '        start = System.currentTimeMillis();\n' +
+    '        ArrayList<WeightedEdge> ku = kruskalUnion(que, max_size+1);\n' +
+    '        end = System.currentTimeMillis();\n' +
+    '\n' +
+    '        System.out.println("\\n----- Krushal Union ----- ");\n' +
+    '        System.out.println("Min weight of mst: " + minWeight(ku));\n' +
+    '        System.out.println((end-start) + " ms");\n' +
+    '\n' +
+    '        // Kruskal Tree Compression\n' +
+    '        start = System.currentTimeMillis();\n' +
+    '        ArrayList<WeightedEdge> kst = kruskalCompression(que2, max_size+1);\n' +
+    '        end = System.currentTimeMillis();\n' +
+    '\n' +
+    '        System.out.println("\\n----- Krushal Compressed Tree ----- ");\n' +
+    '        System.out.println("Min weight of mst: " + minWeight(kst));\n' +
+    '        System.out.println((end-start) + " ms");\n' +
+    '    }\n' +
+    '}\n' +
+    '----------------------------------- SOURCE END -------------------------------------\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getASTRoot(CodeActionHandler.java:321)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:122)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:649)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-23 18:47:13.859'
+}
+{
+  message: '[Error - 6:47:13 PM] Nov 23, 2021, 6:47:13 PM Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getASTRoot(CodeActionHandler.java:321)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:122)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:649)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-23 18:47:13.864'
+}
+{
+  message: '[Error - 6:47:13 PM] Nov 23, 2021, 6:47:13 PM Error in JDT Core during AST creation\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getASTRoot(CodeActionHandler.java:321)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:122)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:649)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-23 18:47:13.864'
+}
+{
+  message: '[Error - 6:47:14 PM] Nov 23, 2021, 6:47:14 PM Exception occurred during compilation unit conversion:\n' +
+    '----------------------------------- SOURCE BEGIN -------------------------------------\n' +
+    'package pset9;\n' +
+    '\n' +
+    'import java.util.*;\n' +
+    'import java.io.File;\n' +
+    'import java.io.FileNotFoundException;\n' +
+    '\n' +
+    'public class Main {\n' +
+    '    \n' +
+    '    /*\n' +
+    '    public static void merge(ArrayList<MyLinkedList<Integer>> vertexSet, int[] parent, int v1, int v2) {\n' +
+    '        int p = parent[v1];\n' +
+    '        int q = parent[v2];\n' +
+    '\n' +
+    '        int max =0, min =0;\n' +
+    '\n' +
+    '        if (p != q) {\n' +
+    '            int pSize = vertexSet.get(p).size();\n' +
+    '            int qSize = vertexSet.get(q).size();\n' +
+    '            \n' +
+    '            if (pSize > qSize) {\n' +
+    '                min = q;\n' +
+    '                max = p;\n' +
+    '            }\n' +
+    '            else {\n' +
+    '                min = p;\n' +
+    '                max = q;\n' +
+    '            }\n' +
+    '            //int max = Math.max(pSize, qSize);\n' +
+    '            //int min = Math.min(pSize, qSize);\n' +
+    '\n' +
+    '            // Merge min with max\n' +
+    '            MyLinkedList<Integer> minSet = vertexSet.get(min);\n' +
+    '            vertexSet.get(max).appendList(vertexSet.get(min));\n' +
+    '\n' +
+    '            // Shift components\n' +
+    '            Node<Integer> n = minSet.getFirst();\n' +
+    '            while (n != null) {\n' +
+    '                parent[n.getInfo()] = max;\n' +
+    '                n = n.getNext();\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '    */\n' +
+    '\n' +
+    '    /**\n' +
+    '     * Krushal min spanning tree using union set\n' +
+    '     * @param weights\n' +
+    '     * @param edges\n' +
+    '     * @return ArrayList of edges in MST, as well as double \n' +
+    '     * equal to sum of weights of the edges\n' +
+    '     */\n' +
+    '    public static ArrayList<WeightedEdge> kruskalUnion(PriorityQueue<WeightedEdge> que, int numVertex) {\n' +
+    '        ArrayList<WeightedEdge> mst = new ArrayList<>(numVertex-1);\n' +
+    '        KruskalUnion ku = new KruskalUnion(numVertex);\n' +
+    '        \n' +
+    '        while (mst.size() < numVertex-1) {\n' +
+    '            // Shortest edge not yet considered\n' +
+    '            WeightedEdge curr = que.poll();\n' +
+    '\n' +
+    '            int v1 = ku.parent[curr.v1];\n' +
+    '            int v2 = ku.parent[curr.v2];\n' +
+    '\n' +
+    '            if (v1 != v2) {\n' +
+    '                mst.add(curr);\n' +
+    '                ku.merge(curr.v1, curr.v2);\n' +
+    '            }\n' +
+    '        }\n' +
+    '        return mst;\n' +
+    '    }\n' +
+    '\n' +
+    '    /**\n' +
+    '     * Kruskal min spanning tree using tree compression\n' +
+    '     * @param weights\n' +
+    '     * @param edges\n' +
+    '     * @return ArrayList of edges in MST, as well as double \n' +
+    '     * equal to sum of weights of the edges\n' +
+    '     */\n' +
+    '    public static ArrayList<WeightedEdge> kruskalCompression(PriorityQueue<WeightedEdge> que, int numVertex) {\n' +
+    '        ArrayList<WeightedEdge> mst = new ArrayList<>(numVertex-1);\n' +
+    '        KruskalTreeCompression ktc = new KruskalTreeCompression(numVertex);\n' +
+    '        \n' +
+    '        while (mst.size() < numVertex-1) {\n' +
+    '            // Shortest edge not yet considered\n' +
+    '            WeightedEdge curr = que.poll();\n' +
+    '\n' +
+    '            int v1 = ktc.find(curr.v1);\n' +
+    '            int v2 = ktc.find(curr.v2);\n' +
+    '\n' +
+    '            if (v1 != v2) {\n' +
+    '                mst.add(curr);\n' +
+    '                ktc.merge(v1, v2);\n' +
+    '            }\n' +
+    '        }\n' +
+    '        return mst;\n' +
+    '    }\n' +
+    '\n' +
+    '    /**\n' +
+    '     * Find the correct size to initialize the graph with\n' +
+    '     * @param file The file of the graph to read\n' +
+    '     * @return Max file size\n' +
+    '     * @throws FileNotFoundException\n' +
+    '     */\n' +
+    '    private static int findMax(File file, String delim) throws FileNotFoundException {\n' +
+    '        int max_size = 0;\n' +
+    '        Scanner initsc = new Scanner(file);\n' +
+    '        while (initsc.hasNextLine()) {\n' +
+    '            String[] output = initsc.nextLine().split(delim);\n' +
+    '            int p1 = Integer.parseInt(output[0]);\n' +
+    '            int p2 = Integer.parseInt(output[1]);\n' +
+    '            // Check both points for new max\n' +
+    '            max_size = Math.max(max_size, p1);\n' +
+    '            max_size = Math.max(max_size, p2);\n' +
+    '        }\n' +
+    '        initsc.close();\n' +
+    '        return max_size;\n' +
+    '    }\n' +
+    '\n' +
+    '    /**\n' +
+    '     * Get the minimum weight of the spanning tree\n' +
+    '     * @param mst The min spanning tree\n' +
+    '     * @return Sum of min weights\n' +
+    '     */\n' +
+    '    public static double minWeight(ArrayList<WeightedEdge> mst) {\n' +
+    '        double total =0;\n' +
+    '        for (WeightedEdge edge : mst) \n' +
+    '            total+=edge.getWeight();\n' +
+    '        return total;\n' +
+    '    }\n' +
+    '\n' +
+    '    public static void main(String[] args) throws FileNotFoundException {\n' +
+    '        // Timing variables\n' +
+    '        double start, end;\n' +
+    '        // Read in edges and weights\n' +
+    '        File edge_file= new File("./comp272/pset9/artist_edges.txt");\n' +
+    '        File weight_file= new File("./comp272/pset9/Weights.txt");\n' +
+    '\n' +
+    '        // Get the max vertex size\n' +
+    '        int max_size = findMax(edge_file, "\\t");\n' +
+    '        //List<WeightedEdge> edgeList = new ArrayList<>(max_size+1);\n' +
+    '        List<WeightedEdge> edgeList = new ArrayList<>();\n' +
+    '\n' +
+    '        Scanner edgesc = new Scanner(edge_file);\n' +
+    '        Scanner weightsc = new Scanner(weight_file);\n' +
+    '        \n' +
+    '        while (edgesc.hasNextLine() && weightsc.hasNextDouble()) {\n' +
+    '            String[] output = edgesc.nextLine().split("\\t");\n' +
+    '            int p1 = Integer.parseInt(output[0]);\n' +
+    '            int p2 = Integer.parseInt(output[1]);\n' +
+    '\n' +
+    '            edgeList.add(new WeightedEdge(p1, p2, weightsc.nextDouble()));\n' +
+    '        }\n' +
+    '        edgesc.close();\n' +
+    '        weightsc.close();\n' +
+    '\n' +
+    '        \n' +
+    '        PriorityQueue<WeightedEdge> que = new PriorityQueue<>(edgeList);\n' +
+    '        int edgesConsidered = \n' +
+    '        PriorityQueue<WeightedEdge> que2 = new PriorityQueue<>(edgeList);\n' +
+    '        (edgeList.size()-que.size())\n' +
+    '        // Print general results\n' +
+    '        System.out.println("Max vertex label: " + (max_size+1));\n' +
+    '        System.out.println("numer of edges: " + edgeList.size());\n' +
+    '        System.out.println("edges considered for MST: " + );\n' +
+    '\n' +
+    '        // Kruskal Union\n' +
+    '        start = System.currentTimeMillis();\n' +
+    '        ArrayList<WeightedEdge> ku = kruskalUnion(que, max_size+1);\n' +
+    '        end = System.currentTimeMillis();\n' +
+    '\n' +
+    '        System.out.println("\\n----- Krushal Union ----- ");\n' +
+    '        System.out.println("Min weight of mst: " + minWeight(ku));\n' +
+    '        System.out.println((end-start) + " ms");\n' +
+    '\n' +
+    '        // Kruskal Tree Compression\n' +
+    '        start = System.currentTimeMillis();\n' +
+    '        ArrayList<WeightedEdge> kst = kruskalCompression(que2, max_size+1);\n' +
+    '        end = System.currentTimeMillis();\n' +
+    '\n' +
+    '        System.out.println("\\n----- Krushal Compressed Tree ----- ");\n' +
+    '        System.out.println("Min weight of mst: " + minWeight(kst));\n' +
+    '        System.out.println((end-start) + " ms");\n' +
+    '    }\n' +
+    '}\n' +
+    '----------------------------------- SOURCE END -------------------------------------\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:226)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:105)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2021-11-23 18:47:14.319'
+}
+{
+  message: '[Error - 6:47:14 PM] Nov 23, 2021, 6:47:14 PM Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:226)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:105)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2021-11-23 18:47:14.320'
+}
+{
+  message: '[Error - 6:47:14 PM] Nov 23, 2021, 6:47:14 PM Error in JDT Core during AST creation\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:226)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:105)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2021-11-23 18:47:14.320'
+}
+{
+  message: '[Error - 6:47:14 PM] Nov 23, 2021, 6:47:14 PM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2021-11-23 18:47:14.834'
+}
+{
+  message: '[Error - 6:47:15 PM] Nov 23, 2021, 6:47:15 PM Exception occurred during compilation unit conversion:\n' +
+    '----------------------------------- SOURCE BEGIN -------------------------------------\n' +
+    'package pset9;\n' +
+    '\n' +
+    'import java.util.*;\n' +
+    'import java.io.File;\n' +
+    'import java.io.FileNotFoundException;\n' +
+    '\n' +
+    'public class Main {\n' +
+    '    \n' +
+    '    /*\n' +
+    '    public static void merge(ArrayList<MyLinkedList<Integer>> vertexSet, int[] parent, int v1, int v2) {\n' +
+    '        int p = parent[v1];\n' +
+    '        int q = parent[v2];\n' +
+    '\n' +
+    '        int max =0, min =0;\n' +
+    '\n' +
+    '        if (p != q) {\n' +
+    '            int pSize = vertexSet.get(p).size();\n' +
+    '            int qSize = vertexSet.get(q).size();\n' +
+    '            \n' +
+    '            if (pSize > qSize) {\n' +
+    '                min = q;\n' +
+    '                max = p;\n' +
+    '            }\n' +
+    '            else {\n' +
+    '                min = p;\n' +
+    '                max = q;\n' +
+    '            }\n' +
+    '            //int max = Math.max(pSize, qSize);\n' +
+    '            //int min = Math.min(pSize, qSize);\n' +
+    '\n' +
+    '            // Merge min with max\n' +
+    '            MyLinkedList<Integer> minSet = vertexSet.get(min);\n' +
+    '            vertexSet.get(max).appendList(vertexSet.get(min));\n' +
+    '\n' +
+    '            // Shift components\n' +
+    '            Node<Integer> n = minSet.getFirst();\n' +
+    '            while (n != null) {\n' +
+    '                parent[n.getInfo()] = max;\n' +
+    '                n = n.getNext();\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '    */\n' +
+    '\n' +
+    '    /**\n' +
+    '     * Krushal min spanning tree using union set\n' +
+    '     * @param weights\n' +
+    '     * @param edges\n' +
+    '     * @return ArrayList of edges in MST, as well as double \n' +
+    '     * equal to sum of weights of the edges\n' +
+    '     */\n' +
+    '    public static ArrayList<WeightedEdge> kruskalUnion(PriorityQueue<WeightedEdge> que, int numVertex) {\n' +
+    '        ArrayList<WeightedEdge> mst = new ArrayList<>(numVertex-1);\n' +
+    '        KruskalUnion ku = new KruskalUnion(numVertex);\n' +
+    '        \n' +
+    '        while (mst.size() < numVertex-1) {\n' +
+    '            // Shortest edge not yet considered\n' +
+    '            WeightedEdge curr = que.poll();\n' +
+    '\n' +
+    '            int v1 = ku.parent[curr.v1];\n' +
+    '            int v2 = ku.parent[curr.v2];\n' +
+    '\n' +
+    '            if (v1 != v2) {\n' +
+    '                mst.add(curr);\n' +
+    '                ku.merge(curr.v1, curr.v2);\n' +
+    '            }\n' +
+    '        }\n' +
+    '        return mst;\n' +
+    '    }\n' +
+    '\n' +
+    '    /**\n' +
+    '     * Kruskal min spanning tree using tree compression\n' +
+    '     * @param weights\n' +
+    '     * @param edges\n' +
+    '     * @return ArrayList of edges in MST, as well as double \n' +
+    '     * equal to sum of weights of the edges\n' +
+    '     */\n' +
+    '    public static ArrayList<WeightedEdge> kruskalCompression(PriorityQueue<WeightedEdge> que, int numVertex) {\n' +
+    '        ArrayList<WeightedEdge> mst = new ArrayList<>(numVertex-1);\n' +
+    '        KruskalTreeCompression ktc = new KruskalTreeCompression(numVertex);\n' +
+    '        \n' +
+    '        while (mst.size() < numVertex-1) {\n' +
+    '            // Shortest edge not yet considered\n' +
+    '            WeightedEdge curr = que.poll();\n' +
+    '\n' +
+    '            int v1 = ktc.find(curr.v1);\n' +
+    '            int v2 = ktc.find(curr.v2);\n' +
+    '\n' +
+    '            if (v1 != v2) {\n' +
+    '                mst.add(curr);\n' +
+    '                ktc.merge(v1, v2);\n' +
+    '            }\n' +
+    '        }\n' +
+    '        return mst;\n' +
+    '    }\n' +
+    '\n' +
+    '    /**\n' +
+    '     * Find the correct size to initialize the graph with\n' +
+    '     * @param file The file of the graph to read\n' +
+    '     * @return Max file size\n' +
+    '     * @throws FileNotFoundException\n' +
+    '     */\n' +
+    '    private static int findMax(File file, String delim) throws FileNotFoundException {\n' +
+    '        int max_size = 0;\n' +
+    '        Scanner initsc = new Scanner(file);\n' +
+    '        while (initsc.hasNextLine()) {\n' +
+    '            String[] output = initsc.nextLine().split(delim);\n' +
+    '            int p1 = Integer.parseInt(output[0]);\n' +
+    '            int p2 = Integer.parseInt(output[1]);\n' +
+    '            // Check both points for new max\n' +
+    '            max_size = Math.max(max_size, p1);\n' +
+    '            max_size = Math.max(max_size, p2);\n' +
+    '        }\n' +
+    '        initsc.close();\n' +
+    '        return max_size;\n' +
+    '    }\n' +
+    '\n' +
+    '    /**\n' +
+    '     * Get the minimum weight of the spanning tree\n' +
+    '     * @param mst The min spanning tree\n' +
+    '     * @return Sum of min weights\n' +
+    '     */\n' +
+    '    public static double minWeight(ArrayList<WeightedEdge> mst) {\n' +
+    '        double total =0;\n' +
+    '        for (WeightedEdge edge : mst) \n' +
+    '            total+=edge.getWeight();\n' +
+    '        return total;\n' +
+    '    }\n' +
+    '\n' +
+    '    public static void main(String[] args) throws FileNotFoundException {\n' +
+    '        // Timing variables\n' +
+    '        double start, end;\n' +
+    '        // Read in edges and weights\n' +
+    '        File edge_file= new File("./comp272/pset9/artist_edges.txt");\n' +
+    '        File weight_file= new File("./comp272/pset9/Weights.txt");\n' +
+    '\n' +
+    '        // Get the max vertex size\n' +
+    '        int max_size = findMax(edge_file, "\\t");\n' +
+    '        //List<WeightedEdge> edgeList = new ArrayList<>(max_size+1);\n' +
+    '        List<WeightedEdge> edgeList = new ArrayList<>();\n' +
+    '\n' +
+    '        Scanner edgesc = new Scanner(edge_file);\n' +
+    '        Scanner weightsc = new Scanner(weight_file);\n' +
+    '        \n' +
+    '        while (edgesc.hasNextLine() && weightsc.hasNextDouble()) {\n' +
+    '            String[] output = edgesc.nextLine().split("\\t");\n' +
+    '            int p1 = Integer.parseInt(output[0]);\n' +
+    '            int p2 = Integer.parseInt(output[1]);\n' +
+    '\n' +
+    '            edgeList.add(new WeightedEdge(p1, p2, weightsc.nextDouble()));\n' +
+    '        }\n' +
+    '        edgesc.close();\n' +
+    '        weightsc.close();\n' +
+    '\n' +
+    '        \n' +
+    '        PriorityQueue<WeightedEdge> que = new PriorityQueue<>(edgeList);\n' +
+    '        int edgesConsidered = \n' +
+    '        PriorityQueue<WeightedEdge> que2 = new PriorityQueue<>(edgeList);\n' +
+    '(edgeList.size()-que.size())\n' +
+    '        // Print general results\n' +
+    '        System.out.println("Max vertex label: " + (max_size+1));\n' +
+    '        System.out.println("numer of edges: " + edgeList.size());\n' +
+    '        System.out.println("edges considered for MST: " + );\n' +
+    '\n' +
+    '        // Kruskal Union\n' +
+    '        start = System.currentTimeMillis();\n' +
+    '        ArrayList<WeightedEdge> ku = kruskalUnion(que, max_size+1);\n' +
+    '        end = System.currentTimeMillis();\n' +
+    '\n' +
+    '        System.out.println("\\n----- Krushal Union ----- ");\n' +
+    '        System.out.println("Min weight of mst: " + minWeight(ku));\n' +
+    '        System.out.println((end-start) + " ms");\n' +
+    '\n' +
+    '        // Kruskal Tree Compression\n' +
+    '        start = System.currentTimeMillis();\n' +
+    '        ArrayList<WeightedEdge> kst = kruskalCompression(que2, max_size+1);\n' +
+    '        end = System.currentTimeMillis();\n' +
+    '\n' +
+    '        System.out.println("\\n----- Krushal Compressed Tree ----- ");\n' +
+    '        System.out.println("Min weight of mst: " + minWeight(kst));\n' +
+    '        System.out.println((end-start) + " ms");\n' +
+    '    }\n' +
+    '}\n' +
+    '----------------------------------- SOURCE END -------------------------------------\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.SemanticTokensHandler.full(SemanticTokensHandler.java:46)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$52(JDTLanguageServer.java:1010)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-23 18:47:15.340'
+}
+{
+  message: '[Error - 6:47:15 PM] Nov 23, 2021, 6:47:15 PM Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.SemanticTokensHandler.full(SemanticTokensHandler.java:46)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$52(JDTLanguageServer.java:1010)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-23 18:47:15.342'
+}
+{
+  message: '[Error - 6:47:15 PM] Nov 23, 2021, 6:47:15 PM Error in JDT Core during AST creation\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.SemanticTokensHandler.full(SemanticTokensHandler.java:46)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$52(JDTLanguageServer.java:1010)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-23 18:47:15.342'
+}
+{
+  message: '[Error - 6:47:15 PM] Nov 23, 2021, 6:47:15 PM Exception occurred during compilation unit conversion:\n' +
+    '----------------------------------- SOURCE BEGIN -------------------------------------\n' +
+    'package pset9;\n' +
+    '\n' +
+    'import java.util.*;\n' +
+    'import java.io.File;\n' +
+    'import java.io.FileNotFoundException;\n' +
+    '\n' +
+    'public class Main {\n' +
+    '    \n' +
+    '    /*\n' +
+    '    public static void merge(ArrayList<MyLinkedList<Integer>> vertexSet, int[] parent, int v1, int v2) {\n' +
+    '        int p = parent[v1];\n' +
+    '        int q = parent[v2];\n' +
+    '\n' +
+    '        int max =0, min =0;\n' +
+    '\n' +
+    '        if (p != q) {\n' +
+    '            int pSize = vertexSet.get(p).size();\n' +
+    '            int qSize = vertexSet.get(q).size();\n' +
+    '            \n' +
+    '            if (pSize > qSize) {\n' +
+    '                min = q;\n' +
+    '                max = p;\n' +
+    '            }\n' +
+    '            else {\n' +
+    '                min = p;\n' +
+    '                max = q;\n' +
+    '            }\n' +
+    '            //int max = Math.max(pSize, qSize);\n' +
+    '            //int min = Math.min(pSize, qSize);\n' +
+    '\n' +
+    '            // Merge min with max\n' +
+    '            MyLinkedList<Integer> minSet = vertexSet.get(min);\n' +
+    '            vertexSet.get(max).appendList(vertexSet.get(min));\n' +
+    '\n' +
+    '            // Shift components\n' +
+    '            Node<Integer> n = minSet.getFirst();\n' +
+    '            while (n != null) {\n' +
+    '                parent[n.getInfo()] = max;\n' +
+    '                n = n.getNext();\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '    */\n' +
+    '\n' +
+    '    /**\n' +
+    '     * Krushal min spanning tree using union set\n' +
+    '     * @param weights\n' +
+    '     * @param edges\n' +
+    '     * @return ArrayList of edges in MST, as well as double \n' +
+    '     * equal to sum of weights of the edges\n' +
+    '     */\n' +
+    '    public static ArrayList<WeightedEdge> kruskalUnion(PriorityQueue<WeightedEdge> que, int numVertex) {\n' +
+    '        ArrayList<WeightedEdge> mst = new ArrayList<>(numVertex-1);\n' +
+    '        KruskalUnion ku = new KruskalUnion(numVertex);\n' +
+    '        \n' +
+    '        while (mst.size() < numVertex-1) {\n' +
+    '            // Shortest edge not yet considered\n' +
+    '            WeightedEdge curr = que.poll();\n' +
+    '\n' +
+    '            int v1 = ku.parent[curr.v1];\n' +
+    '            int v2 = ku.parent[curr.v2];\n' +
+    '\n' +
+    '            if (v1 != v2) {\n' +
+    '                mst.add(curr);\n' +
+    '                ku.merge(curr.v1, curr.v2);\n' +
+    '            }\n' +
+    '        }\n' +
+    '        return mst;\n' +
+    '    }\n' +
+    '\n' +
+    '    /**\n' +
+    '     * Kruskal min spanning tree using tree compression\n' +
+    '     * @param weights\n' +
+    '     * @param edges\n' +
+    '     * @return ArrayList of edges in MST, as well as double \n' +
+    '     * equal to sum of weights of the edges\n' +
+    '     */\n' +
+    '    public static ArrayList<WeightedEdge> kruskalCompression(PriorityQueue<WeightedEdge> que, int numVertex) {\n' +
+    '        ArrayList<WeightedEdge> mst = new ArrayList<>(numVertex-1);\n' +
+    '        KruskalTreeCompression ktc = new KruskalTreeCompression(numVertex);\n' +
+    '        \n' +
+    '        while (mst.size() < numVertex-1) {\n' +
+    '            // Shortest edge not yet considered\n' +
+    '            WeightedEdge curr = que.poll();\n' +
+    '\n' +
+    '            int v1 = ktc.find(curr.v1);\n' +
+    '            int v2 = ktc.find(curr.v2);\n' +
+    '\n' +
+    '            if (v1 != v2) {\n' +
+    '                mst.add(curr);\n' +
+    '                ktc.merge(v1, v2);\n' +
+    '            }\n' +
+    '        }\n' +
+    '        return mst;\n' +
+    '    }\n' +
+    '\n' +
+    '    /**\n' +
+    '     * Find the correct size to initialize the graph with\n' +
+    '     * @param file The file of the graph to read\n' +
+    '     * @return Max file size\n' +
+    '     * @throws FileNotFoundException\n' +
+    '     */\n' +
+    '    private static int findMax(File file, String delim) throws FileNotFoundException {\n' +
+    '        int max_size = 0;\n' +
+    '        Scanner initsc = new Scanner(file);\n' +
+    '        while (initsc.hasNextLine()) {\n' +
+    '            String[] output = initsc.nextLine().split(delim);\n' +
+    '            int p1 = Integer.parseInt(output[0]);\n' +
+    '            int p2 = Integer.parseInt(output[1]);\n' +
+    '            // Check both points for new max\n' +
+    '            max_size = Math.max(max_size, p1);\n' +
+    '            max_size = Math.max(max_size, p2);\n' +
+    '        }\n' +
+    '        initsc.close();\n' +
+    '        return max_size;\n' +
+    '    }\n' +
+    '\n' +
+    '    /**\n' +
+    '     * Get the minimum weight of the spanning tree\n' +
+    '     * @param mst The min spanning tree\n' +
+    '     * @return Sum of min weights\n' +
+    '     */\n' +
+    '    public static double minWeight(ArrayList<WeightedEdge> mst) {\n' +
+    '        double total =0;\n' +
+    '        for (WeightedEdge edge : mst) \n' +
+    '            total+=edge.getWeight();\n' +
+    '        return total;\n' +
+    '    }\n' +
+    '\n' +
+    '    public static void main(String[] args) throws FileNotFoundException {\n' +
+    '        // Timing variables\n' +
+    '        double start, end;\n' +
+    '        // Read in edges and weights\n' +
+    '        File edge_file= new File("./comp272/pset9/artist_edges.txt");\n' +
+    '        File weight_file= new File("./comp272/pset9/Weights.txt");\n' +
+    '\n' +
+    '        // Get the max vertex size\n' +
+    '        int max_size = findMax(edge_file, "\\t");\n' +
+    '        //List<WeightedEdge> edgeList = new ArrayList<>(max_size+1);\n' +
+    '        List<WeightedEdge> edgeList = new ArrayList<>();\n' +
+    '\n' +
+    '        Scanner edgesc = new Scanner(edge_file);\n' +
+    '        Scanner weightsc = new Scanner(weight_file);\n' +
+    '        \n' +
+    '        while (edgesc.hasNextLine() && weightsc.hasNextDouble()) {\n' +
+    '            String[] output = edgesc.nextLine().split("\\t");\n' +
+    '            int p1 = Integer.parseInt(output[0]);\n' +
+    '            int p2 = Integer.parseInt(output[1]);\n' +
+    '\n' +
+    '            edgeList.add(new WeightedEdge(p1, p2, weightsc.nextDouble()));\n' +
+    '        }\n' +
+    '        edgesc.close();\n' +
+    '        weightsc.close();\n' +
+    '\n' +
+    '        \n' +
+    '        PriorityQueue<WeightedEdge> que = new PriorityQueue<>(edgeList);\n' +
+    '        int edgesConsidered = \n' +
+    '        PriorityQueue<WeightedEdge> que2 = new PriorityQueue<>(edgeList);\n' +
+    '(edgeList.size()-que.size())\n' +
+    '        // Print general results\n' +
+    '        System.out.println("Max vertex label: " + (max_size+1));\n' +
+    '        System.out.println("numer of edges: " + edgeList.size());\n' +
+    '        System.out.println("edges considered for MST: " + );\n' +
+    '\n' +
+    '        // Kruskal Union\n' +
+    '        start = System.currentTimeMillis();\n' +
+    '        ArrayList<WeightedEdge> ku = kruskalUnion(que, max_size+1);\n' +
+    '        end = System.currentTimeMillis();\n' +
+    '\n' +
+    '        System.out.println("\\n----- Krushal Union ----- ");\n' +
+    '        System.out.println("Min weight of mst: " + minWeight(ku));\n' +
+    '        System.out.println((end-start) + " ms");\n' +
+    '\n' +
+    '        // Kruskal Tree Compression\n' +
+    '        start = System.currentTimeMillis();\n' +
+    '        ArrayList<WeightedEdge> kst = kruskalCompression(que2, max_size+1);\n' +
+    '        end = System.currentTimeMillis();\n' +
+    '\n' +
+    '        System.out.println("\\n----- Krushal Compressed Tree ----- ");\n' +
+    '        System.out.println("Min weight of mst: " + minWeight(kst));\n' +
+    '        System.out.println((end-start) + " ms");\n' +
+    '    }\n' +
+    '}\n' +
+    '----------------------------------- SOURCE END -------------------------------------\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)\n' +
+    '\tat com.microsoft.java.test.plugin.util.TestSearchUtils.parseToAst(TestSearchUtils.java:566)\n' +
+    '\tat com.microsoft.java.test.plugin.util.TestSearchUtils.findTestTypesAndMethods(TestSearchUtils.java:319)\n' +
+    '\tat com.microsoft.java.test.plugin.handler.TestDelegateCommandHandler.executeCommand(TestDelegateCommandHandler.java:58)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:507)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-23 18:47:15.354'
+}
+{
+  message: '[Error - 6:47:15 PM] Nov 23, 2021, 6:47:15 PM Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)\n' +
+    '\tat com.microsoft.java.test.plugin.util.TestSearchUtils.parseToAst(TestSearchUtils.java:566)\n' +
+    '\tat com.microsoft.java.test.plugin.util.TestSearchUtils.findTestTypesAndMethods(TestSearchUtils.java:319)\n' +
+    '\tat com.microsoft.java.test.plugin.handler.TestDelegateCommandHandler.executeCommand(TestDelegateCommandHandler.java:58)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:507)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-23 18:47:15.356'
+}
+{
+  message: '[Error - 6:47:15 PM] Nov 23, 2021, 6:47:15 PM Error in JDT Core during AST creation\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)\n' +
+    '\tat com.microsoft.java.test.plugin.util.TestSearchUtils.parseToAst(TestSearchUtils.java:566)\n' +
+    '\tat com.microsoft.java.test.plugin.util.TestSearchUtils.findTestTypesAndMethods(TestSearchUtils.java:319)\n' +
+    '\tat com.microsoft.java.test.plugin.handler.TestDelegateCommandHandler.executeCommand(TestDelegateCommandHandler.java:58)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:507)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-23 18:47:15.357'
+}
+{
+  message: '[Error - 6:47:15 PM] Nov 23, 2021, 6:47:15 PM Exception occurred during compilation unit conversion:\n' +
+    '----------------------------------- SOURCE BEGIN -------------------------------------\n' +
+    'package pset9;\n' +
+    '\n' +
+    'import java.util.*;\n' +
+    'import java.io.File;\n' +
+    'import java.io.FileNotFoundException;\n' +
+    '\n' +
+    'public class Main {\n' +
+    '    \n' +
+    '    /*\n' +
+    '    public static void merge(ArrayList<MyLinkedList<Integer>> vertexSet, int[] parent, int v1, int v2) {\n' +
+    '        int p = parent[v1];\n' +
+    '        int q = parent[v2];\n' +
+    '\n' +
+    '        int max =0, min =0;\n' +
+    '\n' +
+    '        if (p != q) {\n' +
+    '            int pSize = vertexSet.get(p).size();\n' +
+    '            int qSize = vertexSet.get(q).size();\n' +
+    '            \n' +
+    '            if (pSize > qSize) {\n' +
+    '                min = q;\n' +
+    '                max = p;\n' +
+    '            }\n' +
+    '            else {\n' +
+    '                min = p;\n' +
+    '                max = q;\n' +
+    '            }\n' +
+    '            //int max = Math.max(pSize, qSize);\n' +
+    '            //int min = Math.min(pSize, qSize);\n' +
+    '\n' +
+    '            // Merge min with max\n' +
+    '            MyLinkedList<Integer> minSet = vertexSet.get(min);\n' +
+    '            vertexSet.get(max).appendList(vertexSet.get(min));\n' +
+    '\n' +
+    '            // Shift components\n' +
+    '            Node<Integer> n = minSet.getFirst();\n' +
+    '            while (n != null) {\n' +
+    '                parent[n.getInfo()] = max;\n' +
+    '                n = n.getNext();\n' +
+    '            }\n' +
+    '        }\n' +
+    '    }\n' +
+    '    */\n' +
+    '\n' +
+    '    /**\n' +
+    '     * Krushal min spanning tree using union set\n' +
+    '     * @param weights\n' +
+    '     * @param edges\n' +
+    '     * @return ArrayList of edges in MST, as well as double \n' +
+    '     * equal to sum of weights of the edges\n' +
+    '     */\n' +
+    '    public static ArrayList<WeightedEdge> kruskalUnion(PriorityQueue<WeightedEdge> que, int numVertex) {\n' +
+    '        ArrayList<WeightedEdge> mst = new ArrayList<>(numVertex-1);\n' +
+    '        KruskalUnion ku = new KruskalUnion(numVertex);\n' +
+    '        \n' +
+    '        while (mst.size() < numVertex-1) {\n' +
+    '            // Shortest edge not yet considered\n' +
+    '            WeightedEdge curr = que.poll();\n' +
+    '\n' +
+    '            int v1 = ku.parent[curr.v1];\n' +
+    '            int v2 = ku.parent[curr.v2];\n' +
+    '\n' +
+    '            if (v1 != v2) {\n' +
+    '                mst.add(curr);\n' +
+    '                ku.merge(curr.v1, curr.v2);\n' +
+    '            }\n' +
+    '        }\n' +
+    '        return mst;\n' +
+    '    }\n' +
+    '\n' +
+    '    /**\n' +
+    '     * Kruskal min spanning tree using tree compression\n' +
+    '     * @param weights\n' +
+    '     * @param edges\n' +
+    '     * @return ArrayList of edges in MST, as well as double \n' +
+    '     * equal to sum of weights of the edges\n' +
+    '     */\n' +
+    '    public static ArrayList<WeightedEdge> kruskalCompression(PriorityQueue<WeightedEdge> que, int numVertex) {\n' +
+    '        ArrayList<WeightedEdge> mst = new ArrayList<>(numVertex-1);\n' +
+    '        KruskalTreeCompression ktc = new KruskalTreeCompression(numVertex);\n' +
+    '        \n' +
+    '        while (mst.size() < numVertex-1) {\n' +
+    '            // Shortest edge not yet considered\n' +
+    '            WeightedEdge curr = que.poll();\n' +
+    '\n' +
+    '            int v1 = ktc.find(curr.v1);\n' +
+    '            int v2 = ktc.find(curr.v2);\n' +
+    '\n' +
+    '            if (v1 != v2) {\n' +
+    '                mst.add(curr);\n' +
+    '                ktc.merge(v1, v2);\n' +
+    '            }\n' +
+    '        }\n' +
+    '        return mst;\n' +
+    '    }\n' +
+    '\n' +
+    '    /**\n' +
+    '     * Find the correct size to initialize the graph with\n' +
+    '     * @param file The file of the graph to read\n' +
+    '     * @return Max file size\n' +
+    '     * @throws FileNotFoundException\n' +
+    '     */\n' +
+    '    private static int findMax(File file, String delim) throws FileNotFoundException {\n' +
+    '        int max_size = 0;\n' +
+    '        Scanner initsc = new Scanner(file);\n' +
+    '        while (initsc.hasNextLine()) {\n' +
+    '            String[] output = initsc.nextLine().split(delim);\n' +
+    '            int p1 = Integer.parseInt(output[0]);\n' +
+    '            int p2 = Integer.parseInt(output[1]);\n' +
+    '            // Check both points for new max\n' +
+    '            max_size = Math.max(max_size, p1);\n' +
+    '            max_size = Math.max(max_size, p2);\n' +
+    '        }\n' +
+    '        initsc.close();\n' +
+    '        return max_size;\n' +
+    '    }\n' +
+    '\n' +
+    '    /**\n' +
+    '     * Get the minimum weight of the spanning tree\n' +
+    '     * @param mst The min spanning tree\n' +
+    '     * @return Sum of min weights\n' +
+    '     */\n' +
+    '    public static double minWeight(ArrayList<WeightedEdge> mst) {\n' +
+    '        double total =0;\n' +
+    '        for (WeightedEdge edge : mst) \n' +
+    '            total+=edge.getWeight();\n' +
+    '        return total;\n' +
+    '    }\n' +
+    '\n' +
+    '    public static void main(String[] args) throws FileNotFoundException {\n' +
+    '        // Timing variables\n' +
+    '        double start, end;\n' +
+    '        // Read in edges and weights\n' +
+    '        File edge_file= new File("./comp272/pset9/artist_edges.txt");\n' +
+    '        File weight_file= new File("./comp272/pset9/Weights.txt");\n' +
+    '\n' +
+    '        // Get the max vertex size\n' +
+    '        int max_size = findMax(edge_file, "\\t");\n' +
+    '        //List<WeightedEdge> edgeList = new ArrayList<>(max_size+1);\n' +
+    '        List<WeightedEdge> edgeList = new ArrayList<>();\n' +
+    '\n' +
+    '        Scanner edgesc = new Scanner(edge_file);\n' +
+    '        Scanner weightsc = new Scanner(weight_file);\n' +
+    '        \n' +
+    '        while (edgesc.hasNextLine() && weightsc.hasNextDouble()) {\n' +
+    '            String[] output = edgesc.nextLine().split("\\t");\n' +
+    '            int p1 = Integer.parseInt(output[0]);\n' +
+    '            int p2 = Integer.parseInt(output[1]);\n' +
+    '\n' +
+    '            edgeList.add(new WeightedEdge(p1, p2, weightsc.nextDouble()));\n' +
+    '        }\n' +
+    '        edgesc.close();\n' +
+    '        weightsc.close();\n' +
+    '\n' +
+    '        \n' +
+    '        PriorityQueue<WeightedEdge> que = new PriorityQueue<>(edgeList);\n' +
+    '        int edgesConsidered = \n' +
+    '        PriorityQueue<WeightedEdge> que2 = new PriorityQueue<>(edgeList);\n' +
+    '(edgeList.size()-que.size())\n' +
+    '        // Print general results\n' +
+    '        System.out.println("Max vertex label: " + (max_size+1));\n' +
+    '        System.out.println("numer of edges: " + edgeList.size());\n' +
+    '        System.out.println("edges considered for MST: " + );\n' +
+    '\n' +
+    '        // Kruskal Union\n' +
+    '        start = System.currentTimeMillis();\n' +
+    '        ArrayList<WeightedEdge> ku = kruskalUnion(que, max_size+1);\n' +
+    '        end = System.currentTimeMillis();\n' +
+    '\n' +
+    '        System.out.println("\\n----- Krushal Union ----- ");\n' +
+    '        System.out.println("Min weight of mst: " + minWeight(ku));\n' +
+    '        System.out.println((end-start) + " ms");\n' +
+    '\n' +
+    '        // Kruskal Tree Compression\n' +
+    '        start = System.currentTimeMillis();\n' +
+    '        ArrayList<WeightedEdge> kst = kruskalCompression(que2, max_size+1);\n' +
+    '        end = System.currentTimeMillis();\n' +
+    '\n' +
+    '        System.out.println("\\n----- Krushal Compressed Tree ----- ");\n' +
+    '        System.out.println("Min weight of mst: " + minWeight(kst));\n' +
+    '        System.out.println((end-start) + " ms");\n' +
+    '    }\n' +
+    '}\n' +
+    '----------------------------------- SOURCE END -------------------------------------\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getASTRoot(CodeActionHandler.java:321)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:122)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:649)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-23 18:47:15.366'
+}
+{
+  message: '[Error - 6:47:15 PM] Nov 23, 2021, 6:47:15 PM Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getASTRoot(CodeActionHandler.java:321)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:122)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:649)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-23 18:47:15.366'
+}
+{
+  message: '[Error - 6:47:15 PM] Nov 23, 2021, 6:47:15 PM Error in JDT Core during AST creation\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getASTRoot(CodeActionHandler.java:321)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:122)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:649)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-23 18:47:15.367'
+}
+{
+  message: '[Error - 6:47:16 PM] Nov 23, 2021, 6:47:16 PM Offset > length: 14 > 0\n' +
+    'Offset > length: 14 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 14 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:857)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:756)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:702)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:678)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getSelectionRange(DocumentSymbolHandler.java:210)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:173)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$2(DocumentSymbolHandler.java:147)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getHierarchicalOutline(DocumentSymbolHandler.java:147)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.documentSymbol(DocumentSymbolHandler.java:80)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-23 18:47:16.799'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 7160, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2021-11-23 18:47:41.772'
+}
+{
+  message: '[Error - 6:54:39 PM] Nov 23, 2021, 6:54:39 PM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2021-11-23 18:54:39.843'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 7240, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2021-11-23 18:54:46.999'
+}
+{
+  message: '[Error - 6:56:21 PM] Nov 23, 2021, 6:56:21 PM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2021-11-23 18:56:21.557'
+}
+{
+  message: '[Error - 6:56:54 PM] Nov 23, 2021, 6:56:54 PM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2021-11-23 18:56:54.997'
+}
+{
+  message: '[Error - 6:56:55 PM] Nov 23, 2021, 6:56:55 PM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2021-11-23 18:56:55.041'
+}
+{
+  message: '[Error - 6:57:26 PM] Nov 23, 2021, 6:57:26 PM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2021-11-23 18:57:26.407'
+}
+{
+  message: '[Error - 6:57:26 PM] Nov 23, 2021, 6:57:26 PM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2021-11-23 18:57:26.867'
+}
+{
+  message: '[Error - 6:57:29 PM] Nov 23, 2021, 6:57:29 PM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2021-11-23 18:57:29.931'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 7923, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2021-11-23 18:59:08.921'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 7925, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2021-11-23 18:59:14.606'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 7929, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2021-11-23 18:59:17.623'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 7950, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2021-11-23 18:59:42.312'
+}
+{
+  message: '[Error - 6:59:47 PM] Nov 23, 2021, 6:59:47 PM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2021-11-23 18:59:47.800'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 7977, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2021-11-23 19:00:07.169'
+}
+{
+  message: '[Error - 7:00:14 PM] Nov 23, 2021, 7:00:14 PM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2021-11-23 19:00:14.170'
+}
+{
+  message: '[Error - 7:00:31 PM] Nov 23, 2021, 7:00:31 PM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2021-11-23 19:00:31.206'
+}
+{
+  message: '[Error - 7:00:31 PM] Nov 23, 2021, 7:00:31 PM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2021-11-23 19:00:31.720'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 8099, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2021-11-23 19:00:52.407'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 8119, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2021-11-23 19:00:59.185'
+}
+{
+  message: '[Error - 7:01:17 PM] Nov 23, 2021, 7:01:17 PM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2021-11-23 19:01:17.355'
+}
+{
+  message: '[Error - 7:01:19 PM] Nov 23, 2021, 7:01:19 PM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2021-11-23 19:01:19.326'
+}
+{
+  message: '[Error - 7:01:21 PM] Nov 23, 2021, 7:01:21 PM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2021-11-23 19:01:21.586'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 8228, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2021-11-23 19:02:17.100'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 8289, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2021-11-23 19:02:41.381'
+}
+{
+  message: '[Error - 7:02:50 PM] Nov 23, 2021, 7:02:50 PM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2021-11-23 19:02:50.857'
+}
+{
+  message: '[Error - 7:07:35 PM] Nov 23, 2021, 7:07:35 PM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2021-11-23 19:07:35.603'
+}
+{
+  message: '[Error - 7:07:35 PM] Nov 23, 2021, 7:07:35 PM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2021-11-23 19:07:35.814'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 8908, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2021-11-23 19:08:06.402'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 8951, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2021-11-23 19:08:31.579'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 9433, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2021-11-23 19:16:56.720'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 9451, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2021-11-23 19:16:58.570'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 9701, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2021-11-23 19:18:48.111'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 9833, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2021-11-23 19:20:06.929'
+}
+{
+  message: '[Error - 7:20:38 PM] Nov 23, 2021, 7:20:38 PM Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ls.core".\n' +
+    'Invalid completion proposal\n' +
+    'java.lang.IllegalStateException: Invalid completion proposal\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:110)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:69)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:507)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-23 19:20:38.920'
+}
+{
+  message: '[Error - 7:20:38 PM] Nov 23, 2021, 7:20:38 PM Error in calling delegate command handler\n' +
+    'Invalid completion proposal\n' +
+    'java.lang.IllegalStateException: Invalid completion proposal\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:110)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:69)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:507)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-23 19:20:38.921'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 10301, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2021-11-23 19:27:43.239'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 10378, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2021-11-23 19:28:11.652'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 10446, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2021-11-23 19:28:19.111'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 10454, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2021-11-23 19:28:22.546'
+}
+{
+  message: '[Error - 7:31:57 PM] Nov 23, 2021, 7:31:57 PM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2021-11-23 19:31:57.780'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 10526, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2021-11-23 19:31:59.856'
+}
+{
+  message: '[Error - 7:32:05 PM] Nov 23, 2021, 7:32:05 PM Problems occurred when invoking code from plug-in: "org.eclipse.jdt.ls.core".\n' +
+    'Invalid completion proposal\n' +
+    'java.lang.IllegalStateException: Invalid completion proposal\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.resolve(CompletionResolveHandler.java:110)\n' +
+    '\tat com.microsoft.jdtls.intellicode.core.CommandHandler.executeCommand(CommandHandler.java:69)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:507)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-23 19:32:05.380'
+}

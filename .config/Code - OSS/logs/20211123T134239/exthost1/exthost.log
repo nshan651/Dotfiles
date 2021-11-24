@@ -1,0 +1,149 @@
+[2021-11-23 13:42:42.011] [exthost] [info] Extension host with pid 21318 started
+[2021-11-23 13:42:42.011] [exthost] [info] Skipping acquiring lock for /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a.
+[2021-11-23 13:42:42.108] [exthost] [info] ExtensionService#_doActivateExtension mechatroner.rainbow-csv, startup: false, activationEvent: 'onLanguage:plaintext'
+[2021-11-23 13:42:42.112] [exthost] [info] ExtensionService#_doActivateExtension redhat.java, startup: false, activationEvent: 'onLanguage:java', root cause: vscjava.vscode-java-test
+[2021-11-23 13:42:42.158] [exthost] [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:java'
+[2021-11-23 13:42:42.194] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: false, activationEvent: 'onLanguage:java', root cause: vscjava.vscode-java-test
+[2021-11-23 13:42:42.209] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency, startup: false, activationEvent: 'onLanguage:java'
+[2021-11-23 13:42:42.226] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack, startup: false, activationEvent: 'onLanguage:java'
+[2021-11-23 13:42:42.266] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-11-23 13:42:42.267] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-11-23 13:42:42.283] [exthost] [info] ExtensionService#_doActivateExtension sainnhe.gruvbox-material, startup: true, activationEvent: '*'
+[2021-11-23 13:42:42.484] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2021-11-23 13:42:42.548] [exthost] [info] Eager extensions activated
+[2021-11-23 13:42:42.612] [exthost] [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+[2021-11-23 13:42:42.643] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-11-23 13:42:42.779] [exthost] [warning] [redhat.java] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[java]', provide the URI of a resource or 'null' for any resource.
+[2021-11-23 13:42:46.410] [exthost] [error] [redhat.java] provider FAILED
+[2021-11-23 13:42:46.412] [exthost] [error] Error: The request (id: 2, method: 'textDocument/hover') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 13:42:46.582] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test, startup: false, activationEvent: 'onLanguage:java'
+[2021-11-23 13:42:59.526] [exthost] [error] [redhat.java] provider FAILED
+[2021-11-23 13:42:59.526] [exthost] [error] Error: The request (id: 20, method: 'textDocument/hover') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 13:43:00.153] [exthost] [error] [redhat.java] provider FAILED
+[2021-11-23 13:43:00.153] [exthost] [error] Error: The request (id: 21, method: 'textDocument/hover') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 13:48:14.204] [exthost] [error] [redhat.java] provider FAILED
+[2021-11-23 13:48:14.204] [exthost] [error] Error: The request (id: 57, method: 'textDocument/hover') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 13:48:30.936] [exthost] [error] [redhat.java] provider FAILED
+[2021-11-23 13:48:30.936] [exthost] [error] Error: The request (id: 58, method: 'textDocument/hover') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 13:48:41.626] [exthost] [error] [redhat.java] provider FAILED
+[2021-11-23 13:48:41.626] [exthost] [error] Error: The request (id: 66, method: 'textDocument/hover') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 13:48:47.355] [exthost] [error] [redhat.java] provider FAILED
+[2021-11-23 13:48:47.356] [exthost] [error] Error: The request (id: 75, method: 'textDocument/hover') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 13:48:54.376] [exthost] [error] [redhat.java] provider FAILED
+[2021-11-23 13:48:54.376] [exthost] [error] Error: The request (id: 82, method: 'textDocument/hover') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 13:49:19.891] [exthost] [error] [redhat.java] provider FAILED
+[2021-11-23 13:49:19.891] [exthost] [error] Error: The request (id: 89, method: 'textDocument/hover') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 13:49:26.471] [exthost] [error] [redhat.java] provider FAILED
+[2021-11-23 13:49:26.472] [exthost] [error] Error: The request (id: 98, method: 'textDocument/hover') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 13:49:27.272] [exthost] [error] [redhat.java] provider FAILED
+[2021-11-23 13:49:27.272] [exthost] [error] Error: The request (id: 101, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 13:51:05.983] [exthost] [error] [redhat.java] provider FAILED
+[2021-11-23 13:51:05.983] [exthost] [error] Error: The request (id: 346, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 13:51:08.092] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+[2021-11-23 13:52:14.993] [exthost] [error] [redhat.java] provider FAILED
+[2021-11-23 13:52:14.993] [exthost] [error] Error: The request (id: 427, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 13:52:19.580] [exthost] [error] [redhat.java] provider FAILED
+[2021-11-23 13:52:19.581] [exthost] [error] Error: The request (id: 444, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 13:52:29.725] [exthost] [error] [redhat.java] provider FAILED
+[2021-11-23 13:52:29.725] [exthost] [error] Error: The request (id: 469, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 13:53:58.164] [exthost] [error] [redhat.java] provider FAILED
+[2021-11-23 13:53:58.164] [exthost] [error] Error: The request (id: 515, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 13:54:48.994] [exthost] [error] Error: The request (id: 548, method: 'workspace/executeCommand') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21) java.execute.workspaceCommand {"value":"redhat.java","_lower":"redhat.java"}
+[2021-11-23 13:54:49.611] [exthost] [error] Error: The request (id: 554, method: 'workspace/executeCommand') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21) java.execute.workspaceCommand {"value":"redhat.java","_lower":"redhat.java"}
+[2021-11-23 13:54:52.357] [exthost] [error] [redhat.java] provider FAILED
+[2021-11-23 13:54:52.357] [exthost] [error] Error: selectionRange must be contained in fullRange
+	at Function.validate (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:30564)
+	at new n (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:30432)
+	at new n (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:17223)
+	at $ (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:800105)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:805451)
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:624152
+	at Generator.next (<anonymous>)
+	at s (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:623246)
+[2021-11-23 13:54:56.683] [exthost] [error] [redhat.java] provider FAILED
+[2021-11-23 13:54:56.683] [exthost] [error] Error: The request (id: 593, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 13:55:04.282] [exthost] [error] [redhat.java] provider FAILED
+[2021-11-23 13:55:04.282] [exthost] [error] Error: The request (id: 615, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 13:55:40.925] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-11-23 13:55:41.944] [exthost] [info] Extension host with pid 21318 exiting with code 0

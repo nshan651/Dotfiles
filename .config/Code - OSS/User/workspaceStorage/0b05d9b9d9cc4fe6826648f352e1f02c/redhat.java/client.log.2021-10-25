@@ -1,0 +1,67 @@
+{
+  message: 'Starting Java server with: /usr/lib/jvm/default/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -jar /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/nick/.config/Code - OSS/User/globalStorage/redhat.java/1.0.0/config_ss_linux -data /home/nick/.config/Code - OSS/User/workspaceStorage/0b05d9b9d9cc4fe6826648f352e1f02c/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2021-10-25 13:51:33.279'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/default/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -jar /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/nick/.config/Code - OSS/User/globalStorage/redhat.java/1.0.0/config_linux -data /home/nick/.config/Code - OSS/User/workspaceStorage/0b05d9b9d9cc4fe6826648f352e1f02c/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2021-10-25 13:51:33.329'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector, jdk.incubator.foreign\n',
+  level: 'info',
+  timestamp: '2021-10-25 13:51:33.419'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector, jdk.incubator.foreign\n',
+  level: 'info',
+  timestamp: '2021-10-25 13:51:33.468'
+}
+{
+  message: '[Error - 1:51:39 PM] Connection to server got closed. Server will not be restarted.',
+  level: 'info',
+  timestamp: '2021-10-25 13:51:39.872'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/default/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -jar /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/nick/.config/Code - OSS/User/globalStorage/redhat.java/1.0.0/config_ss_linux -data /home/nick/.config/Code - OSS/User/workspaceStorage/0b05d9b9d9cc4fe6826648f352e1f02c/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2021-10-25 14:19:52.967'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/default/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -jar /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/nick/.config/Code - OSS/User/globalStorage/redhat.java/1.0.0/config_linux -data /home/nick/.config/Code - OSS/User/workspaceStorage/0b05d9b9d9cc4fe6826648f352e1f02c/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2021-10-25 14:19:53.026'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector, jdk.incubator.foreign\n',
+  level: 'info',
+  timestamp: '2021-10-25 14:19:53.095'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector, jdk.incubator.foreign\n',
+  level: 'info',
+  timestamp: '2021-10-25 14:19:53.164'
+}
+{
+  message: '[Error - 2:19:57 PM] Oct 25, 2021, 2:19:57 PM An internal error occurred during: "Publish Diagnostics".\n' +
+    'Cannot read field "projectsManager" because "org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.pluginInstance" is null\n' +
+    'java.lang.NullPointerException: Cannot read field "projectsManager" because "org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.pluginInstance" is null\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.getProjectsManager(JavaLanguageServerPlugin.java:491)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.isDefaultProject(JDTUtils.java:1163)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.<init>(BaseDiagnosticsHandler.java:55)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDiagnosticsHandler.<init>(SyntaxDiagnosticsHandler.java:23)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.createDiagnosticsHandler(SyntaxDocumentLifeCycleHandler.java:67)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:241)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:233)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:105)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2021-10-25 14:19:57.673'
+}
+{
+  message: '[Error - 2:19:58 PM] Connection to server got closed. Server will not be restarted.',
+  level: 'info',
+  timestamp: '2021-10-25 14:19:58.009'
+}

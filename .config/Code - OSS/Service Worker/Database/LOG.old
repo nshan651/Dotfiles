@@ -1,3 +1,4 @@
-2021/08/02-20:20:00.991 a5e Reusing MANIFEST /home/nick/.config/Code - OSS/Service Worker/Database/MANIFEST-000001
-2021/08/02-20:20:00.992 a5e Recovering log #3
-2021/08/02-20:20:00.992 a5e Reusing old log /home/nick/.config/Code - OSS/Service Worker/Database/000003.log 
+2021/11/23-14:47:24.673 e1a Reusing MANIFEST /home/nick/.config/Code - OSS/Service Worker/Database/MANIFEST-000001
+2021/11/23-14:47:24.673 e1a Recovering log #3
+2021/11/23-14:47:24.674 e1a (ignoring error) /home/nick/.config/Code - OSS/Service Worker/Database/000003.log: dropping 100 bytes; Corruption: missing start of fragmented record(2)
+2021/11/23-14:47:24.674 e1a Reusing old log /home/nick/.config/Code - OSS/Service Worker/Database/000003.log 

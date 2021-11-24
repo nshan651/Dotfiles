@@ -1,0 +1,6 @@
+2021/11/24-10:00:34.420 11fa Reusing MANIFEST /home/nick/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2021/11/24-10:00:34.421 11fa Recovering log #25
+2021/11/24-10:00:34.421 11fa Reusing old log /home/nick/.config/discord/Local Storage/leveldb/000025.log 
+2021/11/24-10:01:35.147 1208 Level-0 table #29: started
+2021/11/24-10:01:35.158 1208 Level-0 table #29: 104216 bytes OK
+2021/11/24-10:01:35.163 1208 Delete type=0 #25

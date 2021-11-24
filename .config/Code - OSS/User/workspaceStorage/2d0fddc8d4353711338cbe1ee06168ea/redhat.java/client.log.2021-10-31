@@ -1,0 +1,1138 @@
+{
+  message: 'Starting Java server with: /usr/lib/jvm/default/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -jar /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/nick/.config/Code - OSS/User/globalStorage/redhat.java/1.0.0/config_ss_linux -data /home/nick/.config/Code - OSS/User/workspaceStorage/2d0fddc8d4353711338cbe1ee06168ea/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2021-10-31 18:41:41.848'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/default/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -jar /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/nick/.config/Code - OSS/User/globalStorage/redhat.java/1.0.0/config_linux -data /home/nick/.config/Code - OSS/User/workspaceStorage/2d0fddc8d4353711338cbe1ee06168ea/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2021-10-31 18:41:41.892'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector, jdk.incubator.foreign\n',
+  level: 'info',
+  timestamp: '2021-10-31 18:41:42.015'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.foreign, jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2021-10-31 18:41:42.020'
+}
+{
+  message: '[Error - 6:41:47 PM] Oct 31, 2021, 6:41:47 PM An internal error occurred during: "Publish Diagnostics".\n' +
+    'Cannot read field "projectsManager" because "org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.pluginInstance" is null\n' +
+    'java.lang.NullPointerException: Cannot read field "projectsManager" because "org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.pluginInstance" is null\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.getProjectsManager(JavaLanguageServerPlugin.java:491)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.isDefaultProject(JDTUtils.java:1163)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDiagnosticsHandler.<init>(BaseDiagnosticsHandler.java:55)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDiagnosticsHandler.<init>(SyntaxDiagnosticsHandler.java:23)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxDocumentLifeCycleHandler.createDiagnosticsHandler(SyntaxDocumentLifeCycleHandler.java:67)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:241)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:233)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:105)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2021-10-31 18:41:47.771'
+}
+{
+  message: '[Error - 6:41:48 PM] Connection to server got closed. Server will not be restarted.',
+  level: 'info',
+  timestamp: '2021-10-31 18:41:48.086'
+}
+{
+  message: '[Error - 6:57:06 PM] Oct 31, 2021, 6:57:06 PM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2021-10-31 18:57:06.779'
+}
+{
+  message: '[Error - 7:02:33 PM] Oct 31, 2021, 7:02:33 PM Offset > length: 146 > 0\n' +
+    'Offset > length: 146 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 146 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:856)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:756)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:702)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:678)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getSelectionRange(DocumentSymbolHandler.java:210)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:173)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$4(DocumentSymbolHandler.java:188)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:190)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$2(DocumentSymbolHandler.java:147)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getHierarchicalOutline(DocumentSymbolHandler.java:147)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.documentSymbol(DocumentSymbolHandler.java:80)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-10-31 19:02:33.140'
+}
+{
+  message: '[Error - 7:02:33 PM] Oct 31, 2021, 7:02:33 PM Offset > length: 151 > 0\n' +
+    'Offset > length: 151 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 151 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:857)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:756)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:702)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:678)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getSelectionRange(DocumentSymbolHandler.java:210)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:173)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$4(DocumentSymbolHandler.java:188)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:190)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$2(DocumentSymbolHandler.java:147)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getHierarchicalOutline(DocumentSymbolHandler.java:147)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.documentSymbol(DocumentSymbolHandler.java:80)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-10-31 19:02:33.146'
+}
+{
+  message: '[Error - 7:06:35 PM] Oct 31, 2021, 7:06:35 PM Offset > length: 197 > 0\n' +
+    'Offset > length: 197 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 197 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:857)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:756)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:702)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:678)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getSelectionRange(DocumentSymbolHandler.java:210)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:173)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$4(DocumentSymbolHandler.java:188)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:190)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$2(DocumentSymbolHandler.java:147)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getHierarchicalOutline(DocumentSymbolHandler.java:147)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.documentSymbol(DocumentSymbolHandler.java:80)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-10-31 19:06:35.617'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 1697, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2021-10-31 19:08:05.618'
+}
+{
+  message: '[Error - 7:08:26 PM] Oct 31, 2021, 7:08:26 PM Offset > length: 369 > 0\n' +
+    'Offset > length: 369 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 369 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:857)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:756)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:702)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getRange(DocumentSymbolHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:172)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$4(DocumentSymbolHandler.java:188)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:190)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$2(DocumentSymbolHandler.java:147)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getHierarchicalOutline(DocumentSymbolHandler.java:147)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.documentSymbol(DocumentSymbolHandler.java:80)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-10-31 19:08:26.172'
+}
+{
+  message: '[Error - 7:08:34 PM] Oct 31, 2021, 7:08:34 PM Offset > length: 166 > 0\n' +
+    'Offset > length: 166 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 166 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:857)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:756)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:702)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getRange(DocumentSymbolHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:172)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$4(DocumentSymbolHandler.java:188)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:190)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$2(DocumentSymbolHandler.java:147)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getHierarchicalOutline(DocumentSymbolHandler.java:147)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.documentSymbol(DocumentSymbolHandler.java:80)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-10-31 19:08:34.384'
+}
+{
+  message: '[Error - 7:17:59 PM] Oct 31, 2021, 7:17:59 PM BadLocationException\n' +
+    'null\n' +
+    'org.eclipse.jface.text.BadLocationException\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.lineByOffset(TreeLineTracker.java:268)\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.getLineNumberOfOffset(TreeLineTracker.java:1122)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:857)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:756)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:702)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getRange(DocumentSymbolHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:172)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$2(DocumentSymbolHandler.java:147)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getHierarchicalOutline(DocumentSymbolHandler.java:147)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.documentSymbol(DocumentSymbolHandler.java:80)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-10-31 19:17:59.695'
+}
+{
+  message: '[Error - 7:17:59 PM] Oct 31, 2021, 7:17:59 PM BadLocationException\n' +
+    'null\n' +
+    'org.eclipse.jface.text.BadLocationException\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.lineByOffset(TreeLineTracker.java:268)\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.getLineNumberOfOffset(TreeLineTracker.java:1122)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:857)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:756)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:702)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getRange(DocumentSymbolHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:172)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$4(DocumentSymbolHandler.java:188)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:190)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$2(DocumentSymbolHandler.java:147)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getHierarchicalOutline(DocumentSymbolHandler.java:147)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.documentSymbol(DocumentSymbolHandler.java:80)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-10-31 19:17:59.696'
+}
+{
+  message: '[Error - 7:18:13 PM] Oct 31, 2021, 7:18:13 PM Offset > length: 251 > 0\n' +
+    'Offset > length: 251 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 251 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:856)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:756)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:702)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getRange(DocumentSymbolHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:172)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$4(DocumentSymbolHandler.java:188)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:190)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$2(DocumentSymbolHandler.java:147)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getHierarchicalOutline(DocumentSymbolHandler.java:147)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.documentSymbol(DocumentSymbolHandler.java:80)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-10-31 19:18:13.145'
+}
+{
+  message: '[Error - 7:18:13 PM] Oct 31, 2021, 7:18:13 PM Offset > length: 309 > 0\n' +
+    'Offset > length: 309 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 309 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:857)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:756)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:702)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getRange(DocumentSymbolHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:172)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$4(DocumentSymbolHandler.java:188)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:190)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$2(DocumentSymbolHandler.java:147)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getHierarchicalOutline(DocumentSymbolHandler.java:147)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.documentSymbol(DocumentSymbolHandler.java:80)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-10-31 19:18:13.152'
+}
+{
+  message: '[Error - 7:20:09 PM] Oct 31, 2021, 7:20:09 PM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2021-10-31 19:20:09.014'
+}
+{
+  message: '[Error - 7:20:09 PM] Oct 31, 2021, 7:20:09 PM BadLocationException\n' +
+    'null\n' +
+    'org.eclipse.jface.text.BadLocationException\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineOffset(ListLineTracker.java:197)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineOffset(AbstractLineTracker.java:161)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOffset(AbstractDocument.java:877)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOffset(SynchronizableDocument.java:323)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toOffset(JsonRpcHelpers.java:85)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toOffset(JsonRpcHelpers.java:69)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.findElementsAtSelection(JDTUtils.java:971)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.findElementAtSelection(JDTUtils.java:957)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:110)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:208)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:649)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-10-31 19:20:09.033'
+}
+{
+  message: '[Error - 7:20:09 PM] Oct 31, 2021, 7:20:09 PM Failed to generate Getter and Setter source action\n' +
+    'MySinglyLinkedList {key=LMySinglyLinkedList/MySinglyLinkedList<TE;>;} [in [Working copy] MySinglyLinkedList.java [in MySinglyLinkedList [in _/midterm/MySinglyLinkedList [in Midterm_39971c55]]]] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): MySinglyLinkedList {key=LMySinglyLinkedList/MySinglyLinkedList<TE;>;} [in MySinglyLinkedList.java [in MySinglyLinkedList [in _/midterm/MySinglyLinkedList [in Midterm_39971c55]]]] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:574)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:617)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)\n' +
+    '\tat org.eclipse.jdt.internal.core.SourceType.isAnnotation(SourceType.java:733)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterSetterOperation.supportsGetterSetter(GenerateGetterSetterOperation.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.codemanipulation.GenerateGetterSetterOperation.getUnimplementedAccessors(GenerateGetterSetterOperation.java:78)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getGetterSetterAction(SourceAssistProcessor.java:290)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:145)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:208)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:649)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-10-31 19:20:09.039'
+}
+{
+  message: '[Error - 7:21:44 PM] Oct 31, 2021, 7:21:44 PM BadLocationException\n' +
+    'null\n' +
+    'org.eclipse.jface.text.BadLocationException\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.lineByOffset(TreeLineTracker.java:268)\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.getLineNumberOfOffset(TreeLineTracker.java:1122)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:857)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:756)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:702)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getRange(DocumentSymbolHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:172)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$2(DocumentSymbolHandler.java:147)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getHierarchicalOutline(DocumentSymbolHandler.java:147)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.documentSymbol(DocumentSymbolHandler.java:80)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-10-31 19:21:44.477'
+}
+{
+  message: '[Error - 7:21:44 PM] Oct 31, 2021, 7:21:44 PM BadLocationException\n' +
+    'null\n' +
+    'org.eclipse.jface.text.BadLocationException\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.lineByOffset(TreeLineTracker.java:268)\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.getLineNumberOfOffset(TreeLineTracker.java:1122)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:857)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:756)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:702)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getRange(DocumentSymbolHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:172)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$4(DocumentSymbolHandler.java:188)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:190)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$2(DocumentSymbolHandler.java:147)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getHierarchicalOutline(DocumentSymbolHandler.java:147)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.documentSymbol(DocumentSymbolHandler.java:80)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-10-31 19:21:44.481'
+}
+{
+  message: '[Error - 7:23:11 PM] Oct 31, 2021, 7:23:11 PM BadLocationException\n' +
+    'null\n' +
+    'org.eclipse.jface.text.BadLocationException\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.lineByOffset(TreeLineTracker.java:268)\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.getLineNumberOfOffset(TreeLineTracker.java:1122)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:857)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:756)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:702)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getRange(DocumentSymbolHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:172)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$2(DocumentSymbolHandler.java:147)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getHierarchicalOutline(DocumentSymbolHandler.java:147)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.documentSymbol(DocumentSymbolHandler.java:80)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-10-31 19:23:11.062'
+}
+{
+  message: '[Error - 7:23:20 PM] Oct 31, 2021, 7:23:20 PM BadLocationException\n' +
+    'null\n' +
+    'org.eclipse.jface.text.BadLocationException\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.lineByOffset(TreeLineTracker.java:268)\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.getLineNumberOfOffset(TreeLineTracker.java:1122)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:857)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:756)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:702)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getRange(DocumentSymbolHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:172)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$2(DocumentSymbolHandler.java:147)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getHierarchicalOutline(DocumentSymbolHandler.java:147)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.documentSymbol(DocumentSymbolHandler.java:80)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-10-31 19:23:20.591'
+}
+{
+  message: '[Error - 7:23:20 PM] Oct 31, 2021, 7:23:20 PM BadLocationException\n' +
+    'null\n' +
+    'org.eclipse.jface.text.BadLocationException\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.lineByOffset(TreeLineTracker.java:268)\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.getLineNumberOfOffset(TreeLineTracker.java:1122)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:857)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:756)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:702)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getRange(DocumentSymbolHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:172)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$4(DocumentSymbolHandler.java:188)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:190)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$2(DocumentSymbolHandler.java:147)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getHierarchicalOutline(DocumentSymbolHandler.java:147)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.documentSymbol(DocumentSymbolHandler.java:80)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-10-31 19:23:20.595'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 3333, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2021-10-31 19:23:25.990'
+}
+{
+  message: '[Error - 7:26:24 PM] Oct 31, 2021, 7:26:24 PM Offset > length: 245 > 0\n' +
+    'Offset > length: 245 > 0\n' +
+    'org.eclipse.jface.text.BadLocationException: Offset > length: 245 > 0\n' +
+    '\tat org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:857)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:756)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:702)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getRange(DocumentSymbolHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:172)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$4(DocumentSymbolHandler.java:188)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:190)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$2(DocumentSymbolHandler.java:147)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getHierarchicalOutline(DocumentSymbolHandler.java:147)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.documentSymbol(DocumentSymbolHandler.java:80)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-10-31 19:26:24.278'
+}
+{
+  message: '[Error - 7:33:38 PM] Oct 31, 2021, 7:33:38 PM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2021-10-31 19:33:38.551'
+}
+{
+  message: '[Error - 7:34:26 PM] Oct 31, 2021, 7:34:26 PM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2021-10-31 19:34:26.498'
+}
+{
+  message: '[Error - 7:34:39 PM] Oct 31, 2021, 7:34:39 PM BadLocationException\n' +
+    'null\n' +
+    'org.eclipse.jface.text.BadLocationException\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.lineByOffset(TreeLineTracker.java:268)\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.getLineNumberOfOffset(TreeLineTracker.java:1122)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:857)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:756)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:702)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getRange(DocumentSymbolHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:172)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$2(DocumentSymbolHandler.java:147)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getHierarchicalOutline(DocumentSymbolHandler.java:147)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.documentSymbol(DocumentSymbolHandler.java:80)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-10-31 19:34:39.281'
+}
+{
+  message: '[Error - 7:34:39 PM] Oct 31, 2021, 7:34:39 PM BadLocationException\n' +
+    'null\n' +
+    'org.eclipse.jface.text.BadLocationException\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.lineByOffset(TreeLineTracker.java:268)\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.getLineNumberOfOffset(TreeLineTracker.java:1122)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:857)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:756)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:702)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getRange(DocumentSymbolHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:172)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$4(DocumentSymbolHandler.java:188)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:190)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$2(DocumentSymbolHandler.java:147)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getHierarchicalOutline(DocumentSymbolHandler.java:147)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.documentSymbol(DocumentSymbolHandler.java:80)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-10-31 19:34:39.285'
+}
+{
+  message: '[Error - 7:43:41 PM] Oct 31, 2021, 7:43:41 PM BadLocationException\n' +
+    'null\n' +
+    'org.eclipse.jface.text.BadLocationException\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.lineByOffset(TreeLineTracker.java:268)\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.getLineNumberOfOffset(TreeLineTracker.java:1122)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:857)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:756)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:702)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getRange(DocumentSymbolHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:172)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$2(DocumentSymbolHandler.java:147)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getHierarchicalOutline(DocumentSymbolHandler.java:147)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.documentSymbol(DocumentSymbolHandler.java:80)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-10-31 19:43:41.505'
+}
+{
+  message: '[Error - 7:43:41 PM] Oct 31, 2021, 7:43:41 PM BadLocationException\n' +
+    'null\n' +
+    'org.eclipse.jface.text.BadLocationException\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.lineByOffset(TreeLineTracker.java:268)\n' +
+    '\tat org.eclipse.jface.text.TreeLineTracker.getLineNumberOfOffset(TreeLineTracker.java:1122)\n' +
+    '\tat org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)\n' +
+    '\tat org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)\n' +
+    '\tat org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:857)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:756)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:702)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getRange(DocumentSymbolHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:172)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$4(DocumentSymbolHandler.java:188)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:190)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$2(DocumentSymbolHandler.java:147)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)\n' +
+    '\tat java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)\n' +
+    '\tat java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)\n' +
+    '\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n' +
+    '\tat java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getHierarchicalOutline(DocumentSymbolHandler.java:147)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.documentSymbol(DocumentSymbolHandler.java:80)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:636)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-10-31 19:43:41.508'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 5679, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2021-10-31 19:43:45.186'
+}
+{
+  message: '[Error - 7:47:33 PM] Oct 31, 2021, 7:47:33 PM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2021-10-31 19:47:33.482'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 6101, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2021-10-31 19:47:34.810'
+}
+{
+  message: '[Error - 7:52:06 PM] Oct 31, 2021, 7:52:06 PM _/midterm/Midterm_Makeup/MySinglyLinkedList [in Midterm_39971c55] does not exist\n' +
+    '_/midterm/Midterm_Makeup/MySinglyLinkedList [in Midterm_39971c55] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): _/midterm/Midterm_Makeup/MySinglyLinkedList [in Midterm_39971c55] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:574)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:761)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:426)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:349)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:980)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceEventsHandler.didChangeWatchedFiles(WorkspaceEventsHandler.java:100)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.didChangeWatchedFiles(JDTLanguageServer.java:497)\n' +
+    '\tat jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)\n' +
+    '\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$0(ParentProcessWatcher.java:123)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:833)\n',
+  level: 'info',
+  timestamp: '2021-10-31 19:52:06.944'
+}
+{
+  message: '[Error - 7:52:19 PM] Oct 31, 2021, 7:52:19 PM Error while handling document save. URI: file:///home/nick/github_repos/Midterm/midterm/Midterm_Makeup/MySinglyLinkedList/MySinglyLinkedList.java\n' +
+    '_/midterm/Midterm_Makeup/MySinglyLinkedList [in Midterm_39971c55] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): _/midterm/Midterm_Makeup/MySinglyLinkedList [in Midterm_39971c55] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:574)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:761)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:426)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:349)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:980)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleSaved(BaseDocumentLifeCycleHandler.java:478)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$7.run(BaseDocumentLifeCycleHandler.java:324)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didSave(BaseDocumentLifeCycleHandler.java:321)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.didSave(JDTLanguageServer.java:795)\n' +
+    '\tat jdk.internal.reflect.GeneratedMethodAccessor18.invoke(Unknown Source)\n' +
+    '\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$0(ParentProcessWatcher.java:123)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:833)\n',
+  level: 'info',
+  timestamp: '2021-10-31 19:52:19.650'
+}
+{
+  message: '[Error - 7:52:19 PM] Oct 31, 2021, 7:52:19 PM Error while handling document save. URI: file:///home/nick/github_repos/Midterm/midterm/Midterm_Makeup/MySinglyLinkedList/MySinglyLinkedList.java\n' +
+    '_/midterm/Midterm_Makeup/MySinglyLinkedList [in Midterm_39971c55] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): _/midterm/Midterm_Makeup/MySinglyLinkedList [in Midterm_39971c55] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:574)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:761)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:426)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:349)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:980)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleSaved(BaseDocumentLifeCycleHandler.java:478)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$7.run(BaseDocumentLifeCycleHandler.java:324)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didSave(BaseDocumentLifeCycleHandler.java:321)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.didSave(JDTLanguageServer.java:795)\n' +
+    '\tat jdk.internal.reflect.GeneratedMethodAccessor18.invoke(Unknown Source)\n' +
+    '\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$0(ParentProcessWatcher.java:123)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:833)\n',
+  level: 'info',
+  timestamp: '2021-10-31 19:52:19.710'
+}
+{
+  message: '[Error - 7:52:20 PM] Oct 31, 2021, 7:52:20 PM _/midterm/Midterm_Makeup/MySinglyLinkedList [in Midterm_39971c55] does not exist\n' +
+    '_/midterm/Midterm_Makeup/MySinglyLinkedList [in Midterm_39971c55] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): _/midterm/Midterm_Makeup/MySinglyLinkedList [in Midterm_39971c55] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:574)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:761)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:426)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:349)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:980)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceEventsHandler.didChangeWatchedFiles(WorkspaceEventsHandler.java:100)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.didChangeWatchedFiles(JDTLanguageServer.java:497)\n' +
+    '\tat jdk.internal.reflect.GeneratedMethodAccessor19.invoke(Unknown Source)\n' +
+    '\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$0(ParentProcessWatcher.java:123)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:833)\n',
+  level: 'info',
+  timestamp: '2021-10-31 19:52:20.002'
+}
+{
+  message: '[Error - 7:52:28 PM] Oct 31, 2021, 7:52:28 PM Error while handling document save. URI: file:///home/nick/github_repos/Midterm/midterm/Midterm_Makeup/MySinglyLinkedList/MySinglyLinkedList.java\n' +
+    '_/midterm/Midterm_Makeup/MySinglyLinkedList [in Midterm_39971c55] does not exist\n' +
+    'Java Model Exception: Error in Java Model (code 969): _/midterm/Midterm_Makeup/MySinglyLinkedList [in Midterm_39971c55] does not exist\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:574)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragmentRoot.getUnderlyingResource(PackageFragmentRoot.java:761)\n' +
+    '\tat org.eclipse.jdt.internal.core.PackageFragment.getUnderlyingResource(PackageFragment.java:426)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getUnderlyingResource(Openable.java:349)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getUnderlyingResource(CompilationUnit.java:980)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.handleSaved(BaseDocumentLifeCycleHandler.java:478)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$7.run(BaseDocumentLifeCycleHandler.java:324)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)\n' +
+    '\tat org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2338)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.didSave(BaseDocumentLifeCycleHandler.java:321)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.didSave(JDTLanguageServer.java:795)\n' +
+    '\tat jdk.internal.reflect.GeneratedMethodAccessor18.invoke(Unknown Source)\n' +
+    '\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n' +
+    '\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.ParentProcessWatcher.lambda$0(ParentProcessWatcher.java:123)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)\n' +
+    '\tat org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)\n' +
+    '\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:833)\n',
+  level: 'info',
+  timestamp: '2021-10-31 19:52:28.648'
+}

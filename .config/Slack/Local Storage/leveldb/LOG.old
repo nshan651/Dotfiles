@@ -1,0 +1,27 @@
+2021/11/17-09:28:05.824 5c98 Reusing MANIFEST /home/nick/.config/Slack/Local Storage/leveldb/MANIFEST-000001
+2021/11/17-09:28:05.827 5c98 Recovering log #154
+2021/11/17-09:28:05.828 5c98 Reusing old log /home/nick/.config/Slack/Local Storage/leveldb/000154.log 
+2021/11/17-09:30:06.126 5c98 Level-0 table #158: started
+2021/11/17-09:30:06.137 5c98 Level-0 table #158: 14080 bytes OK
+2021/11/17-09:30:06.141 5c98 Delete type=0 #154
+2021/11/17-09:33:06.128 5ea6 Level-0 table #160: started
+2021/11/17-09:33:06.140 5ea6 Level-0 table #160: 12085 bytes OK
+2021/11/17-09:33:06.145 5ea6 Delete type=0 #157
+2021/11/17-09:33:06.146 5ea6 Compacting 4@0 + 1@1 files
+2021/11/17-09:33:06.152 5ea6 Generated table #161@0: 30 keys, 7614 bytes
+2021/11/17-09:33:06.152 5ea6 Compacted 4@0 + 1@1 files => 7614 bytes
+2021/11/17-09:33:06.157 5ea6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/11/17-09:33:06.158 5ea6 Delete type=2 #158
+2021/11/17-09:33:06.158 5ea6 Delete type=2 #151
+2021/11/17-09:33:06.158 5ea6 Delete type=2 #155
+2021/11/17-09:33:06.158 5ea6 Delete type=2 #160
+2021/11/17-09:33:06.158 5ea6 Delete type=2 #153
+2021/11/17-09:59:06.127 7040 Level-0 table #163: started
+2021/11/17-09:59:06.139 7040 Level-0 table #163: 12671 bytes OK
+2021/11/17-09:59:06.144 7040 Delete type=0 #159
+2021/11/17-10:02:06.131 7056 Level-0 table #165: started
+2021/11/17-10:02:06.144 7056 Level-0 table #165: 13441 bytes OK
+2021/11/17-10:02:06.149 7056 Delete type=0 #162
+2021/11/17-12:03:06.137 7d39 Level-0 table #167: started
+2021/11/17-12:03:06.150 7d39 Level-0 table #167: 11268 bytes OK
+2021/11/17-12:03:06.155 7d39 Delete type=0 #164

@@ -1,0 +1,992 @@
+Validating found git in: git
+Using git 2.34.0 from git
+> git rev-parse --git-dir
+Open repository: /home/nick/github_repos/Course-Archive
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/MST.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/MST.java
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :comp272/pset9/MyLinkedList.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/MyLinkedList.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/MST.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/MST.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/MyLinkedList.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/MyLinkedList.java
+> git show --textconv :comp272/pset9/MST.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/MST.java
+> git show --textconv :comp272/pset9/Node.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/Node.java
+> git show --textconv :comp272/pset9/MST.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/MST.java
+> git show --textconv :comp272/pset9/MyLinkedList.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/MyLinkedList.java
+> git show --textconv :comp272/pset9/MST.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/MST.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/MyLinkedList.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/MyLinkedList.java
+> git show --textconv :comp272/pset9/MST.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/MST.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/MyLinkedList.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/MyLinkedList.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/MST.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/MST.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/ConnectedComponent.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/ConnectedComponent.java
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/ConnectedComponents.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/ConnectedComponents.java
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/MST.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/MST.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/ConnectedComponents.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/ConnectedComponents.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/MST.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/MST.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/ConnectedComponents.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/ConnectedComponents.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/MST.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/MST.java
+> git show --textconv :comp272/pset9/ConnectedComponents.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/ConnectedComponents.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/MST.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/MST.java
+> git show --textconv :comp272/pset9/ConnectedComponents.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/ConnectedComponents.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/MST.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/MST.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/ConnectedComponents.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/ConnectedComponents.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/MST.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/MST.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/ConnectedComponents.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/ConnectedComponents.java
+> git show --textconv :comp272/pset9/MST.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/MST.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/Main.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/Main.java
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/ConnectedComponents.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/ConnectedComponents.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/ConnectedComponents.java
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git cat-file -s 03638ca38def4d49eca6f71b17717d09bd8e7ce1
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/ConnectedComponents.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/WeightedEdge.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/WeightedEdge.java
+> git cat-file -s af1b8eb9b1e260a318c6a471be1c4bc67e958994
+> git show --textconv :comp272/pset9/ConnectedComponents.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/ConnectedComponents.java
+> git cat-file -s 03638ca38def4d49eca6f71b17717d09bd8e7ce1
+> git show --textconv :comp272/pset9/Main.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/Main.java
+> git cat-file -s 74d7c6bf25780caeda26a7e9e6fcb2f5450909bb
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/nick/github_repos/Course-Archive/comp272/pset9/Main.java
+> git show --textconv :comp272/pset9/MyLinkedList.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/MyLinkedList.java
+> git cat-file -s 91f1acd0088fc90d81e2a781052397b7d41af2a4
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/Node.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/Node.java
+> git cat-file -s 996683dbcfe240531eded53a073d6153a6b23765
+> git show --textconv :comp272/pset9/MyLinkedList.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/MyLinkedList.java
+> git cat-file -s 91f1acd0088fc90d81e2a781052397b7d41af2a4
+> git show --textconv :comp272/pset9/Main.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/Main.java
+> git cat-file -s 74d7c6bf25780caeda26a7e9e6fcb2f5450909bb
+> git show --textconv :comp272/pset9/ConnectedComponents.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/ConnectedComponents.java
+> git cat-file -s 03638ca38def4d49eca6f71b17717d09bd8e7ce1
+> git show --textconv :comp272/pset9/WeightedEdge.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/WeightedEdge.java
+> git cat-file -s af1b8eb9b1e260a318c6a471be1c4bc67e958994
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/ConnectedComponents.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/ConnectedComponents.java
+> git cat-file -s 03638ca38def4d49eca6f71b17717d09bd8e7ce1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/Main.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/Main.java
+> git cat-file -s 74d7c6bf25780caeda26a7e9e6fcb2f5450909bb
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/ConnectedComponents.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/ConnectedComponents.java
+> git cat-file -s 03638ca38def4d49eca6f71b17717d09bd8e7ce1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/Main.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/Main.java
+> git cat-file -s 74d7c6bf25780caeda26a7e9e6fcb2f5450909bb
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/ConnectedComponents.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/ConnectedComponents.java
+> git cat-file -s 03638ca38def4d49eca6f71b17717d09bd8e7ce1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/Main.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/Main.java
+> git cat-file -s 74d7c6bf25780caeda26a7e9e6fcb2f5450909bb
+> git show --textconv :comp272/pset9/ConnectedComponents.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/ConnectedComponents.java
+> git cat-file -s 03638ca38def4d49eca6f71b17717d09bd8e7ce1
+> git show --textconv :comp272/pset9/Main.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/Main.java
+> git cat-file -s 74d7c6bf25780caeda26a7e9e6fcb2f5450909bb
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/WeightedEdge.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/WeightedEdge.java
+> git cat-file -s af1b8eb9b1e260a318c6a471be1c4bc67e958994
+> git show --textconv :comp272/pset9/Main.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/Main.java
+> git cat-file -s 74d7c6bf25780caeda26a7e9e6fcb2f5450909bb
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/ConnectedComponents.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/ConnectedComponents.java
+> git cat-file -s 03638ca38def4d49eca6f71b17717d09bd8e7ce1
+> git show --textconv :comp272/pset9/Main.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/Main.java
+> git cat-file -s 74d7c6bf25780caeda26a7e9e6fcb2f5450909bb
+> git show --textconv :comp272/pset9/ConnectedComponents.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/ConnectedComponents.java
+> git cat-file -s 03638ca38def4d49eca6f71b17717d09bd8e7ce1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/Main.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/Main.java
+> git cat-file -s 74d7c6bf25780caeda26a7e9e6fcb2f5450909bb
+> git show --textconv :comp272/pset9/ConnectedComponents.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/ConnectedComponents.java
+> git cat-file -s 03638ca38def4d49eca6f71b17717d09bd8e7ce1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/Main.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/Main.java
+> git cat-file -s 74d7c6bf25780caeda26a7e9e6fcb2f5450909bb
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/ConnectedComponents.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/ConnectedComponents.java
+> git cat-file -s 03638ca38def4d49eca6f71b17717d09bd8e7ce1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/Main.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/Main.java
+> git cat-file -s 74d7c6bf25780caeda26a7e9e6fcb2f5450909bb
+> git show --textconv :comp272/pset9/ConnectedComponents.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/ConnectedComponents.java
+> git cat-file -s 03638ca38def4d49eca6f71b17717d09bd8e7ce1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/Main.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/Main.java
+> git cat-file -s 74d7c6bf25780caeda26a7e9e6fcb2f5450909bb
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/ConnectedComponents.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/ConnectedComponents.java
+> git cat-file -s 03638ca38def4d49eca6f71b17717d09bd8e7ce1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/Main.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/Main.java
+> git cat-file -s 74d7c6bf25780caeda26a7e9e6fcb2f5450909bb
+> git show --textconv :comp272/pset9/Node.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/Node.java
+> git cat-file -s 996683dbcfe240531eded53a073d6153a6b23765
+> git show --textconv :comp272/pset9/Main.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/Main.java
+> git cat-file -s 74d7c6bf25780caeda26a7e9e6fcb2f5450909bb
+> git show --textconv :comp272/pset9/MyLinkedList.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/MyLinkedList.java
+> git cat-file -s 91f1acd0088fc90d81e2a781052397b7d41af2a4
+> git show --textconv :comp272/pset9/Main.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/Main.java
+> git cat-file -s 74d7c6bf25780caeda26a7e9e6fcb2f5450909bb
+> git show --textconv :comp272/pset9/ConnectedComponents.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/ConnectedComponents.java
+> git cat-file -s 03638ca38def4d49eca6f71b17717d09bd8e7ce1
+> git show --textconv :comp272/pset9/Main.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/Main.java
+> git cat-file -s 74d7c6bf25780caeda26a7e9e6fcb2f5450909bb
+> git show --textconv :comp272/pset9/MyLinkedList.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/MyLinkedList.java
+> git cat-file -s 91f1acd0088fc90d81e2a781052397b7d41af2a4
+> git show --textconv :comp272/pset9/Main.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/Main.java
+> git cat-file -s 74d7c6bf25780caeda26a7e9e6fcb2f5450909bb
+> git show --textconv :comp272/pset9/ConnectedComponents.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/ConnectedComponents.java
+> git cat-file -s 03638ca38def4d49eca6f71b17717d09bd8e7ce1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/MyLinkedList.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/MyLinkedList.java
+> git cat-file -s 91f1acd0088fc90d81e2a781052397b7d41af2a4
+> git show --textconv :comp272/pset9/Main.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/Main.java
+> git cat-file -s 74d7c6bf25780caeda26a7e9e6fcb2f5450909bb
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/MyLinkedList.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/MyLinkedList.java
+> git cat-file -s 91f1acd0088fc90d81e2a781052397b7d41af2a4
+> git show --textconv :comp272/pset9/Main.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/Main.java
+> git cat-file -s 74d7c6bf25780caeda26a7e9e6fcb2f5450909bb
+> git show --textconv :comp272/pset9/ConnectedComponents.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/ConnectedComponents.java
+> git cat-file -s 03638ca38def4d49eca6f71b17717d09bd8e7ce1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/Main.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/Main.java
+> git cat-file -s 74d7c6bf25780caeda26a7e9e6fcb2f5450909bb
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/ConnectedComponents.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/ConnectedComponents.java
+> git cat-file -s 03638ca38def4d49eca6f71b17717d09bd8e7ce1
+> git show --textconv :comp272/pset9/Node.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/Node.java
+> git cat-file -s 996683dbcfe240531eded53a073d6153a6b23765
+> git show --textconv :comp272/pset9/ConnectedComponents.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/ConnectedComponents.java
+> git cat-file -s 03638ca38def4d49eca6f71b17717d09bd8e7ce1
+> git show --textconv :comp272/pset9/Node.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/Node.java
+> git cat-file -s 996683dbcfe240531eded53a073d6153a6b23765
+> git show --textconv :comp272/pset9/ConnectedComponents.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/ConnectedComponents.java
+> git cat-file -s 03638ca38def4d49eca6f71b17717d09bd8e7ce1
+> git show --textconv :comp272/pset9/Node.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/Node.java
+> git cat-file -s 996683dbcfe240531eded53a073d6153a6b23765
+> git show --textconv :comp272/pset9/ConnectedComponents.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/ConnectedComponents.java
+> git cat-file -s 03638ca38def4d49eca6f71b17717d09bd8e7ce1
+> git show --textconv :comp272/pset9/Node.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/Node.java
+> git cat-file -s 996683dbcfe240531eded53a073d6153a6b23765
+> git show --textconv :comp272/pset9/ConnectedComponents.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/ConnectedComponents.java
+> git cat-file -s 03638ca38def4d49eca6f71b17717d09bd8e7ce1
+> git show --textconv :comp272/pset9/Node.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/Node.java
+> git cat-file -s 996683dbcfe240531eded53a073d6153a6b23765
+> git show --textconv :comp272/pset9/ConnectedComponents.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/ConnectedComponents.java
+> git cat-file -s 03638ca38def4d49eca6f71b17717d09bd8e7ce1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :comp272/pset9/Node.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/Node.java
+> git cat-file -s 996683dbcfe240531eded53a073d6153a6b23765
+> git show --textconv :comp272/pset9/ConnectedComponents.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/ConnectedComponents.java
+> git cat-file -s 03638ca38def4d49eca6f71b17717d09bd8e7ce1
+> git show --textconv :comp272/pset9/Node.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/Node.java
+> git cat-file -s 996683dbcfe240531eded53a073d6153a6b23765
+> git show --textconv :comp272/pset9/Main.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/Main.java
+> git cat-file -s 74d7c6bf25780caeda26a7e9e6fcb2f5450909bb
+> git show --textconv :comp272/pset9/ConnectedComponents.java
+> git ls-files --stage -- /home/nick/github_repos/Course-Archive/comp272/pset9/ConnectedComponents.java
+> git cat-file -s 03638ca38def4d49eca6f71b17717d09bd8e7ce1
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template

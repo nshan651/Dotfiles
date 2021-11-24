@@ -1,0 +1,201 @@
+[2021-11-23 13:57:01.028] [renderer1] [info] Starting extension host with pid 4134.
+[2021-11-23 13:57:01.028] [renderer1] [info] [LocalProcessExtensionHost]: IExtensionHostStarter.start() took 19 ms.
+[2021-11-23 13:57:01.672] [renderer1] [error] [Extension Host] (node:4134) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `electron --trace-deprecation ...` to show where the warning was created)
+[2021-11-23 13:57:06.633] [renderer1] [error] The request (id: 1, method: 'textDocument/hover') has been cancelled: Error: The request (id: 1, method: 'textDocument/hover') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 13:57:13.749] [renderer1] [error] The request (id: 21, method: 'textDocument/hover') has been cancelled: Error: The request (id: 21, method: 'textDocument/hover') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 13:57:32.856] [renderer1] [error] The request (id: 67, method: 'textDocument/hover') has been cancelled: Error: The request (id: 67, method: 'textDocument/hover') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 13:57:35.795] [renderer1] [error] The request (id: 71, method: 'textDocument/documentSymbol') has been cancelled: Error: The request (id: 71, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 13:57:56.554] [renderer1] [error] The request (id: 139, method: 'textDocument/hover') has been cancelled: Error: The request (id: 139, method: 'textDocument/hover') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 13:58:01.075] [renderer1] [error] The request (id: 142, method: 'textDocument/hover') has been cancelled: Error: The request (id: 142, method: 'textDocument/hover') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 13:58:11.857] [renderer1] [error] The request (id: 172, method: 'textDocument/hover') has been cancelled: Error: The request (id: 172, method: 'textDocument/hover') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 13:58:12.395] [renderer1] [error] The request (id: 173, method: 'textDocument/hover') has been cancelled: Error: The request (id: 173, method: 'textDocument/hover') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 13:59:17.612] [renderer1] [error] The request (id: 364, method: 'textDocument/documentSymbol') has been cancelled: Error: The request (id: 364, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 14:00:35.686] [renderer1] [error] The request (id: 498, method: 'textDocument/documentSymbol') has been cancelled: Error: The request (id: 498, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 14:02:10.494] [renderer1] [error] The request (id: 799, method: 'textDocument/hover') has been cancelled: Error: The request (id: 799, method: 'textDocument/hover') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 14:02:36.434] [renderer1] [error] The request (id: 882, method: 'textDocument/documentSymbol') has been cancelled: Error: The request (id: 882, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 14:03:06.689] [renderer1] [error] selectionRange must be contained in fullRange: Error: selectionRange must be contained in fullRange
+	at Function.validate (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:30564)
+	at new n (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:30432)
+	at new n (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:17223)
+	at $ (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:800105)
+	at $ (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:800280)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:805451)
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:624152
+	at Generator.next (<anonymous>)
+	at s (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:623246)
+[2021-11-23 14:03:23.601] [renderer1] [error] The request (id: 983, method: 'textDocument/documentSymbol') has been cancelled: Error: The request (id: 983, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 14:04:34.135] [renderer1] [error] The request (id: 1196, method: 'textDocument/documentSymbol') has been cancelled: Error: The request (id: 1196, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 14:04:41.562] [renderer1] [error] The request (id: 1214, method: 'textDocument/documentSymbol') has been cancelled: Error: The request (id: 1214, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 14:05:26.433] [renderer1] [error] selectionRange must be contained in fullRange: Error: selectionRange must be contained in fullRange
+	at Function.validate (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:30564)
+	at new n (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:30432)
+	at new n (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:17223)
+	at $ (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:800105)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:805451)
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:624152
+	at Generator.next (<anonymous>)
+	at s (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:623246)
+[2021-11-23 14:05:48.778] [renderer1] [error] The request (id: 1306, method: 'textDocument/hover') has been cancelled: Error: The request (id: 1306, method: 'textDocument/hover') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 14:05:51.058] [renderer1] [error] The request (id: 1312, method: 'textDocument/documentSymbol') has been cancelled: Error: The request (id: 1312, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 14:08:07.871] [renderer1] [error] The request (id: 1423, method: 'textDocument/hover') has been cancelled: Error: The request (id: 1423, method: 'textDocument/hover') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 14:08:56.909] [renderer1] [error] The request (id: 1688, method: 'textDocument/hover') has been cancelled: Error: The request (id: 1688, method: 'textDocument/hover') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 14:09:42.710] [renderer1] [error] selectionRange must be contained in fullRange: Error: selectionRange must be contained in fullRange
+	at Function.validate (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:30564)
+	at new n (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:30432)
+	at new n (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:17223)
+	at $ (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:800105)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:805451)
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:624152
+	at Generator.next (<anonymous>)
+	at s (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:623246)
+[2021-11-23 14:12:03.490] [renderer1] [error] The request (id: 2494, method: 'textDocument/documentSymbol') has been cancelled: Error: The request (id: 2494, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 14:12:24.715] [renderer1] [error] The request (id: 2557, method: 'textDocument/hover') has been cancelled: Error: The request (id: 2557, method: 'textDocument/hover') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 14:14:49.441] [renderer1] [error] The request (id: 2610, method: 'textDocument/hover') has been cancelled: Error: The request (id: 2610, method: 'textDocument/hover') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 14:14:58.166] [renderer1] [error] selectionRange must be contained in fullRange: Error: selectionRange must be contained in fullRange
+	at Function.validate (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:30564)
+	at new n (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:30432)
+	at new n (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:17223)
+	at $ (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:800105)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:805451)
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:624152
+	at Generator.next (<anonymous>)
+	at s (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:623246)
+[2021-11-23 14:15:02.914] [renderer1] [error] The request (id: 2666, method: 'textDocument/documentSymbol') has been cancelled: Error: The request (id: 2666, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 14:15:27.032] [renderer1] [error] The request (id: 2688, method: 'textDocument/hover') has been cancelled: Error: The request (id: 2688, method: 'textDocument/hover') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 14:15:37.178] [renderer1] [error] selectionRange must be contained in fullRange: Error: selectionRange must be contained in fullRange
+	at Function.validate (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:30564)
+	at new n (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:30432)
+	at new n (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:17223)
+	at $ (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:800105)
+	at $ (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:800280)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:805451)
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:624152
+	at Generator.next (<anonymous>)
+	at s (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:623246)
+[2021-11-23 14:15:38.177] [renderer1] [error] The request (id: 2749, method: 'textDocument/hover') has been cancelled: Error: The request (id: 2749, method: 'textDocument/hover') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 14:15:51.487] [renderer1] [error] selectionRange must be contained in fullRange: Error: selectionRange must be contained in fullRange
+	at Function.validate (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:30564)
+	at new n (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:30432)
+	at new n (/usr/lib/code/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:17223)
+	at $ (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:800105)
+	at Array.map (<anonymous>)
+	at Object.asDocumentSymbols (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:805451)
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:624152
+	at Generator.next (<anonymous>)
+	at s (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:623246)
+[2021-11-23 14:16:10.517] [renderer1] [error] The request (id: 2815, method: 'textDocument/hover') has been cancelled: Error: The request (id: 2815, method: 'textDocument/hover') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)
+[2021-11-23 14:16:53.083] [renderer1] [error] The request (id: 2956, method: 'textDocument/documentSymbol') has been cancelled: Error: The request (id: 2956, method: 'textDocument/documentSymbol') has been cancelled
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:894993
+	at /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895287
+	at Immediate.<anonymous> (/home/nick/.vscode-oss/extensions/redhat.java-1.0.0/dist/extension.js:2:895652)
+	at processImmediate (internal/timers.js:461:21)

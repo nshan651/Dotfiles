@@ -1,0 +1,123 @@
+!SESSION 2021-10-18 11:56:13.257 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=16.0.2
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/acf101e4c87dad8bdc9becfe68ac8cc1/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:15.073
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:15.221
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:15.257
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:15.258
+!MESSAGE Initializing Java Language Server 1.4.0.202109161717
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:15.335
+!MESSAGE Setting java.home /usr/lib/jvm/default as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:15.359
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:15.374
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:15.412
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:15.458
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:16.108
+!MESSAGE Workspace initialized in 736ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:16.192
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:16.213
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:16.215
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:16.218
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:16.224
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:16.234
+!MESSAGE Creating the Java project midterm_ffa9bce3
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:16.260
+!MESSAGE Finished creating the Java project midterm_ffa9bce3
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:16.637
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:16.638
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:16.706
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:16.714
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:16.718
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:16.719
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:16.739
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:17.145
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:17.388
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:17.692
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:18.185
+!MESSAGE begin problem for /MyLinkedList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:18.187
+!MESSAGE This method must return a result of type MyLinkedList<E> is of type ShouldReturnValue
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:18.187
+!MESSAGE This method must return a result of type MyLinkedList<E> is of type ShouldReturnValue
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:18.188
+!MESSAGE This method must return a result of type MyLinkedList<E> is of type ShouldReturnValue
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:18.188
+!MESSAGE 3 problems reported for /MyLinkedList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:18.193
+!MESSAGE Validated 1. Took 645 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:18.382
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:18.543
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:18.897
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:18.899
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:18.943
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 11:56:18.962
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

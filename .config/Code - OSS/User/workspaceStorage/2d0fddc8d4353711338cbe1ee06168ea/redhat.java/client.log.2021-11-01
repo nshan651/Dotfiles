@@ -1,0 +1,1521 @@
+{
+  message: 'Starting Java server with: /usr/lib/jvm/default/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -jar /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/nick/.config/Code - OSS/User/globalStorage/redhat.java/1.0.0/config_ss_linux -data /home/nick/.config/Code - OSS/User/workspaceStorage/2d0fddc8d4353711338cbe1ee06168ea/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2021-11-01 10:18:57.841'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/default/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -jar /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/nick/.config/Code - OSS/User/globalStorage/redhat.java/1.0.0/config_linux -data /home/nick/.config/Code - OSS/User/workspaceStorage/2d0fddc8d4353711338cbe1ee06168ea/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2021-11-01 10:18:57.912'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector, jdk.incubator.foreign\n',
+  level: 'info',
+  timestamp: '2021-11-01 10:18:58.001'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.vector, jdk.incubator.foreign\n',
+  level: 'info',
+  timestamp: '2021-11-01 10:18:58.010'
+}
+{
+  message: '[Error - 10:19:01 AM] Nov 1, 2021, 10:19:01 AM Problem with folding range for /Midterm_39971c55/_/midterm/Midterm_Makeup/Midterm_Makeup/Fibonacci.java\n' +
+    "_/midterm/Midterm_Makeup/Midterm_Makeup [in Midterm_39971c55] is not on its project's build path\n" +
+    "Java Model Exception: Error in Java Model (code 1006): _/midterm/Midterm_Makeup/Midterm_Makeup [in Midterm_39971c55] is not on its project's build path\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:584)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:254)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.openAncestors(CompilationUnit.java:1240)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getSourceRange(CompilationUnit.java:955)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.FoldingRangeHandler.computeFoldingRanges(FoldingRangeHandler.java:79)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.FoldingRangeHandler.foldingRange(FoldingRangeHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.lambda$5(SyntaxLanguageServer.java:328)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-01 10:19:01.427'
+}
+{
+  message: '[Error - 10:19:01 AM] Nov 1, 2021, 10:19:01 AM Problem with folding range for /Midterm_39971c55/_/midterm/Midterm_Makeup/Midterm_Makeup/Fibonacci.java\n' +
+    "_/midterm/Midterm_Makeup/Midterm_Makeup [in Midterm_39971c55] is not on its project's build path\n" +
+    "Java Model Exception: Error in Java Model (code 1006): _/midterm/Midterm_Makeup/Midterm_Makeup [in Midterm_39971c55] is not on its project's build path\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:584)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:254)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.openAncestors(CompilationUnit.java:1240)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getSourceRange(CompilationUnit.java:955)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.FoldingRangeHandler.computeFoldingRanges(FoldingRangeHandler.java:79)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.FoldingRangeHandler.foldingRange(FoldingRangeHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.lambda$5(SyntaxLanguageServer.java:328)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-01 10:19:01.975'
+}
+{
+  message: '[Error - 10:19:02 AM] Connection to server got closed. Server will not be restarted.',
+  level: 'info',
+  timestamp: '2021-11-01 10:19:02.958'
+}
+{
+  message: '[Error - 10:21:06 AM] Nov 1, 2021, 10:21:06 AM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2021-11-01 10:21:06.143'
+}
+{
+  message: '[Error - 10:21:07 AM] Nov 1, 2021, 10:21:07 AM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2021-11-01 10:21:07.214'
+}
+{
+  message: '[Error - 10:21:09 AM] Nov 1, 2021, 10:21:09 AM Exception occurred during compilation unit conversion:\n' +
+    '----------------------------------- SOURCE BEGIN -------------------------------------\n' +
+    'package Midterm_Makeup;\n' +
+    'import java.math.BigInteger;\n' +
+    'import java.util.*;\n' +
+    '\n' +
+    'public class Fibonacci {\n' +
+    '    \n' +
+    '    public static void main(String[] args) {\n' +
+    '        BigInteger fib = new BigInteger("12");\n' +
+    '        //System.out.println(recurseFib(fib));\n' +
+    '        //System.out.println(iterFib(fib));\n' +
+    '        ifFibonacci(fib);\n' +
+    '    }\n' +
+    '\n' +
+    '    /** Check if Big Integer is a fibonacci number\n' +
+    '     * Fib number if and only if 5x^2+4 or 5x^2-4 is\n' +
+    '     * */\n' +
+    '    public static boolean ifFibonacci(BigInteger bi) {\n' +
+    '        if (bi.signum() < 0) \n' +
+    '            return false;\n' +
+    '\n' +
+    '        BigInteger f1 = bi, f2 =bi;\n' +
+    '        Fib number if and only if 5x^2+4 or 5x^2-4\n' +
+    '        f1 = f1.pow(2).multiply(BigInteger.valueOf(5)).add(BigInteger.valueOf(4));\n' +
+    '        f2 = f2.pow(2).multiply(BigInteger.valueOf(5)).subtract(BigInteger.valueOf(4));\n' +
+    '        \n' +
+    '        \n' +
+    '\n' +
+    '        //System.out.println(case1.toString() + " " + case2.toString());\n' +
+    '\n' +
+    '\n' +
+    '        return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    /** Iterative method */\n' +
+    '    public static BigInteger iterFib(BigInteger n) {\n' +
+    '        // Check if n is positive\n' +
+    '        if (n.signum() < 0) \n' +
+    '            throw new IllegalArgumentException("BigInteger cannot be negative");\n' +
+    '        \n' +
+    '        // Set first two numbers\n' +
+    '        BigInteger n1 =BigInteger.valueOf(0), n2 =BigInteger.valueOf(1);\n' +
+    '        \n' +
+    '        // Loop through n\n' +
+    '        for (int i =0; i < n.intValue(); i++) {\n' +
+    '            // Save temp val of the sum of first two nums\n' +
+    '            BigInteger n3 = n1.add(n2);\n' +
+    '            n1 = n2;\n' +
+    '            n2 = n3;\n' +
+    '        }\n' +
+    '        return n1;\n' +
+    '    }\n' +
+    '\n' +
+    '    /** Recursive method */\n' +
+    '    public static BigInteger recurseFib(BigInteger n) {\n' +
+    '        // Check if n is positive\n' +
+    '        if (n.signum() < 0) \n' +
+    '            throw new IllegalArgumentException("BigInteger cannot be negative");\n' +
+    '        \n' +
+    '        // Return if n is zero or one\n' +
+    '        if ( (n.equals(BigInteger.valueOf(0))) || \n' +
+    '        n.equals(BigInteger.valueOf(1)))\n' +
+    '            return n;\n' +
+    '        // Otherwise, recurse through\n' +
+    '        else\n' +
+    '            return recurseFib(n.subtract(BigInteger.valueOf(1))).add(recurseFib(n.subtract(BigInteger.valueOf(2))));\n' +
+    '    }\n' +
+    '\n' +
+    '}\n' +
+    '\n' +
+    '----------------------------------- SOURCE END -------------------------------------\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.SemanticTokensHandler.full(SemanticTokensHandler.java:46)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$52(JDTLanguageServer.java:1010)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-01 10:21:09.486'
+}
+{
+  message: '[Error - 10:21:09 AM] Nov 1, 2021, 10:21:09 AM Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.SemanticTokensHandler.full(SemanticTokensHandler.java:46)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$52(JDTLanguageServer.java:1010)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-01 10:21:09.488'
+}
+{
+  message: '[Error - 10:21:09 AM] Nov 1, 2021, 10:21:09 AM Error in JDT Core during AST creation\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.SemanticTokensHandler.full(SemanticTokensHandler.java:46)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$52(JDTLanguageServer.java:1010)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-01 10:21:09.490'
+}
+{
+  message: '[Error - 10:21:09 AM] Nov 1, 2021, 10:21:09 AM Exception occurred during compilation unit conversion:\n' +
+    '----------------------------------- SOURCE BEGIN -------------------------------------\n' +
+    'package Midterm_Makeup;\n' +
+    'import java.math.BigInteger;\n' +
+    'import java.util.*;\n' +
+    '\n' +
+    'public class Fibonacci {\n' +
+    '    \n' +
+    '    public static void main(String[] args) {\n' +
+    '        BigInteger fib = new BigInteger("12");\n' +
+    '        //System.out.println(recurseFib(fib));\n' +
+    '        //System.out.println(iterFib(fib));\n' +
+    '        ifFibonacci(fib);\n' +
+    '    }\n' +
+    '\n' +
+    '    /** Check if Big Integer is a fibonacci number\n' +
+    '     * Fib number if and only if 5x^2+4 or 5x^2-4 is\n' +
+    '     * */\n' +
+    '    public static boolean ifFibonacci(BigInteger bi) {\n' +
+    '        if (bi.signum() < 0) \n' +
+    '            return false;\n' +
+    '\n' +
+    '        BigInteger f1 = bi, f2 =bi;\n' +
+    '        Fib number if and only if 5x^2+4 or 5x^2-4\n' +
+    '        f1 = f1.pow(2).multiply(BigInteger.valueOf(5)).add(BigInteger.valueOf(4));\n' +
+    '        f2 = f2.pow(2).multiply(BigInteger.valueOf(5)).subtract(BigInteger.valueOf(4));\n' +
+    '        \n' +
+    '        \n' +
+    '\n' +
+    '        //System.out.println(case1.toString() + " " + case2.toString());\n' +
+    '\n' +
+    '\n' +
+    '        return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    /** Iterative method */\n' +
+    '    public static BigInteger iterFib(BigInteger n) {\n' +
+    '        // Check if n is positive\n' +
+    '        if (n.signum() < 0) \n' +
+    '            throw new IllegalArgumentException("BigInteger cannot be negative");\n' +
+    '        \n' +
+    '        // Set first two numbers\n' +
+    '        BigInteger n1 =BigInteger.valueOf(0), n2 =BigInteger.valueOf(1);\n' +
+    '        \n' +
+    '        // Loop through n\n' +
+    '        for (int i =0; i < n.intValue(); i++) {\n' +
+    '            // Save temp val of the sum of first two nums\n' +
+    '            BigInteger n3 = n1.add(n2);\n' +
+    '            n1 = n2;\n' +
+    '            n2 = n3;\n' +
+    '        }\n' +
+    '        return n1;\n' +
+    '    }\n' +
+    '\n' +
+    '    /** Recursive method */\n' +
+    '    public static BigInteger recurseFib(BigInteger n) {\n' +
+    '        // Check if n is positive\n' +
+    '        if (n.signum() < 0) \n' +
+    '            throw new IllegalArgumentException("BigInteger cannot be negative");\n' +
+    '        \n' +
+    '        // Return if n is zero or one\n' +
+    '        if ( (n.equals(BigInteger.valueOf(0))) || \n' +
+    '        n.equals(BigInteger.valueOf(1)))\n' +
+    '            return n;\n' +
+    '        // Otherwise, recurse through\n' +
+    '        else\n' +
+    '            return recurseFib(n.subtract(BigInteger.valueOf(1))).add(recurseFib(n.subtract(BigInteger.valueOf(2))));\n' +
+    '    }\n' +
+    '\n' +
+    '}\n' +
+    '\n' +
+    '----------------------------------- SOURCE END -------------------------------------\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getASTRoot(CodeActionHandler.java:321)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:122)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:649)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-01 10:21:09.512'
+}
+{
+  message: '[Error - 10:21:09 AM] Nov 1, 2021, 10:21:09 AM Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getASTRoot(CodeActionHandler.java:321)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:122)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:649)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-01 10:21:09.515'
+}
+{
+  message: '[Error - 10:21:09 AM] Nov 1, 2021, 10:21:09 AM Error in JDT Core during AST creation\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getASTRoot(CodeActionHandler.java:321)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:122)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:649)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-01 10:21:09.516'
+}
+{
+  message: '[Error - 10:21:09 AM] Nov 1, 2021, 10:21:09 AM Exception occurred during compilation unit conversion:\n' +
+    '----------------------------------- SOURCE BEGIN -------------------------------------\n' +
+    'package Midterm_Makeup;\n' +
+    'import java.math.BigInteger;\n' +
+    'import java.util.*;\n' +
+    '\n' +
+    'public class Fibonacci {\n' +
+    '    \n' +
+    '    public static void main(String[] args) {\n' +
+    '        BigInteger fib = new BigInteger("12");\n' +
+    '        //System.out.println(recurseFib(fib));\n' +
+    '        //System.out.println(iterFib(fib));\n' +
+    '        ifFibonacci(fib);\n' +
+    '    }\n' +
+    '\n' +
+    '    /** Check if Big Integer is a fibonacci number\n' +
+    '     * Fib number if and only if 5x^2+4 or 5x^2-4 is\n' +
+    '     * */\n' +
+    '    public static boolean ifFibonacci(BigInteger bi) {\n' +
+    '        if (bi.signum() < 0) \n' +
+    '            return false;\n' +
+    '\n' +
+    '        BigInteger f1 = bi, f2 =bi;\n' +
+    '        Fib number if and only if 5x^2+4 or 5x^2-4\n' +
+    '        f1 = f1.pow(2).multiply(BigInteger.valueOf(5)).add(BigInteger.valueOf(4));\n' +
+    '        f2 = f2.pow(2).multiply(BigInteger.valueOf(5)).subtract(BigInteger.valueOf(4));\n' +
+    '        \n' +
+    '        \n' +
+    '\n' +
+    '        //System.out.println(case1.toString() + " " + case2.toString());\n' +
+    '\n' +
+    '\n' +
+    '        return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    /** Iterative method */\n' +
+    '    public static BigInteger iterFib(BigInteger n) {\n' +
+    '        // Check if n is positive\n' +
+    '        if (n.signum() < 0) \n' +
+    '            throw new IllegalArgumentException("BigInteger cannot be negative");\n' +
+    '        \n' +
+    '        // Set first two numbers\n' +
+    '        BigInteger n1 =BigInteger.valueOf(0), n2 =BigInteger.valueOf(1);\n' +
+    '        \n' +
+    '        // Loop through n\n' +
+    '        for (int i =0; i < n.intValue(); i++) {\n' +
+    '            // Save temp val of the sum of first two nums\n' +
+    '            BigInteger n3 = n1.add(n2);\n' +
+    '            n1 = n2;\n' +
+    '            n2 = n3;\n' +
+    '        }\n' +
+    '        return n1;\n' +
+    '    }\n' +
+    '\n' +
+    '    /** Recursive method */\n' +
+    '    public static BigInteger recurseFib(BigInteger n) {\n' +
+    '        // Check if n is positive\n' +
+    '        if (n.signum() < 0) \n' +
+    '            throw new IllegalArgumentException("BigInteger cannot be negative");\n' +
+    '        \n' +
+    '        // Return if n is zero or one\n' +
+    '        if ( (n.equals(BigInteger.valueOf(0))) || \n' +
+    '        n.equals(BigInteger.valueOf(1)))\n' +
+    '            return n;\n' +
+    '        // Otherwise, recurse through\n' +
+    '        else\n' +
+    '            return recurseFib(n.subtract(BigInteger.valueOf(1))).add(recurseFib(n.subtract(BigInteger.valueOf(2))));\n' +
+    '    }\n' +
+    '\n' +
+    '}\n' +
+    '\n' +
+    '----------------------------------- SOURCE END -------------------------------------\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)\n' +
+    '\tat com.microsoft.java.test.plugin.util.TestSearchUtils.parseToAst(TestSearchUtils.java:566)\n' +
+    '\tat com.microsoft.java.test.plugin.util.TestSearchUtils.findTestTypesAndMethods(TestSearchUtils.java:319)\n' +
+    '\tat com.microsoft.java.test.plugin.handler.TestDelegateCommandHandler.executeCommand(TestDelegateCommandHandler.java:58)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:507)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-01 10:21:09.548'
+}
+{
+  message: '[Error - 10:21:09 AM] Nov 1, 2021, 10:21:09 AM Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)\n' +
+    '\tat com.microsoft.java.test.plugin.util.TestSearchUtils.parseToAst(TestSearchUtils.java:566)\n' +
+    '\tat com.microsoft.java.test.plugin.util.TestSearchUtils.findTestTypesAndMethods(TestSearchUtils.java:319)\n' +
+    '\tat com.microsoft.java.test.plugin.handler.TestDelegateCommandHandler.executeCommand(TestDelegateCommandHandler.java:58)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:507)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-01 10:21:09.550'
+}
+{
+  message: '[Error - 10:21:09 AM] Nov 1, 2021, 10:21:09 AM Error in JDT Core during AST creation\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:187)\n' +
+    '\tat com.microsoft.java.test.plugin.util.TestSearchUtils.parseToAst(TestSearchUtils.java:566)\n' +
+    '\tat com.microsoft.java.test.plugin.util.TestSearchUtils.findTestTypesAndMethods(TestSearchUtils.java:319)\n' +
+    '\tat com.microsoft.java.test.plugin.handler.TestDelegateCommandHandler.executeCommand(TestDelegateCommandHandler.java:58)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:507)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-01 10:21:09.551'
+}
+{
+  message: '[Error - 10:21:09 AM] Nov 1, 2021, 10:21:09 AM Exception occurred during compilation unit conversion:\n' +
+    '----------------------------------- SOURCE BEGIN -------------------------------------\n' +
+    'package Midterm_Makeup;\n' +
+    'import java.math.BigInteger;\n' +
+    'import java.util.*;\n' +
+    '\n' +
+    'public class Fibonacci {\n' +
+    '    \n' +
+    '    public static void main(String[] args) {\n' +
+    '        BigInteger fib = new BigInteger("12");\n' +
+    '        //System.out.println(recurseFib(fib));\n' +
+    '        //System.out.println(iterFib(fib));\n' +
+    '        ifFibonacci(fib);\n' +
+    '    }\n' +
+    '\n' +
+    '    /** Check if Big Integer is a fibonacci number\n' +
+    '     * Fib number if and only if 5x^2+4 or 5x^2-4 is\n' +
+    '     * */\n' +
+    '    public static boolean ifFibonacci(BigInteger bi) {\n' +
+    '        if (bi.signum() < 0) \n' +
+    '            return false;\n' +
+    '\n' +
+    '        BigInteger f1 = bi, f2 =bi;\n' +
+    '        Fib number if and only if 5x^2+4 or 5x^2-4\n' +
+    '        f1 = f1.pow(2).multiply(BigInteger.valueOf(5)).add(BigInteger.valueOf(4));\n' +
+    '        f2 = f2.pow(2).multiply(BigInteger.valueOf(5)).subtract(BigInteger.valueOf(4));\n' +
+    '        \n' +
+    '        \n' +
+    '\n' +
+    '        //System.out.println(case1.toString() + " " + case2.toString());\n' +
+    '\n' +
+    '\n' +
+    '        return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    /** Iterative method */\n' +
+    '    public static BigInteger iterFib(BigInteger n) {\n' +
+    '        // Check if n is positive\n' +
+    '        if (n.signum() < 0) \n' +
+    '            throw new IllegalArgumentException("BigInteger cannot be negative");\n' +
+    '        \n' +
+    '        // Set first two numbers\n' +
+    '        BigInteger n1 =BigInteger.valueOf(0), n2 =BigInteger.valueOf(1);\n' +
+    '        \n' +
+    '        // Loop through n\n' +
+    '        for (int i =0; i < n.intValue(); i++) {\n' +
+    '            // Save temp val of the sum of first two nums\n' +
+    '            BigInteger n3 = n1.add(n2);\n' +
+    '            n1 = n2;\n' +
+    '            n2 = n3;\n' +
+    '        }\n' +
+    '        return n1;\n' +
+    '    }\n' +
+    '\n' +
+    '    /** Recursive method */\n' +
+    '    public static BigInteger recurseFib(BigInteger n) {\n' +
+    '        // Check if n is positive\n' +
+    '        if (n.signum() < 0) \n' +
+    '            throw new IllegalArgumentException("BigInteger cannot be negative");\n' +
+    '        \n' +
+    '        // Return if n is zero or one\n' +
+    '        if ( (n.equals(BigInteger.valueOf(0))) || \n' +
+    '        n.equals(BigInteger.valueOf(1)))\n' +
+    '            return n;\n' +
+    '        // Otherwise, recurse through\n' +
+    '        else\n' +
+    '            return recurseFib(n.subtract(BigInteger.valueOf(1))).add(recurseFib(n.subtract(BigInteger.valueOf(2))));\n' +
+    '    }\n' +
+    '\n' +
+    '}\n' +
+    '\n' +
+    '----------------------------------- SOURCE END -------------------------------------\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:226)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:105)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2021-11-01 10:21:09.916'
+}
+{
+  message: '[Error - 10:21:09 AM] Nov 1, 2021, 10:21:09 AM Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:226)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:105)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2021-11-01 10:21:09.917'
+}
+{
+  message: '[Error - 10:21:09 AM] Nov 1, 2021, 10:21:09 AM Error in JDT Core during AST creation\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler.publishDiagnostics(BaseDocumentLifeCycleHandler.java:226)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.BaseDocumentLifeCycleHandler$2.runInWorkspace(BaseDocumentLifeCycleHandler.java:105)\n' +
+    '\tat org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)\n' +
+    '\tat org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)\n',
+  level: 'info',
+  timestamp: '2021-11-01 10:21:09.918'
+}
+{
+  message: '[Error - 10:21:10 AM] Nov 1, 2021, 10:21:10 AM Exception occurred during compilation unit conversion:\n' +
+    '----------------------------------- SOURCE BEGIN -------------------------------------\n' +
+    'package Midterm_Makeup;\n' +
+    'import java.math.BigInteger;\n' +
+    'import java.util.*;\n' +
+    '\n' +
+    'public class Fibonacci {\n' +
+    '    \n' +
+    '    public static void main(String[] args) {\n' +
+    '        BigInteger fib = new BigInteger("12");\n' +
+    '        //System.out.println(recurseFib(fib));\n' +
+    '        //System.out.println(iterFib(fib));\n' +
+    '        ifFibonacci(fib);\n' +
+    '    }\n' +
+    '\n' +
+    '    /** Check if Big Integer is a fibonacci number\n' +
+    '     * Fib number if and only if 5x^2+4 or 5x^2-4 is\n' +
+    '     * */\n' +
+    '    public static boolean ifFibonacci(BigInteger bi) {\n' +
+    '        if (bi.signum() < 0) \n' +
+    '            return false;\n' +
+    '\n' +
+    '        BigInteger f1 = bi, f2 =bi;\n' +
+    '        Fib number if and only if 5x^2+4 or 5x^2-4\n' +
+    '        f1 = f1.pow(2).multiply(BigInteger.valueOf(5)).add(BigInteger.valueOf(4));\n' +
+    '        f2 = f2.pow(2).multiply(BigInteger.valueOf(5)).subtract(BigInteger.valueOf(4));\n' +
+    '        \n' +
+    '        \n' +
+    '\n' +
+    '        //System.out.println(case1.toString() + " " + case2.toString());\n' +
+    '\n' +
+    '\n' +
+    '        return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    /** Iterative method */\n' +
+    '    public static BigInteger iterFib(BigInteger n) {\n' +
+    '        // Check if n is positive\n' +
+    '        if (n.signum() < 0) \n' +
+    '            throw new IllegalArgumentException("BigInteger cannot be negative");\n' +
+    '        \n' +
+    '        // Set first two numbers\n' +
+    '        BigInteger n1 =BigInteger.valueOf(0), n2 =BigInteger.valueOf(1);\n' +
+    '        \n' +
+    '        // Loop through n\n' +
+    '        for (int i =0; i < n.intValue(); i++) {\n' +
+    '            // Save temp val of the sum of first two nums\n' +
+    '            BigInteger n3 = n1.add(n2);\n' +
+    '            n1 = n2;\n' +
+    '            n2 = n3;\n' +
+    '        }\n' +
+    '        return n1;\n' +
+    '    }\n' +
+    '\n' +
+    '    /** Recursive method */\n' +
+    '    public static BigInteger recurseFib(BigInteger n) {\n' +
+    '        // Check if n is positive\n' +
+    '        if (n.signum() < 0) \n' +
+    '            throw new IllegalArgumentException("BigInteger cannot be negative");\n' +
+    '        \n' +
+    '        // Return if n is zero or one\n' +
+    '        if ( (n.equals(BigInteger.valueOf(0))) || \n' +
+    '        n.equals(BigInteger.valueOf(1)))\n' +
+    '            return n;\n' +
+    '        // Otherwise, recurse through\n' +
+    '        else\n' +
+    '            return recurseFib(n.subtract(BigInteger.valueOf(1))).add(recurseFib(n.subtract(BigInteger.valueOf(2))));\n' +
+    '    }\n' +
+    '\n' +
+    '}\n' +
+    '\n' +
+    '----------------------------------- SOURCE END -------------------------------------\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat com.microsoft.java.test.plugin.util.TestSearchUtils.parseToAst(TestSearchUtils.java:566)\n' +
+    '\tat com.microsoft.java.test.plugin.util.TestSearchUtils.findTestTypesAndMethods(TestSearchUtils.java:319)\n' +
+    '\tat com.microsoft.java.test.plugin.handler.TestDelegateCommandHandler.executeCommand(TestDelegateCommandHandler.java:58)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:507)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-01 10:21:10.047'
+}
+{
+  message: '[Error - 10:21:10 AM] Nov 1, 2021, 10:21:10 AM Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat com.microsoft.java.test.plugin.util.TestSearchUtils.parseToAst(TestSearchUtils.java:566)\n' +
+    '\tat com.microsoft.java.test.plugin.util.TestSearchUtils.findTestTypesAndMethods(TestSearchUtils.java:319)\n' +
+    '\tat com.microsoft.java.test.plugin.handler.TestDelegateCommandHandler.executeCommand(TestDelegateCommandHandler.java:58)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:507)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-01 10:21:10.049'
+}
+{
+  message: '[Error - 10:21:10 AM] Nov 1, 2021, 10:21:10 AM Error in JDT Core during AST creation\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat com.microsoft.java.test.plugin.util.TestSearchUtils.parseToAst(TestSearchUtils.java:566)\n' +
+    '\tat com.microsoft.java.test.plugin.util.TestSearchUtils.findTestTypesAndMethods(TestSearchUtils.java:319)\n' +
+    '\tat com.microsoft.java.test.plugin.handler.TestDelegateCommandHandler.executeCommand(TestDelegateCommandHandler.java:58)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler$1.run(WorkspaceExecuteCommandHandler.java:215)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.WorkspaceExecuteCommandHandler.executeCommand(WorkspaceExecuteCommandHandler.java:205)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$4(JDTLanguageServer.java:507)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-01 10:21:10.050'
+}
+{
+  message: '[Error - 10:21:10 AM] Nov 1, 2021, 10:21:10 AM Exception occurred during compilation unit conversion:\n' +
+    '----------------------------------- SOURCE BEGIN -------------------------------------\n' +
+    'package Midterm_Makeup;\n' +
+    'import java.math.BigInteger;\n' +
+    'import java.util.*;\n' +
+    '\n' +
+    'public class Fibonacci {\n' +
+    '    \n' +
+    '    public static void main(String[] args) {\n' +
+    '        BigInteger fib = new BigInteger("12");\n' +
+    '        //System.out.println(recurseFib(fib));\n' +
+    '        //System.out.println(iterFib(fib));\n' +
+    '        ifFibonacci(fib);\n' +
+    '    }\n' +
+    '\n' +
+    '    /** Check if Big Integer is a fibonacci number\n' +
+    '     * Fib number if and only if 5x^2+4 or 5x^2-4 is\n' +
+    '     * */\n' +
+    '    public static boolean ifFibonacci(BigInteger bi) {\n' +
+    '        if (bi.signum() < 0) \n' +
+    '            return false;\n' +
+    '\n' +
+    '        BigInteger f1 = bi, f2 =bi;\n' +
+    '        Fib number if and only if 5x^2+4 or 5x^2-4\n' +
+    '        f1 = f1.pow(2).multiply(BigInteger.valueOf(5)).add(BigInteger.valueOf(4));\n' +
+    '        f2 = f2.pow(2).multiply(BigInteger.valueOf(5)).subtract(BigInteger.valueOf(4));\n' +
+    '        \n' +
+    '        \n' +
+    '\n' +
+    '        //System.out.println(case1.toString() + " " + case2.toString());\n' +
+    '\n' +
+    '\n' +
+    '        return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    /** Iterative method */\n' +
+    '    public static BigInteger iterFib(BigInteger n) {\n' +
+    '        // Check if n is positive\n' +
+    '        if (n.signum() < 0) \n' +
+    '            throw new IllegalArgumentException("BigInteger cannot be negative");\n' +
+    '        \n' +
+    '        // Set first two numbers\n' +
+    '        BigInteger n1 =BigInteger.valueOf(0), n2 =BigInteger.valueOf(1);\n' +
+    '        \n' +
+    '        // Loop through n\n' +
+    '        for (int i =0; i < n.intValue(); i++) {\n' +
+    '            // Save temp val of the sum of first two nums\n' +
+    '            BigInteger n3 = n1.add(n2);\n' +
+    '            n1 = n2;\n' +
+    '            n2 = n3;\n' +
+    '        }\n' +
+    '        return n1;\n' +
+    '    }\n' +
+    '\n' +
+    '    /** Recursive method */\n' +
+    '    public static BigInteger recurseFib(BigInteger n) {\n' +
+    '        // Check if n is positive\n' +
+    '        if (n.signum() < 0) \n' +
+    '            throw new IllegalArgumentException("BigInteger cannot be negative");\n' +
+    '        \n' +
+    '        // Return if n is zero or one\n' +
+    '        if ( (n.equals(BigInteger.valueOf(0))) || \n' +
+    '        n.equals(BigInteger.valueOf(1)))\n' +
+    '            return n;\n' +
+    '        // Otherwise, recurse through\n' +
+    '        else\n' +
+    '            return recurseFib(n.subtract(BigInteger.valueOf(1))).add(recurseFib(n.subtract(BigInteger.valueOf(2))));\n' +
+    '    }\n' +
+    '\n' +
+    '}\n' +
+    '\n' +
+    '----------------------------------- SOURCE END -------------------------------------\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getASTRoot(CodeActionHandler.java:321)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:122)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:649)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-01 10:21:10.115'
+}
+{
+  message: '[Error - 10:21:10 AM] Nov 1, 2021, 10:21:10 AM Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getASTRoot(CodeActionHandler.java:321)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:122)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:649)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-01 10:21:10.117'
+}
+{
+  message: '[Error - 10:21:10 AM] Nov 1, 2021, 10:21:10 AM Error in JDT Core during AST creation\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getASTRoot(CodeActionHandler.java:321)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:122)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:649)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-01 10:21:10.118'
+}
+{
+  message: '[Error - 10:21:10 AM] Nov 1, 2021, 10:21:10 AM Exception occurred during compilation unit conversion:\n' +
+    '----------------------------------- SOURCE BEGIN -------------------------------------\n' +
+    'package Midterm_Makeup;\n' +
+    'import java.math.BigInteger;\n' +
+    'import java.util.*;\n' +
+    '\n' +
+    'public class Fibonacci {\n' +
+    '    \n' +
+    '    public static void main(String[] args) {\n' +
+    '        BigInteger fib = new BigInteger("12");\n' +
+    '        //System.out.println(recurseFib(fib));\n' +
+    '        //System.out.println(iterFib(fib));\n' +
+    '        ifFibonacci(fib);\n' +
+    '    }\n' +
+    '\n' +
+    '    /** Check if Big Integer is a fibonacci number\n' +
+    '     * Fib number if and only if 5x^2+4 or 5x^2-4 is\n' +
+    '     * */\n' +
+    '    public static boolean ifFibonacci(BigInteger bi) {\n' +
+    '        if (bi.signum() < 0) \n' +
+    '            return false;\n' +
+    '\n' +
+    '        BigInteger f1 = bi, f2 =bi;\n' +
+    '        Fib number if and only if 5x^2+4 or 5x^2-4\n' +
+    '        f1 = f1.pow(2).multiply(BigInteger.valueOf(5)).add(BigInteger.valueOf(4));\n' +
+    '        f2 = f2.pow(2).multiply(BigInteger.valueOf(5)).subtract(BigInteger.valueOf(4));\n' +
+    '        \n' +
+    '        \n' +
+    '\n' +
+    '        //System.out.println(case1.toString() + " " + case2.toString());\n' +
+    '\n' +
+    '\n' +
+    '        return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    /** Iterative method */\n' +
+    '    public static BigInteger iterFib(BigInteger n) {\n' +
+    '        // Check if n is positive\n' +
+    '        if (n.signum() < 0) \n' +
+    '            throw new IllegalArgumentException("BigInteger cannot be negative");\n' +
+    '        \n' +
+    '        // Set first two numbers\n' +
+    '        BigInteger n1 =BigInteger.valueOf(0), n2 =BigInteger.valueOf(1);\n' +
+    '        \n' +
+    '        // Loop through n\n' +
+    '        for (int i =0; i < n.intValue(); i++) {\n' +
+    '            // Save temp val of the sum of first two nums\n' +
+    '            BigInteger n3 = n1.add(n2);\n' +
+    '            n1 = n2;\n' +
+    '            n2 = n3;\n' +
+    '        }\n' +
+    '        return n1;\n' +
+    '    }\n' +
+    '\n' +
+    '    /** Recursive method */\n' +
+    '    public static BigInteger recurseFib(BigInteger n) {\n' +
+    '        // Check if n is positive\n' +
+    '        if (n.signum() < 0) \n' +
+    '            throw new IllegalArgumentException("BigInteger cannot be negative");\n' +
+    '        \n' +
+    '        // Return if n is zero or one\n' +
+    '        if ( (n.equals(BigInteger.valueOf(0))) || \n' +
+    '        n.equals(BigInteger.valueOf(1)))\n' +
+    '            return n;\n' +
+    '        // Otherwise, recurse through\n' +
+    '        else\n' +
+    '            return recurseFib(n.subtract(BigInteger.valueOf(1))).add(recurseFib(n.subtract(BigInteger.valueOf(2))));\n' +
+    '    }\n' +
+    '\n' +
+    '}\n' +
+    '\n' +
+    '----------------------------------- SOURCE END -------------------------------------\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getASTRoot(CodeActionHandler.java:321)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:122)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:649)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-01 10:21:10.632'
+}
+{
+  message: '[Error - 10:21:10 AM] Nov 1, 2021, 10:21:10 AM Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getASTRoot(CodeActionHandler.java:321)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:122)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:649)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-01 10:21:10.633'
+}
+{
+  message: '[Error - 10:21:10 AM] Nov 1, 2021, 10:21:10 AM Error in JDT Core during AST creation\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getASTRoot(CodeActionHandler.java:321)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:122)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$15(JDTLanguageServer.java:649)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-01 10:21:10.634'
+}
+{
+  message: '[Error - 10:21:10 AM] Nov 1, 2021, 10:21:10 AM Exception occurred during compilation unit conversion:\n' +
+    '----------------------------------- SOURCE BEGIN -------------------------------------\n' +
+    'package Midterm_Makeup;\n' +
+    'import java.math.BigInteger;\n' +
+    'import java.util.*;\n' +
+    '\n' +
+    'public class Fibonacci {\n' +
+    '    \n' +
+    '    public static void main(String[] args) {\n' +
+    '        BigInteger fib = new BigInteger("12");\n' +
+    '        //System.out.println(recurseFib(fib));\n' +
+    '        //System.out.println(iterFib(fib));\n' +
+    '        ifFibonacci(fib);\n' +
+    '    }\n' +
+    '\n' +
+    '    /** Check if Big Integer is a fibonacci number\n' +
+    '     * Fib number if and only if 5x^2+4 or 5x^2-4 is\n' +
+    '     * */\n' +
+    '    public static boolean ifFibonacci(BigInteger bi) {\n' +
+    '        if (bi.signum() < 0) \n' +
+    '            return false;\n' +
+    '\n' +
+    '        BigInteger f1 = bi, f2 =bi;\n' +
+    '        Fib number if and only if 5x^2+4 or 5x^2-4\n' +
+    '        f1 = f1.pow(2).multiply(BigInteger.valueOf(5)).add(BigInteger.valueOf(4));\n' +
+    '        f2 = f2.pow(2).multiply(BigInteger.valueOf(5)).subtract(BigInteger.valueOf(4));\n' +
+    '        \n' +
+    '        \n' +
+    '\n' +
+    '        //System.out.println(case1.toString() + " " + case2.toString());\n' +
+    '\n' +
+    '\n' +
+    '        return false;\n' +
+    '    }\n' +
+    '\n' +
+    '    /** Iterative method */\n' +
+    '    public static BigInteger iterFib(BigInteger n) {\n' +
+    '        // Check if n is positive\n' +
+    '        if (n.signum() < 0) \n' +
+    '            throw new IllegalArgumentException("BigInteger cannot be negative");\n' +
+    '        \n' +
+    '        // Set first two numbers\n' +
+    '        BigInteger n1 =BigInteger.valueOf(0), n2 =BigInteger.valueOf(1);\n' +
+    '        \n' +
+    '        // Loop through n\n' +
+    '        for (int i =0; i < n.intValue(); i++) {\n' +
+    '            // Save temp val of the sum of first two nums\n' +
+    '            BigInteger n3 = n1.add(n2);\n' +
+    '            n1 = n2;\n' +
+    '            n2 = n3;\n' +
+    '        }\n' +
+    '        return n1;\n' +
+    '    }\n' +
+    '\n' +
+    '    /** Recursive method */\n' +
+    '    public static BigInteger recurseFib(BigInteger n) {\n' +
+    '        // Check if n is positive\n' +
+    '        if (n.signum() < 0) \n' +
+    '            throw new IllegalArgumentException("BigInteger cannot be negative");\n' +
+    '        \n' +
+    '        // Return if n is zero or one\n' +
+    '        if ( (n.equals(BigInteger.valueOf(0))) || \n' +
+    '        n.equals(BigInteger.valueOf(1)))\n' +
+    '            return n;\n' +
+    '        // Otherwise, recurse through\n' +
+    '        else\n' +
+    '            return recurseFib(n.subtract(BigInteger.valueOf(1))).add(recurseFib(n.subtract(BigInteger.valueOf(2))));\n' +
+    '    }\n' +
+    '\n' +
+    '}\n' +
+    '\n' +
+    '----------------------------------- SOURCE END -------------------------------------\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentHighlightHandler.computeOccurrences(DocumentHighlightHandler.java:43)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentHighlightHandler.documentHighlight(DocumentHighlightHandler.java:88)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$13(JDTLanguageServer.java:624)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-01 10:21:10.853'
+}
+{
+  message: '[Error - 10:21:10 AM] Nov 1, 2021, 10:21:10 AM Problems occurred when invoking code from plug-in: "org.eclipse.jdt.core.manipulation".\n' +
+    'null\n' +
+    'java.lang.IllegalArgumentException\n' +
+    '\tat org.eclipse.jdt.core.dom.InfixExpression.setOperator(InfixExpression.java:383)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1287)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:2047)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convertToParenthesizedExpression(ASTConverter.java:3853)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1953)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1204)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1990)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3095)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:751)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.buildBodyDeclarations(ASTConverter.java:208)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:3390)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTConverter.convert(ASTConverter.java:1534)\n' +
+    '\tat org.eclipse.jdt.core.dom.CompilationUnitResolver.convert(CompilationUnitResolver.java:323)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.internalCreateAST(ASTParser.java:1271)\n' +
+    '\tat org.eclipse.jdt.core.dom.ASTParser.createAST(ASTParser.java:868)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider$1.run(CoreASTProvider.java:272)\n' +
+    '\tat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.createAST(CoreASTProvider.java:264)\n' +
+    '\tat org.eclipse.jdt.core.manipulation.CoreASTProvider.getAST(CoreASTProvider.java:197)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentHighlightHandler.computeOccurrences(DocumentHighlightHandler.java:43)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.DocumentHighlightHandler.documentHighlight(DocumentHighlightHandler.java:88)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$13(JDTLanguageServer.java:624)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-11-01 10:21:10.854'
+}

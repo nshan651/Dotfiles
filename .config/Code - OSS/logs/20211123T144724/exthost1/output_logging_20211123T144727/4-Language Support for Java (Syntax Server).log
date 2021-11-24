@@ -1,0 +1,2 @@
+WARNING: Using incubator modules: jdk.incubator.vector, jdk.incubator.foreign
+[Error - 2:47:34 PM] Connection to server got closed. Server will not be restarted.

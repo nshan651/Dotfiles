@@ -1,0 +1,4088 @@
+!SESSION 2021-10-18 21:43:15.082 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 21:43:16.842
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 21:43:17.037
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 21:43:17.090
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 21:43:17.092
+!MESSAGE Initializing Java Language Server 1.4.0.202109161717
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 21:43:17.198
+!MESSAGE Setting java.home /usr/lib/jvm/default as default global VM
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 21:43:17.234
+!MESSAGE JVM Runtimes changed, saving new configuration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 21:43:17.251
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 21:43:17.288
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 21:43:17.336
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 21:43:18.178
+!MESSAGE Workspace initialized in 930ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 21:43:18.230
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 21:43:18.269
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 21:43:18.271
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 21:43:18.284
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 21:43:18.289
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 21:43:18.295
+!MESSAGE Creating the Java project Course-Archive_6d80f42f
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 21:43:18.330
+!MESSAGE Finished creating the Java project Course-Archive_6d80f42f
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 21:43:18.836
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 21:43:18.837
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 21:43:18.907
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 21:43:18.918
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 21:43:18.928
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 21:43:18.933
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 21:43:19.340
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 21:43:20.111
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 21:43:20.111
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 21:43:20.115
+!MESSAGE Validated 1. Took 325 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 21:43:20.482
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 21:43:20.485
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 21:43:20.543
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-18 21:43:20.589
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-10-19 07:14:10.271 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 07:14:12.370
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 07:14:12.543
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 07:14:12.595
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 07:14:12.597
+!MESSAGE Initializing Java Language Server 1.4.0.202109161717
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 07:14:12.672
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 07:14:13.581
+!MESSAGE Workspace initialized in 942ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 07:14:13.588
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 07:14:13.630
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 07:14:13.636
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 07:14:13.643
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 07:14:13.649
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 07:14:14.060
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 07:14:14.076
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 07:14:14.079
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 07:14:14.201
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 07:14:14.508
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 07:14:14.929
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 07:14:15.109
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 07:14:15.110
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 07:14:15.738
+!MESSAGE begin problem for /MyBigInteger.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 07:14:15.739
+!MESSAGE 0 problems reported for /MyBigInteger.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 07:14:15.743
+!MESSAGE Validated 1. Took 784 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 07:14:15.817
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 07:14:15.826
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-10-19 14:44:23.796 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 14:44:25.915
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 14:44:26.062
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 14:44:26.122
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 14:44:26.124
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 14:44:26.186
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 14:44:26.899
+!MESSAGE Workspace initialized in 750ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 14:44:27.085
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 14:44:27.100
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 14:44:27.109
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 14:44:27.112
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 14:44:27.123
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 14:44:27.532
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 14:44:27.541
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 14:44:27.544
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 14:44:27.980
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 14:44:28.528
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 14:44:28.761
+!MESSAGE begin problem for /BinarySearchTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 14:44:28.761
+!MESSAGE 0 problems reported for /BinarySearchTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 14:44:28.766
+!MESSAGE Validated 1. Took 336 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 14:44:29.741
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 14:44:29.743
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 14:44:29.795
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-19 14:44:29.808
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-10-21 15:28:23.773 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-21 15:28:25.595
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-21 15:28:25.790
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-21 15:28:25.852
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-21 15:28:25.854
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-21 15:28:25.933
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-21 15:28:26.682
+!MESSAGE Workspace initialized in 792ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-21 15:28:26.688
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-21 15:28:26.717
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-21 15:28:26.720
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-21 15:28:26.731
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-21 15:28:26.744
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-21 15:28:27.125
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-21 15:28:27.155
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-21 15:28:27.158
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-21 15:28:27.326
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-21 15:28:27.434
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-21 15:28:27.574
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-21 15:28:28.309
+!MESSAGE begin problem for /BinaryTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-21 15:28:28.310
+!MESSAGE 0 problems reported for /BinaryTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-21 15:28:28.318
+!MESSAGE Validated 1. Took 340 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-21 15:28:28.548
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-21 15:28:28.553
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-21 15:28:28.624
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-21 15:28:28.652
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-10-23 13:27:18.237 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-23 13:27:20.073
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-23 13:27:20.322
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-23 13:27:20.371
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-23 13:27:20.372
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-23 13:27:20.458
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-23 13:27:21.391
+!MESSAGE Workspace initialized in 986ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-23 13:27:21.397
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-23 13:27:21.428
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-23 13:27:21.432
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-23 13:27:21.447
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-23 13:27:21.460
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-23 13:27:21.759
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-23 13:27:21.767
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-23 13:27:21.771
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-23 13:27:21.773
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-23 13:27:22.200
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-23 13:27:22.903
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-23 13:27:22.905
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-23 13:27:22.909
+!MESSAGE Validated 1. Took 259 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-23 13:27:23.344
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-23 13:27:23.350
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-23 13:27:23.441
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-23 13:27:23.466
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-10-26 14:59:21.178 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-26 14:59:23.232
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-26 14:59:23.391
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-26 14:59:23.454
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-26 14:59:23.456
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-26 14:59:23.584
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-26 14:59:24.575
+!MESSAGE Workspace initialized in 1085ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-26 14:59:24.584
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-26 14:59:24.611
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-26 14:59:24.613
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-26 14:59:24.616
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-26 14:59:24.633
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-26 14:59:25.080
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-26 14:59:25.091
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-26 14:59:25.095
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-26 14:59:25.333
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-26 14:59:25.568
+!MESSAGE Reconciled 1. Took 42 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-26 14:59:26.309
+!MESSAGE begin problem for /BinaryTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-26 14:59:26.311
+!MESSAGE The value of the local variable bt is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-26 14:59:26.311
+!MESSAGE The value of the local variable temp is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-26 14:59:26.312
+!MESSAGE 2 problems reported for /BinaryTree.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-26 14:59:26.317
+!MESSAGE Validated 1. Took 348 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-26 14:59:26.973
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-26 14:59:26.974
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-26 14:59:27.050
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-26 14:59:27.067
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-10-27 21:05:25.096 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-27 21:05:27.157
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-27 21:05:27.360
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-27 21:05:27.442
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-27 21:05:27.444
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-27 21:05:27.546
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-27 21:05:28.572
+!MESSAGE Workspace initialized in 1093ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-27 21:05:28.577
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-27 21:05:28.608
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-27 21:05:28.612
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-27 21:05:28.617
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-27 21:05:28.653
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-27 21:05:28.661
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-27 21:05:29.091
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-27 21:05:29.092
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-27 21:05:30.899
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-27 21:05:30.906
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-27 21:05:30.958
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-27 21:05:30.977
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-10-28 11:58:33.041 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 11:58:34.935
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 11:58:35.119
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 11:58:35.182
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 11:58:35.185
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 11:58:35.245
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 11:58:36.317
+!MESSAGE Workspace initialized in 1103ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 11:58:36.323
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 11:58:36.353
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 11:58:36.361
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 11:58:36.364
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 11:58:36.370
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 11:58:36.729
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 11:58:36.738
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 11:58:36.763
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 11:58:36.823
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 11:58:37.178
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 11:58:37.827
+!MESSAGE begin problem for /WordHash.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 11:58:37.828
+!MESSAGE The value of the local variable htab is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 11:58:37.830
+!MESSAGE Resource leak: 'sc' is never closed is of type UnclosedCloseable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 11:58:37.831
+!MESSAGE The value of the local variable key is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 11:58:37.832
+!MESSAGE TODO: Calculate two metrics: is of type Task
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 11:58:37.832
+!MESSAGE 4 problems reported for /WordHash.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 11:58:37.839
+!MESSAGE Validated 1. Took 210 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 11:58:37.980
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 11:58:37.982
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 11:58:38.101
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 11:58:38.135
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-10-28 14:40:56.581 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 14:40:58.480
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 14:40:58.746
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 14:40:58.814
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 14:40:58.818
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 14:40:58.889
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 14:40:59.845
+!MESSAGE Workspace initialized in 999ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 14:40:59.856
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 14:40:59.882
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 14:40:59.886
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 14:40:59.892
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 14:40:59.905
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 14:41:00.335
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 14:41:00.341
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 14:41:00.344
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 14:41:00.734
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 14:41:01.458
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 14:41:01.459
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 14:41:01.490
+!MESSAGE begin problem for /WordHash.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 14:41:01.499
+!MESSAGE Resource leak: 'sc' is never closed is of type UnclosedCloseable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 14:41:01.501
+!MESSAGE The value of the local variable code is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 14:41:01.501
+!MESSAGE The value of the local variable key is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 14:41:01.503
+!MESSAGE TODO: Calculate two metrics: is of type Task
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 14:41:01.503
+!MESSAGE 4 problems reported for /WordHash.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 14:41:01.527
+!MESSAGE Validated 1. Took 341 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 14:41:01.604
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 14:41:01.652
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-10-28 20:49:54.123 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 20:49:56.037
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 20:49:56.205
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 20:49:56.293
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 20:49:56.295
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 20:49:56.425
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 20:49:57.482
+!MESSAGE Workspace initialized in 1124ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 20:49:57.487
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 20:49:57.506
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 20:49:57.508
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 20:49:57.518
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 20:49:57.525
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 20:49:57.892
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 20:49:57.918
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 20:49:57.921
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 20:49:58.050
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 20:49:58.341
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 20:49:59.046
+!MESSAGE begin problem for /WordHash.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 20:49:59.049
+!MESSAGE The value of the local variable bucket is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 20:49:59.070
+!MESSAGE Resource leak: 'sc' is never closed is of type UnclosedCloseable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 20:49:59.070
+!MESSAGE The value of the local variable code is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 20:49:59.071
+!MESSAGE The value of the local variable bs is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 20:49:59.072
+!MESSAGE TODO: Calculate two metrics: is of type Task
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 20:49:59.073
+!MESSAGE 5 problems reported for /WordHash.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 20:49:59.090
+!MESSAGE Validated 1. Took 297 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 20:49:59.584
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 20:49:59.586
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 20:49:59.709
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-28 20:49:59.728
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-10-29 10:38:28.992 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 10:38:30.928
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 10:38:31.088
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 10:38:31.123
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 10:38:31.124
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 10:38:31.188
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 10:38:31.739
+!MESSAGE Workspace initialized in 588ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 10:38:31.744
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 10:38:31.759
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 10:38:31.760
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 10:38:31.763
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 10:38:31.771
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 10:38:32.110
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 10:38:32.130
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 10:38:32.146
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 10:38:32.508
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 10:38:33.228
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 10:38:33.305
+!MESSAGE begin problem for /WordHash.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 10:38:33.312
+!MESSAGE The value of the local variable bucket is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 10:38:33.315
+!MESSAGE Resource leak: 'sc' is never closed is of type UnclosedCloseable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 10:38:33.315
+!MESSAGE The value of the local variable code is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 10:38:33.316
+!MESSAGE The value of the local variable bs is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 10:38:33.317
+!MESSAGE TODO: Calculate two metrics: is of type Task
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 10:38:33.317
+!MESSAGE 5 problems reported for /WordHash.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 10:38:33.337
+!MESSAGE Validated 1. Took 377 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 10:38:34.644
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 10:38:34.645
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 10:38:34.728
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 10:38:34.742
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-10-29 14:32:08.597 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 14:32:10.531
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 14:32:10.736
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 14:32:10.777
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 14:32:10.779
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 14:32:10.843
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 14:32:11.862
+!MESSAGE Workspace initialized in 1052ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 14:32:11.880
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 14:32:11.923
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 14:32:11.925
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 14:32:11.931
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 14:32:11.957
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 14:32:12.364
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 14:32:12.374
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 14:32:12.377
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 14:32:12.406
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 14:32:12.750
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 14:32:13.906
+!MESSAGE begin problem for /WordHash.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 14:32:13.909
+!MESSAGE TODO: Calculate two metrics: is of type Task
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 14:32:13.911
+!MESSAGE 1 problems reported for /WordHash.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 14:32:13.925
+!MESSAGE Validated 1. Took 773 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 14:32:14.421
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 14:32:14.422
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 14:32:14.527
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-29 14:32:14.581
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-10-30 19:33:36.819 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-30 19:33:38.918
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-30 19:33:39.057
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-30 19:33:39.099
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-30 19:33:39.101
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-30 19:33:39.147
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-30 19:33:39.690
+!MESSAGE Workspace initialized in 565ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-30 19:33:39.695
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-30 19:33:39.711
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-30 19:33:39.714
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-30 19:33:39.718
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-30 19:33:39.723
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-30 19:33:40.059
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-30 19:33:40.067
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-30 19:33:40.073
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-30 19:33:40.508
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-30 19:33:41.423
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-30 19:33:41.536
+!MESSAGE begin problem for /WordHash.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-30 19:33:41.538
+!MESSAGE TODO: Calculate two metrics: is of type Task
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-30 19:33:41.539
+!MESSAGE 1 problems reported for /WordHash.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-30 19:33:41.546
+!MESSAGE Validated 1. Took 587 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-30 19:33:42.858
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-30 19:33:42.861
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-30 19:33:42.949
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-30 19:33:42.960
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-10-31 10:52:49.594 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-31 10:52:51.500
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-31 10:52:51.631
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-31 10:52:51.685
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-31 10:52:51.687
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-31 10:52:51.759
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-31 10:52:52.745
+!MESSAGE Workspace initialized in 1026ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-31 10:52:52.752
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-31 10:52:52.773
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-31 10:52:52.775
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-31 10:52:52.780
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-31 10:52:52.785
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-31 10:52:53.124
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-31 10:52:53.147
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-31 10:52:53.151
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-31 10:52:53.423
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-31 10:52:53.568
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-31 10:52:54.511
+!MESSAGE begin problem for /WordHash.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-31 10:52:54.516
+!MESSAGE TODO: Calculate two metrics: is of type Task
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-31 10:52:54.517
+!MESSAGE 1 problems reported for /WordHash.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-31 10:52:54.526
+!MESSAGE Validated 1. Took 507 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-31 10:52:54.984
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-31 10:52:54.986
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-31 10:52:55.103
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-10-31 10:52:55.129
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-01 14:22:33.963 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 14:22:35.811
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 14:22:36.028
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 14:22:36.095
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 14:22:36.097
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 14:22:36.173
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 14:22:37.062
+!MESSAGE Workspace initialized in 933ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 14:22:37.067
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 14:22:37.097
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 14:22:37.099
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 14:22:37.102
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 14:22:37.111
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 14:22:37.459
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 14:22:37.497
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 14:22:37.501
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 14:22:37.648
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 14:22:37.907
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 14:22:38.168
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 14:22:39.021
+!MESSAGE begin problem for /WordHash.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 14:22:39.021
+!MESSAGE 0 problems reported for /WordHash.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 14:22:39.029
+!MESSAGE Validated 1. Took 675 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 14:22:39.482
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 14:22:39.484
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 14:22:39.587
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 14:22:39.632
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-01 16:03:40.058 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 16:03:41.956
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 16:03:42.173
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 16:03:42.228
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 16:03:42.230
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 16:03:42.298
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 16:03:43.186
+!MESSAGE Workspace initialized in 928ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 16:03:43.191
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 16:03:43.229
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 16:03:43.237
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 16:03:43.241
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 16:03:43.246
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 16:03:43.632
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 16:03:43.676
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 16:03:43.677
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 16:03:43.688
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 16:03:43.691
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 16:03:43.773
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 16:03:44.030
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 16:03:44.773
+!MESSAGE begin problem for /WordHash.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 16:03:44.773
+!MESSAGE 0 problems reported for /WordHash.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 16:03:44.778
+!MESSAGE Validated 1. Took 297 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 16:03:45.239
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 16:03:45.242
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 16:03:45.333
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 16:03:45.356
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-01 19:40:49.771 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:51.645
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:51.826
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:51.889
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:51.892
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:51.979
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:52.872
+!MESSAGE Workspace initialized in 946ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:52.878
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:52.923
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:52.925
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:52.932
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:52.947
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:53.377
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:53.393
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:53.404
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:53.443
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:53.447
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:53.448
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:53.458
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:53.658
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:53.892
+!MESSAGE Reconciled 2. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:54.720
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:54.757
+!MESSAGE begin problem for /MaxHeap.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:54.759
+!MESSAGE The value of the local variable a is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:54.759
+!MESSAGE The value of the local variable b is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:54.760
+!MESSAGE The value of the local variable c is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:54.760
+!MESSAGE The value of the local variable ls is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:54.761
+!MESSAGE 4 problems reported for /MaxHeap.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:54.987
+!MESSAGE begin problem for /WordHash.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:54.988
+!MESSAGE 0 problems reported for /WordHash.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:54.988
+!MESSAGE Validated 2. Took 640 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:56.119
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:56.122
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:56.221
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-01 19:40:56.245
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-06 20:59:10.907 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-06 20:59:12.652
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-06 20:59:12.770
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-06 20:59:12.816
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-06 20:59:12.818
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-06 20:59:12.891
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-06 20:59:13.700
+!MESSAGE Workspace initialized in 847ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-06 20:59:13.706
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-06 20:59:13.735
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-06 20:59:13.738
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-06 20:59:13.743
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-06 20:59:13.748
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-06 20:59:14.098
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-06 20:59:14.119
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-06 20:59:14.498
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-06 20:59:14.530
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-06 20:59:15.703
+!MESSAGE begin problem for /MaxHeap.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-06 20:59:15.705
+!MESSAGE The value of the local variable a is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-06 20:59:15.706
+!MESSAGE The value of the local variable b is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-06 20:59:15.707
+!MESSAGE The value of the local variable c is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-06 20:59:15.707
+!MESSAGE The value of the local variable ls is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-06 20:59:15.708
+!MESSAGE 4 problems reported for /MaxHeap.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-06 20:59:15.714
+!MESSAGE Validated 1. Took 814 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-06 20:59:16.157
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-06 20:59:16.158
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-06 20:59:16.275
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-06 20:59:16.292
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-07 09:38:37.692 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 09:38:39.601
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 09:38:39.795
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 09:38:39.864
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 09:38:39.866
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 09:38:39.953
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 09:38:40.868
+!MESSAGE Workspace initialized in 961ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 09:38:40.872
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 09:38:40.918
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 09:38:40.920
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 09:38:40.931
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 09:38:40.937
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 09:38:41.372
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 09:38:41.398
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 09:38:41.821
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 09:38:42.408
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 09:38:42.410
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 09:38:42.954
+!MESSAGE begin problem for /Selection.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 09:38:42.954
+!MESSAGE 0 problems reported for /Selection.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 09:38:42.958
+!MESSAGE Validated 1. Took 686 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 09:38:42.997
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 09:38:43.005
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-07 19:24:49.880 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 19:24:52.069
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 19:24:52.428
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 19:24:52.492
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 19:24:52.494
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 19:24:52.584
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 19:24:53.766
+!MESSAGE Workspace initialized in 1234ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 19:24:53.787
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 19:24:53.819
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 19:24:53.822
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 19:24:53.834
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 19:24:53.853
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 19:24:54.343
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 19:24:54.354
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 19:24:54.358
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 19:24:54.747
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 19:24:56.214
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 19:24:56.225
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 19:24:56.235
+!MESSAGE begin problem for /Selection.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 19:24:56.235
+!MESSAGE 0 problems reported for /Selection.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 19:24:56.255
+!MESSAGE Validated 1. Took 1098 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 19:24:56.330
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-07 19:24:56.354
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-08 10:29:57.660 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 10:29:59.516
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 10:29:59.702
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 10:29:59.747
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 10:29:59.748
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 10:29:59.796
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 10:30:00.583
+!MESSAGE Workspace initialized in 814ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 10:30:00.590
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 10:30:00.619
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 10:30:00.622
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 10:30:00.642
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 10:30:00.650
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 10:30:01.044
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 10:30:01.060
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 10:30:01.066
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 10:30:01.413
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 10:30:02.023
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 10:30:02.345
+!MESSAGE begin problem for /Selection.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 10:30:02.359
+!MESSAGE 0 problems reported for /Selection.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 10:30:02.365
+!MESSAGE Validated 1. Took 549 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 10:30:03.610
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 10:30:03.612
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 10:30:03.694
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 10:30:03.703
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-08 11:24:32.451 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 11:24:34.253
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 11:24:34.530
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 11:24:34.595
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 11:24:34.597
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 11:24:34.705
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 11:24:35.590
+!MESSAGE Workspace initialized in 955ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 11:24:35.598
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 11:24:35.657
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 11:24:35.660
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 11:24:35.682
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 11:24:35.705
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 11:24:36.102
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 11:24:36.141
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 11:24:36.264
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 11:24:36.527
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 11:24:36.550
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 11:24:37.068
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 11:24:37.299
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 11:24:37.301
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 11:24:37.679
+!MESSAGE begin problem for /Selection.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 11:24:37.679
+!MESSAGE 0 problems reported for /Selection.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 11:24:37.692
+!MESSAGE Validated 1. Took 741 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 11:24:37.742
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 11:24:37.750
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-08 12:31:57.547 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 12:31:59.236
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 12:31:59.468
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 12:31:59.547
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 12:31:59.549
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 12:31:59.654
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 12:32:00.521
+!MESSAGE Workspace initialized in 923ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 12:32:00.527
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 12:32:00.557
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 12:32:00.559
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 12:32:00.572
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 12:32:00.582
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 12:32:01.042
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 12:32:01.051
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 12:32:01.464
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 12:32:02.124
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 12:32:02.125
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 12:32:02.602
+!MESSAGE begin problem for /Selection.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 12:32:02.603
+!MESSAGE 0 problems reported for /Selection.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 12:32:02.605
+!MESSAGE Validated 1. Took 739 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 12:32:02.633
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-08 12:32:02.638
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-09 15:00:53.453 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-09 15:00:55.286
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-09 15:00:55.430
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-09 15:00:55.471
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-09 15:00:55.473
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-09 15:00:55.528
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-09 15:00:56.139
+!MESSAGE Workspace initialized in 640ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-09 15:00:56.145
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-09 15:00:56.160
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-09 15:00:56.164
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-09 15:00:56.170
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-09 15:00:56.177
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-09 15:00:56.512
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-09 15:00:56.526
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-09 15:00:56.532
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-09 15:00:56.535
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-09 15:00:56.960
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-09 15:00:57.873
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-09 15:00:57.984
+!MESSAGE begin problem for /Selection.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-09 15:00:57.984
+!MESSAGE 0 problems reported for /Selection.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-09 15:00:57.988
+!MESSAGE Validated 1. Took 626 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-09 15:00:58.850
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-09 15:00:59.444
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-09 15:00:59.445
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-09 15:00:59.556
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-09 15:00:59.581
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-13 18:55:31.676 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-13 18:55:33.503
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-13 18:55:33.666
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-13 18:55:33.708
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-13 18:55:33.709
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-13 18:55:33.748
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-13 18:55:34.353
+!MESSAGE Workspace initialized in 623ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-13 18:55:34.358
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-13 18:55:34.385
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-13 18:55:34.389
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-13 18:55:34.394
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-13 18:55:34.411
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-13 18:55:34.898
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-13 18:55:34.904
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-13 18:55:34.917
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-13 18:55:34.919
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-13 18:55:35.339
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-13 18:55:36.187
+!MESSAGE begin problem for /Selection.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-13 18:55:36.188
+!MESSAGE 0 problems reported for /Selection.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-13 18:55:36.194
+!MESSAGE Validated 1. Took 403 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-13 18:55:36.308
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-13 18:55:38.007
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-13 18:55:38.010
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-13 18:55:38.157
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-13 18:55:38.170
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-14 18:49:21.201 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-14 18:49:24.073
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-14 18:49:24.287
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-14 18:49:24.363
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-14 18:49:24.365
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-14 18:49:24.446
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-14 18:49:25.581
+!MESSAGE Workspace initialized in 1182ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-14 18:49:25.589
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-14 18:49:25.616
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-14 18:49:25.625
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-14 18:49:25.631
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-14 18:49:25.639
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-14 18:49:26.216
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-14 18:49:26.234
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-14 18:49:26.616
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-14 18:49:26.940
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-14 18:49:28.051
+!MESSAGE begin problem for /Graph.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-14 18:49:28.054
+!MESSAGE The value of the local variable gr is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-14 18:49:28.054
+!MESSAGE 1 problems reported for /Graph.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-14 18:49:28.060
+!MESSAGE Validated 1. Took 994 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-14 18:49:29.554
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-14 18:49:29.556
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-14 18:49:29.675
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-14 18:49:29.698
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY org.eclipse.core.resources 4 566 2021-11-14 18:49:29.777
+!MESSAGE Workspace was not properly initialized or has already shutdown.
+!SESSION 2021-11-15 10:23:39.056 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 10:23:41.926
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 10:23:42.158
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 10:23:42.215
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 10:23:42.217
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 10:23:42.302
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 10:23:43.373
+!MESSAGE Workspace initialized in 1120ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 10:23:43.394
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 10:23:43.421
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 10:23:43.423
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 10:23:43.434
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 10:23:43.440
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 10:23:44.056
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 10:23:44.086
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 10:23:44.100
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 10:23:44.452
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 10:23:45.987
+!MESSAGE begin problem for /Graph.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 10:23:45.989
+!MESSAGE The value of the local variable max_size is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 10:23:45.990
+!MESSAGE 1 problems reported for /Graph.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 10:23:45.997
+!MESSAGE Validated 1. Took 1142 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 10:23:46.371
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 10:23:48.803
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 10:23:48.806
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 10:23:48.957
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 10:23:48.976
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-15 11:57:43.776 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 11:57:46.670
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 11:57:46.896
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 11:57:46.963
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 11:57:46.965
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 11:57:47.040
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 11:57:48.665
+!MESSAGE Workspace initialized in 1666ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 11:57:48.699
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 11:57:48.786
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 11:57:48.790
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 11:57:48.796
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 11:57:48.824
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 11:57:49.588
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 11:57:49.629
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 11:57:49.652
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 11:57:50.012
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 11:57:50.635
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 11:57:51.807
+!MESSAGE begin problem for /Graph.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 11:57:51.824
+!MESSAGE The value of the local variable graph_file is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 11:57:51.824
+!MESSAGE 1 problems reported for /Graph.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 11:57:51.831
+!MESSAGE Validated 1. Took 1383 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 11:57:53.948
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 11:57:53.956
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 11:57:54.071
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 11:57:54.082
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-15 12:22:38.752 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 12:22:41.028
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 12:22:41.210
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 12:22:41.260
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 12:22:41.262
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 12:22:41.328
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 12:22:42.537
+!MESSAGE Workspace initialized in 1240ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 12:22:42.543
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 12:22:42.561
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 12:22:42.563
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 12:22:42.571
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 12:22:42.583
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 12:22:42.969
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 12:22:42.979
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 12:22:43.419
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 12:22:43.574
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 12:22:44.935
+!MESSAGE begin problem for /Graph.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 12:22:44.937
+!MESSAGE The value of the local variable graph_file is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 12:22:44.937
+!MESSAGE 1 problems reported for /Graph.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 12:22:44.953
+!MESSAGE Validated 1. Took 1083 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 12:22:46.175
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 12:22:46.178
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 12:22:46.277
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 12:22:46.289
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-15 18:06:32.286 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 18:06:34.178
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 18:06:34.341
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 18:06:34.433
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 18:06:34.435
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 18:06:34.532
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 18:06:35.541
+!MESSAGE Workspace initialized in 1071ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 18:06:35.550
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 18:06:35.572
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 18:06:35.576
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 18:06:35.594
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 18:06:35.618
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 18:06:36.118
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 18:06:36.143
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 18:06:36.145
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 18:06:36.157
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 18:06:36.165
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 18:06:36.560
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 18:06:36.633
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 18:06:37.941
+!MESSAGE begin problem for /Graph.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 18:06:37.943
+!MESSAGE The value of the local variable grp is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 18:06:37.943
+!MESSAGE 1 problems reported for /Graph.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 18:06:37.955
+!MESSAGE Validated 1. Took 991 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 18:06:39.343
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 18:06:39.348
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 18:06:39.470
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 18:06:39.501
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-15 20:11:03.261 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 20:11:05.155
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 20:11:05.350
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 20:11:05.432
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 20:11:05.434
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 20:11:05.530
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 20:11:06.680
+!MESSAGE Workspace initialized in 1199ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 20:11:06.693
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 20:11:06.745
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 20:11:06.751
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 20:11:06.773
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 20:11:06.793
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 20:11:07.155
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 20:11:07.179
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 20:11:07.188
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 20:11:07.396
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 20:11:07.603
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 20:11:08.695
+!MESSAGE begin problem for /Graph.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 20:11:08.697
+!MESSAGE The value of the local variable graph_file is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 20:11:08.697
+!MESSAGE The value of the local variable someShit is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 20:11:08.697
+!MESSAGE 2 problems reported for /Graph.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 20:11:08.703
+!MESSAGE Validated 1. Took 650 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 20:11:09.699
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 20:11:09.701
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 20:11:09.780
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-15 20:11:09.812
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-16 08:52:51.722 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 08:52:53.680
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 08:52:53.844
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 08:52:53.886
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 08:52:53.887
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 08:52:53.944
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 08:52:54.492
+!MESSAGE Workspace initialized in 577ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 08:52:54.497
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 08:52:54.515
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 08:52:54.517
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 08:52:54.524
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 08:52:54.530
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 08:52:54.792
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 08:52:54.797
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 08:52:54.800
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 08:52:54.803
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 08:52:55.171
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 08:52:55.239
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 08:52:55.972
+!MESSAGE begin problem for /Graph.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 08:52:55.974
+!MESSAGE The value of the local variable graph_file is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 08:52:55.974
+!MESSAGE The value of the local variable someShit is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 08:52:55.975
+!MESSAGE 2 problems reported for /Graph.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 08:52:55.982
+!MESSAGE Validated 1. Took 342 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 08:52:56.286
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 08:52:56.288
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 08:52:56.334
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 08:52:56.344
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-16 09:14:43.925 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 09:14:46.104
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 09:14:46.297
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 09:14:46.350
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 09:14:46.352
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 09:14:46.437
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 09:14:47.488
+!MESSAGE Workspace initialized in 1092ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 09:14:47.499
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 09:14:47.529
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 09:14:47.533
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 09:14:47.538
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 09:14:47.559
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 09:14:48.076
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 09:14:48.084
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 09:14:48.089
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 09:14:48.092
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 09:14:48.461
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 09:14:48.517
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 09:14:49.881
+!MESSAGE begin problem for /Graph.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 09:14:49.883
+!MESSAGE The value of the local variable count is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 09:14:49.883
+!MESSAGE The value of the local variable graph_file is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 09:14:49.884
+!MESSAGE The value of the local variable someShit is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 09:14:49.884
+!MESSAGE 3 problems reported for /Graph.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 09:14:49.892
+!MESSAGE Validated 1. Took 924 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 09:14:50.956
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 09:14:50.958
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 09:14:51.035
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 09:14:51.047
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY org.eclipse.core.resources 4 566 2021-11-16 09:14:51.141
+!MESSAGE Workspace was not properly initialized or has already shutdown.
+!SESSION 2021-11-16 11:19:57.457 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:19:59.311
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:19:59.490
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:19:59.540
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:19:59.541
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:19:59.587
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:20:00.322
+!MESSAGE Workspace initialized in 759ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:20:00.332
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:20:00.375
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:20:00.377
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:20:00.380
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:20:00.418
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:20:00.941
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:20:00.965
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:20:00.969
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:20:01.340
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:20:02.794
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:20:03.097
+!MESSAGE begin problem for /Graph.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:20:03.103
+!MESSAGE The value of the local variable union is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:20:03.113
+!MESSAGE The method root(int, Integer[]) from the type Graph is never used locally is of type UnusedPrivateMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:20:03.114
+!MESSAGE The value of the local variable graph_file is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:20:03.114
+!MESSAGE 3 problems reported for /Graph.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:20:03.129
+!MESSAGE Validated 1. Took 1356 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:20:05.055
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:20:05.057
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:20:05.189
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:20:05.208
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-16 11:45:55.292 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:45:57.668
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:45:57.842
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:45:57.912
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:45:57.914
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:45:58.002
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:45:59.264
+!MESSAGE Workspace initialized in 1298ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:45:59.269
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:45:59.293
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:45:59.295
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:45:59.302
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:45:59.319
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:45:59.789
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:45:59.822
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:45:59.863
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:45:59.980
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:46:00.210
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:46:00.284
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:46:01.479
+!MESSAGE begin problem for /Graph.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:46:01.480
+!MESSAGE The method root(int, Integer[]) from the type Graph is never used locally is of type UnusedPrivateMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:46:01.481
+!MESSAGE The value of the local variable graph_file is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:46:01.481
+!MESSAGE 2 problems reported for /Graph.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:46:01.488
+!MESSAGE Validated 1. Took 877 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:46:02.201
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:46:02.203
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:46:02.320
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 11:46:02.344
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-16 14:37:06.394 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 14:37:08.846
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 14:37:09.041
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 14:37:09.095
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 14:37:09.097
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 14:37:09.180
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 14:37:10.065
+!MESSAGE Workspace initialized in 935ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 14:37:10.082
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 14:37:10.099
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 14:37:10.101
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 14:37:10.111
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 14:37:10.122
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 14:37:10.458
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 14:37:10.467
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 14:37:10.472
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 14:37:10.583
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 14:37:10.802
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 14:37:10.855
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 14:37:11.905
+!MESSAGE begin problem for /Graph.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 14:37:11.918
+!MESSAGE The method root(int, Integer[]) from the type Graph is never used locally is of type UnusedPrivateMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 14:37:11.919
+!MESSAGE The value of the local variable graph_file is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 14:37:11.919
+!MESSAGE 2 problems reported for /Graph.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 14:37:11.923
+!MESSAGE Validated 1. Took 666 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 14:37:12.595
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 14:37:12.597
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 14:37:12.656
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 14:37:12.680
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-16 16:07:46.387 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 16:07:48.248
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 16:07:48.425
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 16:07:48.505
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 16:07:48.508
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 16:07:48.615
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 16:07:49.448
+!MESSAGE Workspace initialized in 891ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 16:07:49.453
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 16:07:49.469
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 16:07:49.471
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 16:07:49.479
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 16:07:49.506
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 16:07:49.885
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 16:07:49.913
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 16:07:49.918
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 16:07:50.219
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 16:07:50.335
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 16:07:51.638
+!MESSAGE begin problem for /Graph.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 16:07:51.639
+!MESSAGE The value of the local variable graph_file is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 16:07:51.640
+!MESSAGE 1 problems reported for /Graph.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 16:07:51.645
+!MESSAGE Validated 1. Took 859 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 16:07:52.397
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 16:07:52.399
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 16:07:52.473
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 16:07:52.483
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-16 17:04:40.538 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 17:04:42.352
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 17:04:42.601
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 17:04:42.677
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 17:04:42.679
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 17:04:42.781
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 17:04:43.592
+!MESSAGE Workspace initialized in 862ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 17:04:43.598
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 17:04:43.615
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 17:04:43.617
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 17:04:43.620
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 17:04:43.629
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 17:04:44.086
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 17:04:44.094
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 17:04:44.100
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 17:04:44.534
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 17:04:44.564
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 17:04:45.024
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 17:04:46.328
+!MESSAGE begin problem for /Graph.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 17:04:46.330
+!MESSAGE The value of the local variable graph_file is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 17:04:46.330
+!MESSAGE 1 problems reported for /Graph.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 17:04:46.349
+!MESSAGE Validated 1. Took 1365 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 17:04:46.613
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 17:04:46.615
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 17:04:46.732
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-16 17:04:46.767
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-18 15:11:39.309 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:41.182
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:41.336
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:41.389
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:41.391
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:41.438
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:41.962
+!MESSAGE Workspace initialized in 545ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:41.968
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:41.997
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:42.002
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:42.007
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:42.013
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:42.394
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:42.418
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:42.422
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:42.424
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:42.427
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:42.793
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:42.860
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:42.874
+!MESSAGE Clearing problems for /Graph.java
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2021-11-18 15:11:42.879
+!MESSAGE Offset > length: 191 > 0
+!STACK 0
+org.eclipse.jface.text.BadLocationException: Offset > length: 191 > 0
+	at org.eclipse.jface.text.ListLineTracker.getLineNumberOfOffset(ListLineTracker.java:141)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)
+	at org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:872)
+	at org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:156)
+	at org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:101)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:857)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:756)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:702)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.toLocation(JDTUtils.java:678)
+	at org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getSelectionRange(DocumentSymbolHandler.java:210)
+	at org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:173)
+	at org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$4(DocumentSymbolHandler.java:188)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.toDocumentSymbol(DocumentSymbolHandler.java:190)
+	at org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.lambda$2(DocumentSymbolHandler.java:147)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.getHierarchicalOutline(DocumentSymbolHandler.java:147)
+	at org.eclipse.jdt.ls.core.internal.handlers.DocumentSymbolHandler.documentSymbol(DocumentSymbolHandler.java:80)
+	at org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.lambda$2(SyntaxLanguageServer.java:291)
+	at org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:42.920
+!MESSAGE User abort while collecting the document symbols.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:43.002
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:43.059
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:43.060
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:43.154
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:43.460
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:43.643
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:44.046
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:44.177
+!MESSAGE begin problem for /MyLinkedList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:44.178
+!MESSAGE 0 problems reported for /MyLinkedList.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:44.179
+!MESSAGE Validated 1. Took 269 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:45.110
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:45.114
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:45.157
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-18 15:11:45.172
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-19 15:09:25.100 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-19 15:09:26.961
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-19 15:09:27.164
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-19 15:09:27.206
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-19 15:09:27.208
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-19 15:09:27.262
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-19 15:09:27.953
+!MESSAGE Workspace initialized in 720ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-19 15:09:27.958
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-19 15:09:27.981
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-19 15:09:27.983
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-19 15:09:28.002
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-19 15:09:28.022
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-19 15:09:28.427
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-19 15:09:28.441
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-19 15:09:28.456
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-19 15:09:28.875
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-19 15:09:29.434
+!MESSAGE begin problem for /WeightedEdge.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-19 15:09:29.434
+!MESSAGE 0 problems reported for /WeightedEdge.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-19 15:09:29.438
+!MESSAGE Validated 1. Took 112 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-19 15:09:30.051
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-19 15:09:30.052
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-19 15:09:30.164
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-19 15:09:30.186
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-20 13:52:48.755 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 13:52:50.638
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 13:52:50.774
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 13:52:50.842
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 13:52:50.845
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 13:52:50.922
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 13:52:51.489
+!MESSAGE Workspace initialized in 601ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 13:52:51.494
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 13:52:51.515
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 13:52:51.524
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 13:52:51.532
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 13:52:51.537
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 13:52:51.934
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 13:52:51.939
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 13:52:51.941
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 13:52:51.946
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 13:52:51.949
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 13:52:52.282
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 13:52:53.269
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 13:52:53.272
+!MESSAGE The value of the local variable curr is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 13:52:53.272
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 13:52:53.301
+!MESSAGE Validated 1. Took 569 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 13:52:53.628
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 13:52:55.110
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 13:52:55.111
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 13:52:55.175
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 13:52:55.199
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-20 14:38:41.617 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 14:38:43.368
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 14:38:43.588
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 14:38:43.642
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 14:38:43.644
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 14:38:43.725
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 14:38:44.664
+!MESSAGE Workspace initialized in 992ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 14:38:44.671
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 14:38:44.719
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 14:38:44.722
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 14:38:44.745
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 14:38:44.751
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 14:38:45.146
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 14:38:45.202
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 14:38:45.208
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 14:38:45.261
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 14:38:45.594
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 14:38:46.929
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 14:38:46.930
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 14:38:46.935
+!MESSAGE Validated 1. Took 890 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 14:38:47.485
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 14:38:47.487
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 14:38:47.617
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-20 14:38:47.637
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-21 09:47:10.238 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-21 09:47:12.199
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-21 09:47:12.373
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-21 09:47:12.444
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-21 09:47:12.446
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-21 09:47:12.539
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-21 09:47:13.549
+!MESSAGE Workspace initialized in 1059ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-21 09:47:13.555
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-21 09:47:13.588
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-21 09:47:13.592
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-21 09:47:13.596
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-21 09:47:13.601
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-21 09:47:14.041
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-21 09:47:14.091
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-21 09:47:14.137
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-21 09:47:14.362
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-21 09:47:14.435
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-21 09:47:15.392
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-21 09:47:15.394
+!MESSAGE The value of the local variable mst is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-21 09:47:15.394
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-21 09:47:15.411
+!MESSAGE Validated 1. Took 525 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-21 09:47:15.543
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-21 09:47:16.473
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-21 09:47:16.692
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-21 09:47:16.694
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-21 09:47:16.802
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-21 09:47:16.829
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-23 09:34:42.352 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:34:44.341
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:34:44.527
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:34:44.604
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:34:44.606
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:34:44.681
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:34:45.346
+!MESSAGE Workspace initialized in 701ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:34:45.351
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:34:45.374
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:34:45.376
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:34:45.380
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:34:45.386
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:34:45.799
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:34:45.811
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:34:45.815
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:34:45.820
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:34:46.247
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:34:46.583
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:34:47.538
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:34:47.540
+!MESSAGE The value of the local variable mst is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:34:47.540
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:34:47.562
+!MESSAGE Validated 1. Took 864 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:34:48.546
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:34:48.547
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:34:48.619
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:34:48.646
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-23 09:41:28.981 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:41:30.771
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:41:30.976
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:41:31.052
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:41:31.054
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:41:31.141
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:41:32.191
+!MESSAGE Workspace initialized in 1096ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:41:32.197
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:41:32.238
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:41:32.241
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:41:32.247
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:41:32.254
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:41:32.684
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:41:32.709
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:41:32.711
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:41:32.727
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:41:32.848
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:41:33.077
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:41:33.134
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:41:33.355
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:41:34.190
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:41:34.190
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:41:34.205
+!MESSAGE Validated 1. Took 669 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:41:35.145
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:41:35.147
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:41:35.227
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 09:41:35.239
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-23 12:27:41.477 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 12:27:43.350
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 12:27:43.565
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 12:27:43.640
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 12:27:43.641
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 12:27:43.710
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 12:27:44.453
+!MESSAGE Workspace initialized in 781ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 12:27:44.458
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 12:27:44.475
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 12:27:44.478
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 12:27:44.482
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 12:27:44.503
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 12:27:45.026
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 12:27:45.033
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 12:27:45.039
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 12:27:45.047
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 12:27:45.447
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 12:27:46.120
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 12:27:46.192
+!MESSAGE begin problem for /MST.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 12:27:46.192
+!MESSAGE 0 problems reported for /MST.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 12:27:46.197
+!MESSAGE Validated 1. Took 348 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 12:27:46.725
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 12:27:46.729
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 12:27:46.822
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 12:27:46.856
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-23 13:42:42.894 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:42:44.833
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:42:45.026
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:42:45.085
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:42:45.087
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:42:45.167
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:42:46.000
+!MESSAGE Workspace initialized in 881ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:42:46.005
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:42:46.023
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:42:46.026
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:42:46.029
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:42:46.034
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:42:46.399
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:42:46.405
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:42:46.410
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:42:46.412
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:42:46.414
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:42:46.482
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:42:46.783
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:42:47.184
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:42:47.365
+!MESSAGE begin problem for /ConnectedComponents.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:42:47.366
+!MESSAGE 0 problems reported for /ConnectedComponents.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:42:47.370
+!MESSAGE Validated 1. Took 135 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:42:48.285
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:42:48.287
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:42:48.376
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:42:48.404
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-23 13:57:02.966 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:57:05.006
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:57:05.238
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:57:05.291
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:57:05.292
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:57:05.363
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:57:06.199
+!MESSAGE Workspace initialized in 873ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:57:06.205
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:57:06.233
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:57:06.236
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:57:06.244
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:57:06.249
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:57:06.590
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:57:06.623
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:57:06.628
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:57:06.630
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:57:06.808
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:57:07.037
+!MESSAGE Reconciled 1. Took 1 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:57:07.608
+!MESSAGE begin problem for /ConnectedComponents.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:57:07.608
+!MESSAGE 0 problems reported for /ConnectedComponents.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:57:07.612
+!MESSAGE Validated 1. Took 124 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:57:08.495
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:57:08.496
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:57:08.628
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 13:57:08.665
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-23 14:47:28.104 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 14:47:30.111
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 14:47:30.333
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 14:47:30.392
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 14:47:30.393
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 14:47:30.460
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 14:47:31.304
+!MESSAGE Workspace initialized in 887ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 14:47:31.311
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 14:47:31.333
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 14:47:31.336
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 14:47:31.341
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 14:47:31.346
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 14:47:31.712
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 14:47:31.742
+!MESSAGE >> textDocument/semanticTokens/full
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 14:47:31.745
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 14:47:31.964
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 14:47:32.112
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 14:47:32.941
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 14:47:32.943
+!MESSAGE The value of the local variable mst is not used is of type LocalVariableIsNeverUsed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 14:47:32.943
+!MESSAGE 1 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 14:47:32.949
+!MESSAGE Validated 1. Took 387 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 14:47:33.676
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 14:47:33.678
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 14:47:33.738
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 14:47:33.747
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+!SESSION 2021-11-23 17:57:37.935 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.1
+java.vendor=N/A
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/ss_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 17:57:39.736
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 17:57:39.991
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 17:57:40.040
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 17:57:40.042
+!MESSAGE Initializing Java Language Server 1.5.0.202110190407
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 17:57:40.103
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 17:57:41.044
+!MESSAGE Workspace initialized in 975ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 17:57:41.050
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 17:57:41.079
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 17:57:41.083
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 17:57:41.091
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 17:57:41.096
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 17:57:41.491
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 17:57:41.516
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 17:57:41.524
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 17:57:41.671
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 17:57:41.896
+!MESSAGE Reconciled 1. Took 0 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 17:57:43.165
+!MESSAGE begin problem for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 17:57:43.165
+!MESSAGE 0 problems reported for /Main.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 17:57:43.172
+!MESSAGE Validated 1. Took 871 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 17:57:43.558
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 17:57:43.559
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 17:57:43.673
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2021-11-23 17:57:43.709
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:

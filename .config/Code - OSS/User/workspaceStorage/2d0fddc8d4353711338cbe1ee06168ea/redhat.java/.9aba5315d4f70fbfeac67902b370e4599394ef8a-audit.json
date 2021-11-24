@@ -1,0 +1,44 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 2
+    },
+    "auditLog": "/home/nick/.config/Code - OSS/User/workspaceStorage/2d0fddc8d4353711338cbe1ee06168ea/redhat.java/.9aba5315d4f70fbfeac67902b370e4599394ef8a-audit.json",
+    "files": [
+        {
+            "date": 1635723701718,
+            "name": "/home/nick/.config/Code - OSS/User/workspaceStorage/2d0fddc8d4353711338cbe1ee06168ea/redhat.java/client.log.2021-10-31",
+            "hash": "06d2c2e088ab887484b54020b616d3fb"
+        },
+        {
+            "date": 1635727948835,
+            "name": "/home/nick/.config/Code - OSS/User/workspaceStorage/2d0fddc8d4353711338cbe1ee06168ea/redhat.java/client.log.2021-10-31.1",
+            "hash": "01b22d15526f3eee0d61606cf2073b70"
+        },
+        {
+            "date": 1635731798126,
+            "name": "/home/nick/.config/Code - OSS/User/workspaceStorage/2d0fddc8d4353711338cbe1ee06168ea/redhat.java/client.log.2021-10-31.2",
+            "hash": "732a15a0db761699e150b4f6a82cbece"
+        },
+        {
+            "date": 1635779937441,
+            "name": "/home/nick/.config/Code - OSS/User/workspaceStorage/2d0fddc8d4353711338cbe1ee06168ea/redhat.java/client.log.2021-11-01",
+            "hash": "bb4b744b7304cbc8ac1c12c8bd6ab562"
+        },
+        {
+            "date": 1635780070855,
+            "name": "/home/nick/.config/Code - OSS/User/workspaceStorage/2d0fddc8d4353711338cbe1ee06168ea/redhat.java/client.log.2021-11-01.1",
+            "hash": "6face1e0777dfff63d0029ed67326a0b"
+        },
+        {
+            "date": 1635783448083,
+            "name": "/home/nick/.config/Code - OSS/User/workspaceStorage/2d0fddc8d4353711338cbe1ee06168ea/redhat.java/client.log.2021-11-01.2",
+            "hash": "6739cb5e9c7817a291c1b0ba2dd623c0"
+        },
+        {
+            "date": 1635790275670,
+            "name": "/home/nick/.config/Code - OSS/User/workspaceStorage/2d0fddc8d4353711338cbe1ee06168ea/redhat.java/client.log.2021-11-01.3",
+            "hash": "2953f57e8ca413d201e8a068cac2b3db"
+        }
+    ]
+}

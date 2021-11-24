@@ -1,0 +1,145 @@
+{
+  message: 'Starting Java server with: /usr/lib/jvm/default/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -jar /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/nick/.config/Code - OSS/User/globalStorage/redhat.java/1.0.0/config_ss_linux -data /home/nick/.config/Code - OSS/User/workspaceStorage/0695a3ef01f8d8744054496c58460634/redhat.java/ss_ws',
+  level: 'info',
+  timestamp: '2021-10-26 14:55:41.343'
+}
+{
+  message: 'Starting Java server with: /usr/lib/jvm/default/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -jar /home/nick/.vscode-oss/extensions/redhat.java-1.0.0/server/plugins/org.eclipse.equinox.launcher_1.6.400.v20210924-0641.jar -configuration /home/nick/.config/Code - OSS/User/globalStorage/redhat.java/1.0.0/config_linux -data /home/nick/.config/Code - OSS/User/workspaceStorage/0695a3ef01f8d8744054496c58460634/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2021-10-26 14:55:41.401'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.foreign, jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2021-10-26 14:55:41.482'
+}
+{
+  message: 'WARNING: Using incubator modules: jdk.incubator.foreign, jdk.incubator.vector\n',
+  level: 'info',
+  timestamp: '2021-10-26 14:55:41.534'
+}
+{
+  message: '[Error - 2:55:45 PM] Oct 26, 2021, 2:55:45 PM Problem with folding range for /comp272_aadb173e/_/pset3/Main.java\n' +
+    "_/pset3 [in comp272_aadb173e] is not on its project's build path\n" +
+    "Java Model Exception: Error in Java Model (code 1006): _/pset3 [in comp272_aadb173e] is not on its project's build path\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:584)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:254)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.openAncestors(CompilationUnit.java:1240)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getSourceRange(CompilationUnit.java:955)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.FoldingRangeHandler.computeFoldingRanges(FoldingRangeHandler.java:79)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.FoldingRangeHandler.foldingRange(FoldingRangeHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.lambda$5(SyntaxLanguageServer.java:328)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-10-26 14:55:45.244'
+}
+{
+  message: '[Error - 2:55:45 PM] Oct 26, 2021, 2:55:45 PM Error computing hover\n' +
+    "_/pset3 [in comp272_aadb173e] is not on its project's build path\n" +
+    "Java Model Exception: Error in Java Model (code 1006): _/pset3 [in comp272_aadb173e] is not on its project's build path\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:584)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:254)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.openAncestors(CompilationUnit.java:1240)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.findElementsAtSelection(JDTUtils.java:971)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeHover(HoverInfoProvider.java:97)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.computeHover(HoverHandler.java:57)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.hover(HoverHandler.java:43)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.lambda$8(SyntaxLanguageServer.java:359)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-10-26 14:55:45.254'
+}
+{
+  message: '[Error - 2:55:45 PM] Oct 26, 2021, 2:55:45 PM Problem with folding range for /comp272_aadb173e/_/pset3/Main.java\n' +
+    "_/pset3 [in comp272_aadb173e] is not on its project's build path\n" +
+    "Java Model Exception: Error in Java Model (code 1006): _/pset3 [in comp272_aadb173e] is not on its project's build path\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:584)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:254)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.openAncestors(CompilationUnit.java:1240)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.getSourceRange(CompilationUnit.java:955)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.FoldingRangeHandler.computeFoldingRanges(FoldingRangeHandler.java:79)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.FoldingRangeHandler.foldingRange(FoldingRangeHandler.java:70)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.lambda$5(SyntaxLanguageServer.java:328)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-10-26 14:55:45.920'
+}
+{
+  message: '[Error - 2:55:46 PM] Oct 26, 2021, 2:55:46 PM Error computing hover\n' +
+    "_/pset3 [in comp272_aadb173e] is not on its project's build path\n" +
+    "Java Model Exception: Error in Java Model (code 1006): _/pset3 [in comp272_aadb173e] is not on its project's build path\n" +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.newJavaModelException(JavaElement.java:584)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:254)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.openAncestors(Openable.java:528)\n' +
+    '\tat org.eclipse.jdt.internal.core.CompilationUnit.openAncestors(CompilationUnit.java:1240)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.generateInfos(Openable.java:248)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:597)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:328)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:314)\n' +
+    '\tat org.eclipse.jdt.internal.core.Openable.getBuffer(Openable.java:296)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.JDTUtils.findElementsAtSelection(JDTUtils.java:971)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeHover(HoverInfoProvider.java:97)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.computeHover(HoverHandler.java:57)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.hover(HoverHandler.java:43)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.syntaxserver.SyntaxLanguageServer.lambda$8(SyntaxLanguageServer.java:359)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-10-26 14:55:46.456'
+}
+{
+  message: '[Error - 2:55:47 PM] Connection to server got closed. Server will not be restarted.',
+  level: 'info',
+  timestamp: '2021-10-26 14:55:47.037'
+}

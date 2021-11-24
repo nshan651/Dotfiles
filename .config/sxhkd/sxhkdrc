@@ -6,13 +6,30 @@
 #
 
 # Refresh external monitor and polybar
-alt + shift + $
-    $HOME/Scripts/refresh.sh
+control + alt + 4
+    zsh $HOME/Scripts/refresh.sh
 
 # Refresh only polybar
-alt + shift + %
-    $HOME/.config/polybar/launch.sh
+control + alt + 5
+    zsh $HOME/.config/polybar/launch.sh
 
+# 
+# ----- Utilities -----
+#
+
+# Volume controls
+XF86AudioLowerVolume
+    pactl set-sink-volume 0 -5%
+XF86AudioRaiseVolume
+    pactl set-sink-volume 0 +5%
+XF86AudioMute
+    pactl set-sink-mute 0 toggle
+
+# Brightness
+XF86MonBrightnessUp
+    xbacklight -inc 10
+XF86MonBrightnessDown
+    xbacklight -dec 10
 #
 # ----- Universal keybinds -----
 #
@@ -25,10 +42,38 @@ super + F1
 super + F2
 	firefox
 
+# Ranger 
+super + F3
+    $TERMINAL -e ranger
+
+# Code-OSS
+super + F4
+    code-oss $HOME/github_repos/Pollution-Autoencoders
+
 # GUI filemanager
 super + F5
 	pcmanfm
 
+# Spotify
+super + F6
+    spotify
+
+# Joplin-desktop
+super + F7
+    joplin-desktop
+
+# School java project
+super + F8
+    code-oss $HOME/github_repos/Course-Archive
+
+# Research paper
+super + F9
+    $TERMINAL -e nvim $HOME/github_repos/Pollution-Autoencoders/paper-draft/paper.tex
+
+# Research bibliography
+super + F10
+    $TERMINAL -e nvim $HOME/github_repos/Pollution-Autoencoders/paper-draft/ref.bib
+   
 # terminal emulator
 super + Return
 	alacritty	
@@ -37,6 +82,9 @@ super + Return
 super + d 
 	dmenu_run
 
+# Flameshot
+Print
+    flameshot gui
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
@@ -156,10 +204,3 @@ super + alt + shift + {h,j,k,l}
 super + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
-# Volume controls
-XF86AudioLowerVolume
-    pactl set-sink-volume 0 -5%
-XF86AudioRaiseVolume
-    pactl set-sink-volume 0 +5%
-XF86AudioMute
-    pactl set-sink-mute 0 toggle
