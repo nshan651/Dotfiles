@@ -1,69 +1,178 @@
+"------------------------------------------------
+"██    ██ ██ ███    ███ ██████   ██████ 
+"██    ██ ██ ████  ████ ██   ██ ██      
+"██    ██ ██ ██ ████ ██ ██████  ██      
+" ██  ██  ██ ██  ██  ██ ██   ██ ██      
+"  ████   ██ ██      ██ ██   ██  ██████ 
+"------------------------------------------------
 " Author: Nicolas Shannon
 " Desription: My personal .vimrc file
-"
-"-----------------------------------
-" Pluggins
+"------------------------------------------------
+
+
+
+"------------------------------------------------
+" --- |Pluggins| ---
+"------------------------------------------------
 call plug#begin('~/.vim/plugged')
 Plug 'junegunn/goyo.vim'
 Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
-Plug 'morhetz/gruvbox'
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
-Plug 'sainnhe/everforest'
 Plug 'preservim/nerdtree'
-Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+" LSP and autocompletion
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} 
+Plug 'neovim/nvim-lspconfig'
+Plug 'hrsh7th/cmp-nvim-lsp'
+Plug 'hrsh7th/cmp-buffer'
+Plug 'hrsh7th/cmp-path'
+Plug 'hrsh7th/cmp-cmdline'
+Plug 'hrsh7th/nvim-cmp'
+Plug 'mfussenegger/nvim-jdtls'
+" Colorscheme add-ons
+Plug 'sainnhe/everforest'
+Plug 'morhetz/gruvbox'
+Plug 'sainnhe/edge'
+Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
-"-----------------------------------
-"---------Pluggin Settings----------
+"------------------------------------------------
+" --- |Maps| ---
+"------------------------------------------------
+
+" Remap <leader> key from to SPACE
+let mapleader = "\<Space>" 
+
+" Map buffer shortcuts
+" CTRL + j/k for next/prev buffer
+" map <C-J> :bnext<CR> 
+" map <C-K> :bprev<CR>
+
+"------------------------------------------------
+" --- |nvim-cmp setup| ---
+"------------------------------------------------
+
+set completeopt=menu,menuone,noselect
+
+lua <<EOF
+  -- Setup nvim-cmp.
+  local cmp = require'cmp'
+
+  cmp.setup({
+    snippet = {
+      -- REQUIRED - you must specify a snippet engine
+      expand = function(args)
+        vim.fn["vsnip#anonymous"](args.body) -- For `vsnip` users.
+      end,
+    },
+    mapping = {
+      ['<C-b>'] = cmp.mapping(cmp.mapping.scroll_docs(-4), { 'i', 'c' }),
+      ['<C-f>'] = cmp.mapping(cmp.mapping.scroll_docs(4), { 'i', 'c' }),
+      ['<C-Space>'] = cmp.mapping(cmp.mapping.complete(), { 'i', 'c' }),
+      ['<C-y>'] = cmp.config.disable, -- Specify `cmp.config.disable` if you want to remove the default `<C-y>` mapping.
+      ['<C-e>'] = cmp.mapping({
+        i = cmp.mapping.abort(),
+        c = cmp.mapping.close(),
+      }),
+      ['<CR>'] = cmp.mapping.confirm({ select = true }), -- Accept currently selected item. Set `select` to `false` to only confirm explicitly selected items.
+    },
+    sources = cmp.config.sources({
+      { name = 'nvim_lsp' },
+      { name = 'vsnip' }, -- For vsnip users.
+    }, {
+      { name = 'buffer' },
+    })
+  })
+
+  -- Use buffer source for `/` (if you enabled `native_menu`, this won't work anymore).
+  cmp.setup.cmdline('/', {
+    sources = {
+      { name = 'buffer' }
+    }
+  })
+
+  -- Use cmdline & path source for ':' (if you enabled `native_menu`, this won't work anymore).
+  cmp.setup.cmdline(':', {
+    sources = cmp.config.sources({
+      { name = 'path' }
+    }, {
+      { name = 'cmdline' }
+    })
+  })
+
+  -- Setup lspconfig.
+  local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
+  -- Language server list 
+  require'lspconfig'.pyright.setup{}
+  require'lspconfig'.bashls.setup{}
+EOF
+
+"------------------------------------------------
+" --- |Pluggin Settings| ---
+"------------------------------------------------
 
 " LLP configuration
 " autocmd Filetype tex setl updatetime=1
 let g:livepreview_previewer = 'zathura'
 let g:livepreview_engine = 'pdflatex'
+let g:livepreview_use_biber = 1
 
 " Colorscheme plugin settings
-let g:everforest_background = 'soft'
-let g:everforest_transparent_background = 1
+let g:everforest_background = 'hard'
 
-"-----------------------------------
+"------------------------------------------------
+" --- |Remaps| ---
+"------------------------------------------------
 
-" Autocompile python code
+" Nerdtree
+noremap <leader>n :NERDTreeToggle<CR>
+" NerdTree navigation
+nnoremap <C-H> :tabprevious<CR>
+nnoremap <C-L> :tabnext<CR>
+nnoremap <C-t> :tabnew<CR>
+
+" Telescope remaps
+nnoremap <leader>ff <cmd>Telescope find_files<cr>
+nnoremap <leader>fg <cmd>Telescope live_grep<cr>
+nnoremap <leader>fb <cmd>Telescope buffers<cr>
+nnoremap <leader>fh <cmd>Telescope help_tags<cr>
+
+"------------------------------------------------
+" --- |Auto Commands| ---
+"------------------------------------------------
+
+" Autocompile code
+" Python
 autocmd FileType python map <buffer> <F9> :w<CR>:exec '!python3' shellescape(@%, 1)<CR>
 autocmd FileType python imap <buffer> <F9> <esc>:w<CR>:exec '!python3' shellescape(@%, 1)<CR>
+" LLPStartPreview for Latex
+autocmd FileType tex map <buffer> <F9> :w<CR>:LLPStartPreview<CR>
+autocmd FileType tex imap <buffer> <F9> <esc>:w<CR>:LLPStartPreview<CR>
+" init.vim reload
+autocmd FileType vim map <buffer> <F9> :w<CR>:so %<CR>
+autocmd FileType vim imap <buffer> <F9> <esc>:w<CR>:so %<CR>
+" Make calcurse notes markdown compatible
+autocmd BufRead,BufNewFile /tmp/calcurse* set filetype=markdown
+autocmd BufRead,BufNewFile ~/.calcurse/notes/* set filetype=markdown
 
-"-----------------------------------
-
-" Toggle background transparency
-let t:is_transparent = 0                                                                        
-function! Toggle_transparent_background()                                                       
-  if t:is_transparent == 0                                                                      
-    hi Normal guibg=#363836 ctermbg=black
-    let t:is_transparent = 1                                                                    
-  else                                                                                          
-    hi Normal guibg=NONE ctermbg=NONE                                                           
-    let t:is_transparent = 0                                                                  
-  endif                                                                                         
-endfunction                                     
-"nnoremap <C-x><C-t> :call Toggle_transparent_background()<CR>
-nnoremap <F3> :call Toggle_transparent_background()<CR>
-
-"-----------------------------------
+"------------------------------------------------
+" --- Standard nvim settings ---
+"------------------------------------------------
 
 " Set 'nocompatible' for issues with distro
 set nocompatible
 
-"colorscheme gruvbox
-colorscheme everforest
 set background=dark
-" Use this to keep transparency effect
-au ColorScheme * hi Normal ctermbg=none guibg=none
+colorscheme everforest
+
+" Use this to preserve transpareny
+"au ColorScheme * hi Normal ctermbg=none guibg=none
 
 if has('termguicolors')
     set termguicolors
 endif
-
 " Attempt to determine type of a file based on its name
 if has('filetype')
   filetype indent plugin on
