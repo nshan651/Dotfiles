@@ -1,0 +1,3 @@
+[filesystem "N/A|17.0.1|/dev/nvme0n1p2"]
+	timestampResolution = 8491 nanoseconds
+	minRacyThreshold = 5654 microseconds

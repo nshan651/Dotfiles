@@ -6,34 +6,24 @@
     "auditLog": "/home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/.af8f8811fe1e208708fb5cd7c535e1c1aed3a58e-audit.json",
     "files": [
         {
-            "date": 1637681681853,
-            "name": "/home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/client.log.2021-11-23",
-            "hash": "4b6191250ce124606681115ff4d62746"
+            "date": 1638985917340,
+            "name": "/home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/client.log.2021-12-08",
+            "hash": "709dbc148850e3e3229ab30a550f01ce"
         },
         {
-            "date": 1637691014976,
-            "name": "/home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/client.log.2021-11-23.1",
-            "hash": "356a4bb3abc656ecee3226f953221ccf"
+            "date": 1639082525840,
+            "name": "/home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/client.log.2021-12-09",
+            "hash": "5c89b1de9521b35ba4892e4086c426f8"
         },
         {
-            "date": 1637698498092,
-            "name": "/home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/client.log.2021-11-23.2",
-            "hash": "3a7eae7e1af31ed5fe763589468c70fe"
+            "date": 1639114045778,
+            "name": "/home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/client.log.2021-12-09.1",
+            "hash": "44bdbe769f637a1567040cbdfafeae04"
         },
         {
-            "date": 1637712861410,
-            "name": "/home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/client.log.2021-11-23.3",
-            "hash": "dafa4876ef4ae4dec88e0385f72441c1"
-        },
-        {
-            "date": 1637714833861,
-            "name": "/home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/client.log.2021-11-23.4",
-            "hash": "6ba43819b2645e3b6226a137e800d03d"
-        },
-        {
-            "date": 1637717525382,
-            "name": "/home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/client.log.2021-11-23.5",
-            "hash": "9d475064e048443fd700018919fa8e6b"
+            "date": 1639116084490,
+            "name": "/home/nick/.config/Code - OSS/User/workspaceStorage/d683f26180f1719dde5a5b515e8e4e7a/redhat.java/client.log.2021-12-10",
+            "hash": "efef4e1603ab5b8bebe476f502980937"
         }
     ]
 }

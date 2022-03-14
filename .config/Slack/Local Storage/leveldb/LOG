@@ -1,3 +1,42 @@
-2021/11/18-15:36:35.794 198d Reusing MANIFEST /home/nick/.config/Slack/Local Storage/leveldb/MANIFEST-000001
-2021/11/18-15:36:35.795 198d Recovering log #166
-2021/11/18-15:36:35.795 198d Reusing old log /home/nick/.config/Slack/Local Storage/leveldb/000166.log 
+2022/01/22-13:28:04.421 1de9 Reusing MANIFEST /home/nick/.config/Slack/Local Storage/leveldb/MANIFEST-000001
+2022/01/22-13:28:04.421 1de9 Recovering log #277
+2022/01/22-13:28:04.422 1de9 Reusing old log /home/nick/.config/Slack/Local Storage/leveldb/000277.log 
+2022/01/22-13:29:04.731 1df9 Level-0 table #281: started
+2022/01/22-13:29:04.745 1df9 Level-0 table #281: 12733 bytes OK
+2022/01/22-13:29:04.750 1df9 Delete type=0 #277
+2022/01/22-13:34:04.753 1fa7 Level-0 table #283: started
+2022/01/22-13:34:04.764 1fa7 Level-0 table #283: 18048 bytes OK
+2022/01/22-13:34:04.768 1fa7 Delete type=0 #280
+2022/01/22-15:35:04.741 3830 Level-0 table #285: started
+2022/01/22-15:35:04.747 3830 Level-0 table #285: 13721 bytes OK
+2022/01/22-15:35:04.753 3830 Delete type=0 #282
+2022/01/22-15:35:04.754 3830 Compacting 4@0 + 1@1 files
+2022/01/22-15:35:04.760 3830 Generated table #286@0: 32 keys, 10698 bytes
+2022/01/22-15:35:04.760 3830 Compacted 4@0 + 1@1 files => 10698 bytes
+2022/01/22-15:35:04.765 3830 compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/01/22-15:35:04.766 3830 Delete type=2 #283
+2022/01/22-15:35:04.766 3830 Delete type=2 #285
+2022/01/22-15:35:04.766 3830 Delete type=2 #278
+2022/01/22-15:35:04.766 3830 Delete type=2 #281
+2022/01/22-15:35:04.766 3830 Delete type=2 #276
+2022/01/22-15:39:04.731 4bdd Level-0 table #288: started
+2022/01/22-15:39:04.744 4bdd Level-0 table #288: 19545 bytes OK
+2022/01/22-15:39:04.749 4bdd Delete type=0 #284
+2022/01/22-15:41:04.730 4bdd Level-0 table #290: started
+2022/01/22-15:41:04.742 4bdd Level-0 table #290: 18923 bytes OK
+2022/01/22-15:41:04.746 4bdd Delete type=0 #287
+2022/01/22-15:54:04.734 4bdd Level-0 table #292: started
+2022/01/22-15:54:04.745 4bdd Level-0 table #292: 19889 bytes OK
+2022/01/22-15:54:04.749 4bdd Delete type=0 #289
+2022/01/22-16:27:04.740 4bdd Level-0 table #294: started
+2022/01/22-16:27:04.753 4bdd Level-0 table #294: 10718 bytes OK
+2022/01/22-16:27:04.758 4bdd Delete type=0 #291
+2022/01/22-16:27:04.759 4bdd Compacting 4@0 + 1@1 files
+2022/01/22-16:27:04.765 4bdd Generated table #295@0: 32 keys, 10941 bytes
+2022/01/22-16:27:04.765 4bdd Compacted 4@0 + 1@1 files => 10941 bytes
+2022/01/22-16:27:04.770 4bdd compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/01/22-16:27:04.770 4bdd Delete type=2 #294
+2022/01/22-16:27:04.770 4bdd Delete type=2 #292
+2022/01/22-16:27:04.770 4bdd Delete type=2 #286
+2022/01/22-16:27:04.770 4bdd Delete type=2 #288
+2022/01/22-16:27:04.771 4bdd Delete type=2 #290

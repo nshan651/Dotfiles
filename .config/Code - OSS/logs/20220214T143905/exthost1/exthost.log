@@ -1,0 +1,12 @@
+[2022-02-14 14:39:07.847] [exthost] [info] Extension host with pid 16085 started
+[2022-02-14 14:39:07.847] [exthost] [info] Skipping acquiring lock for /home/nick/.config/Code - OSS/User/workspaceStorage/1cb5b8d35d83d942ef36e406388be847.
+[2022-02-14 14:39:07.902] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-02-14 14:39:07.906] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.github
+[2022-02-14 14:39:07.910] [exthost] [info] ExtensionService#_doActivateExtension sainnhe.gruvbox-material, startup: true, activationEvent: '*'
+[2022-02-14 14:39:07.938] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-02-14 14:39:08.035] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-02-14 14:39:08.074] [exthost] [info] Eager extensions activated
+[2022-02-14 14:39:08.087] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-02-14 14:39:08.103] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-02-14 14:39:09.779] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-02-14 14:39:09.788] [exthost] [info] Extension host with pid 16085 exiting with code 0

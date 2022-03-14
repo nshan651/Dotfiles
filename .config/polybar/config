@@ -17,17 +17,26 @@
 ;==========================================================
 
 [colors]
-
-background = ${xrdb:background:#111111}
+;#111111
+background = ${xrdb:background:#555666} 
 foreground = ${xrdb:foreground:#ffffff}
 color0 = ${xrdb:color0:#8e44ea}
-color1 = ${xrdb:color1:#ea8144}
-color2 = ${xrdb:color2:#dbc037}
-color3 = ${xrdb:color3:#32b7f0}
-color4 = ${xrdb:color4:#fafcd9}
-color5 = ${xrdb:color5:#ffb60a}
-color6 = ${xrdb:color6:#ea8144}
-color7 = ${xrdb:color7}
+
+; r o y g b i v
+color1 = ${xrdb:color1:#f93131} 
+color2 = ${xrdb:color2:#f49c1f}
+color3 = ${xrdb:color3:#e5d81d}
+color4 = ${xrdb:color4:#048e1d}
+color5 = ${xrdb:color5:#3d7eed}
+color6 = ${xrdb:color6:#8255d6}
+color7 = ${xrdb:color7:#c255d6}
+
+; color2 = ${xrdb:color2:#dbc037}
+; color3 = ${xrdb:color3:#32b7f0}
+; color4 = ${xrdb:color4:#fafcd9}
+; color5 = ${xrdb:color5:#ffb60a}
+; color6 = ${xrdb:color6:#ea8144}
+; color7 = ${xrdb:color7}
 color8 = ${xrdb:color8}
 color9 = ${xrdb:color9}
 color10 = ${xrdb:color10}
@@ -46,11 +55,9 @@ color15 = ${xrdb:color15}
 [bar/default]
 monitor = ${env:MONITOR:eDP-1}
 enable-ipc=true
-;height = 45
 height = 25
 
 background = ${colors.background}
-;background = ${colors.primary}
 foreground = ${colors.foreground}
 
 padding=3
@@ -63,7 +70,7 @@ modules-left = bspwm
 ;modules-center = previous playpause next spotify 
 ; Mpd
 modules-center = time 
-modules-right = memory cpu temperature wlan pulseaudio battery 
+modules-right = memory cpu temperature pulseaudio wlan battery 
 
 scroll-up = bspwn-wsnext
 scroll-down = bspwn-wsprev
@@ -146,16 +153,16 @@ type = internal/memory
 interval = 2
 format-padding = 2
 format-prefix = " "
-format-foreground = ${colors.color3}
+format-foreground = ${colors.color1}
 label = %percentage_used%%
 
 [module/wlan]
 type = internal/network
-; interface = wlan0
-interface = wlp2s0
+interface = wlan0
+; interface = wlp2s0
 interval = 3.0
 format-connected-margin = 2
-format-connected-foeground = ${colors.color4}
+format-connected-foreground = ${colors.color5}
 
 
 format-connected =  <label-connected>
@@ -172,7 +179,7 @@ interface = eno1
 interval = 3.0
 
 format-connected-prefix = " "
-format-connected-prefix-color1 = ${colors.color1-alt}
+format-connected-prefix-color1 = ${colors.color4}
 label-connected = %local_ip%
 
 format-disconnected =
@@ -197,7 +204,7 @@ label-padding = 2
 type = internal/pulseaudio
 
 format-volume-margin = 2
-format-volume-foreground = ${colors.color6}
+format-volume-foreground = ${colors.color4}
 format-volume = <ramp-volume> <label-volume>
 label-volume = %percentage%%
 use-ui-max = false
@@ -220,7 +227,7 @@ warn-temperature = 60
 
 format =  <label>
 format-warn = <ramp> <label-warn>
-format-foreground = ${colors.color5}
+format-foreground = ${colors.color3}
 
 label = %temperature-c%
 label-warn = %temperature-c%
@@ -314,11 +321,11 @@ click-left = i3-msg '[class="Spotify"] focus'
 [module/battery]
 type = internal/battery
 format-charging-margin = 2
-format-charging-foreground = ${colors.color4}
+format-charging-foreground = ${colors.color7}
 format-discharging-margin = 2
-format-discharging-foreground = ${colors.color4}
+format-discharging-foreground = ${colors.color7}
 format-full-margin = 2
-format-full-foreground = ${colors.color4}
+format-full-foreground = ${colors.color7}
 full-at = 100
 time-format = %H:%M
 battery = BAT0
@@ -376,7 +383,6 @@ label-font = 1
 ; ramp-capacity-3-underline = ${colors.tertiary}
 ; ramp-capacity-4-underline = ${colors.tertiary}
 
-
 [settings]
 screenchange-reload = true
 ;compositing-background = xor
@@ -389,4 +395,3 @@ screenchange-reload = true
 margin-top = 0
 margin-bottom = 0
 
-; vim:ft=dosinir

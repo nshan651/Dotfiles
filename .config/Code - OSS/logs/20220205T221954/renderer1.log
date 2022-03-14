@@ -1,0 +1,3 @@
+[2022-02-05 22:19:55.913] [renderer1] [critical] Extension 'ms-python.python CANNOT USE these API proposals 'languageStatus, quickPickSortByLabel, testObserver, notebookEditor'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+[2022-02-05 22:19:56.129] [renderer1] [error] [Extension Host] (node:3807) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `electron --trace-deprecation ...` to show where the warning was created)

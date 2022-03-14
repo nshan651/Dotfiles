@@ -3,7 +3,21 @@ application/pdf=org.pwmt.zathura.desktop;org.kde.okular.desktop;
 text/x-tex=nvim.desktop;
 inode/directory=code-oss.desktop;
 text/x-java-source=firefox.desktop;nvim.desktop;
+text/csv=nvim.desktop;
+text/plain=firefox.desktop;nvim.desktop;
+text/html=nvim.desktop;
+text/css=nvim.desktop;
+text/markdown=nvim.desktop;
+text/x-lua=nvim.desktop;
+application/json=nvim.desktop;
 
 [Default Applications]
 application/pdf=org.pwmt.zathura.desktop
 text/x-tex=nvim.desktop
+text/csv=nvim.desktop
+text/html=nvim.desktop
+text/css=nvim.desktop
+text/markdown=nvim.desktop
+text/x-lua=nvim.desktop
+application/json=nvim.desktop
+text/plain=nvim.desktop

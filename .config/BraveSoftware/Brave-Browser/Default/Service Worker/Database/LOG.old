@@ -1,2 +1,3 @@
-2021/11/19-10:38:54.419 19cf Creating DB /home/nick/.config/BraveSoftware/Brave-Browser/Default/Service Worker/Database since it was missing.
-2021/11/19-10:38:54.430 19cf Reusing MANIFEST /home/nick/.config/BraveSoftware/Brave-Browser/Default/Service Worker/Database/MANIFEST-000001
+2022/03/10-21:34:08.243 2af5 Reusing MANIFEST /home/nick/.config/BraveSoftware/Brave-Browser/Default/Service Worker/Database/MANIFEST-000001
+2022/03/10-21:34:08.243 2af5 Recovering log #3
+2022/03/10-21:34:08.244 2af5 Reusing old log /home/nick/.config/BraveSoftware/Brave-Browser/Default/Service Worker/Database/000003.log 

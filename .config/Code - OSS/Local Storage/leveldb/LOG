@@ -1,3 +1,3 @@
-2021/11/23-17:57:34.945 1457 Reusing MANIFEST /home/nick/.config/Code - OSS/Local Storage/leveldb/MANIFEST-000001
-2021/11/23-17:57:34.945 1457 Recovering log #3
-2021/11/23-17:57:34.945 1457 Reusing old log /home/nick/.config/Code - OSS/Local Storage/leveldb/000003.log 
+2022/03/02-20:21:14.154 1700 Reusing MANIFEST /home/nick/.config/Code - OSS/Local Storage/leveldb/MANIFEST-000001
+2022/03/02-20:21:14.155 1700 Recovering log #3
+2022/03/02-20:21:14.155 1700 Reusing old log /home/nick/.config/Code - OSS/Local Storage/leveldb/000003.log 

@@ -34,9 +34,9 @@ XF86MonBrightnessDown
 # ----- Universal keybinds -----
 #
 
-# Calcuator
+# RSS feed reader
 super + F1
-	qalculate-gtk
+    $TERMINAL -e newsboat
 
 # Web browser
 super + F2
@@ -46,25 +46,25 @@ super + F2
 super + F3
     $TERMINAL -e ranger
 
-# Code-OSS
+# Research project folder
 super + F4
-    code-oss $HOME/github_repos/Pollution-Autoencoders
+    $TERMINAL -e nvim $HOME/github_repos/Pollution-Autoencoders/
 
-# GUI filemanager
+# Wiki index
 super + F5
-	pcmanfm
+    $TERMINAL -e nvim $HOME/Documents/wiki/index.md
 
 # Spotify
 super + F6
     spotify
 
-# Joplin-desktop
+# GUI filemanager
 super + F7
-    joplin-desktop
+	pcmanfm
 
 # School java project
 super + F8
-    code-oss $HOME/github_repos/Course-Archive
+    code-oss $HOME/github_repos/Final-Exam
 
 # Research paper
 super + F9
@@ -73,7 +73,14 @@ super + F9
 # Research bibliography
 super + F10
     $TERMINAL -e nvim $HOME/github_repos/Pollution-Autoencoders/paper-draft/ref.bib
-   
+
+# Calcuator
+super + F11
+	qalculate-gtk
+
+# init.vim config
+super + F12
+    $TERMINAL -e nvim $HOME/.config/nvim/init.vim
 # terminal emulator
 super + Return
 	alacritty	

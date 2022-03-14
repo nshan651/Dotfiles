@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 2
+    },
+    "auditLog": "/home/nick/.config/Code - OSS/User/workspaceStorage/1cb5b8d35d83d942ef36e406388be847/redhat.java/.57dc7302be5625569bb3098fd4c6269a6faae839-audit.json",
+    "files": [
+        {
+            "date": 1639578777209,
+            "name": "/home/nick/.config/Code - OSS/User/workspaceStorage/1cb5b8d35d83d942ef36e406388be847/redhat.java/client.log.2021-12-15",
+            "hash": "c728bd3cf356d8cc346e2f44957383a9"
+        }
+    ]
+}

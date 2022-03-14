@@ -1,0 +1,1106 @@
+{
+  message: "Failed to provide hover command Error: The request (id: 2120, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2021-12-16 13:44:29.430'
+}
+{
+  message: '[Error - 1:44:33 PM] Dec 16, 2021, 1:44:33 PM docs.oracle.com\n' +
+    'docs.oracle.com\n' +
+    'Java Model Exception: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:941)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1090)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1047)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:595)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getMarkdownContentReader(JavadocContentAccess2.java:2511)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeJavadoc(HoverInfoProvider.java:276)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeHover(HoverInfoProvider.java:145)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.computeHover(HoverHandler.java:57)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.hover(HoverHandler.java:43)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$7(JDTLanguageServer.java:562)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n' +
+    'Caused by: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)\n' +
+    '\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)\n' +
+    '\tat java.base/java.net.Socket.connect(Socket.java:633)\n' +
+    '\tat java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)\n' +
+    '\tat java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)\n' +
+    '\tat java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:874)\n' +
+    '\t... 17 more\n' +
+    'Caused by: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)\n' +
+    '\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)\n' +
+    '\tat java.base/java.net.Socket.connect(Socket.java:633)\n' +
+    '\tat java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)\n' +
+    '\tat java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)\n' +
+    '\tat java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:874)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1090)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1047)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:595)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getMarkdownContentReader(JavadocContentAccess2.java:2511)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeJavadoc(HoverInfoProvider.java:276)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeHover(HoverInfoProvider.java:145)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.computeHover(HoverHandler.java:57)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.hover(HoverHandler.java:43)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$7(JDTLanguageServer.java:562)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-12-16 13:44:33.407'
+}
+{
+  message: '[Error - 1:44:43 PM] Dec 16, 2021, 1:44:43 PM docs.oracle.com\n' +
+    'docs.oracle.com\n' +
+    'Java Model Exception: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:941)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1090)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:749)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:595)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getMarkdownContentReader(JavadocContentAccess2.java:2511)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeJavadoc(HoverInfoProvider.java:276)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeHover(HoverInfoProvider.java:145)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.computeHover(HoverHandler.java:57)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.hover(HoverHandler.java:43)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$7(JDTLanguageServer.java:562)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n' +
+    'Caused by: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)\n' +
+    '\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)\n' +
+    '\tat java.base/java.net.Socket.connect(Socket.java:633)\n' +
+    '\tat java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)\n' +
+    '\tat java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)\n' +
+    '\tat java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:874)\n' +
+    '\t... 17 more\n' +
+    'Caused by: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)\n' +
+    '\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)\n' +
+    '\tat java.base/java.net.Socket.connect(Socket.java:633)\n' +
+    '\tat java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)\n' +
+    '\tat java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)\n' +
+    '\tat java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:874)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1090)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:749)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:595)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getMarkdownContentReader(JavadocContentAccess2.java:2511)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeJavadoc(HoverInfoProvider.java:276)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeHover(HoverInfoProvider.java:145)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.computeHover(HoverHandler.java:57)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.hover(HoverHandler.java:43)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$7(JDTLanguageServer.java:562)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-12-16 13:44:43.175'
+}
+{
+  message: '[Error - 1:44:43 PM] Dec 16, 2021, 1:44:43 PM docs.oracle.com\n' +
+    'docs.oracle.com\n' +
+    'Java Model Exception: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:941)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1090)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:749)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:595)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getMarkdownContentReader(JavadocContentAccess2.java:2511)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeJavadoc(HoverInfoProvider.java:276)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeHover(HoverInfoProvider.java:145)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.computeHover(HoverHandler.java:57)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.hover(HoverHandler.java:43)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$7(JDTLanguageServer.java:562)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n' +
+    'Caused by: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)\n' +
+    '\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)\n' +
+    '\tat java.base/java.net.Socket.connect(Socket.java:633)\n' +
+    '\tat java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)\n' +
+    '\tat java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)\n' +
+    '\tat java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:874)\n' +
+    '\t... 17 more\n' +
+    'Caused by: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)\n' +
+    '\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)\n' +
+    '\tat java.base/java.net.Socket.connect(Socket.java:633)\n' +
+    '\tat java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)\n' +
+    '\tat java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)\n' +
+    '\tat java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:874)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1090)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:749)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:595)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getMarkdownContentReader(JavadocContentAccess2.java:2511)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeJavadoc(HoverInfoProvider.java:276)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeHover(HoverInfoProvider.java:145)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.computeHover(HoverHandler.java:57)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.hover(HoverHandler.java:43)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$7(JDTLanguageServer.java:562)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-12-16 13:44:43.725'
+}
+{
+  message: '[Error - 1:44:43 PM] Dec 16, 2021, 1:44:43 PM Unable to load IDecompiler class for jarFileContentProvider',
+  level: 'info',
+  timestamp: '2021-12-16 13:44:43.748'
+}
+{
+  message: '[Error - 1:45:23 PM] Dec 16, 2021, 1:45:23 PM docs.oracle.com\n' +
+    'docs.oracle.com\n' +
+    'Java Model Exception: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:941)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1090)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1047)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:595)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getMarkdownContentReader(JavadocContentAccess2.java:2511)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeJavadoc(HoverInfoProvider.java:276)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeHover(HoverInfoProvider.java:145)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.computeHover(HoverHandler.java:57)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.hover(HoverHandler.java:43)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$7(JDTLanguageServer.java:562)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n' +
+    'Caused by: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)\n' +
+    '\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)\n' +
+    '\tat java.base/java.net.Socket.connect(Socket.java:633)\n' +
+    '\tat java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)\n' +
+    '\tat java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)\n' +
+    '\tat java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:874)\n' +
+    '\t... 17 more\n' +
+    'Caused by: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)\n' +
+    '\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)\n' +
+    '\tat java.base/java.net.Socket.connect(Socket.java:633)\n' +
+    '\tat java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)\n' +
+    '\tat java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)\n' +
+    '\tat java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:874)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1090)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1047)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:595)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getMarkdownContentReader(JavadocContentAccess2.java:2511)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeJavadoc(HoverInfoProvider.java:276)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeHover(HoverInfoProvider.java:145)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.computeHover(HoverHandler.java:57)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.hover(HoverHandler.java:43)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$7(JDTLanguageServer.java:562)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-12-16 13:45:23.060'
+}
+{
+  message: '[Error - 1:45:23 PM] Dec 16, 2021, 1:45:23 PM docs.oracle.com\n' +
+    'docs.oracle.com\n' +
+    'Java Model Exception: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:941)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1090)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1047)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:595)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getMarkdownContentReader(JavadocContentAccess2.java:2511)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeJavadoc(HoverInfoProvider.java:276)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeHover(HoverInfoProvider.java:145)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.computeHover(HoverHandler.java:57)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.hover(HoverHandler.java:43)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$7(JDTLanguageServer.java:562)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n' +
+    'Caused by: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)\n' +
+    '\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)\n' +
+    '\tat java.base/java.net.Socket.connect(Socket.java:633)\n' +
+    '\tat java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)\n' +
+    '\tat java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)\n' +
+    '\tat java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:874)\n' +
+    '\t... 17 more\n' +
+    'Caused by: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)\n' +
+    '\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)\n' +
+    '\tat java.base/java.net.Socket.connect(Socket.java:633)\n' +
+    '\tat java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)\n' +
+    '\tat java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)\n' +
+    '\tat java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:874)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1090)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1047)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:595)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getMarkdownContentReader(JavadocContentAccess2.java:2511)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeJavadoc(HoverInfoProvider.java:276)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeHover(HoverInfoProvider.java:145)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.computeHover(HoverHandler.java:57)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.hover(HoverHandler.java:43)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$7(JDTLanguageServer.java:562)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-12-16 13:45:23.469'
+}
+{
+  message: '[Error - 1:45:23 PM] Dec 16, 2021, 1:45:23 PM docs.oracle.com\n' +
+    'docs.oracle.com\n' +
+    'Java Model Exception: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:941)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1090)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1047)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:595)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getMarkdownContentReader(JavadocContentAccess2.java:2511)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeJavadoc(HoverInfoProvider.java:276)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeHover(HoverInfoProvider.java:145)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.computeHover(HoverHandler.java:57)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.hover(HoverHandler.java:43)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$7(JDTLanguageServer.java:562)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n' +
+    'Caused by: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)\n' +
+    '\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)\n' +
+    '\tat java.base/java.net.Socket.connect(Socket.java:633)\n' +
+    '\tat java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)\n' +
+    '\tat java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)\n' +
+    '\tat java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:874)\n' +
+    '\t... 17 more\n' +
+    'Caused by: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)\n' +
+    '\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)\n' +
+    '\tat java.base/java.net.Socket.connect(Socket.java:633)\n' +
+    '\tat java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)\n' +
+    '\tat java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)\n' +
+    '\tat java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:874)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1090)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1047)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:595)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getMarkdownContentReader(JavadocContentAccess2.java:2511)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeJavadoc(HoverInfoProvider.java:276)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeHover(HoverInfoProvider.java:145)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.computeHover(HoverHandler.java:57)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.hover(HoverHandler.java:43)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$7(JDTLanguageServer.java:562)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-12-16 13:45:23.688'
+}
+{
+  message: '[Error - 1:45:27 PM] Dec 16, 2021, 1:45:27 PM docs.oracle.com\n' +
+    'docs.oracle.com\n' +
+    'Java Model Exception: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:941)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1090)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1047)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:595)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getMarkdownContentReader(JavadocContentAccess2.java:2511)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeJavadoc(HoverInfoProvider.java:276)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeHover(HoverInfoProvider.java:145)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.computeHover(HoverHandler.java:57)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.hover(HoverHandler.java:43)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$7(JDTLanguageServer.java:562)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n' +
+    'Caused by: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)\n' +
+    '\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)\n' +
+    '\tat java.base/java.net.Socket.connect(Socket.java:633)\n' +
+    '\tat java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)\n' +
+    '\tat java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)\n' +
+    '\tat java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:874)\n' +
+    '\t... 17 more\n' +
+    'Caused by: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)\n' +
+    '\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)\n' +
+    '\tat java.base/java.net.Socket.connect(Socket.java:633)\n' +
+    '\tat java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)\n' +
+    '\tat java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)\n' +
+    '\tat java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:874)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1090)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1047)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:595)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getMarkdownContentReader(JavadocContentAccess2.java:2511)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeJavadoc(HoverInfoProvider.java:276)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeHover(HoverInfoProvider.java:145)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.computeHover(HoverHandler.java:57)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.hover(HoverHandler.java:43)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$7(JDTLanguageServer.java:562)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-12-16 13:45:27.519'
+}
+{
+  message: '[Error - 1:46:08 PM] Dec 16, 2021, 1:46:08 PM docs.oracle.com\n' +
+    'docs.oracle.com\n' +
+    'Java Model Exception: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:941)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1090)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:749)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:595)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getMarkdownContentReader(JavadocContentAccess2.java:2511)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.lambda$0(CompletionResolveHandler.java:199)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:833)\n' +
+    'Caused by: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)\n' +
+    '\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)\n' +
+    '\tat java.base/java.net.Socket.connect(Socket.java:633)\n' +
+    '\tat java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)\n' +
+    '\tat java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)\n' +
+    '\tat java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:874)\n' +
+    '\t... 9 more\n' +
+    'Caused by: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)\n' +
+    '\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)\n' +
+    '\tat java.base/java.net.Socket.connect(Socket.java:633)\n' +
+    '\tat java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)\n' +
+    '\tat java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)\n' +
+    '\tat java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:874)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1090)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:749)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:595)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getMarkdownContentReader(JavadocContentAccess2.java:2511)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.lambda$0(CompletionResolveHandler.java:199)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:833)\n',
+  level: 'info',
+  timestamp: '2021-12-16 13:46:08.748'
+}
+{
+  message: '[Error - 1:50:18 PM] Dec 16, 2021, 1:50:18 PM docs.oracle.com\n' +
+    'docs.oracle.com\n' +
+    'Java Model Exception: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:941)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1090)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:135)\n' +
+    '\tat org.eclipse.jdt.internal.core.ResolvedBinaryField.getAttachedJavadoc(ResolvedBinaryField.java:1)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:595)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getMarkdownContentReader(JavadocContentAccess2.java:2511)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeJavadoc(HoverInfoProvider.java:276)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeHover(HoverInfoProvider.java:145)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.computeHover(HoverHandler.java:57)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.hover(HoverHandler.java:43)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$7(JDTLanguageServer.java:562)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n' +
+    'Caused by: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)\n' +
+    '\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)\n' +
+    '\tat java.base/java.net.Socket.connect(Socket.java:633)\n' +
+    '\tat java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)\n' +
+    '\tat java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)\n' +
+    '\tat java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:874)\n' +
+    '\t... 18 more\n' +
+    'Caused by: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)\n' +
+    '\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)\n' +
+    '\tat java.base/java.net.Socket.connect(Socket.java:633)\n' +
+    '\tat java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)\n' +
+    '\tat java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)\n' +
+    '\tat java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:874)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1090)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:135)\n' +
+    '\tat org.eclipse.jdt.internal.core.ResolvedBinaryField.getAttachedJavadoc(ResolvedBinaryField.java:1)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:595)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getMarkdownContentReader(JavadocContentAccess2.java:2511)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeJavadoc(HoverInfoProvider.java:276)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeHover(HoverInfoProvider.java:145)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.computeHover(HoverHandler.java:57)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.hover(HoverHandler.java:43)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$7(JDTLanguageServer.java:562)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-12-16 13:50:18.906'
+}
+{
+  message: '[Error - 1:50:19 PM] Dec 16, 2021, 1:50:19 PM docs.oracle.com\n' +
+    'docs.oracle.com\n' +
+    'Java Model Exception: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:941)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1090)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1047)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:595)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getMarkdownContentReader(JavadocContentAccess2.java:2511)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeJavadoc(HoverInfoProvider.java:276)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeHover(HoverInfoProvider.java:145)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.computeHover(HoverHandler.java:57)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.hover(HoverHandler.java:43)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$7(JDTLanguageServer.java:562)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n' +
+    'Caused by: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)\n' +
+    '\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)\n' +
+    '\tat java.base/java.net.Socket.connect(Socket.java:633)\n' +
+    '\tat java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)\n' +
+    '\tat java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)\n' +
+    '\tat java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:874)\n' +
+    '\t... 17 more\n' +
+    'Caused by: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)\n' +
+    '\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)\n' +
+    '\tat java.base/java.net.Socket.connect(Socket.java:633)\n' +
+    '\tat java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)\n' +
+    '\tat java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)\n' +
+    '\tat java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:874)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1090)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1047)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:595)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getMarkdownContentReader(JavadocContentAccess2.java:2511)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeJavadoc(HoverInfoProvider.java:276)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.HoverInfoProvider.computeHover(HoverInfoProvider.java:145)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.computeHover(HoverHandler.java:57)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.HoverHandler.hover(HoverHandler.java:43)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$7(JDTLanguageServer.java:562)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.BaseJDTLanguageServer.lambda$0(BaseJDTLanguageServer.java:75)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)\n' +
+    '\tat java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)\n' +
+    '\tat java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)\n',
+  level: 'info',
+  timestamp: '2021-12-16 13:50:19.312'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 3045, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2021-12-16 13:50:43.355'
+}
+{
+  message: '[Error - 1:50:46 PM] Dec 16, 2021, 1:50:46 PM Error occured while building workspace. Details: \n' +
+    ' message: The declared package "" does not match the expected package "old"; code: 536871240; resource: /home/nick/github_repos/Final-Exam/old/AirportRoutes.java; line: 1\n' +
+    ' message: The declared package "" does not match the expected package "old"; code: 536871240; resource: /home/nick/github_repos/Final-Exam/old/DirectedGraph.java; line: 1\n' +
+    ' message: The declared package "" does not match the expected package "old"; code: 536871240; resource: /home/nick/github_repos/Final-Exam/old/DirectedNodeList.java; line: 1\n' +
+    ' message: The declared package "" does not match the expected package "old"; code: 536871240; resource: /home/nick/github_repos/Final-Exam/old/Edge.java; line: 1\n' +
+    ' message: The declared package "" does not match the expected package "old"; code: 536871240; resource: /home/nick/github_repos/Final-Exam/old/ReducedGraph.java; line: 1',
+  level: 'info',
+  timestamp: '2021-12-16 13:50:46.945'
+}
+{
+  message: '[Error - 1:53:40 PM] Dec 16, 2021, 1:53:40 PM Error occured while building workspace. Details: \n' +
+    ' message: The declared package "" does not match the expected package "old"; code: 536871240; resource: /home/nick/github_repos/Final-Exam/old/AirportRoutes.java; line: 1\n' +
+    ' message: The declared package "" does not match the expected package "old"; code: 536871240; resource: /home/nick/github_repos/Final-Exam/old/DirectedGraph.java; line: 1\n' +
+    ' message: The declared package "" does not match the expected package "old"; code: 536871240; resource: /home/nick/github_repos/Final-Exam/old/DirectedNodeList.java; line: 1\n' +
+    ' message: The declared package "" does not match the expected package "old"; code: 536871240; resource: /home/nick/github_repos/Final-Exam/old/Edge.java; line: 1\n' +
+    ' message: The declared package "" does not match the expected package "old"; code: 536871240; resource: /home/nick/github_repos/Final-Exam/old/ReducedGraph.java; line: 1',
+  level: 'info',
+  timestamp: '2021-12-16 13:53:40.007'
+}
+{
+  message: "Failed to provide hover command Error: The request (id: 3113, method: 'java/findLinks') has been cancelled",
+  level: 'error',
+  timestamp: '2021-12-16 13:54:24.553'
+}
+{
+  message: '[Error - 1:54:35 PM] Dec 16, 2021, 1:54:35 PM Error occured while building workspace. Details: \n' +
+    ' message: The declared package "" does not match the expected package "old"; code: 536871240; resource: /home/nick/github_repos/Final-Exam/old/AirportRoutes.java; line: 1\n' +
+    ' message: The declared package "" does not match the expected package "old"; code: 536871240; resource: /home/nick/github_repos/Final-Exam/old/DirectedGraph.java; line: 1\n' +
+    ' message: The declared package "" does not match the expected package "old"; code: 536871240; resource: /home/nick/github_repos/Final-Exam/old/DirectedNodeList.java; line: 1\n' +
+    ' message: The declared package "" does not match the expected package "old"; code: 536871240; resource: /home/nick/github_repos/Final-Exam/old/Edge.java; line: 1\n' +
+    ' message: The declared package "" does not match the expected package "old"; code: 536871240; resource: /home/nick/github_repos/Final-Exam/old/ReducedGraph.java; line: 1',
+  level: 'info',
+  timestamp: '2021-12-16 13:54:35.915'
+}
+{
+  message: '[Error - 1:58:04 PM] Dec 16, 2021, 1:58:04 PM docs.oracle.com\n' +
+    'docs.oracle.com\n' +
+    'Java Model Exception: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:941)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1090)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1047)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:595)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getMarkdownContentReader(JavadocContentAccess2.java:2511)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.lambda$0(CompletionResolveHandler.java:199)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:833)\n' +
+    'Caused by: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)\n' +
+    '\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)\n' +
+    '\tat java.base/java.net.Socket.connect(Socket.java:633)\n' +
+    '\tat java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)\n' +
+    '\tat java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)\n' +
+    '\tat java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:874)\n' +
+    '\t... 9 more\n' +
+    'Caused by: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)\n' +
+    '\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)\n' +
+    '\tat java.base/java.net.Socket.connect(Socket.java:633)\n' +
+    '\tat java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)\n' +
+    '\tat java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)\n' +
+    '\tat java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:874)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1090)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1047)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:595)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getMarkdownContentReader(JavadocContentAccess2.java:2511)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.lambda$0(CompletionResolveHandler.java:199)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:833)\n',
+  level: 'info',
+  timestamp: '2021-12-16 13:58:04.995'
+}
+{
+  message: '[Error - 1:58:05 PM] Dec 16, 2021, 1:58:05 PM docs.oracle.com\n' +
+    'docs.oracle.com\n' +
+    'Java Model Exception: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:941)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1090)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1047)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:595)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getMarkdownContentReader(JavadocContentAccess2.java:2511)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.lambda$0(CompletionResolveHandler.java:199)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:833)\n' +
+    'Caused by: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)\n' +
+    '\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)\n' +
+    '\tat java.base/java.net.Socket.connect(Socket.java:633)\n' +
+    '\tat java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)\n' +
+    '\tat java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)\n' +
+    '\tat java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:874)\n' +
+    '\t... 9 more\n' +
+    'Caused by: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)\n' +
+    '\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)\n' +
+    '\tat java.base/java.net.Socket.connect(Socket.java:633)\n' +
+    '\tat java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)\n' +
+    '\tat java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)\n' +
+    '\tat java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:874)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1090)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getAttachedJavadoc(BinaryType.java:1047)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:595)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getMarkdownContentReader(JavadocContentAccess2.java:2511)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.lambda$0(CompletionResolveHandler.java:199)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:833)\n',
+  level: 'info',
+  timestamp: '2021-12-16 13:58:05.045'
+}
+{
+  message: '[Error - 1:58:06 PM] Dec 16, 2021, 1:58:06 PM docs.oracle.com\n' +
+    'docs.oracle.com\n' +
+    'Java Model Exception: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:941)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1090)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:749)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:595)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getMarkdownContentReader(JavadocContentAccess2.java:2511)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.lambda$0(CompletionResolveHandler.java:199)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:833)\n' +
+    'Caused by: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)\n' +
+    '\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)\n' +
+    '\tat java.base/java.net.Socket.connect(Socket.java:633)\n' +
+    '\tat java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)\n' +
+    '\tat java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)\n' +
+    '\tat java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:874)\n' +
+    '\t... 9 more\n' +
+    'Caused by: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)\n' +
+    '\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)\n' +
+    '\tat java.base/java.net.Socket.connect(Socket.java:633)\n' +
+    '\tat java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)\n' +
+    '\tat java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)\n' +
+    '\tat java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:874)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1090)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryMethod.getAttachedJavadoc(BinaryMethod.java:749)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:595)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getMarkdownContentReader(JavadocContentAccess2.java:2511)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.lambda$0(CompletionResolveHandler.java:199)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:833)\n',
+  level: 'info',
+  timestamp: '2021-12-16 13:58:06.420'
+}
+{
+  message: '[Error - 1:58:06 PM] Dec 16, 2021, 1:58:06 PM docs.oracle.com\n' +
+    'docs.oracle.com\n' +
+    'Java Model Exception: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:941)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1090)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:135)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:595)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getMarkdownContentReader(JavadocContentAccess2.java:2511)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.lambda$0(CompletionResolveHandler.java:199)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:833)\n' +
+    'Caused by: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)\n' +
+    '\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)\n' +
+    '\tat java.base/java.net.Socket.connect(Socket.java:633)\n' +
+    '\tat java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)\n' +
+    '\tat java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)\n' +
+    '\tat java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:874)\n' +
+    '\t... 9 more\n' +
+    'Caused by: java.net.UnknownHostException: docs.oracle.com\n' +
+    '\tat java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:567)\n' +
+    '\tat java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)\n' +
+    '\tat java.base/java.net.Socket.connect(Socket.java:633)\n' +
+    '\tat java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:299)\n' +
+    '\tat java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)\n' +
+    '\tat java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:266)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:380)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:189)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)\n' +
+    '\tat java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:175)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)\n' +
+    '\tat java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)\n' +
+    '\tat java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)\n' +
+    '\tat java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:308)\n' +
+    '\tat org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:874)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryType.getJavadocContents(BinaryType.java:1090)\n' +
+    '\tat org.eclipse.jdt.internal.core.BinaryField.getAttachedJavadoc(BinaryField.java:135)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:595)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.javadoc.JavadocContentAccess2.getMarkdownContentReader(JavadocContentAccess2.java:2511)\n' +
+    '\tat org.eclipse.jdt.ls.core.internal.handlers.CompletionResolveHandler.lambda$0(CompletionResolveHandler.java:199)\n' +
+    '\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)\n' +
+    '\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)\n' +
+    '\tat java.base/java.lang.Thread.run(Thread.java:833)\n',
+  level: 'info',
+  timestamp: '2021-12-16 13:58:06.762'
+}

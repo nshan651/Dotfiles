@@ -9,8 +9,6 @@
 " Desription: My personal .vimrc file
 "------------------------------------------------
 
-
-
 "------------------------------------------------
 " --- |Pluggins| ---
 "------------------------------------------------
@@ -21,6 +19,10 @@ Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'preservim/nerdtree'
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+Plug 'ap/vim-css-color'
+Plug 'vimwiki/vimwiki'
+Plug 'nvim-lualine/lualine.nvim'
 " LSP and autocompletion
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} 
 Plug 'neovim/nvim-lspconfig'
@@ -29,26 +31,17 @@ Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
-Plug 'mfussenegger/nvim-jdtls'
 " Colorscheme add-ons
 Plug 'sainnhe/everforest'
+Plug 'sainnhe/gruvbox-material'
 Plug 'morhetz/gruvbox'
 Plug 'sainnhe/edge'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'ryanoasis/vim-devicons'
 call plug#end()
 
-"------------------------------------------------
-" --- |Maps| ---
-"------------------------------------------------
-
 " Remap <leader> key from to SPACE
 let mapleader = "\<Space>" 
-
-" Map buffer shortcuts
-" CTRL + j/k for next/prev buffer
-" map <C-J> :bnext<CR> 
-" map <C-K> :bprev<CR>
 
 "------------------------------------------------
 " --- |nvim-cmp setup| ---
@@ -105,13 +98,24 @@ lua <<EOF
   -- Setup lspconfig.
   local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
   -- Language server list 
-  require'lspconfig'.pyright.setup{}
-  require'lspconfig'.bashls.setup{}
+  require('lspconfig').pyright.setup{}
+  require('lspconfig').bashls.setup{}
+  require('lspconfig').sumneko_lua.setup{}
+  -- Lualine
+  require('lualine').setup {
+    options = {
+      theme = 'gruvbox-material'
+    }
+  }
 EOF
 
 "------------------------------------------------
 " --- |Pluggin Settings| ---
 "------------------------------------------------
+
+" Colorscheme plugin settings
+let g:everforest_background = 'hard'
+let g:gruvbox_material_background = 'soft'
 
 " LLP configuration
 " autocmd Filetype tex setl updatetime=1
@@ -119,8 +123,12 @@ let g:livepreview_previewer = 'zathura'
 let g:livepreview_engine = 'pdflatex'
 let g:livepreview_use_biber = 1
 
-" Colorscheme plugin settings
-let g:everforest_background = 'hard'
+" markdown-preview 
+let g:mkdp_browser = 'firefox'
+
+" vimwiki
+let g:vimwiki_list = [{'path': '~/Documents/wiki/', 'path_html': '~/Documents/public_html/',
+                      \ 'syntax': 'markdown', 'ext': '.md'}]
 
 "------------------------------------------------
 " --- |Remaps| ---
@@ -133,7 +141,7 @@ nnoremap <C-H> :tabprevious<CR>
 nnoremap <C-L> :tabnext<CR>
 nnoremap <C-t> :tabnew<CR>
 
-" Telescope remaps
+" Telescope 
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
@@ -147,9 +155,15 @@ nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 " Python
 autocmd FileType python map <buffer> <F9> :w<CR>:exec '!python3' shellescape(@%, 1)<CR>
 autocmd FileType python imap <buffer> <F9> <esc>:w<CR>:exec '!python3' shellescape(@%, 1)<CR>
+" Lua
+autocmd FileType lua map <buffer> <F9> :w<CR>:exec '!lua' shellescape(@%, 1)<CR>
+autocmd FileType lua imap <buffer> <F9> <esc>:w<CR>:exec '!lua' shellescape(@%, 1)<CR>
 " LLPStartPreview for Latex
 autocmd FileType tex map <buffer> <F9> :w<CR>:LLPStartPreview<CR>
 autocmd FileType tex imap <buffer> <F9> <esc>:w<CR>:LLPStartPreview<CR>
+" Markdown
+autocmd FileType markdown map <buffer> <F9> :w<CR>:MarkdownPreview<CR>
+autocmd FileType markdown imap <buffer> <F9> <esc>:w<CR>:MarkdownPreview<CR>
 " init.vim reload
 autocmd FileType vim map <buffer> <F9> :w<CR>:so %<CR>
 autocmd FileType vim imap <buffer> <F9> <esc>:w<CR>:so %<CR>
@@ -163,16 +177,19 @@ autocmd BufRead,BufNewFile ~/.calcurse/notes/* set filetype=markdown
 
 " Set 'nocompatible' for issues with distro
 set nocompatible
-
-set background=dark
-colorscheme everforest
-
-" Use this to preserve transpareny
-"au ColorScheme * hi Normal ctermbg=none guibg=none
+filetype plugin on
 
 if has('termguicolors')
     set termguicolors
 endif
+
+colorscheme gruvbox-material
+set background=dark
+
+"set hi Normal guibg=NONE ctermbg=None
+" Use this to preserve transpareny
+"au ColorScheme * hi Normal ctermbg=none guibg=none
+
 " Attempt to determine type of a file based on its name
 if has('filetype')
   filetype indent plugin on

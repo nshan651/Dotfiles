@@ -1,69 +1,5 @@
 {
     "telemetry.machineId": "4e42beed3aa2f87d3159836d22ead5c5b2e94ecc432e7b465c5a08d8d6ccb4a7",
-    "openedPathsList": {
-        "entries": [
-            {
-                "folderUri": "file:///home/nick/github_repos/Course-Archive"
-            },
-            {
-                "folderUri": "file:///home/nick/github_repos/Course-Archive/comp272/pset9"
-            },
-            {
-                "folderUri": "file:///home/nick/github_repos/Pollution-Autoencoders"
-            },
-            {
-                "folderUri": "file:///home/nick/github_repos/WeeklyTickerReports"
-            },
-            {
-                "folderUri": "file:///home/nick/github_repos/Course-Archive/comp272/pset7"
-            },
-            {
-                "folderUri": "file:///home/nick/github_repos/Midterm/midterm"
-            },
-            {
-                "folderUri": "file:///home/nick/Downloads"
-            },
-            {
-                "folderUri": "file:///home/nick/github_repos/Midterm"
-            },
-            {
-                "folderUri": "file:///home/nick/github_repos/Course-Archive/comp272"
-            },
-            {
-                "folderUri": "file:///home/nick/Downloads/Q-3-4-5-Key"
-            },
-            {
-                "folderUri": "file:///home/nick/Downloads/Q1-2-Key"
-            },
-            {
-                "folderUri": "file:///home/nick/github_repos/Course-Archive/comp272/midterm"
-            },
-            {
-                "folderUri": "file:///home/nick/github_repos/comp272"
-            },
-            {
-                "folderUri": "file:///tmp"
-            },
-            {
-                "folderUri": "file:///home/nick/github_repos/RIF-ReportBot"
-            },
-            {
-                "folderUri": "file:///home/nick/github_repos/RIF-InfoBot"
-            },
-            {
-                "fileUri": "file:///home/nick/github_repos/WeeklyTickerReports/main.py"
-            },
-            {
-                "fileUri": "file:///home/nick/Documents/Optiver/Main.java"
-            },
-            {
-                "fileUri": "file:///home/nick/Documents/Classes/engl318/flashfict3/flashfict3.tex"
-            },
-            {
-                "fileUri": "file:///home/nick/.config/joplin-desktop/edit-70a85d86dd3046f1a1efb2223473b645.md"
-            }
-        ]
-    },
     "lastKnownMenubarData": {
         "menus": {
             "File": {
@@ -73,12 +9,12 @@
                         "label": "&&New File"
                     },
                     {
-                        "id": "workbench.action.newWindow",
-                        "label": "New &&Window"
-                    },
-                    {
                         "id": "welcome.showNewFileEntries",
                         "label": "New File..."
+                    },
+                    {
+                        "id": "workbench.action.newWindow",
+                        "label": "New &&Window"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -96,13 +32,14 @@
                         "label": "Open Wor&&kspace from File..."
                     },
                     {
-                        "id": "submenuitem.30",
+                        "id": "submenuitem.33",
                         "label": "Open &&Recent",
                         "submenu": {
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -111,7 +48,95 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/nick/github_repos/Course-Archive",
+                                        "fsPath": "/home/nick/Downloads",
+                                        "external": "file:///home/nick/Downloads",
+                                        "path": "/home/nick/Downloads",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Downloads"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/nick/github_repos/lua-ex",
+                                        "path": "/home/nick/github_repos/lua-ex",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/github_repos/lua-ex"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/nick/github_repos/Pollution-Autoencoders",
+                                        "path": "/home/nick/github_repos/Pollution-Autoencoders",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/github_repos/Pollution-Autoencoders"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/nick/github_repos/TA_Trader",
+                                        "path": "/home/nick/github_repos/TA_Trader",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/github_repos/TA_Trader"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/nick/Documents/Internships/zighra/sensifyid-web-sdk-1.0.1/quickstart%20v2",
+                                        "path": "/home/nick/Documents/Internships/zighra/sensifyid-web-sdk-1.0.1/quickstart v2",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Internships/zighra/sensifyid-web-sdk-1.0.1/quickstart v2"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/nick/Documents/Internships/zighra/sensifyid-web-sdk-1.0.1/quickstart%20v1",
+                                        "path": "/home/nick/Documents/Internships/zighra/sensifyid-web-sdk-1.0.1/quickstart v1",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Internships/zighra/sensifyid-web-sdk-1.0.1/quickstart v1"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/nick/github_repos/Automated-Fundamentals",
+                                        "path": "/home/nick/github_repos/Automated-Fundamentals",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/github_repos/Automated-Fundamentals"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/nick/github_repos/Temp_Final",
+                                        "path": "/home/nick/github_repos/Temp_Final",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/github_repos/Temp_Final"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/nick/github_repos/Course-Archive",
                                         "path": "/home/nick/github_repos/Course-Archive",
                                         "scheme": "file"
@@ -131,139 +156,117 @@
                                     "label": "~/github_repos/Course-Archive/comp272/pset9"
                                 },
                                 {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/nick/github_repos/Pollution-Autoencoders",
-                                        "path": "/home/nick/github_repos/Pollution-Autoencoders",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/github_repos/Pollution-Autoencoders"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/nick/github_repos/WeeklyTickerReports",
-                                        "path": "/home/nick/github_repos/WeeklyTickerReports",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/github_repos/WeeklyTickerReports"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/nick/github_repos/Course-Archive/comp272/pset7",
-                                        "path": "/home/nick/github_repos/Course-Archive/comp272/pset7",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/github_repos/Course-Archive/comp272/pset7"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/nick/github_repos/Midterm/midterm",
-                                        "path": "/home/nick/github_repos/Midterm/midterm",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/github_repos/Midterm/midterm"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/nick/Downloads",
-                                        "path": "/home/nick/Downloads",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Downloads"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/nick/github_repos/Midterm",
-                                        "path": "/home/nick/github_repos/Midterm",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/github_repos/Midterm"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/nick/github_repos/Course-Archive/comp272",
-                                        "path": "/home/nick/github_repos/Course-Archive/comp272",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/github_repos/Course-Archive/comp272"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/nick/Downloads/Q-3-4-5-Key",
-                                        "path": "/home/nick/Downloads/Q-3-4-5-Key",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Downloads/Q-3-4-5-Key"
-                                },
-                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/nick/github_repos/WeeklyTickerReports/main.py",
-                                        "path": "/home/nick/github_repos/WeeklyTickerReports/main.py",
+                                        "external": "file:///home/nick/Downloads/temp.txt",
+                                        "path": "/home/nick/Downloads/temp.txt",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/github_repos/WeeklyTickerReports/main.py"
+                                    "label": "~/Downloads/temp.txt"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/nick/Documents/Optiver/Main.java",
-                                        "path": "/home/nick/Documents/Optiver/Main.java",
+                                        "external": "file:///home/nick/.gitconfig",
+                                        "path": "/home/nick/.gitconfig",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Documents/Optiver/Main.java"
+                                    "label": "~/.gitconfig"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/nick/Documents/Classes/engl318/flashfict3/flashfict3.tex",
-                                        "path": "/home/nick/Documents/Classes/engl318/flashfict3/flashfict3.tex",
+                                        "external": "file:///home/nick/Documents/Internships/zighra/sensifyid-web-sdk-1.0.1/readme.txt",
+                                        "path": "/home/nick/Documents/Internships/zighra/sensifyid-web-sdk-1.0.1/readme.txt",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Documents/Classes/engl318/flashfict3/flashfict3.tex"
+                                    "label": "~/Documents/Internships/zighra/sensifyid-web-sdk-1.0.1/readme.txt"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/nick/.config/joplin-desktop/edit-70a85d86dd3046f1a1efb2223473b645.md",
-                                        "path": "/home/nick/.config/joplin-desktop/edit-70a85d86dd3046f1a1efb2223473b645.md",
+                                        "external": "file:///home/nick/Documents/Research",
+                                        "path": "/home/nick/Documents/Research",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/.config/joplin-desktop/edit-70a85d86dd3046f1a1efb2223473b645.md"
+                                    "label": "~/Documents/Research"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/nick/github_repos/Pollution-Autoencoders/data/grid_params/co_vec_dim",
+                                        "path": "/home/nick/github_repos/Pollution-Autoencoders/data/grid_params/co_vec_dim",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/github_repos/Pollution-Autoencoders/data/grid_params/co_vec_dim"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/nick/Downloads/Upcoming%20Appointment.ics",
+                                        "path": "/home/nick/Downloads/Upcoming Appointment.ics",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Downloads/Upcoming Appointment.ics"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/nick/github_repos/Automated-Fundamentals/.gitignore",
+                                        "path": "/home/nick/github_repos/Automated-Fundamentals/.gitignore",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/github_repos/Automated-Fundamentals/.gitignore"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/nick/github_repos/WeeklyTickerReports/slackauth.py",
+                                        "path": "/home/nick/github_repos/WeeklyTickerReports/slackauth.py",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/github_repos/WeeklyTickerReports/slackauth.py"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/nick/.config/joplin-desktop/edit-3e78d9e72b74495985a84c33f32770db.md",
+                                        "path": "/home/nick/.config/joplin-desktop/edit-3e78d9e72b74495985a84c33f32770db.md",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/joplin-desktop/edit-3e78d9e72b74495985a84c33f32770db.md"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/nick/Downloads/10.2307_25733551.txt",
+                                        "path": "/home/nick/Downloads/10.2307_25733551.txt",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Downloads/10.2307_25733551.txt"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -321,7 +324,7 @@
                         "label": "A&&uto Save"
                     },
                     {
-                        "id": "submenuitem.29",
+                        "id": "submenuitem.32",
                         "label": "&&Preferences",
                         "submenu": {
                             "items": [
@@ -560,7 +563,7 @@
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "submenuitem.20",
+                        "id": "submenuitem.21",
                         "label": "&&Appearance",
                         "submenu": {
                             "items": [
@@ -600,13 +603,11 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel",
-                                    "checked": true
+                                    "label": "Show &&Panel"
                                 },
                                 {
-                                    "id": "workbench.action.toggleEditorVisibility",
-                                    "label": "Show &&Editor Area",
-                                    "checked": true
+                                    "id": "workbench.action.toggleAuxiliaryBar",
+                                    "label": "Show Si&&de Panel"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -616,12 +617,50 @@
                                     "label": "&&Move Side Bar Right"
                                 },
                                 {
-                                    "id": "workbench.action.positionPanelLeft",
-                                    "label": "Move Panel Left"
+                                    "id": "submenuitem.31",
+                                    "label": "Panel Position",
+                                    "submenu": {
+                                        "items": [
+                                            {
+                                                "id": "workbench.action.positionPanelBottom",
+                                                "label": "Bottom",
+                                                "checked": true
+                                            },
+                                            {
+                                                "id": "workbench.action.positionPanelLeft",
+                                                "label": "Left"
+                                            },
+                                            {
+                                                "id": "workbench.action.positionPanelRight",
+                                                "label": "Right"
+                                            }
+                                        ]
+                                    }
                                 },
                                 {
-                                    "id": "workbench.action.positionPanelRight",
-                                    "label": "Move Panel Right"
+                                    "id": "submenuitem.30",
+                                    "label": "Align Panel",
+                                    "submenu": {
+                                        "items": [
+                                            {
+                                                "id": "workbench.action.alignPanelCenter",
+                                                "label": "Center",
+                                                "checked": true
+                                            },
+                                            {
+                                                "id": "workbench.action.alignPanelJustify",
+                                                "label": "Justify"
+                                            },
+                                            {
+                                                "id": "workbench.action.alignPanelLeft",
+                                                "label": "Left"
+                                            },
+                                            {
+                                                "id": "workbench.action.alignPanelRight",
+                                                "label": "Right"
+                                            }
+                                        ]
+                                    }
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -642,7 +681,7 @@
                         }
                     },
                     {
-                        "id": "submenuitem.27",
+                        "id": "submenuitem.28",
                         "label": "Editor &&Layout",
                         "submenu": {
                             "items": [
@@ -738,10 +777,6 @@
                         "label": "E&&xtensions"
                     },
                     {
-                        "id": "workbench.view.extension.test",
-                        "label": "T&&esting"
-                    },
-                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -765,7 +800,8 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap"
+                        "label": "&&Word Wrap",
+                        "enabled": false
                     },
                     {
                         "id": "editor.action.toggleMinimap",
@@ -793,7 +829,8 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back"
+                        "label": "&&Back",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -802,13 +839,14 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "submenuitem.32",
+                        "id": "submenuitem.35",
                         "label": "Switch &&Editor",
                         "submenu": {
                             "items": [
@@ -857,7 +895,7 @@
                         }
                     },
                     {
-                        "id": "submenuitem.33",
+                        "id": "submenuitem.36",
                         "label": "Switch &&Group",
                         "submenu": {
                             "items": [
@@ -1059,7 +1097,7 @@
                         "label": "Toggle &&Breakpoint"
                     },
                     {
-                        "id": "submenuitem.28",
+                        "id": "submenuitem.29",
                         "label": "&&New Breakpoint",
                         "submenu": {
                             "items": [
@@ -1114,7 +1152,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1243,13 +1282,13 @@
                 "label": "Ctrl+N",
                 "userSettingsLabel": "ctrl+n"
             },
-            "workbench.action.newWindow": {
-                "label": "Ctrl+Shift+N",
-                "userSettingsLabel": "ctrl+shift+n"
-            },
             "welcome.showNewFileEntries": {
                 "label": "Ctrl+Alt+Super+N",
                 "userSettingsLabel": "ctrl+alt+meta+n"
+            },
+            "workbench.action.newWindow": {
+                "label": "Ctrl+Shift+N",
+                "userSettingsLabel": "ctrl+shift+n"
             },
             "workbench.action.files.openFile": {
                 "label": "Ctrl+O",
@@ -1695,14 +1734,14 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/nick/github_repos/Course-Archive",
-            "backupPath": "/home/nick/.config/Code - OSS/Backups/fec007959a547a1ef9900a7244ec2424",
+            "folder": "file:///home/nick/Downloads",
+            "backupPath": "/home/nick/.config/Code - OSS/Backups/da23fdf0148a8ee23383bebf2e126509",
             "uiState": {
                 "mode": 1,
-                "x": 1934,
-                "y": 39,
-                "width": 1216,
-                "height": 1027
+                "x": 0,
+                "y": 25,
+                "width": 1920,
+                "height": 1055
             }
         },
         "openedWindows": []

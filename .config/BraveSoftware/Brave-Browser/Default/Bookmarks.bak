@@ -1,0 +1,54 @@
+{
+   "checksum": "3eba78436e21b29f8e0f2fd31e4c94f9",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13286383231841775",
+            "guid": "098bc116-4baf-4887-8422-166b9ec2eb71",
+            "id": "5",
+            "name": "nvim-lspconfig/server_configurations.md at master · neovim/nvim-lspconfig",
+            "type": "url",
+            "url": "https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md"
+         }, {
+            "date_added": "13286384087234503",
+            "guid": "a811d8d3-85a1-4c5d-9c86-281550ba27c6",
+            "id": "6",
+            "name": "Neovim 0.5: Lua, built in LSP, Treesitter and the best plugins for 2021 – Ben Frain",
+            "type": "url",
+            "url": "https://benfrain.com/neovim-0-5-lua-built-in-lsp-treesitter-and-the-best-plugins-for-2021/"
+         }, {
+            "date_added": "13286998265689415",
+            "guid": "04eace95-a2f1-48fd-9752-ce39fab53886",
+            "id": "8",
+            "name": "Scatter Plots On Maps",
+            "type": "url",
+            "url": "https://plotly.com/python/scatter-plots-on-maps/"
+         } ],
+         "date_added": "13286378510279385",
+         "date_modified": "13286998265689415",
+         "guid": "00000000-0000-4000-a000-000000000002",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13286378510279388",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000003",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13286378510279390",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000004",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

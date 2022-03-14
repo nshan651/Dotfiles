@@ -26,6 +26,13 @@ _comp_options+=(globdots)		# Include hidden files.
 bindkey -v
 export KEYTIMEOUT=1
 
+# Env variables
+# Maven
+export M2_HOME=/opt/maven
+export PATH=$PATH:$M2_HOME/bin
+export PATH=$M2:$PATH
+export MAVEN_OPTS=-Xmx512m
+
 # Use vim keys in tab complete menu:
 bindkey -M menuselect 'h' vi-backward-char
 bindkey -M menuselect 'k' vi-up-line-or-history
@@ -73,3 +80,5 @@ bindkey '^e' edit-command-line
 
 # Load syntax highlighting; should be last.
 source /usr/share/zsh/plugins/fast-syntax-highlighting/fast-syntax-highlighting.plugin.zsh 2>/dev/null
+
+

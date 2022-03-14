@@ -1,10 +1,13 @@
 #!/bin/zsh
 
+# Source API secrets
+#source $HOME/.config/shell/apikeys
+
+#export $(xargs < $HOME/.config/shell/apikeys)
 # Default programs
 export EDITOR="nvim"
 export TERMINAL="alacritty"
 export BROWSER="firefox"
-
 # ~/ Clean-up:
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_CACHE_HOME="$HOME/.cache"

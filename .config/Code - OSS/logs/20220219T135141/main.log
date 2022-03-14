@@ -1,0 +1,6 @@
+[2022-02-19 13:51:41.304] [main] [info] update#ctor - updates are disabled as there is no update URL
+[2022-02-19 13:51:41.337] [main] [info] ExtensionHostStarterWorker created
+[2022-02-19 13:51:42.800] [main] [info] Starting extension host with pid 31321 (fork() took 10 ms).
+[2022-02-19 13:51:42.800] [main] [info] ExtensionHostStarterWorker.start() took 11 ms.
+[2022-02-19 13:51:43.290] [main] [info] Waiting for extension host with pid 31321 to exit.
+[2022-02-19 13:51:43.318] [main] [info] Extension host with pid 31321 exited with code: 0, signal: null.

@@ -1,0 +1,6 @@
+2022/01/11-08:26:07.436 4e58c Creating DB /home/nick/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.chrisatmachine.com_0.indexeddb.leveldb since it was missing.
+2022/01/11-08:26:07.446 4e58c Reusing MANIFEST /home/nick/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.chrisatmachine.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/01/11-08:26:47.585 45bbd Level-0 table #5: started
+2022/01/11-08:26:47.588 45bbd Level-0 table #5: 2029 bytes OK
+2022/01/11-08:26:47.592 45bbd Delete type=0 #3
+2022/01/11-08:26:47.592 45bbd Manual compaction at level-0 from (begin) .. (end); will stop at (end)
