@@ -1,6 +1,10 @@
 # Folders that I don't want to save
 
-cef_user_data/*
-configstore/*
-dconf/*
-Electron/*
+cef_user_data/
+configstore/
+dconf/
+Electron/
+Discorda/
+monero-project/
+R/
+Slack/
