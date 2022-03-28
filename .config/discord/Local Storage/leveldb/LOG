@@ -1,6 +1,0 @@
-2022/03/23-11:32:17.052 1f76 Reusing MANIFEST /home/nick/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2022/03/23-11:32:17.052 1f76 Recovering log #69
-2022/03/23-11:32:17.053 1f76 Reusing old log /home/nick/.config/discord/Local Storage/leveldb/000069.log 
-2022/03/23-11:34:22.501 1f85 Level-0 table #73: started
-2022/03/23-11:34:22.520 1f85 Level-0 table #73: 350589 bytes OK
-2022/03/23-11:34:22.526 1f85 Delete type=0 #69
