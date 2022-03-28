@@ -1,3 +1,8 @@
-2022/03/10-21:35:41.681 3 Reusing MANIFEST /home/nick/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
-2022/03/10-21:35:41.682 3 Recovering log #20
-2022/03/10-21:35:41.682 3 Reusing old log /home/nick/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000020.log 
+2022/03/28-14:06:59.593 3 Reusing MANIFEST /home/nick/.config/BraveSoftware/Brave-Browser/Default/Session Storage/MANIFEST-000001
+2022/03/28-14:06:59.594 3 Recovering log #20
+2022/03/28-14:06:59.594 3 Level-0 table #23: started
+2022/03/28-14:06:59.604 3 Level-0 table #23: 28043 bytes OK
+2022/03/28-14:06:59.605 3 Recovering log #23
+2022/03/28-14:06:59.606 3 Reusing old log /home/nick/.config/BraveSoftware/Brave-Browser/Default/Session Storage/000023.log 
+2022/03/28-14:06:59.614 3 Delete type=0 #20
+2022/03/28-14:06:59.614 3 Delete type=2 #24

@@ -26,6 +26,9 @@ _comp_options+=(globdots)		# Include hidden files.
 bindkey -v
 export KEYTIMEOUT=1
 
+# Adds `/usr/share/bin` to $PATH
+export PATH="$PATH:/usr/share/bin/"
+
 # Env variables
 # Maven
 export M2_HOME=/opt/maven

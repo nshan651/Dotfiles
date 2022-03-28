@@ -1,4 +1,0 @@
-[2022-02-05 22:19:56.666] [sharedprocess] [info] Starting worker process with pid 3863 (type: watcherServiceParcelSharedProcess, window: 1).
-[2022-02-05 22:19:56.848] [sharedprocess] [info] Deleted from disk vscjava.vscode-java-pack /home/nick/.vscode-oss/extensions/vscjava.vscode-java-pack-0.20.0
-[2022-02-05 22:19:57.000] [sharedprocess] [info] Deleted from disk ms-python.python /home/nick/.vscode-oss/extensions/ms-python.python-2021.12.1559732655
-[2022-02-06 13:03:10.180] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds

@@ -1,5 +1,5 @@
 [Added Associations]
-application/pdf=org.pwmt.zathura.desktop;org.kde.okular.desktop;
+application/pdf=libreoffice-startcenter.desktop;libreoffice-writer.desktop;org.pwmt.zathura.desktop;org.kde.okular.desktop;
 text/x-tex=nvim.desktop;
 inode/directory=code-oss.desktop;
 text/x-java-source=firefox.desktop;nvim.desktop;
@@ -10,6 +10,7 @@ text/css=nvim.desktop;
 text/markdown=nvim.desktop;
 text/x-lua=nvim.desktop;
 application/json=nvim.desktop;
+application/octet-stream=nvim.desktop;
 
 [Default Applications]
 application/pdf=org.pwmt.zathura.desktop

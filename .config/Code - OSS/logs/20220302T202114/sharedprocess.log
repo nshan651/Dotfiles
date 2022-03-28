@@ -1,5 +1,0 @@
-[2022-03-02 20:21:16.488] [sharedprocess] [info] Starting worker process with pid 6034 (type: fileWatcher, window: 1).
-[2022-03-02 20:21:16.517] [sharedprocess] [info] Deleted from disk vscjava.vscode-java-test /home/nick/.vscode-oss/extensions/vscjava.vscode-java-test-0.33.0
-[2022-03-02 20:21:16.718] [sharedprocess] [info] Deleted from disk ms-python.python /home/nick/.vscode-oss/extensions/ms-python.python-2022.0.1786462952
-[2022-03-02 20:21:18.355] [sharedprocess] [info] Getting Manifest... vscjava.vscode-java-test
-[2022-03-02 20:21:18.357] [sharedprocess] [info] Getting Manifest... vscjava.vscode-maven

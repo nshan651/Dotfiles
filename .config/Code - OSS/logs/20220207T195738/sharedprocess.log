@@ -1,8 +1,0 @@
-[2022-02-07 19:57:40.952] [sharedprocess] [info] Starting worker process with pid 807318 (type: watcherServiceParcelSharedProcess, window: 1).
-[2022-02-08 00:18:10.294] [sharedprocess] [warning] No ptyHost heartbeat after 6 seconds
-[2022-02-08 07:57:44.628] [sharedprocess] [info] Installing extension: ikuyadeu.r
-[2022-02-08 07:57:46.020] [sharedprocess] [info] Downloaded extension: ikuyadeu.r /home/nick/.config/Code - OSS/CachedExtensionVSIXs/ikuyadeu.r-2.3.8
-[2022-02-08 07:57:46.172] [sharedprocess] [info] Extracted extension to /home/nick/.vscode-oss/extensions/.d01c790c-450b-4a60-8988-2a3bf00c0277: ikuyadeu.r
-[2022-02-08 07:57:46.181] [sharedprocess] [info] Renamed to /home/nick/.vscode-oss/extensions/ikuyadeu.r-2.3.8
-[2022-02-08 07:57:46.186] [sharedprocess] [info] Extracting completed. ikuyadeu.r
-[2022-02-08 07:57:46.194] [sharedprocess] [info] Extension installed successfully: ikuyadeu.r

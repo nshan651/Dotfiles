@@ -1,5 +1,0 @@
-[2022-02-14 14:38:55.704] [sharedprocess] [info] Starting worker process with pid 15919 (type: fileWatcher, window: 1).
-[2022-02-14 14:38:55.726] [sharedprocess] [info] Deleted from disk ikuyadeu.r /home/nick/.vscode-oss/extensions/ikuyadeu.r-2.3.6
-[2022-02-14 14:38:57.475] [sharedprocess] [info] Getting Manifest... ms-python.python
-[2022-02-14 14:38:58.431] [sharedprocess] [info] Installing extension: ms-python.python
-[2022-02-14 14:39:00.760] [sharedprocess] [info] Downloaded extension: ms-python.python /home/nick/.config/Code - OSS/CachedExtensionVSIXs/ms-python.python-2022.0.1814523869

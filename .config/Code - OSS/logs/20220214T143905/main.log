@@ -1,6 +1,0 @@
-[2022-02-14 14:39:05.930] [main] [info] update#ctor - updates are disabled as there is no update URL
-[2022-02-14 14:39:05.965] [main] [info] ExtensionHostStarterWorker created
-[2022-02-14 14:39:07.388] [main] [info] Starting extension host with pid 16085 (fork() took 9 ms).
-[2022-02-14 14:39:07.388] [main] [info] ExtensionHostStarterWorker.start() took 11 ms.
-[2022-02-14 14:39:09.791] [main] [info] Waiting for extension host with pid 16085 to exit.
-[2022-02-14 14:39:09.803] [main] [info] Extension host with pid 16085 exited with code: 0, signal: null.

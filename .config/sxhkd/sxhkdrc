@@ -13,6 +13,10 @@ control + alt + 4
 control + alt + 5
     zsh $HOME/.config/polybar/launch.sh
 
+# Open journal or create a new entry
+super + r 
+    zsh /usr/share/bin/journal
+
 # 
 # ----- Utilities -----
 #
@@ -64,7 +68,7 @@ super + F7
 
 # School java project
 super + F8
-    code-oss $HOME/github_repos/Final-Exam
+    $TERMINAL -e nvim $HOME/github_repos/excite-cli/excite.lua
 
 # Research paper
 super + F9

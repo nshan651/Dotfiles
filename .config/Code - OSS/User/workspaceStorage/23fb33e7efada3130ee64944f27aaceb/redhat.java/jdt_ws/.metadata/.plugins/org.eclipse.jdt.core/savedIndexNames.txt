@@ -1,4 +1,0 @@
-INDEX VERSION 1.131+/home/nick/.config/Code - OSS/User/workspaceStorage/23fb33e7efada3130ee64944f27aaceb/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.jdt.core
-1865797976.index
-2876837858.index
-3842426239.index

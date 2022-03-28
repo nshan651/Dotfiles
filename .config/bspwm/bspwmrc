@@ -5,16 +5,15 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 $HOME/.config/polybar/launch.sh
 $HOME/Scripts/refresh.sh
 
-bspc monitor DP-2-2 -d VI VII VIII IX X
-bspc monitor eDP-1 -d I II III IV V 
+bspc monitor eDP-1 -d VI VII VIII IX X
+bspc monitor DP-2-2 -d I II III IV V 
 #bspc monitor DP-1 -d VI VII VIII IX X
 # bspc monitor -d I II III IV V VI VII VIII IX X
 
 # Wallpaper
 #feh --bg-center ~/Pictures/Library/cropped-1920-1200-389877.jpg
-
 #feh --bg-fill /home/nick/Pictures/Library/4543311-library-interior-interior-design-books-knowledge-shelves.jpg
-feh --bg-scale /home/nick/Pictures/piranesi.jpg
+feh --bg-scale /home/nick/Pictures/hagia-sophia.jpg
 # Status bar
 panel &
 
