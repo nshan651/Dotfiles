@@ -1,1 +1,0 @@
-/home/nick/.config/shell/profile

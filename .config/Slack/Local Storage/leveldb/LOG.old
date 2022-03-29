@@ -1,0 +1,27 @@
+2022/01/20-14:48:54.658 547c Reusing MANIFEST /home/nick/.config/Slack/Local Storage/leveldb/MANIFEST-000001
+2022/01/20-14:48:54.658 547c Recovering log #264
+2022/01/20-14:48:54.659 547c Reusing old log /home/nick/.config/Slack/Local Storage/leveldb/000264.log 
+2022/01/20-14:49:55.016 54f7 Level-0 table #269: started
+2022/01/20-14:49:55.028 54f7 Level-0 table #269: 11136 bytes OK
+2022/01/20-14:49:55.033 54f7 Delete type=0 #264
+2022/01/20-14:51:55.017 54f7 Level-0 table #271: started
+2022/01/20-14:51:55.029 54f7 Level-0 table #271: 17325 bytes OK
+2022/01/20-14:51:55.034 54f7 Delete type=0 #268
+2022/01/20-14:54:55.016 54f7 Level-0 table #273: started
+2022/01/20-14:54:55.028 54f7 Level-0 table #273: 18730 bytes OK
+2022/01/20-14:54:55.034 54f7 Delete type=0 #270
+2022/01/20-15:51:55.019 5e6f Level-0 table #275: started
+2022/01/20-15:51:55.031 5e6f Level-0 table #275: 11825 bytes OK
+2022/01/20-15:51:55.036 5e6f Delete type=0 #272
+2022/01/20-15:51:55.037 5e6f Compacting 4@0 + 1@1 files
+2022/01/20-15:51:55.042 5e6f Generated table #276@0: 32 keys, 10506 bytes
+2022/01/20-15:51:55.043 5e6f Compacted 4@0 + 1@1 files => 10506 bytes
+2022/01/20-15:51:55.047 5e6f compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/01/20-15:51:55.048 5e6f Delete type=2 #266
+2022/01/20-15:51:55.048 5e6f Delete type=2 #275
+2022/01/20-15:51:55.048 5e6f Delete type=2 #269
+2022/01/20-15:51:55.048 5e6f Delete type=2 #271
+2022/01/20-15:51:55.048 5e6f Delete type=2 #273
+2022/01/20-17:09:55.019 60d3 Level-0 table #278: started
+2022/01/20-17:09:55.032 60d3 Level-0 table #278: 10880 bytes OK
+2022/01/20-17:09:55.037 60d3 Delete type=0 #274
