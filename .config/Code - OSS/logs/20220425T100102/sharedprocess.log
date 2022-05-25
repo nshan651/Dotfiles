@@ -1,0 +1,75 @@
+[2022-04-25 10:01:05.344] [sharedprocess] [info] Starting worker process with pid 5442 (type: fileWatcher, window: 1).
+[2022-04-25 10:01:07.084] [sharedprocess] [info] Getting Manifest... ms-vscode.js-debug-companion
+[2022-04-25 10:01:07.085] [sharedprocess] [info] Getting Manifest... ms-vscode.references-view
+[2022-04-25 10:01:07.086] [sharedprocess] [info] Getting Manifest... ikuyadeu.r
+[2022-04-25 10:01:07.087] [sharedprocess] [info] Getting Manifest... ms-python.python
+[2022-04-25 10:01:07.089] [sharedprocess] [info] Getting Manifest... redhat.java
+[2022-04-25 10:01:07.090] [sharedprocess] [info] Getting Manifest... sumneko.lua
+[2022-04-25 10:01:07.092] [sharedprocess] [info] Getting Manifest... vscjava.vscode-java-debug
+[2022-04-25 10:01:07.093] [sharedprocess] [info] Getting Manifest... vscjava.vscode-java-dependency
+[2022-04-25 10:01:07.094] [sharedprocess] [info] Getting Manifest... vscjava.vscode-java-pack
+[2022-04-25 10:01:07.094] [sharedprocess] [info] Getting Manifest... vscjava.vscode-maven
+[2022-04-25 10:01:07.921] [sharedprocess] [info] Installing extension: ms-vscode.js-debug-companion
+[2022-04-25 10:01:07.992] [sharedprocess] [info] Installing extension: ms-vscode.references-view
+[2022-04-25 10:01:08.102] [sharedprocess] [info] Installing extension: ikuyadeu.r
+[2022-04-25 10:01:08.106] [sharedprocess] [info] Installing extension: vscjava.vscode-java-dependency
+[2022-04-25 10:01:08.109] [sharedprocess] [info] Installing extension: sumneko.lua
+[2022-04-25 10:01:08.119] [sharedprocess] [info] Installing extension: vscjava.vscode-java-debug
+[2022-04-25 10:01:08.121] [sharedprocess] [info] Installing extension: ms-python.python
+[2022-04-25 10:01:08.134] [sharedprocess] [info] Installing extension: redhat.java
+[2022-04-25 10:01:08.218] [sharedprocess] [info] Installing extension: vscjava.vscode-maven
+[2022-04-25 10:01:08.219] [sharedprocess] [info] Installing extension: vscjava.vscode-java-pack
+[2022-04-25 10:01:08.697] [sharedprocess] [info] Downloaded extension: ms-vscode.js-debug-companion /home/nick/.config/Code - OSS/CachedExtensionVSIXs/ms-vscode.js-debug-companion-1.0.17
+[2022-04-25 10:01:09.064] [sharedprocess] [info] Downloaded extension: ms-vscode.references-view /home/nick/.config/Code - OSS/CachedExtensionVSIXs/ms-vscode.references-view-0.0.89
+[2022-04-25 10:01:09.132] [sharedprocess] [info] Extracted extension to /home/nick/.vscode-oss/extensions/.8568e264-63c0-47f8-b36a-2575b872b0ec: ms-vscode.js-debug-companion
+[2022-04-25 10:01:09.138] [sharedprocess] [info] Renamed to /home/nick/.vscode-oss/extensions/ms-vscode.js-debug-companion-1.0.17
+[2022-04-25 10:01:09.140] [sharedprocess] [info] Extracting completed. ms-vscode.js-debug-companion
+[2022-04-25 10:01:09.140] [sharedprocess] [info] Extracted extension to /home/nick/.vscode-oss/extensions/.44091570-78cd-42b7-bf67-752e966f730a: ms-vscode.references-view
+[2022-04-25 10:01:09.145] [sharedprocess] [info] Extension installed successfully: ms-vscode.js-debug-companion
+[2022-04-25 10:01:09.148] [sharedprocess] [info] Renamed to /home/nick/.vscode-oss/extensions/ms-vscode.references-view-0.0.89
+[2022-04-25 10:01:09.149] [sharedprocess] [info] Extracting completed. ms-vscode.references-view
+[2022-04-25 10:01:09.154] [sharedprocess] [info] Extension installed successfully: ms-vscode.references-view
+[2022-04-25 10:01:09.852] [sharedprocess] [info] Downloaded extension: vscjava.vscode-java-dependency /home/nick/.config/Code - OSS/CachedExtensionVSIXs/vscjava.vscode-java-dependency-0.19.1
+[2022-04-25 10:01:09.882] [sharedprocess] [info] Extracted extension to /home/nick/.vscode-oss/extensions/.914a08f9-bf94-41d9-96e2-fb8930ce15e8: vscjava.vscode-java-dependency
+[2022-04-25 10:01:09.888] [sharedprocess] [info] Renamed to /home/nick/.vscode-oss/extensions/vscjava.vscode-java-dependency-0.19.1
+[2022-04-25 10:01:09.889] [sharedprocess] [info] Extracting completed. vscjava.vscode-java-dependency
+[2022-04-25 10:01:09.894] [sharedprocess] [info] Extension installed successfully: vscjava.vscode-java-dependency
+[2022-04-25 10:01:10.595] [sharedprocess] [info] Downloaded extension: sumneko.lua /home/nick/.config/Code - OSS/CachedExtensionVSIXs/sumneko.lua-3.2.0
+[2022-04-25 10:01:10.677] [sharedprocess] [info] Downloaded extension: vscjava.vscode-java-debug /home/nick/.config/Code - OSS/CachedExtensionVSIXs/vscjava.vscode-java-debug-0.40.1
+[2022-04-25 10:01:10.743] [sharedprocess] [info] Extracted extension to /home/nick/.vscode-oss/extensions/.c48fbc38-f539-4e6e-99e1-0c2120ce6ce3: vscjava.vscode-java-debug
+[2022-04-25 10:01:10.749] [sharedprocess] [info] Renamed to /home/nick/.vscode-oss/extensions/vscjava.vscode-java-debug-0.40.1
+[2022-04-25 10:01:10.751] [sharedprocess] [info] Extracting completed. vscjava.vscode-java-debug
+[2022-04-25 10:01:10.756] [sharedprocess] [info] Extension installed successfully: vscjava.vscode-java-debug
+[2022-04-25 10:01:11.312] [sharedprocess] [info] Downloaded extension: vscjava.vscode-java-pack /home/nick/.config/Code - OSS/CachedExtensionVSIXs/vscjava.vscode-java-pack-0.22.4
+[2022-04-25 10:01:11.364] [sharedprocess] [info] Extracted extension to /home/nick/.vscode-oss/extensions/.01793d17-0ac4-46b8-bdd2-beeb3378d1a1: sumneko.lua
+[2022-04-25 10:01:11.370] [sharedprocess] [info] Renamed to /home/nick/.vscode-oss/extensions/sumneko.lua-3.2.0
+[2022-04-25 10:01:11.372] [sharedprocess] [info] Extracting completed. sumneko.lua
+[2022-04-25 10:01:11.377] [sharedprocess] [info] Extension installed successfully: sumneko.lua
+[2022-04-25 10:01:11.410] [sharedprocess] [info] Extracted extension to /home/nick/.vscode-oss/extensions/.e24dc01f-4505-4d52-b6d6-07cd8456a3e7: vscjava.vscode-java-pack
+[2022-04-25 10:01:11.415] [sharedprocess] [info] Renamed to /home/nick/.vscode-oss/extensions/vscjava.vscode-java-pack-0.22.4
+[2022-04-25 10:01:11.416] [sharedprocess] [info] Extracting completed. vscjava.vscode-java-pack
+[2022-04-25 10:01:11.420] [sharedprocess] [info] Extension installed successfully: vscjava.vscode-java-pack
+[2022-04-25 10:01:11.791] [sharedprocess] [info] Downloaded extension: vscjava.vscode-maven /home/nick/.config/Code - OSS/CachedExtensionVSIXs/vscjava.vscode-maven-0.35.1
+[2022-04-25 10:01:11.932] [sharedprocess] [info] Extracted extension to /home/nick/.vscode-oss/extensions/.aae79ade-f220-4616-b2ba-7cac3641db0d: vscjava.vscode-maven
+[2022-04-25 10:01:11.945] [sharedprocess] [info] Renamed to /home/nick/.vscode-oss/extensions/vscjava.vscode-maven-0.35.1
+[2022-04-25 10:01:11.946] [sharedprocess] [info] Extracting completed. vscjava.vscode-maven
+[2022-04-25 10:01:11.951] [sharedprocess] [info] Extension installed successfully: vscjava.vscode-maven
+[2022-04-25 10:01:12.475] [sharedprocess] [info] Downloaded extension: ms-python.python /home/nick/.config/Code - OSS/CachedExtensionVSIXs/ms-python.python-2022.4.1
+[2022-04-25 10:01:12.559] [sharedprocess] [info] Downloaded extension: ikuyadeu.r /home/nick/.config/Code - OSS/CachedExtensionVSIXs/ikuyadeu.r-2.4.0
+[2022-04-25 10:01:12.649] [sharedprocess] [info] Extracted extension to /home/nick/.vscode-oss/extensions/.1d33b602-9864-4b3c-aa66-f84ed2c282ca: ikuyadeu.r
+[2022-04-25 10:01:12.655] [sharedprocess] [info] Renamed to /home/nick/.vscode-oss/extensions/ikuyadeu.r-2.4.0
+[2022-04-25 10:01:12.657] [sharedprocess] [info] Extracting completed. ikuyadeu.r
+[2022-04-25 10:01:12.662] [sharedprocess] [info] Extension installed successfully: ikuyadeu.r
+[2022-04-25 10:01:13.748] [sharedprocess] [info] Extracted extension to /home/nick/.vscode-oss/extensions/.6b401083-2afe-49e6-ba30-b6c63a153a40: ms-python.python
+[2022-04-25 10:01:13.766] [sharedprocess] [info] Renamed to /home/nick/.vscode-oss/extensions/ms-python.python-2022.4.1
+[2022-04-25 10:01:13.769] [sharedprocess] [info] Extracting completed. ms-python.python
+[2022-04-25 10:01:13.777] [sharedprocess] [info] Extension installed successfully: ms-python.python
+[2022-04-25 10:01:26.004] [sharedprocess] [info] Downloaded extension: redhat.java /home/nick/.config/Code - OSS/CachedExtensionVSIXs/redhat.java-1.5.0
+[2022-04-25 10:01:26.446] [sharedprocess] [info] Extracted extension to /home/nick/.vscode-oss/extensions/.5d5ec940-bdfb-4c0e-8e8c-d45e3cbcb3ce: redhat.java
+[2022-04-25 10:01:26.454] [sharedprocess] [info] Renamed to /home/nick/.vscode-oss/extensions/redhat.java-1.5.0
+[2022-04-25 10:01:26.455] [sharedprocess] [info] Extracting completed. redhat.java
+[2022-04-25 10:01:26.460] [sharedprocess] [info] Extension installed successfully: redhat.java
+[2022-04-25 10:01:54.522] [sharedprocess] [info] Worker process with pid 5442 terminated normally (type: fileWatcher, window: 1).
+[2022-04-25 10:01:55.779] [sharedprocess] [info] Starting worker process with pid 5494 (type: fileWatcher, window: 1).
+[2022-04-25 10:03:38.095] [sharedprocess] [info] Worker process with pid 5494 terminated normally (type: fileWatcher, window: 1).
+[2022-04-25 10:03:39.298] [sharedprocess] [info] Starting worker process with pid 5666 (type: fileWatcher, window: 1).

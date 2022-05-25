@@ -1,0 +1,4 @@
+[2022-05-05 07:37:46.443] [exthost] [info] Extension host with pid 6379 started
+[2022-05-05 07:37:46.443] [exthost] [info] Skipping acquiring lock for /home/nick/.config/Code - OSS/User/workspaceStorage/1cb5b8d35d83d942ef36e406388be847.
+[2022-05-05 07:37:46.457] [exthost] [info] extension host terminating: renderer closed the socket
+[2022-05-05 07:37:46.460] [exthost] [info] Extension host with pid 6379 exiting with code 0

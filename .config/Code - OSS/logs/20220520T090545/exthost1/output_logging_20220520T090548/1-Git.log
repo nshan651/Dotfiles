@@ -1,0 +1,18 @@
+[2022-05-20T14:05:48.482Z] Validating found git in: git
+[2022-05-20T14:05:48.500Z] Using git 2.36.1 from git
+[2022-05-20T14:05:48.515Z] > git rev-parse --show-toplevel [5ms]
+[2022-05-20T14:05:48.515Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-05-20T14:05:48.553Z] > git rev-parse --show-toplevel [29ms]
+[2022-05-20T14:05:48.553Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-05-20T14:05:48.570Z] > git rev-parse --show-toplevel [13ms]
+[2022-05-20T14:05:48.575Z] > git rev-parse --git-dir --git-common-dir [1ms]
+[2022-05-20T14:05:48.581Z] Open repository: /home/nick/Downloads/polybar-themes
+[2022-05-20T14:05:48.891Z] > git status -z -uall [304ms]
+[2022-05-20T14:05:48.896Z] > git symbolic-ref --short HEAD [1ms]
+[2022-05-20T14:05:48.901Z] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+[2022-05-20T14:05:48.910Z] > git remote --verbose [1ms]
+[2022-05-20T14:05:48.911Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+[2022-05-20T14:05:48.919Z] > git config --get commit.template [1ms]
+[2022-05-20T14:05:49.088Z] > git rev-parse --show-toplevel [4ms]
+[2022-05-20T14:05:49.088Z] fatal: not a git repository (or any of the parent directories): .git
+[2022-05-20T14:05:49.105Z] > git check-ignore -v -z --stdin [1ms]

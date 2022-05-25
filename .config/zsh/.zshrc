@@ -1,6 +1,14 @@
+# Function to parse git branch
+parse_git_branch() {
+    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
+}
+
+setopt PROMPT_SUBST
+PROMPT='$(parse_git_branch)%{%F{none}%'
 # Enable colors and change prompt:
 autoload -U colors && colors	# Load colors
-PS1="%B%{$fg[magenta]%}[%{$fg[yellow]%}%n%{$fg[cyan]%}@%{$fg[blue]%}%M %{$fg[cyan]%}%~%{$fg[magenta]%}]%{$reset_color%}$%b "
+#PS1="%B%{$fg[magenta]%}[%{$fg[yellow]%}%n%{$fg[cyan]%}@%{$fg[blue]%}%M %{$fg[cyan]%}%~%{$fg[magenta]%}]%{$reset_color%}$%b "
+PS1="%B%{$fg[magenta]%}[%{$fg[yellow]%}%n%{$fg[cyan]%}@%{$fg[blue]%}%M %{$fg[cyan]%}%~%{$fg[magenta]%}]%{$fg[red]%}%{$PROMPT}%{$reset_color%}$%b "
 setopt autocd		# Automatically cd into typed directory.
 stty stop undef		# Disable ctrl-s to freeze terminal.
 setopt interactive_comments

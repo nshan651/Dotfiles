@@ -1,0 +1,13 @@
+[2022-05-20 09:05:45.835] [main] [info] window#load: attempt to load window (id: 1)
+[2022-05-20 09:05:45.850] [main] [info] update#ctor - updates are disabled as there is no update URL
+[2022-05-20 09:05:45.888] [main] [info] ExtensionHostStarterWorker created
+[2022-05-20 09:05:47.269] [main] [info] window#load: window reported ready (id: 1)
+[2022-05-20 09:05:47.469] [main] [info] Starting extension host with pid 10011 (fork() took 9 ms).
+[2022-05-20 09:05:47.469] [main] [info] ExtensionHostStarterWorker.start() took 11 ms.
+[2022-05-20 09:06:20.323] [main] [info] window#load: attempt to load window (id: 1)
+[2022-05-20 09:06:20.336] [main] [info] Extension host with pid 10011 exited with code: 0, signal: null.
+[2022-05-20 09:06:21.321] [main] [info] window#load: window reported ready (id: 1)
+[2022-05-20 09:06:21.554] [main] [info] Starting extension host with pid 10138 (fork() took 8 ms).
+[2022-05-20 09:06:21.554] [main] [info] ExtensionHostStarterWorker.start() took 8 ms.
+[2022-05-20 09:27:39.317] [main] [info] Waiting for extension host with pid 10138 to exit.
+[2022-05-20 09:27:39.341] [main] [info] Extension host with pid 10138 exited with code: 0, signal: null.

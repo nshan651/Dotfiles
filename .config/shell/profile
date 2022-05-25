@@ -11,6 +11,8 @@
 # Adds `/usr/share/bin` to $PATH
 #export PATH="$PATH:/usr/share/bin/"
 
+export PATH="$PATH:$HOME/Scripts/"
+
 # Default programs
 export EDITOR="nvim"
 export TERMINAL="alacritty"

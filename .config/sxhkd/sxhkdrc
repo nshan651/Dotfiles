@@ -11,7 +11,7 @@ control + alt + 4
 
 # Refresh only polybar
 control + alt + 5
-    zsh $HOME/.config/polybar/launch.sh
+    zsh $HOME/.config/polybar/launch.sh --blocks
 
 # Open journal or create a new entry
 super + r 
@@ -52,7 +52,9 @@ super + F3
 
 # Research project folder
 super + F4
-    $TERMINAL -e nvim $HOME/github_repos/Pollution-Autoencoders/
+    $TERMINAL -e nvim $HOME/github_repos/excite-cli/
+
+#$TERMINAL -e nvim $HOME/github_repos/Pollution-Autoencoders/
 
 # Wiki index
 super + F5

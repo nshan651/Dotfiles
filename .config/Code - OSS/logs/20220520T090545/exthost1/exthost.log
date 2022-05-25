@@ -1,0 +1,29 @@
+[2022-05-20 09:05:48.226] [exthost] [info] Extension host with pid 10011 started
+[2022-05-20 09:05:48.226] [exthost] [info] Skipping acquiring lock for /home/nick/.config/Code - OSS/User/workspaceStorage/1cb5b8d35d83d942ef36e406388be847.
+[2022-05-20 09:05:48.305] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-05-20 09:05:48.313] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2022-05-20 09:05:48.318] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-05-20 09:05:48.341] [exthost] [info] ExtensionService#_doActivateExtension sainnhe.gruvbox-material, startup: true, activationEvent: '*'
+[2022-05-20 09:05:48.396] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2022-05-20 09:05:48.467] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-05-20 09:05:48.513] [exthost] [info] Eager extensions activated
+[2022-05-20 09:05:48.527] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-20 09:05:48.548] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-20 09:06:20.312] [exthost] [info] Extension host terminating: renderer closed the socket
+[2022-05-20 09:06:20.319] [exthost] [info] Extension host with pid 10011 exiting with code 0
+[2022-05-20 09:06:22.240] [exthost] [info] Extension host with pid 10138 started
+[2022-05-20 09:06:22.240] [exthost] [info] Skipping acquiring lock for /home/nick/.config/Code - OSS/User/workspaceStorage/1d1e611ba48ad8e55b7d4f539bb50842.
+[2022-05-20 09:06:22.307] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2022-05-20 09:06:22.309] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2022-05-20 09:06:22.310] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2022-05-20 09:06:22.313] [exthost] [info] ExtensionService#_doActivateExtension sainnhe.gruvbox-material, startup: true, activationEvent: '*'
+[2022-05-20 09:06:22.331] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2022-05-20 09:06:22.336] [exthost] [info] Eager extensions activated
+[2022-05-20 09:06:22.338] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-20 09:06:22.343] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2022-05-20 09:06:26.286] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+[2022-05-20 09:10:12.994] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2022-05-20 09:13:52.796] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-05-20 09:13:52.846] [exthost] [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode, startup: false, activationEvent: 'onLanguage:javascript'
+[2022-05-20 09:27:39.308] [exthost] [info] Extension host terminating: renderer closed the socket
+[2022-05-20 09:27:39.321] [exthost] [info] Extension host with pid 10138 exiting with code 0

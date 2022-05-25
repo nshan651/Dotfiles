@@ -2,27 +2,36 @@
 
 # Launch scripts
 pgrep -x sxhkd > /dev/null || sxhkd &
-$HOME/.config/polybar/launch.sh
-$HOME/Scripts/refresh.sh
+$HOME/.config/polybar/launch.sh --blocks
+$HOME/Scripts/refresh.sh 
 
 bspc monitor eDP-1 -d VI VII VIII IX X
-bspc monitor DP-2-2 -d I II III IV V 
-#bspc monitor DP-1 -d VI VII VIII IX X
-# bspc monitor -d I II III IV V VI VII VIII IX X
+bspc monitor DP-1 -d I II III IV V 
+#bspc monitor DP-2-2 -d I II III IV V 
 
 # Wallpaper
-#feh --bg-center ~/Pictures/Library/cropped-1920-1200-389877.jpg
-#feh --bg-fill /home/nick/Pictures/Library/4543311-library-interior-interior-design-books-knowledge-shelves.jpg
-feh --bg-scale /home/nick/Pictures/hagia-sophia.jpg
+feh --bg-scale "/home/nick/Pictures/forest4.jpg"
+
 # Status bar
 panel &
 
-bspc config border_width         2
-bspc config window_gap          12
+# Color of the border of a focused window of a focused monitor.
+bspc config focused_border_color           "#415e4d" 
 
-bspc config split_ratio          0.52
+# top_padding, right_padding, bottom_padding, left_padding
+bspc config border_width         0 
+bspc config window_gap          20
+bspc config bottom_padding       0
+bspc config top_padding         30
+
+bspc config split_ratio          0.50
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
+
+bspc config remove_unplugged_monitors   true
+
+# Use below to check for WM_CLASS 
+# xprop | grep WM_CLASS
 
 bspc rule -a Gimp desktop='^8' state=floating follow=on
 bspc rule -a Chromium desktop='^2'
@@ -32,4 +41,4 @@ bspc rule -a Screenkey manage=off
 bspc rule -a Zathura state=tiled
 bspc rule -a Steam state=tiled
 bspc rule -a steam state=tiled
-
+bspc rule -a Qalculate-gtk state=floating

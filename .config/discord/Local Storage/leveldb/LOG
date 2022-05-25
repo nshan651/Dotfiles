@@ -1,6 +1,15 @@
-2022/03/23-11:32:17.052 1f76 Reusing MANIFEST /home/nick/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2022/03/23-11:32:17.052 1f76 Recovering log #69
-2022/03/23-11:32:17.053 1f76 Reusing old log /home/nick/.config/discord/Local Storage/leveldb/000069.log 
-2022/03/23-11:34:22.501 1f85 Level-0 table #73: started
-2022/03/23-11:34:22.520 1f85 Level-0 table #73: 350589 bytes OK
-2022/03/23-11:34:22.526 1f85 Delete type=0 #69
+2022/04/09-12:54:34.132 2765 Reusing MANIFEST /home/nick/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2022/04/09-12:54:34.133 2765 Recovering log #75
+2022/04/09-12:54:34.133 2765 Reusing old log /home/nick/.config/discord/Local Storage/leveldb/000075.log 
+2022/04/09-12:56:52.794 277a Level-0 table #79: started
+2022/04/09-12:56:52.812 277a Level-0 table #79: 368388 bytes OK
+2022/04/09-12:56:52.817 277a Delete type=0 #75
+2022/04/09-12:56:52.817 277a Compacting 4@0 + 1@1 files
+2022/04/09-12:56:52.829 277a Generated table #80@0: 74 keys, 369520 bytes
+2022/04/09-12:56:52.829 277a Compacted 4@0 + 1@1 files => 369520 bytes
+2022/04/09-12:56:52.833 277a compacted to: files[ 0 1 1 0 0 0 0 ]
+2022/04/09-12:56:52.834 277a Delete type=2 #70
+2022/04/09-12:56:52.834 277a Delete type=2 #73
+2022/04/09-12:56:52.834 277a Delete type=2 #76
+2022/04/09-12:56:52.834 277a Delete type=2 #79
+2022/04/09-12:56:52.834 277a Delete type=2 #67

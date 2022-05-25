@@ -1,5 +1,5 @@
 {
-   "checksum": "d49e8772c221ef3a675a4494d2a4233d",
+   "checksum": "3eba78436e21b29f8e0f2fd31e4c94f9",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -23,13 +23,6 @@
             "name": "Scatter Plots On Maps",
             "type": "url",
             "url": "https://plotly.com/python/scatter-plots-on-maps/"
-         }, {
-            "date_added": "13287018035810364",
-            "guid": "1e40e6e7-2bad-424c-9b54-14a9fb1e239d",
-            "id": "10",
-            "name": "Midwest QA Schedule",
-            "type": "url",
-            "url": "https://docs.google.com/spreadsheets/d/1ngoaBYogyFl7F640s2O4B82XRrDfLRovqHB5l5wRVkw/edit#gid=0"
          } ],
          "date_added": "13286378510279385",
          "date_modified": "13287018035810364",
