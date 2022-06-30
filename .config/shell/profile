@@ -11,8 +11,15 @@
 # Adds `/usr/share/bin` to $PATH
 #export PATH="$PATH:/usr/share/bin/"
 
+# Adds `/usr/share/bin` to $PATH
+export PATH="$PATH:/usr/share/bin/"
 export PATH="$PATH:$HOME/Scripts/"
 
+# Add excite-cli to the path
+export PATH="$PATH:$HOME/github_repos/excite-cli/excite"
+
+# Add gunicorn to path
+export PATH="$PATH:$HOME/.local/lib/python3.10/site-packages"
 # Default programs
 export EDITOR="nvim"
 export TERMINAL="alacritty"

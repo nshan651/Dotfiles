@@ -1,3 +1,4 @@
-2022/01/22-13:28:05.030 1de9 Reusing MANIFEST /home/nick/.config/Slack/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/01/22-13:28:05.030 1de9 Recovering log #4
-2022/01/22-13:28:05.031 1de9 Reusing old log /home/nick/.config/Slack/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/000004.log 
+2022/06/02-11:41:22.244 1210 Reusing MANIFEST /home/nick/.config/Slack/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/06/02-11:41:22.244 1210 Recovering log #4
+2022/06/02-11:41:22.246 1210 Reusing old log /home/nick/.config/Slack/IndexedDB/https_app.slack.com_0.indexeddb.leveldb/000004.log 
+2022/06/02-11:41:22.246 1210 Delete type=0 #3

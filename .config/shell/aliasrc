@@ -9,6 +9,9 @@
 # Config alias for dotfiles bare repo
 alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 
+# Config alias for wiki bare repo
+alias wiki='/usr/bin/git --git-dir=$HOME/Documents/wiki/.wiki/ --work-tree=$HOME/Documents/wiki/'
+
 # Verbosity settings
 alias \
 	cp="cp -iv" \

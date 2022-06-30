@@ -1,15 +1,16 @@
 # GIMP user context
 
-(tool "gimp-bucket-fill-tool")
+(tool "gimp-move-tool")
 (paint-info "gimp-paintbrush")
-(background (color-rgb 0.9874476987447699 0.96756620145460681 0.96756620145460681))
-(brush "2. Hardness 100")
+(foreground (color-rgb 1 1 1))
+(background (color-rgb 0 0.085782811925561447 0.20920502092050208))
+(brush "Clipboard Image")
 (dynamics "Dynamics Off")
 (mybrush "100% Opaque")
 (pattern "Pine")
 (gradient "FG to BG (RGB)")
 (palette "Color History")
-(font "Sans-serif")
+(font "Wuncon Siji")
 (tool-preset "Core Pointer")
 
 # end of user context

@@ -577,3 +577,1420 @@
 } 
 [01/22/22, 16:28:25:054] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
 [01/22/22, 16:28:31:226] info: [FOCUS-EVENT] Client window blurred 
+[06/02/22, 11:41:22:250] info: 
+╔═════════════════════════════════════════════════════╗
+║      Slack 4.19.2, linux 5.18.0-arch1-1 on x64      ║
+╚═════════════════════════════════════════════════════╝ 
+[06/02/22, 11:41:22:250] info: Configured logger via 
+{
+  "enableConsoleTransport": true,
+  "identifierOverride": "webapp-console",
+  "shouldUseNewBackend": false,
+  "loggerInstanceCount": 3
+}
+[06/02/22, 11:41:22:250] info: Predefined values for process 
+{
+  "NODE_ENV": "production",
+  "platform": "linux",
+  "type": "browser",
+  "timeZone": "America/Chicago",
+  "PACKAGE_MANIFEST.productName": "Slack",
+  "PACKAGE_MANIFEST.version": "4.19.2",
+  "PACKAGE_MANIFEST.commit": "b92697c",
+  "PACKAGE_MANIFEST.branch": "HEAD"
+}
+[06/02/22, 11:41:22:251] info: Starting Sentry 
+[06/02/22, 11:41:22:251] info: Creating desktop interface object 
+[06/02/22, 11:41:22:251] info: Exposing context bridge 
+[06/02/22, 11:41:22:251] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 11:41:22:251] info: Store: WINDOW_CREATED {
+  "type": "main",
+  "id": 1,
+  "frame": {
+    "isHtmlFullScreen": false,
+    "isFullScreen": false,
+    "isMinimized": false,
+    "isMaximized": false,
+    "isVisible": false,
+    "isFocused": false,
+    "bounds": {
+      "x": 1934,
+      "y": 39,
+      "width": 1892,
+      "height": 1027
+    }
+  }
+} 
+[06/02/22, 11:41:22:251] info: Store: RECORD_PERFORMANCE_TIMING {
+  "phase": 1,
+  "interval": 131
+} 
+[06/02/22, 11:41:22:251] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "unloaded"
+} 
+[06/02/22, 11:41:22:251] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "loaded"
+} 
+[06/02/22, 11:41:22:251] info: Store: RECORD_PERFORMANCE_TIMING {
+  "phase": 2,
+  "interval": 299
+} 
+[06/02/22, 11:41:22:252] info: Store: MAIN_WINDOW_SHOWN  
+[06/02/22, 11:41:22:252] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 1934,
+      "y": 39,
+      "width": 1892,
+      "height": 1027
+    }
+  }
+} 
+[06/02/22, 11:41:22:252] info: Store: CLEAR_NOTIFICATIONS  
+[06/02/22, 11:41:22:252] info: [METRICS] Starting timers for metrics collection 
+[06/02/22, 11:41:22:252] info: [PERF] setupGantry_w begin 663ms 
+[06/02/22, 11:41:22:252] info: [APP] client 
+[06/02/22, 11:41:22:252] info: [DATE/TIME] 1654188082220 "2022-06-02T16:41:22.220Z" 
+[06/02/22, 11:41:22:252] info: [VERSION] version_hash: 3c6a0b48e4157feb49e4f9facb1940b2b710cf7b 
+[06/02/22, 11:41:22:252] info: [VERSION] version_ts: 1654182435 
+[06/02/22, 11:41:22:252] info: [VERSION] min_version_data_ts: 1652142630 
+[06/02/22, 11:41:22:252] info: [AUTH] authCookieChanged: started listening to the event 
+[06/02/22, 11:41:22:252] warn: [AUTH] lc cookie (NaN) is missing 
+[06/02/22, 11:41:22:252] info: [AUTH] Credentials are fresh (psc=1641236590, csc=NaN) 
+[06/02/22, 11:41:22:253] info: [LOCAL-CONFIG] ingestIncomingConfig(): no incoming payload to process; current teams: THJE8BA1Z:U019QAPMCP9,TBNBEJWCV:U02GDMW2QNP 
+[06/02/22, 11:41:22:253] info: [BOOT] Initial team ID: THJE8BA1Z 
+[06/02/22, 11:41:22:253] info: [PERF] setupGantry_w took 5.6ms 
+[06/02/22, 11:41:22:253] info: [PERF] bootClient_w begin 670ms 
+[06/02/22, 11:41:22:253] info: [BOOT] (THJE8BA1Z) Initializing boot 
+[06/02/22, 11:41:22:253] info: [BOOT] (THJE8BA1Z) Minimum supported data version is 1652142630; currently on 1642603649 
+[06/02/22, 11:41:22:253] info: [BOOT] (THJE8BA1Z) Skipping checking persisted store because if it exists it's out of date 
+[06/02/22, 11:41:22:253] info: [PERSIST] (THJE8BA1Z) Purging persisted model... 
+[06/02/22, 11:41:22:253] info: [TRACER] Tracing is not sampled by default for this team. 
+[06/02/22, 11:41:22:253] info: [WD] All assets have reported back; s: 6; f: 0 
+[06/02/22, 11:41:22:257] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 11:41:22:258] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 11:41:22:259] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 11:41:22:637] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "type": "app",
+  "history": "[REDACTED]"
+} 
+[06/02/22, 11:41:22:766] info: [PERSIST] (THJE8BA1Z) Purged model 
+[06/02/22, 11:41:22:798] info: Network status check {
+  "elapsed_time_ms": 158,
+  "navigator_online": true,
+  "api_test": "online"
+} 
+[06/02/22, 11:41:22:800] info: Store: SET_NETWORK_STATUS online 
+[06/02/22, 11:41:22:835] info: [BOOT-QUEUE] THJE8BA1Z noversion-1654188082.831 api.features called 
+[06/02/22, 11:41:22:835] info: [BOOT-QUEUE] THJE8BA1Z noversion-1654188082.831 api.features is ENQUEUED 
+[06/02/22, 11:41:22:838] info: [BOOT-QUEUE] THJE8BA1Z noversion-1654188082.837 experiments.getByUser called 
+[06/02/22, 11:41:22:839] info: [BOOT-QUEUE] THJE8BA1Z noversion-1654188082.837 experiments.getByUser is ENQUEUED 
+[06/02/22, 11:41:22:840] info: [BOOT] Booting into channel: CHZFB5M47 
+[06/02/22, 11:41:22:843] info: [TRACER] Tracing is not sampled by default for this session. 
+[06/02/22, 11:41:22:845] info: [BOOT-QUEUE] THJE8BA1Z noversion-1654188082.844 client.boot called with reason: deferred-data 
+[06/02/22, 11:41:22:845] info: [BOOT-QUEUE] THJE8BA1Z noversion-1654188082.844 client.boot is ENQUEUED 
+[06/02/22, 11:41:22:846] info: [BOOT-QUEUE] THJE8BA1Z noversion-1654188082.831 api.features is ACTIVE 
+[06/02/22, 11:41:22:847] info: [BOOT-QUEUE] THJE8BA1Z noversion-1654188082.837 experiments.getByUser is ACTIVE 
+[06/02/22, 11:41:22:848] info: [BOOT-QUEUE] THJE8BA1Z noversion-1654188082.844 client.boot is ACTIVE 
+[06/02/22, 11:41:22:871] info: Store: UPDATE_SETTINGS {
+  "mainWindowSettings": {
+    "fullScreen": false,
+    "maximized": false,
+    "bounds": {
+      "x": 20,
+      "y": 55,
+      "width": 1880,
+      "height": 1005
+    }
+  }
+} 
+[06/02/22, 11:41:23:016] info: [BOOT-QUEUE] THJE8BA1Z noversion-1654188082.831 api.features is RESOLVED 
+[06/02/22, 11:41:23:022] info: [BOOT-QUEUE] THJE8BA1Z noversion-1654188082.837 experiments.getByUser is RESOLVED 
+[06/02/22, 11:41:23:180] info: [BOOT-QUEUE] THJE8BA1Z noversion-1654188082.844 client.boot is RESOLVED 
+[06/02/22, 11:41:23:181] info: [BOOT] Feature flag config version: 1654188040; Experiments config version: 1654188040 
+[06/02/22, 11:41:23:181] info: [BOOT] Current earliest config version: 1654188040; All config versions: {"THJE8BA1Z":1654188040} 
+[06/02/22, 11:41:24:276] info: [MIN-VERSION] Using build version 1654182435 for this min version bump check 
+[06/02/22, 11:41:24:322] info: [EMOJI_TRANSLATION] Emoji translations not needed for default locale, only adding keywords 
+[06/02/22, 11:41:24:324] info: [MIN-VERSION] Using build version 1654182435 for this min version bump check 
+[06/02/22, 11:41:24:360] info: [EMOJI_TRANSLATION] Emoji translations not needed for default locale, only adding keywords 
+[06/02/22, 11:41:24:360] info: [BOOT] (THJE8BA1Z) Booting cold 
+[06/02/22, 11:41:24:376] info: [DESKTOP-MIDDLEWARE] (THJE8BA1Z) Forwarding redux payload to desktop ["theme","notificationPrefs","connectivityPrefs","featureFlags","unreads","locale","version","userId"] 
+[06/02/22, 11:41:24:384] info: [BOOT] (THJE8BA1Z) Dispatching boot data 
+[06/02/22, 11:41:24:384] info: [DESKTOP-MIDDLEWARE] (THJE8BA1Z) Forwarding redux payload to desktop ["featureFlags","userId"] 
+[06/02/22, 11:41:24:390] info: [DESKTOP-MIDDLEWARE] (THJE8BA1Z) Forwarding redux payload to desktop ["theme","notificationPrefs","unreads"] 
+[06/02/22, 11:41:24:390] info: [DESKTOP-MIDDLEWARE] (THJE8BA1Z) Forwarding redux payload to desktop ["connectivityPrefs"] 
+[06/02/22, 11:41:24:415] info: [EMOJI_TRANSLATION] Emoji translations not needed for default locale, only adding keywords 
+[06/02/22, 11:41:24:418] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.416 search.autocomplete.topEmojis called with reason: loadEmoji-maybeReloadEmoji-setModelData 
+[06/02/22, 11:41:24:418] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.416 search.autocomplete.topEmojis is ENQUEUED 
+[06/02/22, 11:41:24:419] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.418 commands.list called with reason: loadSlashCommands 
+[06/02/22, 11:41:24:419] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.418 commands.list is ENQUEUED 
+[06/02/22, 11:41:24:420] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.420 files.list called with reason: paperclip-recents 
+[06/02/22, 11:41:24:420] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.420 files.list is ENQUEUED 
+[06/02/22, 11:41:24:422] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.421 links.getDomains called with reason: siws-get-domains 
+[06/02/22, 11:41:24:422] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.421 links.getDomains is ENQUEUED 
+[06/02/22, 11:41:24:435] info: [BOOT] (THJE8BA1Z) processing mutation timestamps for CHZFB5M47 
+[06/02/22, 11:41:24:435] info: [COUNTS] (THJE8BA1Z) purging cached history for channel CHZFB5M47 since counts history_invalid 1649022162.027500 > cached historyInvalidTs undefined 
+[06/02/22, 11:41:24:439] info: [PLATFORM-CHANNEL-ACTI] (THJE8BA1Z) setting count for channel CHZFB5M47 to 0, and marking channel as stale. 
+[06/02/22, 11:41:24:442] info: [BOOT] (THJE8BA1Z) Boot complete 
+[06/02/22, 11:41:24:443] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.443 i18n.translations.get called with reason: fetchTranslatedCustomStatusPresets 
+[06/02/22, 11:41:24:444] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.443 i18n.translations.get is ENQUEUED 
+[06/02/22, 11:41:24:445] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.416 search.autocomplete.topEmojis is ACTIVE 
+[06/02/22, 11:41:24:445] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.418 commands.list is ACTIVE 
+[06/02/22, 11:41:24:446] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.420 files.list is ACTIVE 
+[06/02/22, 11:41:24:446] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.421 links.getDomains is ACTIVE 
+[06/02/22, 11:41:24:448] info: [UNREAD-COUNTS] (THJE8BA1Z) Counting unreads in CHZFB5M47 because (28) timestamps added 
+[06/02/22, 11:41:24:450] info: [DESKTOP-SIDE-EFFECT] (THJE8BA1Z) Reacting to  {"type":"[108] Set a value that represents whether we are currently in the boot phase","payload":false,"error":false} 
+[06/02/22, 11:41:24:451] info: [AUTH] Installing incremental auth handler 
+[06/02/22, 11:41:24:452] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.443 i18n.translations.get is ACTIVE 
+[06/02/22, 11:41:24:453] info: [ROUTES] [ROUTE_ENTITY] navigateToRoute called with reason  
+[06/02/22, 11:41:24:454] info: [ROUTES] [ROUTE_ENTITY] Attempting to navigate to new route {"teamId":"THJE8BA1Z","entityId":"CHZFB5M47","memberId":"U019QAPMCP9"} 
+[06/02/22, 11:41:24:454] info: [ROUTES] [ROUTE_ENTITY] About to run notifyRouteWillNavigateListeners to determine shouldNavigate 
+[06/02/22, 11:41:24:457] info: [UNREAD-COUNTS] (THJE8BA1Z) Checking unreads in CHZFB5M47 after a new message 
+[06/02/22, 11:41:24:457] info: [CHECK-UNREADS] (THJE8BA1Z) Not marking CHZFB5M47 because attention not on chat (workspace_not_focused) 
+[06/02/22, 11:41:24:459] info: [ROUTES] [ROUTE_ENTITY] notifyRouteWillNavigateListeners finished, shouldNavigate is true 
+[06/02/22, 11:41:24:459] info: [ROUTES] [ROUTE_ENTITY] willNavigateListener is replacing the current state with /client/THJE8BA1Z/CHZFB5M47 
+[06/02/22, 11:41:24:463] info: [ROUTES] [ROUTE_ENTITY] Navigated to new route 
+[06/02/22, 11:41:24:469] info: [DESKTOP-SIDE-EFFECT] (THJE8BA1Z) Team THJE8BA1Z booted, creating delegate 
+[06/02/22, 11:41:24:470] info: Exposing workspace desktop delegate for  {
+  "workspaceId": "THJE8BA1Z"
+} 
+[06/02/22, 11:41:24:470] info: Setting global desktop delegate 
+[06/02/22, 11:41:24:470] info: [BOOT] (THJE8BA1Z) Connecting to socket 
+[06/02/22, 11:41:24:472] info: [SOCKET-MANAGER] (THJE8BA1Z) Changing from never_connected to prov_connect 
+[06/02/22, 11:41:24:472] info: [SOCKET-MANAGER] (THJE8BA1Z) will stay in prov_connect state for up to 10000 ms 
+[06/02/22, 11:41:24:472] info: [SOCKET-MANAGER] (THJE8BA1Z) Connecting with token ending: 9051 
+[06/02/22, 11:41:24:472] info: [SOCKET-MANAGER] (THJE8BA1Z) Changing from prov_connect to prov_connecting 
+[06/02/22, 11:41:24:473] info: [SOCKET-MANAGER] (THJE8BA1Z) will stay in prov_connecting state for up to 35000 ms 
+[06/02/22, 11:41:24:474] info: [ENDPOINT-MANAGER] (THJE8BA1Z) No stale versions to clear. 
+[06/02/22, 11:41:24:475] info: [ENDPOINT-MANAGER] (THJE8BA1Z) socketUrl - fetching endpoint 
+[06/02/22, 11:41:24:475] info: [SOCKET-MANAGER-MIDDLE] (THJE8BA1Z) Initialized Socket Manager instance 
+[06/02/22, 11:41:24:479] info: [BOOT] (THJE8BA1Z) (THJE8BA1Z) Mounting client 
+[06/02/22, 11:41:24:669] info: [PERF] (THJE8BA1Z) First meaningful paint: 2814ms 
+[06/02/22, 11:41:24:670] info: [DRAFTS] (THJE8BA1Z) There are no channels with drafts 
+[06/02/22, 11:41:24:671] info: [BOOT] (THJE8BA1Z) Beaconed client boot mount success 
+[06/02/22, 11:41:24:673] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.670 sharedInvites.canGetLink called with reason: sidebar-mount 
+[06/02/22, 11:41:24:673] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.670 sharedInvites.canGetLink is ENQUEUED 
+[06/02/22, 11:41:24:673] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.673 channels.prefs.get called with reason: channels-prefs-get-can-huddle 
+[06/02/22, 11:41:24:674] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.673 channels.prefs.get is ENQUEUED 
+[06/02/22, 11:41:24:678] info: [PERF] (THJE8BA1Z) Logged time to visible (TTV): 3194.100000000035 
+[06/02/22, 11:41:24:681] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.680 channels.prefs.get called with reason: fetch-channel-pref 
+[06/02/22, 11:41:24:681] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.680 channels.prefs.get is ENQUEUED 
+[06/02/22, 11:41:24:686] info: [WORKSPACE] (THJE8BA1Z) Workspace mounted, transitioning focus to primary view message-pane_message_input 
+[06/02/22, 11:41:24:725] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.705 users.interactions.list called with reason: huddle-educational-card 
+[06/02/22, 11:41:24:725] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.705 users.interactions.list is ENQUEUED 
+[06/02/22, 11:41:24:725] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.706 users.interactions.list called with reason: huddle-discovery-calls 
+[06/02/22, 11:41:24:726] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.706 users.interactions.list is ENQUEUED 
+[06/02/22, 11:41:24:726] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.722 search.autocomplete.model called with reason: AutocompleteModelCache 
+[06/02/22, 11:41:24:726] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.722 search.autocomplete.model is ENQUEUED 
+[06/02/22, 11:41:24:726] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.724 search.autocomplete.offlineFeatures called with reason: search-offline-features 
+[06/02/22, 11:41:24:727] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.724 search.autocomplete.offlineFeatures is ENQUEUED 
+[06/02/22, 11:41:25:008] info: [CHECK-UNREADS] (THJE8BA1Z) unreadLineVisible updated: false -> true 
+[06/02/22, 11:41:25:010] info: [PERF] (THJE8BA1Z) Logged time to usable (TTU): 3526.7000000000116 
+[06/02/22, 11:41:25:092] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.670 sharedInvites.canGetLink is ACTIVE 
+[06/02/22, 11:41:25:092] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.673 channels.prefs.get is ACTIVE 
+[06/02/22, 11:41:25:093] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.680 channels.prefs.get is ACTIVE 
+[06/02/22, 11:41:25:093] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.705 users.interactions.list is ACTIVE 
+[06/02/22, 11:41:25:093] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.706 users.interactions.list is ACTIVE 
+[06/02/22, 11:41:25:094] info: [PERF] bootClient_w took 2867.5ms 
+[06/02/22, 11:41:25:095] info: [BOOT] Booting other teams: TBNBEJWCV 
+[06/02/22, 11:41:25:095] info: [BOOT] (TBNBEJWCV) Initializing boot 
+[06/02/22, 11:41:25:097] info: [BOOT] (TBNBEJWCV) Minimum supported data version is 1652142630; currently on 1642603649 
+[06/02/22, 11:41:25:098] info: [BOOT] (TBNBEJWCV) Skipping checking persisted store because if it exists it's out of date 
+[06/02/22, 11:41:25:098] info: [PERSIST] (TBNBEJWCV) Purging persisted model... 
+[06/02/22, 11:41:25:098] info: [TRACER] Tracing is not sampled by default for this team. 
+[06/02/22, 11:41:25:103] info: [WD] All assets have reported back; s: 9; f: 0 
+[06/02/22, 11:41:25:123] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.122 megaphone.notifications.list called with reason: fetch-megaphone-notification-data 
+[06/02/22, 11:41:25:123] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.122 megaphone.notifications.list is ENQUEUED 
+[06/02/22, 11:41:25:132] info: [CHECK-UNREADS] (THJE8BA1Z) Checking unreads after workspace became focused 
+[06/02/22, 11:41:25:132] info: [CHECK-UNREADS] (THJE8BA1Z) Not marking CHZFB5M47 because last_read >= latest && channel is read 
+[06/02/22, 11:41:25:132] info: [CHECK-UNREADS] (THJE8BA1Z) Checking unreads after window became focused 
+[06/02/22, 11:41:25:132] info: [CHECK-UNREADS] (THJE8BA1Z) Not marking CHZFB5M47 because last_read >= latest && channel is read 
+[06/02/22, 11:41:25:140] info: Store: UPDATE_SETTINGS {
+  "userTheme": "dark"
+} 
+[06/02/22, 11:41:25:143] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[06/02/22, 11:41:25:144] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.443 i18n.translations.get is RESOLVED 
+[06/02/22, 11:41:25:146] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.722 search.autocomplete.model is ACTIVE 
+[06/02/22, 11:41:25:147] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.416 search.autocomplete.topEmojis is RESOLVED 
+[06/02/22, 11:41:25:148] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.724 search.autocomplete.offlineFeatures is ACTIVE 
+[06/02/22, 11:41:25:150] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.418 commands.list is RESOLVED 
+[06/02/22, 11:41:25:151] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.122 megaphone.notifications.list is ACTIVE 
+[06/02/22, 11:41:25:152] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.421 links.getDomains is RESOLVED 
+[06/02/22, 11:41:25:153] info: [ENDPOINT-MANAGER] (THJE8BA1Z) socketUrl - got endpoint 
+[06/02/22, 11:41:25:219] info: Store: UPDATE_SETTINGS {
+  "systemThemeSyncEnabled": false
+} 
+[06/02/22, 11:41:25:221] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[06/02/22, 11:41:25:223] info: Store: SYNC (Empty) 
+[06/02/22, 11:41:25:225] info: Store: SELECTION_CHANGED THJE8BA1Z 
+[06/02/22, 11:41:25:230] info: Store: REDUX_UPDATE_FROM_WEBAPP (THJE8BA1Z) Changed keys [theme,notificationPrefs,connectivityPrefs,featureFlags,unreads,locale,version,userId] 
+[06/02/22, 11:41:25:232] info: Store: REDUX_UPDATE_FROM_WEBAPP (THJE8BA1Z) Changed keys [featureFlags,userId] 
+[06/02/22, 11:41:25:235] info: Store: REDUX_UPDATE_FROM_WEBAPP (THJE8BA1Z) Changed keys [theme,notificationPrefs,unreads] 
+[06/02/22, 11:41:25:237] info: Store: REDUX_UPDATE_FROM_WEBAPP (THJE8BA1Z) Changed keys [connectivityPrefs] 
+[06/02/22, 11:41:25:239] info: Store: SYNC Synced 1 workspaces with IDs [THJE8BA1Z] 
+[06/02/22, 11:41:25:241] info: Store: SELECTION_CHANGED THJE8BA1Z 
+[06/02/22, 11:41:25:243] info: Store: UPDATE_SETTINGS {
+  "forceHiddenInsetTitleBar": false
+} 
+[06/02/22, 11:41:25:245] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[06/02/22, 11:41:25:247] info: Store: UPDATE_SETTINGS {
+  "trafficLightPosition": {
+    "x": 14,
+    "y": 22
+  }
+} 
+[06/02/22, 11:41:25:248] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[06/02/22, 11:41:25:248] info: Store: UPDATE_SETTINGS {
+  "trafficLightPosition": {
+    "x": 14,
+    "y": 29
+  }
+} 
+[06/02/22, 11:41:25:249] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[06/02/22, 11:41:25:249] info: [UFM-MEMBERS] (THJE8BA1Z) requesting UN5JCDG0H,UTE0KAJL8,U01LC0B3J80,U01BWB9JQ2U,U01L9BR9NTB,U01KC31G2TW,U019QAPMCP9,USLACKBOT,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,U01L5QTQ188,U02CQ03B3BR,U01AG87CKQE,U01CUL5T0KU,U01A2JGC9PF,U01M3GZ9QV6,USUDDTUE5,U01AHMSF3NV,U01M662B30S,U01LLE18XDJ,U01RVFQKV34,U01LSJJ7T5F,U01M3QSUZUY,UNCU3QR8D,UNEGUS4T0,UNELH24H4 (1) 
+[06/02/22, 11:41:25:251] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.251 api.getFlannelHttpUrl called with reason: client-needs-valid-flannel-url 
+[06/02/22, 11:41:25:252] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.251 api.getFlannelHttpUrl is ENQUEUED 
+[06/02/22, 11:41:25:253] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.251 api.getFlannelHttpUrl is ACTIVE 
+[06/02/22, 11:41:25:253] info: Store: UPDATE_SETTINGS {
+  "isIAEnabled": true
+} 
+[06/02/22, 11:41:25:254] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[06/02/22, 11:41:25:256] info: [FLANNEL] (THJE8BA1Z) received a user_subscribe_request call while we are not connected; deferring 
+[06/02/22, 11:41:25:257] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.256 calendar.getInstalledCalendars called with reason: calendar-get-installed-calendars 
+[06/02/22, 11:41:25:257] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.256 calendar.getInstalledCalendars is ENQUEUED 
+[06/02/22, 11:41:25:257] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.257 drafts.list called with reason: boot-team 
+[06/02/22, 11:41:25:258] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.257 drafts.list is ENQUEUED 
+[06/02/22, 11:41:25:258] info: [DRAFTS] (THJE8BA1Z) No local drafts - skipping fetch to purge inactive drafts 
+[06/02/22, 11:41:25:259] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.258 megaphone.notifications.list called with reason: fetch-megaphone-notification-data 
+[06/02/22, 11:41:25:259] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.258 megaphone.notifications.list is ENQUEUED 
+[06/02/22, 11:41:25:259] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.259 megaphone.notifications.list called with reason: fetch-megaphone-notification-data 
+[06/02/22, 11:41:25:259] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.259 megaphone.notifications.list is ENQUEUED 
+[06/02/22, 11:41:25:260] info: [UFM-CHANNELS] (THJE8BA1Z) requesting C02DGTPSPFZ,C02EU5K3BEU (1) 
+[06/02/22, 11:41:25:260] info: Store: EXTEND_MENU global: menucategory-file,menucategory-view,menucategory-jump-to 
+[06/02/22, 11:41:25:261] info: Store: EXTEND_MENU THJE8BA1Z: menucategory-file,menucategory-view,menucategory-edit,menucategory-history,menucategory-help 
+[06/02/22, 11:41:25:262] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.262 help.issues.ticketStats called with reason: fetchAndUpsertTicketStats 
+[06/02/22, 11:41:25:262] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.262 help.issues.ticketStats is ENQUEUED 
+[06/02/22, 11:41:25:263] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.262 users.channelSections.list called with reason: conditional-fetch-manager 
+[06/02/22, 11:41:25:263] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.262 users.channelSections.list is ENQUEUED 
+[06/02/22, 11:41:25:263] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.263 sharedInvites.canGetLink called with reason: slack-connect-dm-eligibility-cfm 
+[06/02/22, 11:41:25:263] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.263 sharedInvites.canGetLink is ENQUEUED 
+[06/02/22, 11:41:25:264] info: [UFM] (THJE8BA1Z) requesting CHZFB5M47,C02DUK4LELV,C02DR5G20J2,C02DUSXD9E1,G01LMAVKXCK,CREMP7J77,CRDHS7TGQ,D01AB8MJ1HS,D01A534RQ90,D01ABSZLLKW,D01DQHJ4QMD,D01JY1G8W3C,D01LLLHTHTL,D01MEQPL9M3,D01NN3GHFQW,D01ULS1V5CN,D02JEFLR7K9,C01UCER01GE,C01V0KT8MM1,C02AY4Q67QF (1) 
+[06/02/22, 11:41:25:264] info: [UFM] (THJE8BA1Z) requesting CHZFB5M47 (1) 
+[06/02/22, 11:41:25:265] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.264 bookmarks.list called with reason: bookmarks-store/conditional-fetching 
+[06/02/22, 11:41:25:265] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.264 bookmarks.list is ENQUEUED 
+[06/02/22, 11:41:25:265] info: [UFM] (THJE8BA1Z) requesting A0F82E57C (1) 
+[06/02/22, 11:41:25:266] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.266 apps.profile.get called with reason: fetch-all-apps-by-id 
+[06/02/22, 11:41:25:266] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.266 apps.profile.get is ENQUEUED 
+[06/02/22, 11:41:25:266] info: [UFM-FLANNELEMOJI] (THJE8BA1Z) requesting 1 objects (1) 
+[06/02/22, 11:41:25:281] info: [BOOT-QUEUE] TBNBEJWCV noversion-1654188085.280 api.features called 
+[06/02/22, 11:41:25:281] info: [BOOT-QUEUE] TBNBEJWCV noversion-1654188085.280 api.features is ENQUEUED 
+[06/02/22, 11:41:25:281] info: [BOOT-QUEUE] TBNBEJWCV noversion-1654188085.281 experiments.getByUser called 
+[06/02/22, 11:41:25:281] info: [BOOT-QUEUE] TBNBEJWCV noversion-1654188085.281 experiments.getByUser is ENQUEUED 
+[06/02/22, 11:41:25:281] info: [BOOT] Booting into channel: C02UZRJ5LNS 
+[06/02/22, 11:41:25:282] info: [BOOT-QUEUE] TBNBEJWCV noversion-1654188085.281 client.boot called with reason: deferred-data 
+[06/02/22, 11:41:25:282] info: [BOOT-QUEUE] TBNBEJWCV noversion-1654188085.281 client.boot is ENQUEUED 
+[06/02/22, 11:41:25:282] info: [BOOT-QUEUE] TBNBEJWCV noversion-1654188085.280 api.features is ACTIVE 
+[06/02/22, 11:41:25:286] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.673 channels.prefs.get is RESOLVED 
+[06/02/22, 11:41:25:287] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.256 calendar.getInstalledCalendars is ACTIVE 
+[06/02/22, 11:41:25:289] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.670 sharedInvites.canGetLink is RESOLVED 
+[06/02/22, 11:41:25:289] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.257 drafts.list is ACTIVE 
+[06/02/22, 11:41:25:290] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.705 users.interactions.list is RESOLVED 
+[06/02/22, 11:41:25:290] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.258 megaphone.notifications.list is ACTIVE 
+[06/02/22, 11:41:25:292] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.680 channels.prefs.get is RESOLVED 
+[06/02/22, 11:41:25:293] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.259 megaphone.notifications.list is ACTIVE 
+[06/02/22, 11:41:25:294] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.706 users.interactions.list is RESOLVED 
+[06/02/22, 11:41:25:294] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.262 help.issues.ticketStats is ACTIVE 
+[06/02/22, 11:41:25:296] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.722 search.autocomplete.model is RESOLVED 
+[06/02/22, 11:41:25:297] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.262 users.channelSections.list is ACTIVE 
+[06/02/22, 11:41:25:330] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.724 search.autocomplete.offlineFeatures is RESOLVED 
+[06/02/22, 11:41:25:331] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.263 sharedInvites.canGetLink is ACTIVE 
+[06/02/22, 11:41:25:331] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.122 megaphone.notifications.list is RESOLVED 
+[06/02/22, 11:41:25:332] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.264 bookmarks.list is ACTIVE 
+[06/02/22, 11:41:25:333] info: [UFM] (THJE8BA1Z) requesting _all_actions (1) 
+[06/02/22, 11:41:25:333] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.333 apps.actions.v2.list called with reason: list-message-actions 
+[06/02/22, 11:41:25:334] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.333 apps.actions.v2.list is ENQUEUED 
+[06/02/22, 11:41:25:356] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.251 api.getFlannelHttpUrl is RESOLVED 
+[06/02/22, 11:41:25:357] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.266 apps.profile.get is ACTIVE 
+[06/02/22, 11:41:25:417] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.262 help.issues.ticketStats is RESOLVED 
+[06/02/22, 11:41:25:418] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.333 apps.actions.v2.list is ACTIVE 
+[06/02/22, 11:41:25:419] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.257 drafts.list is RESOLVED 
+[06/02/22, 11:41:25:420] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.262 users.channelSections.list is RESOLVED 
+[06/02/22, 11:41:25:420] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.263 sharedInvites.canGetLink is RESOLVED 
+[06/02/22, 11:41:25:421] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.264 bookmarks.list is RESOLVED 
+[06/02/22, 11:41:25:423] info: [BOOT-QUEUE] TBNBEJWCV noversion-1654188085.280 api.features is REJECTED: API not ok invalid_auth 
+[06/02/22, 11:41:25:424] warn: [AUTH] lc cookie (NaN) is missing 
+[06/02/22, 11:41:25:424] info: [AUTH] Credentials are fresh (psc=1641236590, csc=NaN) 
+[06/02/22, 11:41:25:425] info: [AUTH] fetchAuthAndReturnToUrl: auth fetch times: 1654188085424 
+[06/02/22, 11:41:25:425] info: [AUTH] fetchAuthAndReturnToUrl: will return to /client/THJE8BA1Z/CHZFB5M47 
+[06/02/22, 11:41:25:426] info: [AUTH] fetchAuthAndReturnToUrl: fetching credentials with iframe at /auth?app=client&lc=1641236590&return_to=%2Fclient%2FTHJE8BA1Z%2FCHZFB5M47&teams=THJE8BA1Z%2CTBNBEJWCV 
+[06/02/22, 11:41:25:427] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 11:41:25:429] info: [BOOT-QUEUE] TBNBEJWCV noversion-1654188085.281 experiments.getByUser is ACTIVE 
+[06/02/22, 11:41:25:431] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.259 megaphone.notifications.list is RESOLVED 
+[06/02/22, 11:41:25:434] info: [API-Q] (THJE8BA1Z) noversion-1654188085.433 Flannel users/info called with reason: flannel-call:users/info 
+[06/02/22, 11:41:25:434] info: [API-Q] (THJE8BA1Z) noversion-1654188085.433 Flannel users/info is ENQUEUED 
+[06/02/22, 11:41:25:434] info: [API-Q] (THJE8BA1Z) noversion-1654188085.434 Flannel users/info called with reason: flannel-call:users/info 
+[06/02/22, 11:41:25:435] info: [API-Q] (THJE8BA1Z) noversion-1654188085.434 Flannel users/info is ENQUEUED 
+[06/02/22, 11:41:25:435] info: [API-Q] (THJE8BA1Z) noversion-1654188085.434 Flannel channels/info called with reason: flannel-call:channels/info 
+[06/02/22, 11:41:25:435] info: [API-Q] (THJE8BA1Z) noversion-1654188085.434 Flannel channels/info is ENQUEUED 
+[06/02/22, 11:41:25:436] info: [API-Q] (THJE8BA1Z) noversion-1654188085.435 Flannel permissions/info called with reason: flannel-call:permissions/info 
+[06/02/22, 11:41:25:436] info: [API-Q] (THJE8BA1Z) noversion-1654188085.435 Flannel permissions/info is ENQUEUED 
+[06/02/22, 11:41:25:436] info: [API-Q] (THJE8BA1Z) noversion-1654188085.436 Flannel permissions/info called with reason: flannel-call:permissions/info 
+[06/02/22, 11:41:25:437] info: [API-Q] (THJE8BA1Z) noversion-1654188085.436 Flannel permissions/info is ENQUEUED 
+[06/02/22, 11:41:25:437] info: [API-Q] (THJE8BA1Z) noversion-1654188085.436 Flannel permissions/info called with reason: flannel-call:permissions/info 
+[06/02/22, 11:41:25:438] info: [API-Q] (THJE8BA1Z) noversion-1654188085.436 Flannel permissions/info is ENQUEUED 
+[06/02/22, 11:41:25:438] info: [API-Q] (THJE8BA1Z) noversion-1654188085.437 Flannel permissions/info called with reason: flannel-call:permissions/info 
+[06/02/22, 11:41:25:438] info: [API-Q] (THJE8BA1Z) noversion-1654188085.437 Flannel permissions/info is ENQUEUED 
+[06/02/22, 11:41:25:439] info: [API-Q] (THJE8BA1Z) noversion-1654188085.437 Flannel huddles/info called with reason: flannel-call:huddles/info 
+[06/02/22, 11:41:25:439] info: [API-Q] (THJE8BA1Z) noversion-1654188085.437 Flannel huddles/info is ENQUEUED 
+[06/02/22, 11:41:25:441] info: [API-Q] (THJE8BA1Z) noversion-1654188085.437 Flannel users/counts called with reason: flannel-call:users/counts 
+[06/02/22, 11:41:25:442] info: [API-Q] (THJE8BA1Z) noversion-1654188085.437 Flannel users/counts is ENQUEUED 
+[06/02/22, 11:41:25:442] info: [API-Q] (THJE8BA1Z) noversion-1654188085.438 Flannel permissions/info called with reason: flannel-call:permissions/info 
+[06/02/22, 11:41:25:442] info: [API-Q] (THJE8BA1Z) noversion-1654188085.438 Flannel permissions/info is ENQUEUED 
+[06/02/22, 11:41:25:443] info: [API-Q] (THJE8BA1Z) noversion-1654188085.438 Flannel emojis/info called with reason: flannel-call:emojis/info 
+[06/02/22, 11:41:25:443] info: [API-Q] (THJE8BA1Z) noversion-1654188085.438 Flannel emojis/info is ENQUEUED 
+[06/02/22, 11:41:25:443] info: [API-Q] (THJE8BA1Z) noversion-1654188085.439 Flannel channels/info called with reason: flannel-call:channels/info 
+[06/02/22, 11:41:25:443] info: [API-Q] (THJE8BA1Z) noversion-1654188085.439 Flannel channels/info is ENQUEUED 
+[06/02/22, 11:41:25:444] info: [API-Q] (THJE8BA1Z) noversion-1654188085.433 Flannel users/info is ACTIVE 
+[06/02/22, 11:41:25:444] info: [API-Q] (THJE8BA1Z) noversion-1654188085.434 Flannel users/info is ACTIVE 
+[06/02/22, 11:41:25:444] info: [API-Q] (THJE8BA1Z) noversion-1654188085.434 Flannel channels/info is ACTIVE 
+[06/02/22, 11:41:25:444] info: [API-Q] (THJE8BA1Z) noversion-1654188085.435 Flannel permissions/info is ACTIVE 
+[06/02/22, 11:41:25:445] info: [API-Q] (THJE8BA1Z) noversion-1654188085.436 Flannel permissions/info is ACTIVE 
+[06/02/22, 11:41:25:478] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.256 calendar.getInstalledCalendars is RESOLVED 
+[06/02/22, 11:41:25:478] info: [API-Q] (THJE8BA1Z) noversion-1654188085.439 Flannel channels/info is ACTIVE 
+[06/02/22, 11:41:25:481] info: [SOCKET-MANAGER] (THJE8BA1Z) Changing from prov_connecting to prov_connected 
+[06/02/22, 11:41:25:481] info: [SOCKET-MANAGER] (THJE8BA1Z) will stay in prov_connected state for up to 60000 ms 
+[06/02/22, 11:41:25:484] info: [SOCKET-MANAGER] (THJE8BA1Z) Changing from prov_connected to prov_finalize 
+[06/02/22, 11:41:25:484] info: [SOCKET-MANAGER] (THJE8BA1Z) will stay in prov_finalize state for up to 10000 ms 
+[06/02/22, 11:41:25:485] info: [SOCKET-MANAGER] (THJE8BA1Z) Changing from prov_finalize to prov_finalizing 
+[06/02/22, 11:41:25:485] info: [SOCKET-MANAGER] (THJE8BA1Z) will stay in prov_finalizing state for up to 10000 ms 
+[06/02/22, 11:41:25:485] info: [SOCKET-MANAGER] (THJE8BA1Z) Changing from prov_finalizing to connected 
+[06/02/22, 11:41:25:485] info: [SOCKET-MANAGER] (THJE8BA1Z) will stay in connected state for up to Infinity ms 
+[06/02/22, 11:41:25:486] info: [SOCKET-MANAGER] (THJE8BA1Z) Connected to primary region 
+[06/02/22, 11:41:25:487] info: [FLANNEL] (THJE8BA1Z) connected and trouble free! Continuing deferred user_subscribe_request call 
+[06/02/22, 11:41:25:490] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.489 users.customStatus.list called with reason: fetchCustomStatusOnReconnect 
+[06/02/22, 11:41:25:490] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.489 users.customStatus.list is ENQUEUED 
+[06/02/22, 11:41:25:493] info: [MESSAGE-HISTORY] (THJE8BA1Z) Resetting reachedEnd 
+[06/02/22, 11:41:25:497] info: [PRESENCE_PROMPT] (THJE8BA1Z) ignoring prompt due to presence (active) 
+[06/02/22, 11:41:25:497] info: [UNREAD-COUNTS] (THJE8BA1Z) Fetching counts 
+[06/02/22, 11:41:25:498] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.497 client.counts called with reason: client-counts-api/fetchClientCounts 
+[06/02/22, 11:41:25:498] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.497 client.counts is ENQUEUED 
+[06/02/22, 11:41:25:499] info: [PERSIST] (TBNBEJWCV) Purged model 
+[06/02/22, 11:41:25:500] info: [DRAFTS] (THJE8BA1Z) No active drafts 
+[06/02/22, 11:41:25:501] info: [DRAFTS] (THJE8BA1Z) Successfully fetched all active and inactive drafts ✨ 
+[06/02/22, 11:41:25:504] info: [UFM] (THJE8BA1Z) received CHZFB5M47 (1) 
+[06/02/22, 11:41:25:506] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.266 apps.profile.get is RESOLVED 
+[06/02/22, 11:41:25:506] info: [API-Q] (THJE8BA1Z) noversion-1654188085.438 Flannel emojis/info is ACTIVE 
+[06/02/22, 11:41:25:511] info: [CHECK-UNREADS] (THJE8BA1Z) Checking unreads after unread line became visible 
+[06/02/22, 11:41:25:511] info: [CHECK-UNREADS] (THJE8BA1Z) Not marking CHZFB5M47 because last_read >= latest && channel is read 
+[06/02/22, 11:41:25:511] info: [BOOT-QUEUE] TBNBEJWCV noversion-1654188085.281 experiments.getByUser is REJECTED: API not ok invalid_auth 
+[06/02/22, 11:41:25:511] warn: [AUTH] lc cookie (NaN) is missing 
+[06/02/22, 11:41:25:512] info: [AUTH] Credentials are fresh (psc=1641236590, csc=NaN) 
+[06/02/22, 11:41:25:552] info: [HISTORY-FETCH] (THJE8BA1Z) Fetching history for message pane: CHZFB5M47 oldest: 1653585584.694879 latest: null 
+[06/02/22, 11:41:25:552] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.551 conversations.history called with reason: message-pane/requestHistory 
+[06/02/22, 11:41:25:552] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.551 conversations.history is ENQUEUED 
+[06/02/22, 11:41:25:573] info: [CHECK-UNREADS] (THJE8BA1Z) unreadLineVisible updated: true -> false 
+[06/02/22, 11:41:25:608] warn: The page delivered both an 'X-Frame-Options' header and a 'Content-Security-Policy' header with a 'frame-ancestors' directive. Although the 'X-Frame-Options' header alone would have blocked embedding, it has been ignored. 
+[06/02/22, 11:41:25:609] info: [AUTH] authCookieChanged: event occurred 
+[06/02/22, 11:41:25:609] info: [AUTH] authCookieChanged 0: event happened, re-starting listening to the event, isFetchingAuth=true 
+[06/02/22, 11:41:25:613] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.613 calendar.user.info called with reason: calendar-get-user-info 
+[06/02/22, 11:41:25:614] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.613 calendar.user.info is ENQUEUED 
+[06/02/22, 11:41:25:614] info: [API-Q] (THJE8BA1Z) noversion-1654188085.614 Flannel channels/membership called with reason: flannel-call:channels/membership 
+[06/02/22, 11:41:25:615] info: [API-Q] (THJE8BA1Z) noversion-1654188085.614 Flannel channels/membership is ENQUEUED 
+[06/02/22, 11:41:25:615] info: [UFM] (THJE8BA1Z) received A0F82E57C (1) 
+[06/02/22, 11:41:25:617] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.258 megaphone.notifications.list is RESOLVED 
+[06/02/22, 11:41:25:617] info: [API-Q] (THJE8BA1Z) noversion-1654188085.614 Flannel channels/membership is ACTIVE 
+[06/02/22, 11:41:25:618] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.333 apps.actions.v2.list is RESOLVED 
+[06/02/22, 11:41:25:618] info: [API-Q] (THJE8BA1Z) noversion-1654188085.438 Flannel permissions/info is ACTIVE 
+[06/02/22, 11:41:25:619] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188084.420 files.list is RESOLVED 
+[06/02/22, 11:41:25:620] info: [API-Q] (THJE8BA1Z) noversion-1654188085.437 Flannel users/counts is ACTIVE 
+[06/02/22, 11:41:25:621] warn: [AUTH] lc cookie (NaN) is missing 
+[06/02/22, 11:41:25:621] info: [AUTH] Credentials are fresh (psc=1641236590, csc=NaN) 
+[06/02/22, 11:41:25:621] info: [BOOT-QUEUE] TBNBEJWCV noversion-1654188085.281 client.boot is ACTIVE 
+[06/02/22, 11:41:25:622] error: BOOT (?) unable to fetch messages data {"error":"noversion-1654188085.281 conversations.view not ok: invalid_auth"} 
+[06/02/22, 11:41:25:626] info: [DND] (THJE8BA1Z) Preparing to fetch DND times for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 11:41:25:627] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.626 dnd.info called with reason: getDndTimesForSubscribedMembers 
+[06/02/22, 11:41:25:627] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.626 dnd.info is ENQUEUED 
+[06/02/22, 11:41:25:627] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.627 dnd.teamInfo called with reason: getDndTimesForSubscribedMembers:self 
+[06/02/22, 11:41:25:627] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.627 dnd.teamInfo is ENQUEUED 
+[06/02/22, 11:41:25:645] info: [MESSAGE-LIST] (THJE8BA1Z) componentWillReceiveProps isLoading: true isLoadingOlder: false timestamps: 28 
+[06/02/22, 11:41:25:678] info: [UFM] (THJE8BA1Z) received _all_actions (1) 
+[06/02/22, 11:41:25:680] info: [API-Q] (THJE8BA1Z) noversion-1654188085.438 Flannel emojis/info is RESOLVED 
+[06/02/22, 11:41:25:680] info: [API-Q] (THJE8BA1Z) noversion-1654188085.437 Flannel huddles/info is ACTIVE 
+[06/02/22, 11:41:25:682] info: [API-Q] (THJE8BA1Z) noversion-1654188085.439 Flannel channels/info is RESOLVED 
+[06/02/22, 11:41:25:683] info: [API-Q] (THJE8BA1Z) noversion-1654188085.437 Flannel permissions/info is ACTIVE 
+[06/02/22, 11:41:25:683] info: [API-Q] (THJE8BA1Z) noversion-1654188085.434 Flannel channels/info is RESOLVED 
+[06/02/22, 11:41:25:684] info: [API-Q] (THJE8BA1Z) noversion-1654188085.436 Flannel permissions/info is ACTIVE 
+[06/02/22, 11:41:25:685] info: [API-Q] (THJE8BA1Z) noversion-1654188085.436 Flannel permissions/info is RESOLVED 
+[06/02/22, 11:41:25:685] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.489 users.customStatus.list is ACTIVE 
+[06/02/22, 11:41:25:686] info: [API-Q] (THJE8BA1Z) noversion-1654188085.435 Flannel permissions/info is RESOLVED 
+[06/02/22, 11:41:25:687] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.497 client.counts is ACTIVE 
+[06/02/22, 11:41:25:716] info: [API-Q] (THJE8BA1Z) noversion-1654188085.614 Flannel channels/membership is RESOLVED 
+[06/02/22, 11:41:25:717] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.551 conversations.history is ACTIVE 
+[06/02/22, 11:41:25:722] info: [API-Q] (THJE8BA1Z) noversion-1654188085.434 Flannel users/info is RESOLVED 
+[06/02/22, 11:41:25:723] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.613 calendar.user.info is ACTIVE 
+[06/02/22, 11:41:25:726] info: [API-Q] (THJE8BA1Z) noversion-1654188085.433 Flannel users/info is RESOLVED 
+[06/02/22, 11:41:25:726] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.626 dnd.info is ACTIVE 
+[06/02/22, 11:41:25:728] info: [API-Q] (THJE8BA1Z) noversion-1654188085.438 Flannel permissions/info is RESOLVED 
+[06/02/22, 11:41:25:729] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.627 dnd.teamInfo is ACTIVE 
+[06/02/22, 11:41:25:731] info: [API-Q] (THJE8BA1Z) noversion-1654188085.437 Flannel users/counts is RESOLVED 
+[06/02/22, 11:41:25:736] info: [BOOT-QUEUE] TBNBEJWCV noversion-1654188085.281 client.boot is REJECTED: API not ok invalid_auth 
+[06/02/22, 11:41:25:736] warn: [AUTH] lc cookie (NaN) is missing 
+[06/02/22, 11:41:25:736] info: [AUTH] Credentials are fresh (psc=1641236590, csc=NaN) 
+[06/02/22, 11:41:25:739] info: [UFM-FLANNELEMOJI] (THJE8BA1Z) received 1 objects (1) 
+[06/02/22, 11:41:25:741] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.740 conversations.genericInfo called with reason: fallback:fetchAndUpsertChannelsById 
+[06/02/22, 11:41:25:741] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.740 conversations.genericInfo is ENQUEUED 
+[06/02/22, 11:41:25:741] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.740 conversations.genericInfo is ACTIVE 
+[06/02/22, 11:41:25:742] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.742 conversations.genericInfo called with reason: fallback:UnknownFetchManager 
+[06/02/22, 11:41:25:743] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.742 conversations.genericInfo is ENQUEUED 
+[06/02/22, 11:41:25:802] info: [API-Q] (THJE8BA1Z) noversion-1654188085.437 Flannel huddles/info is RESOLVED 
+[06/02/22, 11:41:25:803] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.742 conversations.genericInfo is ACTIVE 
+[06/02/22, 11:41:25:803] info: [API-Q] (THJE8BA1Z) noversion-1654188085.437 Flannel permissions/info is RESOLVED 
+[06/02/22, 11:41:25:804] info: [UFM-MEMBERS] (THJE8BA1Z) received UN5JCDG0H,UTE0KAJL8,U01LC0B3J80,U01BWB9JQ2U,U01L9BR9NTB,U01KC31G2TW,U019QAPMCP9,USLACKBOT,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,U01L5QTQ188,U02CQ03B3BR,U01AG87CKQE,U01CUL5T0KU,U01A2JGC9PF,U01M3GZ9QV6,USUDDTUE5,U01AHMSF3NV,U01M662B30S,U01LLE18XDJ,U01RVFQKV34,U01LSJJ7T5F,U01M3QSUZUY,UNCU3QR8D,UNEGUS4T0,UNELH24H4 (1) 
+[06/02/22, 11:41:25:808] info: [API-Q] (THJE8BA1Z) noversion-1654188085.436 Flannel permissions/info is RESOLVED 
+[06/02/22, 11:41:25:810] info: [AUTH] credentials are ready 
+[06/02/22, 11:41:25:811] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.489 users.customStatus.list is RESOLVED 
+[06/02/22, 11:41:25:913] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.613 calendar.user.info is RESOLVED 
+[06/02/22, 11:41:25:914] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.626 dnd.info is RESOLVED 
+[06/02/22, 11:41:25:914] info: [UFM] (THJE8BA1Z) received CHZFB5M47,C02DUK4LELV,C02DR5G20J2,C02DUSXD9E1,G01LMAVKXCK,CREMP7J77,CRDHS7TGQ,D01AB8MJ1HS,D01A534RQ90,D01ABSZLLKW,D01DQHJ4QMD,D01JY1G8W3C,D01LLLHTHTL,D01MEQPL9M3,D01NN3GHFQW,D01ULS1V5CN,D02JEFLR7K9,C01UCER01GE,C01V0KT8MM1,C02AY4Q67QF (1) 
+[06/02/22, 11:41:25:916] info: [AUTH] credentials are ready ({"added":[],"changed":[],"removed":["TBNBEJWCV"],"pending":[],"isNoOp":false,"usersChanged":false}) 
+[06/02/22, 11:41:25:916] info: [AUTH] Fetched auth but need to reload to handle the change; navigating to /client/THJE8BA1Z/CHZFB5M47 
+[06/02/22, 11:41:25:918] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.627 dnd.teamInfo is RESOLVED 
+[06/02/22, 11:41:25:918] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.551 conversations.history is RESOLVED 
+[06/02/22, 11:41:25:919] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.497 client.counts is RESOLVED 
+[06/02/22, 11:41:25:919] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.740 conversations.genericInfo is RESOLVED 
+[06/02/22, 11:41:25:920] info: [DND] (THJE8BA1Z) Fetched DND info for the following member: U019QAPMCP9 
+[06/02/22, 11:41:25:921] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9 
+[06/02/22, 11:41:25:922] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 11:41:25:926] info: [DND] (THJE8BA1Z) Fetched DND info for the following members: UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 11:41:25:926] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 11:41:25:929] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 11:41:25:932] info: [PLATFORM-CHANNEL-ACTI] (THJE8BA1Z) Not updating count for channel CHZFB5M47, as count was already set to 0 
+[06/02/22, 11:41:25:934] info: [PINS] (THJE8BA1Z) Pins count updated for channel CHZFB5M47: 5 
+[06/02/22, 11:41:25:935] info: [UNREAD-COUNTS] (THJE8BA1Z) Counting unreads in CHZFB5M47 because (1) timestamps added 
+[06/02/22, 11:41:25:935] info: [UNREAD-COUNTS] (THJE8BA1Z) Checking unreads in CHZFB5M47 after a new message 
+[06/02/22, 11:41:25:936] info: [CHECK-UNREADS] (THJE8BA1Z) Not marking CHZFB5M47 because last_read >= latest && channel is read 
+[06/02/22, 11:41:25:937] info: [COUNTS] (THJE8BA1Z) Applying counts to channels. wasLastConnectFast: false isConnected: true 
+[06/02/22, 11:41:25:942] info: [COUNTS] (THJE8BA1Z) Recounted CHZFB5M47; initial: {"unreadCnt":0,"unreadHighlightCnt":0}; after: {"unreadCnt":0,"unreadHighlightCnt":0} 
+[06/02/22, 11:41:25:942] info: [COUNTS] (THJE8BA1Z) Threads has_unreads:false mention_count:0 
+[06/02/22, 11:41:25:943] info: [COUNTS] (THJE8BA1Z) Completed counts processing 
+[06/02/22, 11:41:25:949] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188085.742 conversations.genericInfo is RESOLVED 
+[06/02/22, 11:41:25:949] warn: Couldn't complete metrics measurement for start mark 'session_lifespan' 
+[06/02/22, 11:41:25:950] warn: Couldn't complete metrics measurement for start mark 'session_lifespan' 
+[06/02/22, 11:41:25:954] info: [RELOAD] Page is about to unload. This might not be a reload, it could be a window close or navigation 
+[06/02/22, 11:41:25:955] info: [WINDOW-UNLOADING] Client window is unloading 
+[06/02/22, 11:41:25:956] info: [WINDOW-UNLOADING] (THJE8BA1Z) workspace handling window unloading event 
+[06/02/22, 11:41:25:989] info: [MESSAGE-LIST] (THJE8BA1Z) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 28 
+[06/02/22, 11:41:25:996] info: [CHECK-UNREADS] (THJE8BA1Z) unreadLineVisible updated: false -> true 
+[06/02/22, 11:41:26:014] info: [API-Q] (THJE8BA1Z) noversion-1654188086.014 Flannel channels/membership called with reason: flannel-call:channels/membership 
+[06/02/22, 11:41:26:015] info: [API-Q] (THJE8BA1Z) noversion-1654188086.014 Flannel channels/membership is ENQUEUED 
+[06/02/22, 11:41:26:015] info: [API-Q] (THJE8BA1Z) noversion-1654188086.014 Flannel channels/membership is ACTIVE 
+[06/02/22, 11:41:26:017] info: [UFM-CHANNELS] (THJE8BA1Z) received C02DGTPSPFZ,C02EU5K3BEU (1) 
+[06/02/22, 11:41:26:019] warn: UFM-channels (THJE8BA1Z) UnknownFetchManager requested 2 objects but received 1. Missing objects: C02DGTPSPFZ 
+[06/02/22, 11:41:26:020] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "history": "[REDACTED]"
+} 
+[06/02/22, 11:41:26:075] info: Starting Sentry 
+[06/02/22, 11:41:26:076] info: Creating desktop interface object 
+[06/02/22, 11:41:26:077] info: Exposing context bridge 
+[06/02/22, 11:41:26:080] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 11:41:26:097] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "loaded"
+} 
+[06/02/22, 11:41:26:218] info: [METRICS] Starting timers for metrics collection 
+[06/02/22, 11:41:26:232] info: [PERF] setupGantry_w begin 273ms 
+[06/02/22, 11:41:26:232] info: [APP] client 
+[06/02/22, 11:41:26:232] info: [DATE/TIME] 1654188086232 "2022-06-02T16:41:26.232Z" 
+[06/02/22, 11:41:26:233] info: [VERSION] version_hash: 3c6a0b48e4157feb49e4f9facb1940b2b710cf7b 
+[06/02/22, 11:41:26:233] info: [VERSION] version_ts: 1654182435 
+[06/02/22, 11:41:26:233] info: [VERSION] min_version_data_ts: 1652142630 
+[06/02/22, 11:41:26:233] info: [AUTH] authCookieChanged: started listening to the event 
+[06/02/22, 11:41:26:234] info: [AUTH] Need to re-fetch auth (sc=true, psc=1641236590, csc=1654188043, mfc=false, lf=1641236600, mf=1635006011) 
+[06/02/22, 11:41:26:234] info: [AUTH] fetchAuthAndReturnToUrl: auth fetch times: 1654188086233 
+[06/02/22, 11:41:26:234] info: [AUTH] fetchAuthAndReturnToUrl: will return to /client/THJE8BA1Z/CHZFB5M47 
+[06/02/22, 11:41:26:234] info: [AUTH] fetchAuthAndReturnToUrl: fetching credentials with iframe at /auth?app=client&lc=1641236590&return_to=%2Fclient%2FTHJE8BA1Z%2FCHZFB5M47&teams=THJE8BA1Z%2CTBNBEJWCV 
+[06/02/22, 11:41:26:235] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 11:41:26:260] info: [WD] All assets have reported back; s: 6; f: 0 
+[06/02/22, 11:41:26:299] warn: The page delivered both an 'X-Frame-Options' header and a 'Content-Security-Policy' header with a 'frame-ancestors' directive. Although the 'X-Frame-Options' header alone would have blocked embedding, it has been ignored. 
+[06/02/22, 11:41:26:299] info: [AUTH] credentials are ready 
+[06/02/22, 11:41:26:304] info: [AUTH] credentials are ready ({"added":[],"changed":[],"removed":["TBNBEJWCV"],"pending":[],"isNoOp":false,"usersChanged":false}) 
+[06/02/22, 11:41:26:304] info: [LOCAL-CONFIG] ingestIncomingConfig(): processing 566 bytes of data 
+[06/02/22, 11:41:26:305] info: [LOCAL-CONFIG] Set isExpired on team: isEnterpriseTeam? false; is in ordered team? true 
+[06/02/22, 11:41:26:306] info: [LOCAL-CONFIG] Removing expired team from localConfig: TBNBEJWCV 
+[06/02/22, 11:41:26:307] info: [LOCAL-CONFIG] ingestIncomingConfig(): teams before: THJE8BA1Z:U019QAPMCP9,TBNBEJWCV:U02GDMW2QNP, teams now: THJE8BA1Z:U019QAPMCP9 
+[06/02/22, 11:41:26:307] info: [BOOT] Initial team ID: THJE8BA1Z 
+[06/02/22, 11:41:26:307] info: [PERF] setupGantry_w took 74.2ms 
+[06/02/22, 11:41:26:307] info: [PERF] bootClient_w begin 348ms 
+[06/02/22, 11:41:26:320] info: [BOOT] (THJE8BA1Z) Initializing boot 
+[06/02/22, 11:41:26:321] info: [BOOT] (THJE8BA1Z) Minimum supported data version is 1652142630; currently on 1654182435 
+[06/02/22, 11:41:26:321] info: [PERSIST] (THJE8BA1Z) Getting state from IndexedDB 
+[06/02/22, 11:41:26:322] info: [TRACER] Tracing is not sampled by default for this team. 
+[06/02/22, 11:41:26:328] info: [PERSIST] (THJE8BA1Z) No state found in IndexedDB 
+[06/02/22, 11:41:26:328] info: [BOOT] (THJE8BA1Z) Unable to find stored state 
+[06/02/22, 11:41:26:426] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 11:41:26:428] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 11:41:26:440] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 11:41:26:550] info: [BOOT-QUEUE] THJE8BA1Z noversion-1654188086.548 api.features called 
+[06/02/22, 11:41:26:550] info: [BOOT-QUEUE] THJE8BA1Z noversion-1654188086.548 api.features is ENQUEUED 
+[06/02/22, 11:41:26:551] info: [BOOT-QUEUE] THJE8BA1Z noversion-1654188086.550 experiments.getByUser called 
+[06/02/22, 11:41:26:551] info: [BOOT-QUEUE] THJE8BA1Z noversion-1654188086.550 experiments.getByUser is ENQUEUED 
+[06/02/22, 11:41:26:552] info: [BOOT] Booting into channel: CHZFB5M47 
+[06/02/22, 11:41:26:553] info: [TRACER] Tracing is not sampled by default for this session. 
+[06/02/22, 11:41:26:554] info: [BOOT-QUEUE] THJE8BA1Z noversion-1654188086.553 client.boot called with reason: deferred-data 
+[06/02/22, 11:41:26:555] info: [BOOT-QUEUE] THJE8BA1Z noversion-1654188086.553 client.boot is ENQUEUED 
+[06/02/22, 11:41:26:555] info: [BOOT-QUEUE] THJE8BA1Z noversion-1654188086.548 api.features is ACTIVE 
+[06/02/22, 11:41:26:556] info: [BOOT-QUEUE] THJE8BA1Z noversion-1654188086.550 experiments.getByUser is ACTIVE 
+[06/02/22, 11:41:26:557] info: [BOOT-QUEUE] THJE8BA1Z noversion-1654188086.553 client.boot is ACTIVE 
+[06/02/22, 11:41:26:742] info: [BOOT-QUEUE] THJE8BA1Z noversion-1654188086.548 api.features is RESOLVED 
+[06/02/22, 11:41:26:742] info: [BOOT-QUEUE] THJE8BA1Z noversion-1654188086.550 experiments.getByUser is RESOLVED 
+[06/02/22, 11:41:26:754] info: [BOOT-QUEUE] THJE8BA1Z noversion-1654188086.553 client.boot is RESOLVED 
+[06/02/22, 11:41:26:755] info: [BOOT] Feature flag config version: 1654188044; Experiments config version: 1654188044 
+[06/02/22, 11:41:26:755] info: [BOOT] Current earliest config version: 1654188044; All config versions: {"THJE8BA1Z":1654188044} 
+[06/02/22, 11:41:27:049] info: [MIN-VERSION] Using build version 1654182435 for this min version bump check 
+[06/02/22, 11:41:27:082] info: [EMOJI_TRANSLATION] Emoji translations not needed for default locale, only adding keywords 
+[06/02/22, 11:41:27:083] info: [MIN-VERSION] Using build version 1654182435 for this min version bump check 
+[06/02/22, 11:41:27:095] info: [EMOJI_TRANSLATION] Emoji translations not needed for default locale, only adding keywords 
+[06/02/22, 11:41:27:096] info: [BOOT] (THJE8BA1Z) Booting cold 
+[06/02/22, 11:41:27:116] info: [DESKTOP-MIDDLEWARE] (THJE8BA1Z) Forwarding redux payload to desktop ["theme","notificationPrefs","connectivityPrefs","featureFlags","unreads","locale","version","userId"] 
+[06/02/22, 11:41:27:118] info: [BOOT] (THJE8BA1Z) Dispatching boot data 
+[06/02/22, 11:41:27:121] info: [DESKTOP-MIDDLEWARE] (THJE8BA1Z) Forwarding redux payload to desktop ["featureFlags","userId"] 
+[06/02/22, 11:41:27:127] info: [DESKTOP-MIDDLEWARE] (THJE8BA1Z) Forwarding redux payload to desktop ["theme","notificationPrefs","unreads"] 
+[06/02/22, 11:41:27:128] info: [DESKTOP-MIDDLEWARE] (THJE8BA1Z) Forwarding redux payload to desktop ["connectivityPrefs"] 
+[06/02/22, 11:41:27:151] info: [EMOJI_TRANSLATION] Emoji translations not needed for default locale, only adding keywords 
+[06/02/22, 11:41:27:153] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.152 search.autocomplete.topEmojis called with reason: loadEmoji-maybeReloadEmoji-setModelData 
+[06/02/22, 11:41:27:153] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.152 search.autocomplete.topEmojis is ENQUEUED 
+[06/02/22, 11:41:27:153] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.153 commands.list called with reason: loadSlashCommands 
+[06/02/22, 11:41:27:154] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.153 commands.list is ENQUEUED 
+[06/02/22, 11:41:27:154] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.153 files.list called with reason: paperclip-recents 
+[06/02/22, 11:41:27:154] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.153 files.list is ENQUEUED 
+[06/02/22, 11:41:27:155] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.155 links.getDomains called with reason: siws-get-domains 
+[06/02/22, 11:41:27:155] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.155 links.getDomains is ENQUEUED 
+[06/02/22, 11:41:27:166] info: [BOOT] (THJE8BA1Z) processing mutation timestamps for CHZFB5M47 
+[06/02/22, 11:41:27:166] info: [COUNTS] (THJE8BA1Z) purging cached history for channel CHZFB5M47 since counts history_invalid 1649022162.027500 > cached historyInvalidTs undefined 
+[06/02/22, 11:41:27:169] info: [PLATFORM-CHANNEL-ACTI] (THJE8BA1Z) setting count for channel CHZFB5M47 to 0, and marking channel as stale. 
+[06/02/22, 11:41:27:170] info: [BOOT] (THJE8BA1Z) Boot complete 
+[06/02/22, 11:41:27:171] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.171 i18n.translations.get called with reason: fetchTranslatedCustomStatusPresets 
+[06/02/22, 11:41:27:171] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.171 i18n.translations.get is ENQUEUED 
+[06/02/22, 11:41:27:172] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.152 search.autocomplete.topEmojis is ACTIVE 
+[06/02/22, 11:41:27:173] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.153 commands.list is ACTIVE 
+[06/02/22, 11:41:27:173] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.153 files.list is ACTIVE 
+[06/02/22, 11:41:27:173] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.155 links.getDomains is ACTIVE 
+[06/02/22, 11:41:27:174] info: [UNREAD-COUNTS] (THJE8BA1Z) Counting unreads in CHZFB5M47 because (28) timestamps added 
+[06/02/22, 11:41:27:175] info: [DESKTOP-SIDE-EFFECT] (THJE8BA1Z) Reacting to  {"type":"[108] Set a value that represents whether we are currently in the boot phase","payload":false,"error":false} 
+[06/02/22, 11:41:27:176] info: [AUTH] Installing incremental auth handler 
+[06/02/22, 11:41:27:177] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.171 i18n.translations.get is ACTIVE 
+[06/02/22, 11:41:27:177] info: [ROUTES] [ROUTE_ENTITY] navigateToRoute called with reason  
+[06/02/22, 11:41:27:177] info: [ROUTES] [ROUTE_ENTITY] Attempting to navigate to new route {"teamId":"THJE8BA1Z","entityId":"CHZFB5M47"} 
+[06/02/22, 11:41:27:177] info: [ROUTES] [ROUTE_ENTITY] Exiting early {"prevUrl":"/client/THJE8BA1Z/CHZFB5M47","nextUrl":"/client/THJE8BA1Z/CHZFB5M47"} 
+[06/02/22, 11:41:27:177] info: [UNREAD-COUNTS] (THJE8BA1Z) Checking unreads in CHZFB5M47 after a new message 
+[06/02/22, 11:41:27:178] info: [CHECK-UNREADS] (THJE8BA1Z) Not marking CHZFB5M47 because attention not on chat (workspace_not_focused) 
+[06/02/22, 11:41:27:183] info: [DESKTOP-SIDE-EFFECT] (THJE8BA1Z) Team THJE8BA1Z booted, creating delegate 
+[06/02/22, 11:41:27:184] info: Exposing workspace desktop delegate for  {
+  "workspaceId": "THJE8BA1Z"
+} 
+[06/02/22, 11:41:27:184] info: Setting global desktop delegate 
+[06/02/22, 11:41:27:184] info: [DESKTOP-SIDE-EFFECT] (THJE8BA1Z) Attempted boot for all workspaces, signaling desktop 
+[06/02/22, 11:41:27:184] info: [BOOT] (THJE8BA1Z) Connecting to socket 
+[06/02/22, 11:41:27:184] info: [SOCKET-MANAGER] (THJE8BA1Z) Changing from never_connected to prov_connect 
+[06/02/22, 11:41:27:184] info: [SOCKET-MANAGER] (THJE8BA1Z) will stay in prov_connect state for up to 10000 ms 
+[06/02/22, 11:41:27:184] info: [SOCKET-MANAGER] (THJE8BA1Z) Connecting with token ending: 9051 
+[06/02/22, 11:41:27:185] info: [SOCKET-MANAGER] (THJE8BA1Z) Changing from prov_connect to prov_connecting 
+[06/02/22, 11:41:27:185] info: [SOCKET-MANAGER] (THJE8BA1Z) will stay in prov_connecting state for up to 35000 ms 
+[06/02/22, 11:41:27:185] info: [ENDPOINT-MANAGER] (THJE8BA1Z) No stale versions to clear. 
+[06/02/22, 11:41:27:186] info: [SOCKET-MANAGER-MIDDLE] (THJE8BA1Z) Initialized Socket Manager instance 
+[06/02/22, 11:41:27:192] info: [BOOT] (THJE8BA1Z) (THJE8BA1Z) Mounting client 
+[06/02/22, 11:41:27:266] info: [PERF] (THJE8BA1Z) First meaningful paint: 1008ms 
+[06/02/22, 11:41:27:266] info: [DRAFTS] (THJE8BA1Z) There are no channels with drafts 
+[06/02/22, 11:41:27:267] info: [BOOT] (THJE8BA1Z) Beaconed client boot mount success 
+[06/02/22, 11:41:27:267] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.267 sharedInvites.canGetLink called with reason: sidebar-mount 
+[06/02/22, 11:41:27:267] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.267 sharedInvites.canGetLink is ENQUEUED 
+[06/02/22, 11:41:27:268] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.268 channels.prefs.get called with reason: channels-prefs-get-can-huddle 
+[06/02/22, 11:41:27:268] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.268 channels.prefs.get is ENQUEUED 
+[06/02/22, 11:41:27:272] info: [PERF] (THJE8BA1Z) Logged time to visible (TTV): 1314.7000000000116 
+[06/02/22, 11:41:27:274] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.273 channels.prefs.get called with reason: fetch-channel-pref 
+[06/02/22, 11:41:27:274] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.273 channels.prefs.get is ENQUEUED 
+[06/02/22, 11:41:27:278] info: [WORKSPACE] (THJE8BA1Z) Workspace mounted, transitioning focus to primary view message-pane_message_input 
+[06/02/22, 11:41:27:306] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.292 users.interactions.list called with reason: huddle-educational-card 
+[06/02/22, 11:41:27:306] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.292 users.interactions.list is ENQUEUED 
+[06/02/22, 11:41:27:307] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.293 users.interactions.list called with reason: huddle-discovery-calls 
+[06/02/22, 11:41:27:307] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.293 users.interactions.list is ENQUEUED 
+[06/02/22, 11:41:27:307] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.299 search.autocomplete.model called with reason: AutocompleteModelCache 
+[06/02/22, 11:41:27:307] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.299 search.autocomplete.model is ENQUEUED 
+[06/02/22, 11:41:27:307] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.300 search.autocomplete.offlineFeatures called with reason: search-offline-features 
+[06/02/22, 11:41:27:308] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.300 search.autocomplete.offlineFeatures is ENQUEUED 
+[06/02/22, 11:41:27:485] info: [CHECK-UNREADS] (THJE8BA1Z) unreadLineVisible updated: false -> true 
+[06/02/22, 11:41:27:487] info: [PERF] (THJE8BA1Z) Logged time to usable (TTU): 1530.7999999999884 
+[06/02/22, 11:41:27:564] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.267 sharedInvites.canGetLink is ACTIVE 
+[06/02/22, 11:41:27:565] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.268 channels.prefs.get is ACTIVE 
+[06/02/22, 11:41:27:565] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.273 channels.prefs.get is ACTIVE 
+[06/02/22, 11:41:27:566] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.292 users.interactions.list is ACTIVE 
+[06/02/22, 11:41:27:566] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.293 users.interactions.list is ACTIVE 
+[06/02/22, 11:41:27:566] info: [PERF] bootClient_w took 1259.5ms 
+[06/02/22, 11:41:27:567] info: [BOOT] Booting other teams:  
+[06/02/22, 11:41:27:567] info: [MIN-VERSION] Starting client min-version poll. 
+[06/02/22, 11:41:27:570] info: [PERSIST] Purging persisted models, except for the following teamIds ["THJE8BA1Z"] 
+[06/02/22, 11:41:27:631] info: [WD] All assets have reported back; s: 9; f: 0 
+[06/02/22, 11:41:27:645] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.644 megaphone.notifications.list called with reason: fetch-megaphone-notification-data 
+[06/02/22, 11:41:27:645] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.644 megaphone.notifications.list is ENQUEUED 
+[06/02/22, 11:41:27:654] info: [CHECK-UNREADS] (THJE8BA1Z) Checking unreads after workspace became focused 
+[06/02/22, 11:41:27:654] info: [CHECK-UNREADS] (THJE8BA1Z) Not marking CHZFB5M47 because last_read >= latest && channel is read 
+[06/02/22, 11:41:27:654] info: [CHECK-UNREADS] (THJE8BA1Z) Checking unreads after window became focused 
+[06/02/22, 11:41:27:655] info: [CHECK-UNREADS] (THJE8BA1Z) Not marking CHZFB5M47 because last_read >= latest && channel is read 
+[06/02/22, 11:41:27:662] info: Store: UPDATE_SETTINGS {
+  "userTheme": "dark"
+} 
+[06/02/22, 11:41:27:665] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[06/02/22, 11:41:27:666] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.155 links.getDomains is RESOLVED 
+[06/02/22, 11:41:27:667] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.299 search.autocomplete.model is ACTIVE 
+[06/02/22, 11:41:27:668] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.152 search.autocomplete.topEmojis is RESOLVED 
+[06/02/22, 11:41:27:669] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.300 search.autocomplete.offlineFeatures is ACTIVE 
+[06/02/22, 11:41:27:670] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.171 i18n.translations.get is RESOLVED 
+[06/02/22, 11:41:27:673] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.644 megaphone.notifications.list is ACTIVE 
+[06/02/22, 11:41:27:674] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.153 commands.list is RESOLVED 
+[06/02/22, 11:41:27:675] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.153 files.list is RESOLVED 
+[06/02/22, 11:41:27:678] info: [SERVICE-WORKER] registration success {} 
+[06/02/22, 11:41:27:678] info: [SERVICE-WORKER-STATE] initial activated 
+[06/02/22, 11:41:27:679] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.273 channels.prefs.get is RESOLVED 
+[06/02/22, 11:41:27:683] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.267 sharedInvites.canGetLink is RESOLVED 
+[06/02/22, 11:41:27:688] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.268 channels.prefs.get is RESOLVED 
+[06/02/22, 11:41:27:696] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.293 users.interactions.list is RESOLVED 
+[06/02/22, 11:41:27:701] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.292 users.interactions.list is RESOLVED 
+[06/02/22, 11:41:27:751] info: [UFM-MEMBERS] (THJE8BA1Z) requesting UN5JCDG0H,UTE0KAJL8,U01LC0B3J80,U01BWB9JQ2U,U01L9BR9NTB,U01KC31G2TW,U019QAPMCP9,USLACKBOT,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,U01L5QTQ188,U02CQ03B3BR,U01AG87CKQE,U01CUL5T0KU,U01A2JGC9PF,U01M3GZ9QV6,USUDDTUE5,U01AHMSF3NV,U01M662B30S,U01LLE18XDJ,U01RVFQKV34,U01LSJJ7T5F,U01M3QSUZUY,UNCU3QR8D,UNEGUS4T0,UNELH24H4 (1) 
+[06/02/22, 11:41:27:753] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.752 api.getFlannelHttpUrl called with reason: client-needs-valid-flannel-url 
+[06/02/22, 11:41:27:753] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.752 api.getFlannelHttpUrl is ENQUEUED 
+[06/02/22, 11:41:27:754] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.752 api.getFlannelHttpUrl is ACTIVE 
+[06/02/22, 11:41:27:755] info: [FLANNEL] (THJE8BA1Z) received a user_subscribe_request call while we are not connected; deferring 
+[06/02/22, 11:41:27:756] info: Store: UPDATE_SETTINGS {
+  "systemThemeSyncEnabled": false
+} 
+[06/02/22, 11:41:27:757] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[06/02/22, 11:41:27:758] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.757 calendar.getInstalledCalendars called with reason: calendar-get-installed-calendars 
+[06/02/22, 11:41:27:758] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.757 calendar.getInstalledCalendars is ENQUEUED 
+[06/02/22, 11:41:27:758] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.758 drafts.list called with reason: boot-team 
+[06/02/22, 11:41:27:760] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.758 drafts.list is ENQUEUED 
+[06/02/22, 11:41:27:761] info: [DRAFTS] (THJE8BA1Z) No local drafts - skipping fetch to purge inactive drafts 
+[06/02/22, 11:41:27:761] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.761 megaphone.notifications.list called with reason: fetch-megaphone-notification-data 
+[06/02/22, 11:41:27:762] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.761 megaphone.notifications.list is ENQUEUED 
+[06/02/22, 11:41:27:762] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.761 megaphone.notifications.list called with reason: fetch-megaphone-notification-data 
+[06/02/22, 11:41:27:762] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.761 megaphone.notifications.list is ENQUEUED 
+[06/02/22, 11:41:27:763] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.757 calendar.getInstalledCalendars is ACTIVE 
+[06/02/22, 11:41:27:763] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.758 drafts.list is ACTIVE 
+[06/02/22, 11:41:27:764] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.761 megaphone.notifications.list is ACTIVE 
+[06/02/22, 11:41:27:764] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.761 megaphone.notifications.list is ACTIVE 
+[06/02/22, 11:41:27:764] info: [UFM-CHANNELS] (THJE8BA1Z) requesting C02DGTPSPFZ,C02EU5K3BEU (1) 
+[06/02/22, 11:41:27:765] info: Store: SYNC (Empty) 
+[06/02/22, 11:41:27:766] info: Store: SELECTION_CHANGED THJE8BA1Z 
+[06/02/22, 11:41:27:766] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.766 help.issues.ticketStats called with reason: fetchAndUpsertTicketStats 
+[06/02/22, 11:41:27:766] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.766 help.issues.ticketStats is ENQUEUED 
+[06/02/22, 11:41:27:767] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.766 help.issues.ticketStats is ACTIVE 
+[06/02/22, 11:41:27:767] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.767 users.channelSections.list called with reason: conditional-fetch-manager 
+[06/02/22, 11:41:27:767] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.767 users.channelSections.list is ENQUEUED 
+[06/02/22, 11:41:27:768] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.767 users.channelSections.list is ACTIVE 
+[06/02/22, 11:41:27:769] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.768 sharedInvites.canGetLink called with reason: slack-connect-dm-eligibility-cfm 
+[06/02/22, 11:41:27:770] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.768 sharedInvites.canGetLink is ENQUEUED 
+[06/02/22, 11:41:27:770] info: Store: REDUX_UPDATE_FROM_WEBAPP (THJE8BA1Z) Changed keys [theme,notificationPrefs,connectivityPrefs,featureFlags,unreads,locale,version,userId] 
+[06/02/22, 11:41:27:770] info: [UFM] (THJE8BA1Z) requesting CHZFB5M47,C02DUK4LELV,C02DR5G20J2,C02DUSXD9E1,G01LMAVKXCK,CREMP7J77,CRDHS7TGQ,D01AB8MJ1HS,D01A534RQ90,D01ABSZLLKW,D01DQHJ4QMD,D01JY1G8W3C,D01LLLHTHTL,D01MEQPL9M3,D01NN3GHFQW,D01ULS1V5CN,D02JEFLR7K9,C01UCER01GE,C01V0KT8MM1,C02AY4Q67QF (1) 
+[06/02/22, 11:41:27:770] info: [UFM] (THJE8BA1Z) requesting CHZFB5M47 (1) 
+[06/02/22, 11:41:27:770] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.770 bookmarks.list called with reason: bookmarks-store/conditional-fetching 
+[06/02/22, 11:41:27:770] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.770 bookmarks.list is ENQUEUED 
+[06/02/22, 11:41:27:771] info: Store: REDUX_UPDATE_FROM_WEBAPP (THJE8BA1Z) Changed keys [featureFlags,userId] 
+[06/02/22, 11:41:27:771] info: [UFM] (THJE8BA1Z) requesting A0F82E57C (1) 
+[06/02/22, 11:41:27:772] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.771 apps.profile.get called with reason: fetch-all-apps-by-id 
+[06/02/22, 11:41:27:772] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.771 apps.profile.get is ENQUEUED 
+[06/02/22, 11:41:27:772] info: Store: REDUX_UPDATE_FROM_WEBAPP (THJE8BA1Z) Changed keys [theme,notificationPrefs,unreads] 
+[06/02/22, 11:41:27:772] info: [UFM-FLANNELEMOJI] (THJE8BA1Z) requesting 1 objects (1) 
+[06/02/22, 11:41:27:773] info: Store: REDUX_UPDATE_FROM_WEBAPP (THJE8BA1Z) Changed keys [connectivityPrefs] 
+[06/02/22, 11:41:27:773] info: Store: SYNC Synced 1 workspaces with IDs [THJE8BA1Z] 
+[06/02/22, 11:41:27:776] info: Store: SELECTION_CHANGED THJE8BA1Z 
+[06/02/22, 11:41:27:777] info: Store: UPSERT_WEB_CONTENTS {
+  "id": 1,
+  "state": "webapp-loaded"
+} 
+[06/02/22, 11:41:27:778] info: Store: RECORD_PERFORMANCE_TIMING {
+  "phase": 3,
+  "interval": 5404
+} 
+[06/02/22, 11:41:27:779] info: Store: UPDATE_SETTINGS {
+  "forceHiddenInsetTitleBar": false
+} 
+[06/02/22, 11:41:27:780] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[06/02/22, 11:41:27:781] info: Store: UPDATE_SETTINGS {
+  "trafficLightPosition": {
+    "x": 14,
+    "y": 22
+  }
+} 
+[06/02/22, 11:41:27:782] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[06/02/22, 11:41:27:783] info: Store: UPDATE_SETTINGS {
+  "trafficLightPosition": {
+    "x": 14,
+    "y": 29
+  }
+} 
+[06/02/22, 11:41:27:784] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[06/02/22, 11:41:27:786] info: Store: UPDATE_SETTINGS {
+  "isIAEnabled": true
+} 
+[06/02/22, 11:41:27:786] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[06/02/22, 11:41:27:788] info: Store: EXTEND_MENU global: menucategory-file,menucategory-view,menucategory-jump-to 
+[06/02/22, 11:41:27:789] info: Store: EXTEND_MENU THJE8BA1Z: menucategory-file,menucategory-view,menucategory-edit,menucategory-history,menucategory-help 
+[06/02/22, 11:41:27:801] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.300 search.autocomplete.offlineFeatures is RESOLVED 
+[06/02/22, 11:41:27:802] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.768 sharedInvites.canGetLink is ACTIVE 
+[06/02/22, 11:41:27:802] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.299 search.autocomplete.model is RESOLVED 
+[06/02/22, 11:41:27:803] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.770 bookmarks.list is ACTIVE 
+[06/02/22, 11:41:27:868] info: Network status check {
+  "elapsed_time_ms": 1150,
+  "navigator_online": true,
+  "api_test": "online"
+} 
+[06/02/22, 11:41:27:869] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.644 megaphone.notifications.list is RESOLVED 
+[06/02/22, 11:41:27:869] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.771 apps.profile.get is ACTIVE 
+[06/02/22, 11:41:27:869] info: [UFM] (THJE8BA1Z) requesting _all_actions (1) 
+[06/02/22, 11:41:27:870] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.869 apps.actions.v2.list called with reason: list-message-actions 
+[06/02/22, 11:41:27:870] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.869 apps.actions.v2.list is ENQUEUED 
+[06/02/22, 11:41:27:871] info: [SOCKET-MANAGER] (THJE8BA1Z) Changing from prov_connecting to prov_connected 
+[06/02/22, 11:41:27:871] info: [SOCKET-MANAGER] (THJE8BA1Z) will stay in prov_connected state for up to 60000 ms 
+[06/02/22, 11:41:27:873] info: [SOCKET-MANAGER] (THJE8BA1Z) Changing from prov_connected to prov_finalize 
+[06/02/22, 11:41:27:873] info: [SOCKET-MANAGER] (THJE8BA1Z) will stay in prov_finalize state for up to 10000 ms 
+[06/02/22, 11:41:27:874] info: [SOCKET-MANAGER] (THJE8BA1Z) Changing from prov_finalize to prov_finalizing 
+[06/02/22, 11:41:27:874] info: [SOCKET-MANAGER] (THJE8BA1Z) will stay in prov_finalizing state for up to 10000 ms 
+[06/02/22, 11:41:27:876] info: [SOCKET-MANAGER] (THJE8BA1Z) Changing from prov_finalizing to connected 
+[06/02/22, 11:41:27:876] info: [SOCKET-MANAGER] (THJE8BA1Z) will stay in connected state for up to Infinity ms 
+[06/02/22, 11:41:27:877] info: [SOCKET-MANAGER] (THJE8BA1Z) Connected to primary region 
+[06/02/22, 11:41:27:879] info: [FLANNEL] (THJE8BA1Z) connected and trouble free! Continuing deferred user_subscribe_request call 
+[06/02/22, 11:41:27:881] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.880 users.customStatus.list called with reason: fetchCustomStatusOnReconnect 
+[06/02/22, 11:41:27:881] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.880 users.customStatus.list is ENQUEUED 
+[06/02/22, 11:41:27:884] info: [MESSAGE-HISTORY] (THJE8BA1Z) Resetting reachedEnd 
+[06/02/22, 11:41:27:885] info: [PRESENCE_PROMPT] (THJE8BA1Z) ignoring prompt due to presence (active) 
+[06/02/22, 11:41:27:886] info: [UNREAD-COUNTS] (THJE8BA1Z) Fetching counts 
+[06/02/22, 11:41:27:886] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.886 client.counts called with reason: client-counts-api/fetchClientCounts 
+[06/02/22, 11:41:27:886] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.886 client.counts is ENQUEUED 
+[06/02/22, 11:41:27:887] info: [PERSIST] Purged persisted models [] 
+[06/02/22, 11:41:27:893] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.752 api.getFlannelHttpUrl is RESOLVED 
+[06/02/22, 11:41:27:893] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.869 apps.actions.v2.list is ACTIVE 
+[06/02/22, 11:41:27:894] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.758 drafts.list is RESOLVED 
+[06/02/22, 11:41:27:895] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.880 users.customStatus.list is ACTIVE 
+[06/02/22, 11:41:27:896] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.767 users.channelSections.list is RESOLVED 
+[06/02/22, 11:41:27:896] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.886 client.counts is ACTIVE 
+[06/02/22, 11:41:27:897] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.766 help.issues.ticketStats is RESOLVED 
+[06/02/22, 11:41:27:898] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.768 sharedInvites.canGetLink is RESOLVED 
+[06/02/22, 11:41:27:916] info: [HISTORY-FETCH] (THJE8BA1Z) Fetching history for message pane: CHZFB5M47 oldest: 1653585584.694879 latest: null 
+[06/02/22, 11:41:27:917] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.916 conversations.history called with reason: message-pane/requestHistory 
+[06/02/22, 11:41:27:917] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.916 conversations.history is ENQUEUED 
+[06/02/22, 11:41:27:923] info: [CHECK-UNREADS] (THJE8BA1Z) unreadLineVisible updated: true -> false 
+[06/02/22, 11:41:27:934] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.916 conversations.history is ACTIVE 
+[06/02/22, 11:41:27:936] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.770 bookmarks.list is RESOLVED 
+[06/02/22, 11:41:27:936] info: Store: SET_NETWORK_STATUS online 
+[06/02/22, 11:41:27:938] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 11:41:27:940] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.761 megaphone.notifications.list is RESOLVED 
+[06/02/22, 11:41:27:941] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.757 calendar.getInstalledCalendars is RESOLVED 
+[06/02/22, 11:41:27:942] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.761 megaphone.notifications.list is RESOLVED 
+[06/02/22, 11:41:27:944] info: [API-Q] (THJE8BA1Z) noversion-1654188087.943 Flannel users/info called with reason: flannel-call:users/info 
+[06/02/22, 11:41:27:944] info: [API-Q] (THJE8BA1Z) noversion-1654188087.943 Flannel users/info is ENQUEUED 
+[06/02/22, 11:41:27:944] info: [API-Q] (THJE8BA1Z) noversion-1654188087.944 Flannel users/info called with reason: flannel-call:users/info 
+[06/02/22, 11:41:27:944] info: [API-Q] (THJE8BA1Z) noversion-1654188087.944 Flannel users/info is ENQUEUED 
+[06/02/22, 11:41:27:945] info: [API-Q] (THJE8BA1Z) noversion-1654188087.944 Flannel channels/info called with reason: flannel-call:channels/info 
+[06/02/22, 11:41:27:945] info: [API-Q] (THJE8BA1Z) noversion-1654188087.944 Flannel channels/info is ENQUEUED 
+[06/02/22, 11:41:27:945] info: [API-Q] (THJE8BA1Z) noversion-1654188087.945 Flannel permissions/info called with reason: flannel-call:permissions/info 
+[06/02/22, 11:41:27:945] info: [API-Q] (THJE8BA1Z) noversion-1654188087.945 Flannel permissions/info is ENQUEUED 
+[06/02/22, 11:41:27:945] info: [API-Q] (THJE8BA1Z) noversion-1654188087.945 Flannel permissions/info called with reason: flannel-call:permissions/info 
+[06/02/22, 11:41:27:945] info: [API-Q] (THJE8BA1Z) noversion-1654188087.945 Flannel permissions/info is ENQUEUED 
+[06/02/22, 11:41:27:946] info: [API-Q] (THJE8BA1Z) noversion-1654188087.945 Flannel permissions/info called with reason: flannel-call:permissions/info 
+[06/02/22, 11:41:27:946] info: [API-Q] (THJE8BA1Z) noversion-1654188087.945 Flannel permissions/info is ENQUEUED 
+[06/02/22, 11:41:27:946] info: [API-Q] (THJE8BA1Z) noversion-1654188087.946 Flannel permissions/info called with reason: flannel-call:permissions/info 
+[06/02/22, 11:41:27:946] info: [API-Q] (THJE8BA1Z) noversion-1654188087.946 Flannel permissions/info is ENQUEUED 
+[06/02/22, 11:41:27:946] info: [API-Q] (THJE8BA1Z) noversion-1654188087.946 Flannel huddles/info called with reason: flannel-call:huddles/info 
+[06/02/22, 11:41:27:946] info: [API-Q] (THJE8BA1Z) noversion-1654188087.946 Flannel huddles/info is ENQUEUED 
+[06/02/22, 11:41:27:947] info: [API-Q] (THJE8BA1Z) noversion-1654188087.946 Flannel users/counts called with reason: flannel-call:users/counts 
+[06/02/22, 11:41:27:947] info: [API-Q] (THJE8BA1Z) noversion-1654188087.946 Flannel users/counts is ENQUEUED 
+[06/02/22, 11:41:27:947] info: [API-Q] (THJE8BA1Z) noversion-1654188087.946 Flannel permissions/info called with reason: flannel-call:permissions/info 
+[06/02/22, 11:41:27:947] info: [API-Q] (THJE8BA1Z) noversion-1654188087.946 Flannel permissions/info is ENQUEUED 
+[06/02/22, 11:41:27:947] info: [API-Q] (THJE8BA1Z) noversion-1654188087.947 Flannel emojis/info called with reason: flannel-call:emojis/info 
+[06/02/22, 11:41:27:947] info: [API-Q] (THJE8BA1Z) noversion-1654188087.947 Flannel emojis/info is ENQUEUED 
+[06/02/22, 11:41:27:948] info: [API-Q] (THJE8BA1Z) noversion-1654188087.943 Flannel users/info is ACTIVE 
+[06/02/22, 11:41:27:948] info: [API-Q] (THJE8BA1Z) noversion-1654188087.944 Flannel users/info is ACTIVE 
+[06/02/22, 11:41:27:948] info: [API-Q] (THJE8BA1Z) noversion-1654188087.944 Flannel channels/info is ACTIVE 
+[06/02/22, 11:41:27:949] info: [API-Q] (THJE8BA1Z) noversion-1654188087.945 Flannel permissions/info is ACTIVE 
+[06/02/22, 11:41:27:949] info: [API-Q] (THJE8BA1Z) noversion-1654188087.945 Flannel permissions/info is ACTIVE 
+[06/02/22, 11:41:27:949] info: [DRAFTS] (THJE8BA1Z) No active drafts 
+[06/02/22, 11:41:27:949] info: [DRAFTS] (THJE8BA1Z) Successfully fetched all active and inactive drafts ✨ 
+[06/02/22, 11:41:28:005] info: [MESSAGE-LIST] (THJE8BA1Z) componentWillReceiveProps isLoading: true isLoadingOlder: false timestamps: 28 
+[06/02/22, 11:41:28:043] info: [UFM] (THJE8BA1Z) received CHZFB5M47 (1) 
+[06/02/22, 11:41:28:049] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188088.049 calendar.user.info called with reason: calendar-get-user-info 
+[06/02/22, 11:41:28:049] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188088.049 calendar.user.info is ENQUEUED 
+[06/02/22, 11:41:28:054] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.771 apps.profile.get is RESOLVED 
+[06/02/22, 11:41:28:054] info: [API-Q] (THJE8BA1Z) noversion-1654188087.947 Flannel emojis/info is ACTIVE 
+[06/02/22, 11:41:28:055] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.880 users.customStatus.list is RESOLVED 
+[06/02/22, 11:41:28:055] info: [API-Q] (THJE8BA1Z) noversion-1654188087.946 Flannel permissions/info is ACTIVE 
+[06/02/22, 11:41:28:056] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.869 apps.actions.v2.list is RESOLVED 
+[06/02/22, 11:41:28:057] info: [API-Q] (THJE8BA1Z) noversion-1654188087.946 Flannel users/counts is ACTIVE 
+[06/02/22, 11:41:28:057] info: [API-Q] (THJE8BA1Z) noversion-1654188087.943 Flannel users/info is RESOLVED 
+[06/02/22, 11:41:28:058] info: [API-Q] (THJE8BA1Z) noversion-1654188087.946 Flannel huddles/info is ACTIVE 
+[06/02/22, 11:41:28:058] info: [API-Q] (THJE8BA1Z) noversion-1654188087.944 Flannel users/info is RESOLVED 
+[06/02/22, 11:41:28:059] info: [API-Q] (THJE8BA1Z) noversion-1654188087.946 Flannel permissions/info is ACTIVE 
+[06/02/22, 11:41:28:060] info: [API-Q] (THJE8BA1Z) noversion-1654188087.945 Flannel permissions/info is RESOLVED 
+[06/02/22, 11:41:28:060] info: [API-Q] (THJE8BA1Z) noversion-1654188087.945 Flannel permissions/info is ACTIVE 
+[06/02/22, 11:41:28:061] info: [API-Q] (THJE8BA1Z) noversion-1654188087.944 Flannel channels/info is RESOLVED 
+[06/02/22, 11:41:28:061] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188088.049 calendar.user.info is ACTIVE 
+[06/02/22, 11:41:28:062] info: [API-Q] (THJE8BA1Z) noversion-1654188087.945 Flannel permissions/info is RESOLVED 
+[06/02/22, 11:41:28:063] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.916 conversations.history is RESOLVED 
+[06/02/22, 11:41:28:090] info: [DND] (THJE8BA1Z) Preparing to fetch DND times for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 11:41:28:091] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188088.090 dnd.info called with reason: getDndTimesForSubscribedMembers 
+[06/02/22, 11:41:28:091] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188088.090 dnd.info is ENQUEUED 
+[06/02/22, 11:41:28:092] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188088.091 dnd.teamInfo called with reason: getDndTimesForSubscribedMembers:self 
+[06/02/22, 11:41:28:093] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188088.091 dnd.teamInfo is ENQUEUED 
+[06/02/22, 11:41:28:094] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188088.090 dnd.info is ACTIVE 
+[06/02/22, 11:41:28:095] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188088.091 dnd.teamInfo is ACTIVE 
+[06/02/22, 11:41:28:095] info: [UFM] (THJE8BA1Z) received A0F82E57C (1) 
+[06/02/22, 11:41:28:097] info: [UFM] (THJE8BA1Z) received _all_actions (1) 
+[06/02/22, 11:41:28:098] info: [UFM-MEMBERS] (THJE8BA1Z) received UN5JCDG0H,UTE0KAJL8,U01LC0B3J80,U01BWB9JQ2U,U01L9BR9NTB,U01KC31G2TW,U019QAPMCP9,USLACKBOT,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,U01L5QTQ188,U02CQ03B3BR,U01AG87CKQE,U01CUL5T0KU,U01A2JGC9PF,U01M3GZ9QV6,USUDDTUE5,U01AHMSF3NV,U01M662B30S,U01LLE18XDJ,U01RVFQKV34,U01LSJJ7T5F,U01M3QSUZUY,UNCU3QR8D,UNEGUS4T0,UNELH24H4 (1) 
+[06/02/22, 11:41:28:115] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188088.114 conversations.genericInfo called with reason: fallback:UnknownFetchManager 
+[06/02/22, 11:41:28:115] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188088.114 conversations.genericInfo is ENQUEUED 
+[06/02/22, 11:41:28:116] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188087.886 client.counts is RESOLVED 
+[06/02/22, 11:41:28:117] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188088.114 conversations.genericInfo is ACTIVE 
+[06/02/22, 11:41:28:138] info: [PLATFORM-CHANNEL-ACTI] (THJE8BA1Z) Not updating count for channel CHZFB5M47, as count was already set to 0 
+[06/02/22, 11:41:28:140] info: [PINS] (THJE8BA1Z) Pins count updated for channel CHZFB5M47: 5 
+[06/02/22, 11:41:28:141] info: [UNREAD-COUNTS] (THJE8BA1Z) Counting unreads in CHZFB5M47 because (1) timestamps added 
+[06/02/22, 11:41:28:141] info: [UNREAD-COUNTS] (THJE8BA1Z) Checking unreads in CHZFB5M47 after a new message 
+[06/02/22, 11:41:28:141] info: [CHECK-UNREADS] (THJE8BA1Z) Not marking CHZFB5M47 because last_read >= latest && channel is read 
+[06/02/22, 11:41:28:142] info: [API-Q] (THJE8BA1Z) noversion-1654188088.141 Flannel channels/info called with reason: flannel-call:channels/info 
+[06/02/22, 11:41:28:142] info: [API-Q] (THJE8BA1Z) noversion-1654188088.141 Flannel channels/info is ENQUEUED 
+[06/02/22, 11:41:28:198] info: [MESSAGE-LIST] (THJE8BA1Z) componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 28 
+[06/02/22, 11:41:28:215] info: [CHECK-UNREADS] (THJE8BA1Z) unreadLineVisible updated: false -> true 
+[06/02/22, 11:41:28:238] info: [API-Q] (THJE8BA1Z) noversion-1654188087.947 Flannel emojis/info is RESOLVED 
+[06/02/22, 11:41:28:238] info: [API-Q] (THJE8BA1Z) noversion-1654188088.141 Flannel channels/info is ACTIVE 
+[06/02/22, 11:41:28:240] info: [API-Q] (THJE8BA1Z) noversion-1654188087.946 Flannel permissions/info is RESOLVED 
+[06/02/22, 11:41:28:240] info: [API-Q] (THJE8BA1Z) noversion-1654188087.946 Flannel huddles/info is RESOLVED 
+[06/02/22, 11:41:28:241] info: [API-Q] (THJE8BA1Z) noversion-1654188087.946 Flannel permissions/info is RESOLVED 
+[06/02/22, 11:41:28:242] info: [API-Q] (THJE8BA1Z) noversion-1654188087.945 Flannel permissions/info is RESOLVED 
+[06/02/22, 11:41:28:243] info: [API-Q] (THJE8BA1Z) noversion-1654188087.946 Flannel users/counts is RESOLVED 
+[06/02/22, 11:41:28:247] info: [COUNTS] (THJE8BA1Z) Applying counts to channels. wasLastConnectFast: false isConnected: true 
+[06/02/22, 11:41:28:251] info: [COUNTS] (THJE8BA1Z) Recounted CHZFB5M47; initial: {"unreadCnt":0,"unreadHighlightCnt":0}; after: {"unreadCnt":0,"unreadHighlightCnt":0} 
+[06/02/22, 11:41:28:251] info: [COUNTS] (THJE8BA1Z) Threads has_unreads:false mention_count:0 
+[06/02/22, 11:41:28:252] info: [COUNTS] (THJE8BA1Z) Completed counts processing 
+[06/02/22, 11:41:28:253] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188088.049 calendar.user.info is RESOLVED 
+[06/02/22, 11:41:28:254] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188088.090 dnd.info is RESOLVED 
+[06/02/22, 11:41:28:255] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188088.091 dnd.teamInfo is RESOLVED 
+[06/02/22, 11:41:28:255] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188088.114 conversations.genericInfo is RESOLVED 
+[06/02/22, 11:41:28:294] info: [UFM-FLANNELEMOJI] (THJE8BA1Z) received 1 objects (1) 
+[06/02/22, 11:41:28:296] info: [UFM] (THJE8BA1Z) received CHZFB5M47,C02DUK4LELV,C02DR5G20J2,C02DUSXD9E1,G01LMAVKXCK,CREMP7J77,CRDHS7TGQ,D01AB8MJ1HS,D01A534RQ90,D01ABSZLLKW,D01DQHJ4QMD,D01JY1G8W3C,D01LLLHTHTL,D01MEQPL9M3,D01NN3GHFQW,D01ULS1V5CN,D02JEFLR7K9,C01UCER01GE,C01V0KT8MM1,C02AY4Q67QF (1) 
+[06/02/22, 11:41:28:300] info: [DND] (THJE8BA1Z) Fetched DND info for the following member: U019QAPMCP9 
+[06/02/22, 11:41:28:301] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9 
+[06/02/22, 11:41:28:302] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 11:41:28:302] info: [DND] (THJE8BA1Z) Fetched DND info for the following members: UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 11:41:28:303] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 11:41:28:308] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 11:41:28:309] info: [UFM-CHANNELS] (THJE8BA1Z) received C02DGTPSPFZ,C02EU5K3BEU (1) 
+[06/02/22, 11:41:28:310] warn: UFM-channels (THJE8BA1Z) UnknownFetchManager requested 2 objects but received 1. Missing objects: C02DGTPSPFZ 
+[06/02/22, 11:41:28:311] info: [API-Q] (THJE8BA1Z) noversion-1654188088.141 Flannel channels/info is RESOLVED 
+[06/02/22, 11:41:28:350] info: [API-Q] (THJE8BA1Z) noversion-1654188088.349 Flannel channels/membership called with reason: flannel-call:channels/membership 
+[06/02/22, 11:41:28:350] info: [API-Q] (THJE8BA1Z) noversion-1654188088.349 Flannel channels/membership is ENQUEUED 
+[06/02/22, 11:41:28:351] info: [API-Q] (THJE8BA1Z) noversion-1654188088.349 Flannel channels/membership is ACTIVE 
+[06/02/22, 11:41:28:354] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188088.353 conversations.genericInfo called with reason: fallback:fetchAndUpsertChannelsById 
+[06/02/22, 11:41:28:354] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188088.353 conversations.genericInfo is ENQUEUED 
+[06/02/22, 11:41:28:355] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188088.353 conversations.genericInfo is ACTIVE 
+[06/02/22, 11:41:28:393] info: [PERSIST] (THJE8BA1Z) Successfully persisted state 
+[06/02/22, 11:41:28:398] info: [API-Q] (THJE8BA1Z) noversion-1654188088.349 Flannel channels/membership is RESOLVED 
+[06/02/22, 11:41:28:471] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188088.353 conversations.genericInfo is RESOLVED 
+[06/02/22, 11:41:28:589] info: [CHECK-UNREADS] (THJE8BA1Z) Checking unreads after unread line became visible 
+[06/02/22, 11:41:28:589] info: [CHECK-UNREADS] (THJE8BA1Z) Not marking CHZFB5M47 because last_read >= latest && channel is read 
+[06/02/22, 11:41:28:810] info: [API-Q] (THJE8BA1Z) noversion-1654188088.808 Flannel users/info called with reason: flannel-call:users/info 
+[06/02/22, 11:41:28:810] info: [API-Q] (THJE8BA1Z) noversion-1654188088.808 Flannel users/info is ENQUEUED 
+[06/02/22, 11:41:28:811] info: [API-Q] (THJE8BA1Z) noversion-1654188088.808 Flannel users/info is ACTIVE 
+[06/02/22, 11:41:28:858] info: [API-Q] (THJE8BA1Z) noversion-1654188088.808 Flannel users/info is RESOLVED 
+[06/02/22, 11:41:29:187] info: [API-Q] (THJE8BA1Z) noversion-1654188089.186 Flannel channels/info called with reason: flannel-call:channels/info 
+[06/02/22, 11:41:29:187] info: [API-Q] (THJE8BA1Z) noversion-1654188089.186 Flannel channels/info is ENQUEUED 
+[06/02/22, 11:41:29:187] info: [API-Q] (THJE8BA1Z) noversion-1654188089.186 Flannel channels/info is ACTIVE 
+[06/02/22, 11:41:29:237] info: [API-Q] (THJE8BA1Z) noversion-1654188089.186 Flannel channels/info is RESOLVED 
+[06/02/22, 11:41:29:260] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188089.259 conversations.genericInfo called with reason: fallback:fetchAndUpsertChannelsById 
+[06/02/22, 11:41:29:260] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188089.259 conversations.genericInfo is ENQUEUED 
+[06/02/22, 11:41:29:260] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188089.259 conversations.genericInfo is ACTIVE 
+[06/02/22, 11:41:29:336] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188089.259 conversations.genericInfo is RESOLVED 
+[06/02/22, 11:41:30:020] info: [ROUTES] [ROUTE_DEFAULT] navigateToRoute called with reason team-sidebar/selectTeam 
+[06/02/22, 11:41:30:021] info: [ROUTES] [ROUTE_DEFAULT] Attempting to navigate to new route {"teamId":"TBNBEJWCV"} 
+[06/02/22, 11:41:30:021] info: [ROUTES] [ROUTE_DEFAULT] About to run notifyRouteWillNavigateListeners to determine shouldNavigate 
+[06/02/22, 11:41:30:031] info: [ROUTES] [ROUTE_DEFAULT] notifyRouteWillNavigateListeners finished, shouldNavigate is false 
+[06/02/22, 11:41:30:031] info: [ROUTES] [ROUTE_DEFAULT] willNavigateListener caused early exit 
+[06/02/22, 11:41:30:053] info: [API-Q] (THJE8BA1Z) noversion-1654188090.052 Flannel channels/info called with reason: flannel-call:channels/info 
+[06/02/22, 11:41:30:053] info: [API-Q] (THJE8BA1Z) noversion-1654188090.052 Flannel channels/info is ENQUEUED 
+[06/02/22, 11:41:30:054] info: [API-Q] (THJE8BA1Z) noversion-1654188090.052 Flannel channels/info is ACTIVE 
+[06/02/22, 11:41:30:099] info: [API-Q] (THJE8BA1Z) noversion-1654188090.052 Flannel channels/info is RESOLVED 
+[06/02/22, 11:41:32:564] info: Store: EXTEND_MENU THJE8BA1Z: menucategory-file,menucategory-view,menucategory-edit,menucategory-history,menucategory-help 
+[06/02/22, 11:41:33:469] info: [FOCUS-EVENT] Client window blurred 
+[06/02/22, 11:41:33:498] info: [FOCUS-EVENT] Client window focused 
+[06/02/22, 11:41:33:553] info: [CHECK-UNREADS] (THJE8BA1Z) Checking unreads after window became focused 
+[06/02/22, 11:41:33:553] info: [CHECK-UNREADS] (THJE8BA1Z) Not marking CHZFB5M47 because last_read >= latest && channel is read 
+[06/02/22, 11:41:35:047] info: Store: SET_CONTEXT_MENU_TEMPLATE {
+  "menuTemplate": [
+    {
+      "label": "[REDACTED]",
+      "enabled": true,
+      "id": "d7c6a765-7fe7-4712-9893-c6c35c73f0fb"
+    }
+  ],
+  "menuId": 0,
+  "contextMenuChannel": "SLACK_CONTEXT_MENU_CLICK:0",
+  "options": {
+    "overrideDefaultMenu": true
+  }
+} 
+[06/02/22, 11:41:35:048] info: Store: OPEN_CONTEXT_MENU {
+  "id": 1,
+  "params": "[REDACTED]"
+} 
+[06/02/22, 11:41:36:567] info: [TEAM-SIDEBAR] context-menu sign-out teamId:TBNBEJWCV hasSessionExpired:true isPendingAuth:false 
+[06/02/22, 11:41:36:568] info: [WORKSPACES] removeWorkspaceFromPreviousWorkspaces TBNBEJWCV 
+[06/02/22, 11:41:36:689] info: [API-Q] (THJE8BA1Z) noversion-1654188096.688 Flannel channels/info called with reason: flannel-call:channels/info 
+[06/02/22, 11:41:36:690] info: [API-Q] (THJE8BA1Z) noversion-1654188096.688 Flannel channels/info is ENQUEUED 
+[06/02/22, 11:41:36:692] info: [API-Q] (THJE8BA1Z) noversion-1654188096.688 Flannel channels/info is ACTIVE 
+[06/02/22, 11:41:36:693] info: Store: EXTEND_MENU global: menucategory-file,menucategory-view,menucategory-jump-to 
+[06/02/22, 11:41:36:693] info: Store: EXTEND_MENU THJE8BA1Z: menucategory-file,menucategory-view,menucategory-edit,menucategory-history,menucategory-help 
+[06/02/22, 11:41:36:737] info: [API-Q] (THJE8BA1Z) noversion-1654188096.688 Flannel channels/info is RESOLVED 
+[06/02/22, 11:41:36:740] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188096.739 conversations.genericInfo called with reason: fallback:fetchAndUpsertChannelsById 
+[06/02/22, 11:41:36:740] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188096.739 conversations.genericInfo is ENQUEUED 
+[06/02/22, 11:41:36:740] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188096.739 conversations.genericInfo is ACTIVE 
+[06/02/22, 11:41:36:819] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188096.739 conversations.genericInfo is RESOLVED 
+[06/02/22, 11:41:51:973] info: [FOCUS-EVENT] Client window blurred 
+[06/02/22, 11:42:20:131] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188140.128 conversations.suggestions called with reason: conversations-suggestions 
+[06/02/22, 11:42:20:131] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188140.128 conversations.suggestions is ENQUEUED 
+[06/02/22, 11:42:20:134] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188140.128 conversations.suggestions is ACTIVE 
+[06/02/22, 11:42:20:212] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188140.128 conversations.suggestions is RESOLVED 
+[06/02/22, 11:42:21:419] info: Store: UPDATE_SETTINGS {
+  "lastClogForProxyInfo": 1654188141415
+} 
+[06/02/22, 11:42:21:422] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["settings"] 
+[06/02/22, 11:42:21:820] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 11:42:21:823] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 11:42:28:135] info: [CHECK-FOR-OLD-IMS] (THJE8BA1Z) Within limit [external DMs]: 0 
+[06/02/22, 11:42:28:145] info: [CHECK-FOR-OLD-IMS] (THJE8BA1Z) Closing D01ABSZLLKW 
+[06/02/22, 11:42:28:148] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188148.147 conversations.close called with reason: checkForOldImsToClose 
+[06/02/22, 11:42:28:148] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188148.147 conversations.close is ENQUEUED 
+[06/02/22, 11:42:28:148] info: [CHECK-FOR-OLD-IMS] (THJE8BA1Z) Closing D01JY1G8W3C 
+[06/02/22, 11:42:28:149] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188148.149 conversations.close called with reason: checkForOldImsToClose 
+[06/02/22, 11:42:28:150] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188148.149 conversations.close is ENQUEUED 
+[06/02/22, 11:42:28:150] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188148.147 conversations.close is ACTIVE 
+[06/02/22, 11:42:28:150] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188148.149 conversations.close is ACTIVE 
+[06/02/22, 11:42:28:232] info: [RTM] (THJE8BA1Z) Processed 1 im_close event(s) in channel(s) D01ABSZLLKW over 1.20ms 
+[06/02/22, 11:42:28:234] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188148.147 conversations.close is RESOLVED 
+[06/02/22, 11:42:28:239] info: [RTM] Setting a timeout of 86 ms to process more rtm events 
+[06/02/22, 11:42:28:244] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188148.149 conversations.close is RESOLVED 
+[06/02/22, 11:42:29:092] info: [RTM] Waited 86 ms, processing more rtm events now 
+[06/02/22, 11:42:29:092] info: [RTM] (THJE8BA1Z) Processed 1 im_close event(s) in channel(s) D01JY1G8W3C over 0.40ms 
+[06/02/22, 11:42:30:095] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188150.092 client.counts called with reason: client-counts-api/fetchClientCounts 
+[06/02/22, 11:42:30:096] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188150.092 client.counts is ENQUEUED 
+[06/02/22, 11:42:30:097] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188150.092 client.counts is ACTIVE 
+[06/02/22, 11:42:30:226] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654188150.092 client.counts is RESOLVED 
+[06/02/22, 11:42:30:264] info: [COUNTS] (THJE8BA1Z) Applying counts to channels. wasLastConnectFast: false isConnected: true 
+[06/02/22, 11:42:30:269] info: [COUNTS] (THJE8BA1Z) Recounted CHZFB5M47; initial: {"unreadCnt":0,"unreadHighlightCnt":0}; after: {"unreadCnt":0,"unreadHighlightCnt":0} 
+[06/02/22, 11:42:30:270] info: [COUNTS] (THJE8BA1Z) Threads has_unreads:false mention_count:0 
+[06/02/22, 11:42:30:270] info: [COUNTS] (THJE8BA1Z) Completed counts processing 
+[06/02/22, 11:43:04:931] info: [BOOT] Service Worker activated; Fetching API calls for caching. 
+[06/02/22, 11:43:04:970] info: [SW-CACHE-API-QUEUE] noversion-1654188184.969 experiments.getByUser called 
+[06/02/22, 11:43:04:970] info: [SW-CACHE-API-QUEUE] noversion-1654188184.969 experiments.getByUser is ENQUEUED 
+[06/02/22, 11:43:04:973] info: [SW-CACHE-API-QUEUE] (THJE8BA1Z) noversion-1654188184.973 api.features called 
+[06/02/22, 11:43:04:973] info: [SW-CACHE-API-QUEUE] (THJE8BA1Z) noversion-1654188184.973 api.features is ENQUEUED 
+[06/02/22, 11:43:04:974] info: [SW-CACHE-API-QUEUE] noversion-1654188184.969 experiments.getByUser is ACTIVE 
+[06/02/22, 11:43:04:974] info: [SW-CACHE-API-QUEUE] (THJE8BA1Z) noversion-1654188184.973 api.features is ACTIVE 
+[06/02/22, 11:43:05:039] info: [SW-CACHE-API-QUEUE] (THJE8BA1Z) noversion-1654188184.973 api.features is RESOLVED 
+[06/02/22, 11:43:05:052] info: [SW-CACHE-API-QUEUE] noversion-1654188184.969 experiments.getByUser is RESOLVED 
+[06/02/22, 11:45:01:935] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 11:45:01:950] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 11:46:27:217] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 11:46:27:218] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 11:46:27:257] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 11:46:29:092] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 11:46:29:122] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 11:51:27:204] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 11:51:27:205] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 11:51:27:233] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 11:51:30:089] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 11:51:30:094] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 11:56:27:204] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 11:56:27:207] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 11:56:27:230] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 11:56:30:091] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 11:56:30:092] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 11:56:52:519] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 11:56:52:533] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 11:57:12:537] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 11:57:12:550] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 11:58:02:558] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 11:58:02:580] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 11:58:29:212] info: [CHECK-FOR-OLD-IMS] (THJE8BA1Z) Within limit [external DMs]: 0 
+[06/02/22, 11:58:29:212] info: [CHECK-FOR-OLD-IMS] (THJE8BA1Z) Within limit [internal DMs]: 11 
+[06/02/22, 11:59:12:603] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 11:59:12:617] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 11:59:32:610] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 11:59:32:621] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 11:59:42:608] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 11:59:42:625] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 12:01:27:203] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:01:27:205] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:01:27:232] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:01:31:088] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 12:01:31:089] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 12:06:27:203] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:06:27:205] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:06:27:233] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:06:31:091] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 12:06:31:091] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 12:08:12:999] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 12:08:13:012] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 12:08:33:025] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 12:08:33:038] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 12:11:27:216] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:11:27:217] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:11:27:246] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:11:32:099] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 12:11:32:100] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 12:12:03:158] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 12:12:03:175] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 12:12:13:167] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 12:12:13:181] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 12:13:29:100] info: [CHECK-FOR-OLD-IMS] (THJE8BA1Z) Within limit [external DMs]: 0 
+[06/02/22, 12:13:29:101] info: [CHECK-FOR-OLD-IMS] (THJE8BA1Z) Within limit [internal DMs]: 11 
+[06/02/22, 12:16:27:204] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:16:27:206] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:16:27:231] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:16:33:100] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 12:16:33:100] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 12:16:43:368] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 12:16:43:382] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 12:17:03:378] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 12:17:03:397] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 12:21:27:203] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:21:27:205] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:21:27:237] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:21:34:100] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 12:21:34:100] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 12:23:43:694] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 12:23:43:710] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 12:24:53:748] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 12:24:53:758] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 12:25:53:801] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 12:25:53:813] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 12:26:13:808] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 12:26:13:818] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 12:26:27:204] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:26:27:206] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:26:27:240] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:26:35:092] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 12:26:35:092] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 12:27:43:865] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 12:27:43:873] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 12:28:29:095] info: [CHECK-FOR-OLD-IMS] (THJE8BA1Z) Within limit [external DMs]: 0 
+[06/02/22, 12:28:29:095] info: [CHECK-FOR-OLD-IMS] (THJE8BA1Z) Within limit [internal DMs]: 11 
+[06/02/22, 12:28:43:899] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 12:28:43:914] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 12:31:27:202] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:31:27:204] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:31:27:237] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:31:36:093] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 12:31:36:093] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 12:35:10:385] info: [RTM] (THJE8BA1Z) Processed 1 presence_change event(s) over 5.30ms 
+[06/02/22, 12:35:20:478] info: [RTM] (THJE8BA1Z) Processed 1 presence_change event(s) over 5.60ms 
+[06/02/22, 12:36:27:194] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:36:27:195] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:36:27:201] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:36:37:094] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 12:36:37:095] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 12:36:44:275] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 12:36:44:288] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 12:36:54:282] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 12:36:54:296] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 12:39:54:437] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 12:39:54:447] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 12:40:44:474] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 12:40:44:482] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 12:41:04:487] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 12:41:04:495] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 12:41:14:488] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 12:41:14:491] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 12:41:27:211] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:41:27:212] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:41:27:276] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:41:38:093] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 12:41:38:093] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 12:43:29:098] info: [CHECK-FOR-OLD-IMS] (THJE8BA1Z) Within limit [external DMs]: 0 
+[06/02/22, 12:43:29:098] info: [CHECK-FOR-OLD-IMS] (THJE8BA1Z) Within limit [internal DMs]: 11 
+[06/02/22, 12:45:24:686] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 12:45:24:694] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 12:45:34:692] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 12:45:34:697] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 12:46:27:197] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:46:27:197] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:46:27:201] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:46:39:093] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 12:46:39:094] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 12:46:44:733] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 12:46:44:746] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 12:47:04:747] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 12:47:04:762] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 12:47:56:103] info: [API-Q] (THJE8BA1Z) noversion-1654192076.097 Flannel users/info called with reason: flannel-call:users/info 
+[06/02/22, 12:47:56:104] info: [API-Q] (THJE8BA1Z) noversion-1654192076.097 Flannel users/info is ENQUEUED 
+[06/02/22, 12:47:56:111] info: [API-Q] (THJE8BA1Z) noversion-1654192076.097 Flannel users/info is ACTIVE 
+[06/02/22, 12:47:56:356] info: [API-Q] (THJE8BA1Z) noversion-1654192076.097 Flannel users/info is RESOLVED 
+[06/02/22, 12:51:27:203] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:51:27:205] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:51:27:251] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:51:40:094] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 12:51:40:094] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 12:52:45:025] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 12:52:45:032] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 12:53:05:036] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 12:53:05:053] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 12:53:45:058] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 12:53:45:065] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 12:54:05:073] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 12:54:05:088] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 12:56:15:176] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 12:56:15:180] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 12:56:27:196] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:56:27:196] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:56:27:200] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 12:56:41:092] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 12:56:41:092] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 12:57:25:217] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 12:57:25:234] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 12:58:29:095] info: [CHECK-FOR-OLD-IMS] (THJE8BA1Z) Within limit [external DMs]: 0 
+[06/02/22, 12:58:29:095] info: [CHECK-FOR-OLD-IMS] (THJE8BA1Z) Within limit [internal DMs]: 11 
+[06/02/22, 13:00:25:370] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 13:00:25:385] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 13:00:35:378] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 13:00:35:390] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 13:01:27:202] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:01:27:203] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:01:27:258] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:01:42:097] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 13:01:42:098] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 13:04:25:545] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 13:04:25:560] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 13:04:55:571] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 13:04:55:581] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 13:06:27:201] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:06:27:202] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:06:27:232] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:06:43:097] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 13:06:43:098] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 13:06:45:639] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 13:06:45:646] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 13:07:05:657] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 13:07:05:664] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 13:07:45:676] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 13:07:45:683] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 13:07:55:686] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 13:07:55:697] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 13:08:35:719] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 13:08:35:731] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 13:08:45:713] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 13:08:45:718] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 13:10:21:136] info: [MIN-VERSION] Checking to see if we should reload 
+[06/02/22, 13:10:21:137] info: [MIN-VERSION] teamIds: THJE8BA1Z; versionTs: 1654182435; buildVersionTs: 1654182435; configVersionTs: 1654188044; All config versions: {"THJE8BA1Z":1654188044} 
+[06/02/22, 13:10:21:147] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654193421.146 client.shouldReload called with reason: polling 
+[06/02/22, 13:10:21:147] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654193421.146 client.shouldReload is ENQUEUED 
+[06/02/22, 13:10:21:148] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654193421.146 client.shouldReload is ACTIVE 
+[06/02/22, 13:10:21:361] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654193421.146 client.shouldReload is RESOLVED 
+[06/02/22, 13:10:21:364] info: [MIN-VERSION] Build version is enabled for this polling interval. Using build version: 1654182435 
+[06/02/22, 13:10:21:365] info: [MIN-VERSION] No need to reload 
+[06/02/22, 13:11:27:209] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:11:27:211] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:11:27:242] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:11:44:094] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 13:11:44:094] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 13:13:15:932] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 13:13:15:937] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 13:13:29:098] info: [CHECK-FOR-OLD-IMS] (THJE8BA1Z) Within limit [external DMs]: 0 
+[06/02/22, 13:13:29:099] info: [CHECK-FOR-OLD-IMS] (THJE8BA1Z) Within limit [internal DMs]: 11 
+[06/02/22, 13:13:35:937] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 13:13:35:948] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 13:14:15:972] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 13:14:15:983] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 13:14:25:968] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 13:14:25:981] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 13:14:45:970] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 13:14:45:976] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 13:15:15:998] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 13:15:16:008] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 13:16:06:028] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 13:16:06:035] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 13:16:16:038] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 13:16:16:050] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 13:16:27:206] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:16:27:208] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:16:27:241] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:16:45:095] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 13:16:45:095] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 13:18:36:135] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 13:18:36:148] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 13:19:06:153] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 13:19:06:169] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 13:19:26:157] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 13:19:26:176] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 13:19:56:179] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 13:19:56:186] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 13:21:27:204] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:21:27:206] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:21:27:236] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:21:46:100] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 13:21:46:101] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 13:24:36:400] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 13:24:36:413] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 13:24:46:403] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 13:24:46:416] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 13:25:36:432] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 13:25:36:438] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 13:26:27:192] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:26:27:192] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:26:27:197] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:26:47:091] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 13:26:47:092] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 13:28:29:100] info: [CHECK-FOR-OLD-IMS] (THJE8BA1Z) Within limit [external DMs]: 0 
+[06/02/22, 13:28:29:100] info: [CHECK-FOR-OLD-IMS] (THJE8BA1Z) Within limit [internal DMs]: 11 
+[06/02/22, 13:28:46:567] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 13:28:46:574] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 13:29:06:580] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 13:29:06:587] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 13:31:27:198] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:31:27:198] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:31:27:236] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:31:48:094] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 13:31:48:094] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 13:36:27:197] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:36:27:197] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:36:27:202] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:36:49:094] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 13:36:49:095] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 13:38:47:068] info: Store: SET_SYSTEM_IDLE idle_presence 
+[06/02/22, 13:38:47:075] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 13:41:27:208] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:41:27:209] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:41:27:266] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:41:50:095] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 13:41:50:095] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 13:42:37:276] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 13:42:37:280] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 13:43:29:095] info: [CHECK-FOR-OLD-IMS] (THJE8BA1Z) Within limit [external DMs]: 0 
+[06/02/22, 13:43:29:095] info: [CHECK-FOR-OLD-IMS] (THJE8BA1Z) Within limit [internal DMs]: 11 
+[06/02/22, 13:43:37:324] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 13:43:37:329] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 13:43:39:093] info: [API-Q] (THJE8BA1Z) noversion-1654195419.092 Flannel users/info called with reason: flannel-call:users/info 
+[06/02/22, 13:43:39:093] info: [API-Q] (THJE8BA1Z) noversion-1654195419.092 Flannel users/info is ENQUEUED 
+[06/02/22, 13:43:39:135] info: [API-Q] (THJE8BA1Z) noversion-1654195419.092 Flannel users/info is ACTIVE 
+[06/02/22, 13:43:39:311] info: [API-Q] (THJE8BA1Z) noversion-1654195419.092 Flannel users/info is RESOLVED 
+[06/02/22, 13:44:27:352] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 13:44:27:358] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 13:46:27:196] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:46:27:197] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:46:27:200] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:46:51:099] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 13:46:51:100] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 13:51:27:203] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:51:27:205] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:51:27:258] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:51:52:093] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 13:51:52:093] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 13:56:27:203] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:56:27:205] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:56:27:241] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 13:56:53:099] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 13:56:53:099] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 13:58:29:094] info: [CHECK-FOR-OLD-IMS] (THJE8BA1Z) Within limit [external DMs]: 0 
+[06/02/22, 13:58:29:094] info: [CHECK-FOR-OLD-IMS] (THJE8BA1Z) Within limit [internal DMs]: 11 
+[06/02/22, 14:01:27:204] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 14:01:27:206] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 14:01:27:232] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 14:01:54:098] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 14:01:54:099] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 14:06:08:421] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 14:06:08:429] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 14:06:27:205] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 14:06:27:208] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 14:06:27:242] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 14:06:28:425] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 14:06:28:437] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 14:06:55:094] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 14:06:55:094] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 14:11:27:216] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 14:11:27:217] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 14:11:27:245] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 14:11:56:091] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 14:11:56:092] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 14:13:29:094] info: [CHECK-FOR-OLD-IMS] (THJE8BA1Z) Within limit [external DMs]: 0 
+[06/02/22, 14:13:29:094] info: [CHECK-FOR-OLD-IMS] (THJE8BA1Z) Within limit [internal DMs]: 11 
+[06/02/22, 14:13:48:776] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 14:13:48:782] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 14:14:08:781] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 14:14:08:786] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 14:16:27:194] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 14:16:27:195] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 14:16:27:199] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 14:16:28:891] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 14:16:28:895] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 14:16:57:094] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 14:16:57:094] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 14:17:48:949] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 14:17:48:957] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 14:18:08:965] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 14:18:08:968] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 14:21:27:201] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 14:21:27:203] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 14:21:27:266] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 14:21:29:123] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 14:21:29:127] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 14:21:58:094] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 14:21:58:095] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 14:26:27:198] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 14:26:27:199] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 14:26:27:203] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 14:26:59:093] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 14:26:59:093] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 14:28:29:094] info: [CHECK-FOR-OLD-IMS] (THJE8BA1Z) Within limit [external DMs]: 0 
+[06/02/22, 14:28:29:095] info: [CHECK-FOR-OLD-IMS] (THJE8BA1Z) Within limit [internal DMs]: 11 
+[06/02/22, 14:31:27:198] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 14:31:27:198] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 14:31:27:235] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 14:32:00:097] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 14:32:00:097] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 14:36:27:197] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 14:36:27:197] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 14:36:27:201] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 14:37:01:098] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 14:37:01:099] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 14:39:15:135] info: [MIN-VERSION] Checking to see if we should reload 
+[06/02/22, 14:39:15:136] info: [MIN-VERSION] teamIds: THJE8BA1Z; versionTs: 1654182435; buildVersionTs: 1654182435; configVersionTs: 1654188044; All config versions: {"THJE8BA1Z":1654188044} 
+[06/02/22, 14:39:15:147] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654198755.145 client.shouldReload called with reason: polling 
+[06/02/22, 14:39:15:147] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654198755.145 client.shouldReload is ENQUEUED 
+[06/02/22, 14:39:15:148] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654198755.145 client.shouldReload is ACTIVE 
+[06/02/22, 14:39:15:379] info: [API-Q] (THJE8BA1Z) 3c6a0b48-1654198755.145 client.shouldReload is RESOLVED 
+[06/02/22, 14:39:15:382] info: [MIN-VERSION] Build version is enabled for this polling interval. Using build version: 1654182435 
+[06/02/22, 14:39:15:383] info: [MIN-VERSION] No need to reload 
+[06/02/22, 14:41:27:210] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 14:41:27:211] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 14:41:27:264] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 14:42:02:093] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 14:42:02:094] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 14:42:10:189] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 14:42:10:204] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 14:42:20:196] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 14:42:20:202] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 14:43:00:226] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 14:43:00:236] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 14:43:10:222] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 14:43:10:237] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 14:43:29:099] info: [CHECK-FOR-OLD-IMS] (THJE8BA1Z) Within limit [external DMs]: 0 
+[06/02/22, 14:43:29:100] info: [CHECK-FOR-OLD-IMS] (THJE8BA1Z) Within limit [internal DMs]: 11 
+[06/02/22, 14:46:10:360] info: Store: SET_SYSTEM_IDLE idle_taskbar 
+[06/02/22, 14:46:10:368] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 
+[06/02/22, 14:46:27:198] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 14:46:27:198] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 14:46:27:202] error: The source list for the Content Security Policy directive 'script-src' contains an invalid source: ''wasm-unsafe-eval''. It will be ignored. 
+[06/02/22, 14:47:03:095] info: [DND] (THJE8BA1Z) Checking for changes in DND status for the following members: U019QAPMCP9,UHJE8BA6P,UNC3JTBU5,U01CWS3MVUL,UN5LMDZB3,UTE0KAJL8,U01BWB9JQ2U,U01L5QTQ188,U02CQ03B3BR 
+[06/02/22, 14:47:03:095] info: [DND] (THJE8BA1Z) Will check for changes in DND status again in 5 minutes 
+[06/02/22, 14:47:20:411] info: Store: SET_SYSTEM_IDLE active 
+[06/02/22, 14:47:20:417] info: [DESKTOP-SIDE-EFFECT] Update from desktop for keys  ["app"] 

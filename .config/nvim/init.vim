@@ -13,16 +13,6 @@
 " --- |Pluggins| ---
 "------------------------------------------------
 call plug#begin('~/.vim/plugged')
-Plug 'junegunn/goyo.vim'
-Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
-Plug 'nvim-lua/popup.nvim'
-Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim'
-Plug 'preservim/nerdtree'
-Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
-Plug 'ap/vim-css-color'
-Plug 'vimwiki/vimwiki'
-Plug 'nvim-lualine/lualine.nvim'
 " LSP and autocompletion
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} 
 Plug 'neovim/nvim-lspconfig'
@@ -31,6 +21,25 @@ Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/cmp-path'
 Plug 'hrsh7th/cmp-cmdline'
 Plug 'hrsh7th/nvim-cmp'
+Plug 'lewis6991/spellsitter.nvim'
+" Code snippets
+Plug 'L3MON4D3/LuaSnip'
+Plug 'saadparwaiz1/cmp_luasnip'
+Plug 'rafamadriz/friendly-snippets'
+" IDE-like experience
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+Plug 'preservim/nerdtree'
+Plug 'nvim-lualine/lualine.nvim'
+Plug 'windwp/nvim-autopairs'
+" Neat utilities/features 
+Plug 'vimwiki/vimwiki'
+Plug 'junegunn/goyo.vim'
+Plug 'nvim-lua/popup.nvim'
+Plug 'ap/vim-css-color'
+" Previewers
+Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 " Colorscheme add-ons
 Plug 'sainnhe/everforest'
 Plug 'sainnhe/gruvbox-material'
@@ -46,7 +55,6 @@ let mapleader = "\<Space>"
 "------------------------------------------------
 " --- |nvim-cmp setup| ---
 "------------------------------------------------
-
 set completeopt=menu,menuone,noselect
 
 lua <<EOF
@@ -97,7 +105,14 @@ lua <<EOF
 
   -- Setup lspconfig.
   local capabilities = require('cmp_nvim_lsp').update_capabilities(vim.lsp.protocol.make_client_capabilities())
-  -- Language server list 
+  -- Plugins 
+  require'lspconfig'.html.setup {
+    capabilities = capabilities
+  }
+  require('nvim-autopairs').setup{}
+  require('spellsitter').setup()
+  require("luasnip.loaders.from_vscode").lazy_load()
+  -- Language servers
   require('lspconfig').pyright.setup{}
   require('lspconfig').bashls.setup{}
   require('lspconfig').sumneko_lua.setup{}

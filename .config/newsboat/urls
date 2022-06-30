@@ -1,17 +1,27 @@
-https://www.archlinux.org/feeds/news/ "tech"
-https://lukesmith.xyz/rss.xml
-https://www.2600.com/rss.xml
-https://news.ycombinator.com/rss
-https://fullstackeconomics.com/rss
+---My_Blog---
+file:///home/nick/github_repos/nshan651.github.io/rss/rss.xml "My Blog"
+https://nshan651.github.io/rss/rss.xml "My Blog"
+
+---Blogs---
+https://danluu.com/atom.xml "Blogs"
+https://dynomight.net/feed.xml "Blogs"
 https://handsandcities.com/rss
+http://joeyh.name/blog/index.rss
+https://kevincox.ca/feed.atom
 https://www.lesswrong.com/feed.xml?view=curated-rss
+https://lukesmith.xyz/rss.xml
+
+---Tech---
+https://www.archlinux.org/feeds/news/ "tech"
+https://news.ycombinator.com/rss
 http://rss.slashdot.org/Slashdot/slashdotMain
-https://dynomight.net/feed.xml
-https://danluu.com/atom.xml
+https://www.2600.com/rss.xml
+
+---Educational---
+https://fullstackeconomics.com/rss
 http://feeds.nature.com/nature/rss/current
 https://nautil.us/rss
-http://joeyh.name/blog/index.rss
 https://www.rferl.org/api/zmoiie$kii
+
+---Misc---
 https://xkcd.com/rss.xml
-file:///home/nick/github_repos/nshan651.github.io/rss/rss.xml
-https://nshan651.github.io/rss/rss.xml

@@ -14,6 +14,8 @@ launch_bar() {
 	polybar -q main -c "$dir/$style/config.ini" &	
     # Launch external bar
 	polybar -q external -c "$dir/$style/config.ini" &	
+    # Launch third bar
+	polybar -q third -c "$dir/$style/config.ini" &	
 }
 
 # Add styling options here

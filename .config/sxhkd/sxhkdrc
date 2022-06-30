@@ -7,7 +7,7 @@
 
 # Refresh external monitor and polybar
 control + alt + 4
-    zsh $HOME/Scripts/refresh.sh
+    zsh $HOME/Scripts/display
 
 # Refresh only polybar
 control + alt + 5
@@ -50,7 +50,7 @@ super + F2
 super + F3
     $TERMINAL -e ranger
 
-# Research project folder
+# Current project folder
 super + F4
     $TERMINAL -e nvim $HOME/github_repos/excite-cli/
 
