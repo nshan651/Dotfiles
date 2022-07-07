@@ -1,0 +1,12 @@
+#!/bin/sh
+
+xsel --clipboard
+
+# base64 decode your clipboard.
+c | base64 -d
+
+# Generate a UUID and put it in the clipboard.
+uuidgen | c
+
+# Show an HTTP response with headers in my editor. (expects the URL in the clipboard)
+curl -i $(c) | v

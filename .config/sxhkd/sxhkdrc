@@ -48,11 +48,11 @@ super + F2
 
 # Ranger 
 super + F3
-    $TERMINAL -e ranger
+    $TERMINAL -e lfub 
 
 # Current project folder
 super + F4
-    $TERMINAL -e nvim $HOME/github_repos/excite-cli/
+    $TERMINAL -e nvim $HOME/github_repos/sparkbadge/
 
 #$TERMINAL -e nvim $HOME/github_repos/Pollution-Autoencoders/
 

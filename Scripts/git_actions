@@ -1,0 +1,7 @@
+#!bin/bash
+# Test script for cURLing gh workflow data
+
+curl \
+  -H "Accept: application/vnd.github.v3+json" \ 
+  -H "Authorization: token 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" \
+  https://api.github.com/repos/nshan651/Course-Archive/actions/jobs/build

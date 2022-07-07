@@ -1,0 +1,22 @@
+#!/bin/sh
+# 1. Sets up completion notification. So that if a command completes while I am not focused on the
+# terminal I get a desktop notification.
+# 2. Prints starting and stopping messages. Some commands are a bit too quiet and it is hard to
+# tell if they are running or have already finished and you are waiting for nothing. This message
+# also includes the expanded command and some resource utilization stats.
+
+if [[ $VTE_VERSION -ge 3405 ]]; then
+        echo -n $'\e]777;preexec\e\\'
+fi
+
+color=$'\e[2m'
+nocolor=$'\e[0m'
+
+formatted="${(@q-)@}"
+
+echo "${color}Starting $formatted$nocolor" 1>&2
+TIMEFMT="${color}Done. Total: %*E (%P), User: %*U, System: %*S - $formatted$nocolor"
+if [[ $VTE_VERSION -ge 3405 ]]; then
+        TIMEFMT=$'\e]777;precmd\e\\'$TIMEFMT
+fi
+time (exec "$@")

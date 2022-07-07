@@ -17,7 +17,8 @@ else
 fi
 
 # Wallpaper
-feh --bg-scale "/home/nick/Pictures/Forests/wp3123553-pine-forest-wallpapers.jpg"
+#feh --bg-scale "/home/nick/Pictures/Forests/wp3123553-pine-forest-wallpapers.jpg"
+feh --bg-scale "/home/nick/Pictures/Mojave/nambung.jpg"
 
 # Status bar
 panel &

@@ -116,6 +116,7 @@ lua <<EOF
   require('lspconfig').pyright.setup{}
   require('lspconfig').bashls.setup{}
   require('lspconfig').sumneko_lua.setup{}
+  require('lspconfig').hls.setup{}
   -- Lualine
   require('lualine').setup {
     options = {
@@ -167,6 +168,11 @@ nnoremap <leader>g <cmd>Goyo <cr>
 
 " Write to file shortcut 
 nnoremap <C-s> :w<CR>
+
+" Watch shortcut
+let g:touchfile = expand('$XDG_RUNTIME_DIR/save')
+nnoremap <silent> <Leader>w :echo 'No changed files.'<CR>:wa<CR>:call writefile([], g:touchfile)<CR>
+
 "------------------------------------------------
 " --- |Auto Commands| ---
 "------------------------------------------------
